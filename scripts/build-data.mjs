@@ -146,6 +146,32 @@ function classifyPrimaryClass(item, victimOrg, ransomwareGroup) {
   return 'other';
 }
 
+function extractRansomAmount(text) {
+  const patterns = [
+    /((?:US\$|\$)\s?\d[\d,.]*(?:\s?(?:million|billion|thousand|m|k))?)/i,
+    /((?:€|EUR\s?)\s?\d[\d,.]*(?:\s?(?:million|billion|thousand|m|k))?)/i,
+    /((?:£|GBP\s?)\s?\d[\d,.]*(?:\s?(?:million|billion|thousand|m|k))?)/i,
+    /(\d[\d,.]*\s?(?:BTC|bitcoin))/i,
+    /(\d[\d,.]*\s?(?:million|billion|thousand)\s?(?:dollars?|USD|euros?|EUR|pounds?|GBP))/i,
+    /((?:몸값|랜섬머니)\s?\d[\d,.]*\s?(?:억원|천만원|백만원|만원|달러))/i
+  ];
+  for (const pattern of patterns) {
+    const match = text.match(pattern);
+    if (match?.[1]) return match[1].replace(/\s+/g, ' ').trim();
+  }
+  return null;
+}
+
+function extractRansomPaymentInfo(item) {
+  const text = `${item.titleOriginal || item.title} ${item.description || ''} ${item.titleKo || ''}`;
+  const paid = /(paid(?:\s+(?:a|the))?\s+ransom|ransom (?:was )?paid|paid the extortion demand|몸값을?\s+(?:지불|지급|냈)|랜섬머니\s+(?:지불|지급))/i.test(text);
+  const notPaid = /(refused to pay|did not pay|has not paid|won't pay|would not pay|declined to pay|몸값을?\s+지불하지 않|몸값을?\s+내지 않|지불 거부)/i.test(text);
+  return {
+    ransomPaymentStatus: paid ? 'paid' : (notPaid ? 'not_paid' : 'unknown'),
+    ransomAmount: extractRansomAmount(text)
+  };
+}
+
 function buildClusterKey(item, victimOrg, ransomwareGroup) {
   if (victimOrg !== '미상') return `victim:${victimOrg.toLowerCase()}`;
   if (ransomwareGroup !== '미상') return `group:${ransomwareGroup}:${String(item.publishedAt).slice(0, 7)}`;
@@ -185,6 +211,7 @@ const enriched = raw.items.map((item) => {
   const country = inferFromPatterns(text, COUNTRY_PATTERNS, '미상');
   const industry = inferFromPatterns(text, INDUSTRY_PATTERNS, '미상');
   const primaryClass = classifyPrimaryClass(item, victimOrg, ransomwareGroup);
+  const ransomInfo = extractRansomPaymentInfo(item);
   return {
     ...item,
     ransomwareGroup,
@@ -193,7 +220,8 @@ const enriched = raw.items.map((item) => {
     industry,
     primaryClass,
     primaryLabel: TYPE_LABELS[primaryClass],
-    clusterId: buildClusterKey(item, victimOrg, ransomwareGroup)
+    clusterId: buildClusterKey(item, victimOrg, ransomwareGroup),
+    ...ransomInfo
   };
 }).sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
 
@@ -299,13 +327,13 @@ const recentSignals = enriched
 const insightLines = [
   `전체 기사 ${raw.stats.totalItems}건 중 그룹명이 식별된 기사는 ${groupKnownItems.length}건입니다.`,
   `확정 피해사례는 ${confirmedItems.length}건, 검토 필요 사고는 ${incidentItems.length - confirmedItems.length}건으로 분리했습니다.`,
-  `공개판에서는 그룹 통계를 기사 언급량, 사건 기준 클러스터, 피해사례 직접 연결 그룹으로 따로 보여줍니다.`
+  `그룹 통계는 기사 언급량, 사건 기준 클러스터, 피해사례 직접 연결 그룹으로 나눠서 보여줍니다.`
 ];
 
 const summary = {
   site: {
     title: 'Ransomware Trend Brief',
-    subtitle: '공개 공유용 정적 랜섬웨어 브리프',
+    subtitle: '랜섬웨어 추세 브리프',
     generatedAt: raw.generatedAt,
     period: raw.period,
     sourceRepoNote: 'Source data snapshot generated from local dfir-trend-radar workspace.'
@@ -356,12 +384,57 @@ const archive = {
     industry: item.industry,
     victimOrg: item.victimOrg,
     clusterId: item.clusterId,
+    ransomPaymentStatus: item.ransomPaymentStatus,
+    ransomAmount: item.ransomAmount,
     articleType: item.articleType,
     languageHint: item.languageHint,
     url: item.url,
     sourceUrl: item.sourceUrl,
     description: item.description
   }))
+};
+
+const COUNTRY_COORDS = {
+  '한국': [82, 38],
+  '일본': [86, 36],
+  '중국': [78, 36],
+  '대만': [82, 40],
+  '홍콩': [79, 42],
+  '싱가포르': [76, 53],
+  '인도': [70, 47],
+  '독일': [49, 31],
+  '프랑스': [46, 33],
+  '영국': [42, 26],
+  '미국': [18, 33],
+  '캐나다': [16, 22],
+  '호주': [84, 70],
+  '뉴질랜드': [92, 76],
+  '이탈리아': [50, 39],
+  '스페인': [43, 40],
+  '브라질': [31, 62],
+  '멕시코': [17, 46],
+  '러시아': [63, 18],
+  '우크라이나': [56, 29],
+  '유럽': [52, 30]
+};
+
+const map = {
+  generatedAt: raw.generatedAt,
+  points: topCounts(incidentItems.filter((item) => item.country !== '미상').map((item) => item.country), 50)
+    .filter(({ label }) => COUNTRY_COORDS[label])
+    .map(({ label, value }) => ({
+      country: label,
+      count: value,
+      x: COUNTRY_COORDS[label][0],
+      y: COUNTRY_COORDS[label][1],
+      sampleVictims: incidentItems.filter((item) => item.country === label).slice(0, 4).map((item) => ({
+        title: titleFor(item),
+        victimOrg: item.victimOrg,
+        primaryLabel: item.primaryLabel,
+        date: isoDate(item.publishedAt),
+        url: item.url
+      }))
+    }))
 };
 
 const trends = {
@@ -419,7 +492,9 @@ writeJson('ransomware-summary.json', summary);
 writeJson('ransomware-articles.json', archive);
 writeJson('ransomware-trends.json', trends);
 writeJson('ransomware-groups.json', groups);
+writeJson('ransomware-map.json', map);
 console.log(`Wrote ${path.join(OUT_DIR, 'ransomware-summary.json')}`);
 console.log(`Wrote ${path.join(OUT_DIR, 'ransomware-articles.json')}`);
 console.log(`Wrote ${path.join(OUT_DIR, 'ransomware-trends.json')}`);
 console.log(`Wrote ${path.join(OUT_DIR, 'ransomware-groups.json')}`);
+console.log(`Wrote ${path.join(OUT_DIR, 'ransomware-map.json')}`);

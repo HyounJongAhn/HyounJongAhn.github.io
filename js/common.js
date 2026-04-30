@@ -24,6 +24,10 @@ export function renderRank(target, items, valueKey = 'value', labelKey = 'label'
 }
 
 export function signalCard(item) {
+  const paymentBits = [];
+  if (item.ransomPaymentStatus === 'paid') paymentBits.push('랜섬머니 지급 확인');
+  if (item.ransomPaymentStatus === 'not_paid') paymentBits.push('랜섬머니 미지급 확인');
+  if (item.ransomAmount) paymentBits.push(`지불/요구 금액: ${item.ransomAmount}`);
   return `
     <article class="signal-item">
       <div class="signal-meta">
@@ -37,6 +41,7 @@ export function signalCard(item) {
       <a href="${item.url}" target="_blank" rel="noreferrer">${item.title}</a>
       ${item.description ? `<p class="signal-desc">${item.description}</p>` : ''}
       ${item.victimOrg && item.victimOrg !== '미상' ? `<div class="signal-foot">피해주체: ${item.victimOrg}</div>` : ''}
+      ${paymentBits.length ? `<div class="signal-foot">${paymentBits.join(' · ')}</div>` : ''}
     </article>
   `;
 }

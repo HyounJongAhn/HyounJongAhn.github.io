@@ -26,7 +26,7 @@ const kpis = [
   ['추세·동향', data.overview.trendSignals, '동향/활동량 중심'],
   ['공식 공지', data.overview.officialNotices, '권고/경보/보도자료'],
   ['법집행', data.overview.lawEnforcement, '체포/압수/기소'],
-  ['공개 기준', '정적 공유판', '동적 내부 사이트와 분리']
+  ['최근 30일 기사', data.hero.articleCount, '상단 핫 그룹/원형 차트 기준']
 ];
 
 document.querySelector('#generatedAt').textContent = dateTime.format(new Date(data.site.generatedAt));

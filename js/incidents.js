@@ -1,8 +1,24 @@
-import { getJson, renderRank, signalCard } from '/js/common.js';
+import { getJson, renderRank, signalCard, number } from '/js/common.js';
 
 const { items } = await getJson('/data/ransomware-articles.json');
 const sortSelect = document.querySelector('#incidentSort');
 const incidentItems = items.filter((item) => item.primaryClass === 'confirmed_incident' || item.primaryClass === 'incident_under_review');
+const paidCount = incidentItems.filter((item) => item.ransomPaymentStatus === 'paid').length;
+const notPaidCount = incidentItems.filter((item) => item.ransomPaymentStatus === 'not_paid').length;
+const amountKnownCount = incidentItems.filter((item) => item.ransomAmount).length;
+
+document.querySelector('#incidentKpis').innerHTML = [
+  ['확정+검토 사고', incidentItems.length, '기사 기준'],
+  ['지불 확인', paidCount, '기사에 명시된 경우만'],
+  ['미지급 확인', notPaidCount, '기사에 명시된 경우만'],
+  ['금액 언급', amountKnownCount, '요구/지불 금액 추출']
+].map(([label, value, note]) => `
+  <article class="card kpi-card">
+    <div class="kpi-label">${label}</div>
+    <div class="kpi-value">${number.format(value)}</div>
+    <div class="kpi-note">${note}</div>
+  </article>
+`).join('');
 
 function sortItems(list) {
   return [...list].sort((a, b) => {
