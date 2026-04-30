@@ -13,9 +13,9 @@
     "totalArticles": 2297,
     "uniquePublishers": 580,
     "groupKnownArticles": 334,
-    "confirmedIncidents": 24,
-    "reviewIncidents": 65,
-    "trendSignals": 671,
+    "confirmedIncidents": 8,
+    "reviewIncidents": 32,
+    "trendSignals": 674,
     "officialNotices": 54,
     "lawEnforcement": 101
   },
@@ -26,36 +26,36 @@
         "label": "The Gentlemen",
         "value": 7,
         "incidentCount": 0,
-        "clusterCount": 4
+        "clusterCount": 3
       },
       {
         "label": "Medusa",
         "value": 6,
         "incidentCount": 0,
-        "clusterCount": 12
+        "clusterCount": 9
       },
       {
         "label": "Qilin",
         "value": 4,
         "incidentCount": 1,
-        "clusterCount": 19
+        "clusterCount": 15
       },
       {
         "label": "BlackCat/ALPHV",
         "value": 3,
         "incidentCount": 0,
-        "clusterCount": 7
+        "clusterCount": 6
       },
       {
         "label": "Akira",
         "value": 2,
-        "incidentCount": 2,
+        "incidentCount": 1,
         "clusterCount": 14
       }
     ],
     "classMix": {
       "confirmed_incident": 1,
-      "incident_under_review": 1,
+      "incident_under_review": 0,
       "trend_signal": 37,
       "official_notice": 10,
       "law_enforcement": 19,
@@ -72,13 +72,13 @@
     "trend": 129
   },
   "primaryClassCounts": {
-    "other": 1355,
-    "trend_signal": 671,
+    "other": 1401,
+    "trend_signal": 674,
     "law_enforcement": 101,
-    "incident_under_review": 65,
     "official_notice": 54,
+    "incident_under_review": 32,
     "recovery": 27,
-    "confirmed_incident": 24
+    "confirmed_incident": 8
   },
   "topGroupsAllArticles": [
     {
@@ -133,38 +133,34 @@
   "topGroupsByCluster": [
     {
       "label": "Qilin",
-      "value": 19
+      "value": 15
     },
     {
       "label": "Akira",
       "value": 14
     },
     {
-      "label": "Medusa",
-      "value": 12
-    },
-    {
       "label": "DragonForce",
-      "value": 10
-    },
-    {
-      "label": "LockBit",
-      "value": 10
+      "value": 9
     },
     {
       "label": "Interlock",
       "value": 9
     },
     {
-      "label": "RansomHub",
+      "label": "Medusa",
       "value": 9
     },
     {
-      "label": "BlackCat/ALPHV",
+      "label": "LockBit",
+      "value": 8
+    },
+    {
+      "label": "RansomHub",
       "value": 7
     },
     {
-      "label": "Lynx",
+      "label": "BlackCat/ALPHV",
       "value": 6
     },
     {
@@ -176,25 +172,21 @@
       "value": 5
     },
     {
-      "label": "8Base",
+      "label": "Black Basta",
+      "value": 4
+    },
+    {
+      "label": "Cl0p",
       "value": 4
     }
   ],
   "topIncidentGroups": [
     {
-      "label": "Akira",
-      "value": 2
-    },
-    {
       "label": "8Base",
       "value": 1
     },
     {
-      "label": "Babuk",
-      "value": 1
-    },
-    {
-      "label": "LockBit",
+      "label": "Akira",
       "value": 1
     },
     {
@@ -205,22 +197,14 @@
   "topCountriesIncident": [
     {
       "label": "미국",
-      "value": 28
+      "value": 24
     },
     {
       "label": "영국",
-      "value": 3
+      "value": 2
     },
     {
       "label": "일본",
-      "value": 3
-    },
-    {
-      "label": "한국",
-      "value": 3
-    },
-    {
-      "label": "독일",
       "value": 2
     },
     {
@@ -228,42 +212,42 @@
       "value": 1
     },
     {
-      "label": "유럽",
+      "label": "한국",
       "value": 1
     }
   ],
   "topIndustriesIncident": [
     {
       "label": "의료",
-      "value": 9
+      "value": 8
     },
     {
       "label": "공공",
-      "value": 5
-    },
-    {
-      "label": "금융",
       "value": 3
-    },
-    {
-      "label": "유통/서비스",
-      "value": 3
-    },
-    {
-      "label": "통신/IT",
-      "value": 3
-    },
-    {
-      "label": "교육",
-      "value": 2
     },
     {
       "label": "에너지/인프라",
       "value": 2
     },
     {
+      "label": "유통/서비스",
+      "value": 2
+    },
+    {
       "label": "제조",
       "value": 2
+    },
+    {
+      "label": "통신/IT",
+      "value": 2
+    },
+    {
+      "label": "교육",
+      "value": 1
+    },
+    {
+      "label": "금융",
+      "value": 1
     }
   ],
   "topPublishers": [
@@ -319,163 +303,163 @@
   "monthlyTimeline": [
     {
       "month": "2025-01",
-      "confirmed_incident": 1,
-      "incident_under_review": 2,
+      "confirmed_incident": 0,
+      "incident_under_review": 0,
       "trend_signal": 29,
       "official_notice": 1,
       "law_enforcement": 0,
       "recovery": 0,
-      "other": 70
+      "other": 73
     },
     {
       "month": "2025-02",
-      "confirmed_incident": 1,
-      "incident_under_review": 1,
+      "confirmed_incident": 0,
+      "incident_under_review": 0,
       "trend_signal": 32,
       "official_notice": 1,
       "law_enforcement": 13,
       "recovery": 0,
-      "other": 81
+      "other": 83
     },
     {
       "month": "2025-03",
       "confirmed_incident": 0,
-      "incident_under_review": 2,
-      "trend_signal": 51,
+      "incident_under_review": 0,
+      "trend_signal": 52,
       "official_notice": 5,
       "law_enforcement": 8,
       "recovery": 1,
-      "other": 65
+      "other": 66
     },
     {
       "month": "2025-04",
       "confirmed_incident": 0,
-      "incident_under_review": 7,
+      "incident_under_review": 5,
       "trend_signal": 26,
       "official_notice": 1,
       "law_enforcement": 3,
       "recovery": 1,
-      "other": 58
+      "other": 60
     },
     {
       "month": "2025-05",
-      "confirmed_incident": 1,
-      "incident_under_review": 7,
-      "trend_signal": 49,
+      "confirmed_incident": 0,
+      "incident_under_review": 5,
+      "trend_signal": 50,
       "official_notice": 1,
       "law_enforcement": 5,
       "recovery": 0,
-      "other": 66
+      "other": 68
     },
     {
       "month": "2025-06",
       "confirmed_incident": 0,
-      "incident_under_review": 3,
+      "incident_under_review": 1,
       "trend_signal": 44,
       "official_notice": 1,
       "law_enforcement": 7,
       "recovery": 1,
-      "other": 66
+      "other": 68
     },
     {
       "month": "2025-07",
-      "confirmed_incident": 3,
+      "confirmed_incident": 0,
       "incident_under_review": 2,
       "trend_signal": 40,
       "official_notice": 2,
       "law_enforcement": 5,
       "recovery": 1,
-      "other": 82
+      "other": 85
     },
     {
       "month": "2025-08",
-      "confirmed_incident": 5,
-      "incident_under_review": 4,
+      "confirmed_incident": 4,
+      "incident_under_review": 2,
       "trend_signal": 42,
       "official_notice": 2,
       "law_enforcement": 2,
       "recovery": 1,
-      "other": 87
+      "other": 90
     },
     {
       "month": "2025-09",
-      "confirmed_incident": 1,
-      "incident_under_review": 4,
-      "trend_signal": 45,
+      "confirmed_incident": 0,
+      "incident_under_review": 2,
+      "trend_signal": 46,
       "official_notice": 5,
       "law_enforcement": 9,
       "recovery": 0,
-      "other": 81
+      "other": 83
     },
     {
       "month": "2025-10",
-      "confirmed_incident": 4,
-      "incident_under_review": 3,
+      "confirmed_incident": 1,
+      "incident_under_review": 0,
       "trend_signal": 65,
       "official_notice": 3,
       "law_enforcement": 1,
       "recovery": 0,
-      "other": 105
+      "other": 111
     },
     {
       "month": "2025-11",
       "confirmed_incident": 0,
-      "incident_under_review": 1,
+      "incident_under_review": 0,
       "trend_signal": 50,
       "official_notice": 8,
       "law_enforcement": 11,
       "recovery": 2,
-      "other": 82
+      "other": 83
     },
     {
       "month": "2025-12",
-      "confirmed_incident": 3,
-      "incident_under_review": 7,
+      "confirmed_incident": 1,
+      "incident_under_review": 3,
       "trend_signal": 31,
       "official_notice": 3,
       "law_enforcement": 8,
       "recovery": 4,
-      "other": 108
+      "other": 114
     },
     {
       "month": "2026-01",
-      "confirmed_incident": 2,
-      "incident_under_review": 7,
+      "confirmed_incident": 1,
+      "incident_under_review": 3,
       "trend_signal": 38,
       "official_notice": 0,
       "law_enforcement": 6,
       "recovery": 3,
-      "other": 92
+      "other": 97
     },
     {
       "month": "2026-02",
-      "confirmed_incident": 1,
-      "incident_under_review": 10,
+      "confirmed_incident": 0,
+      "incident_under_review": 8,
       "trend_signal": 56,
       "official_notice": 6,
       "law_enforcement": 1,
       "recovery": 2,
-      "other": 86
+      "other": 89
     },
     {
       "month": "2026-03",
-      "confirmed_incident": 1,
-      "incident_under_review": 4,
+      "confirmed_incident": 0,
+      "incident_under_review": 1,
       "trend_signal": 36,
       "official_notice": 7,
       "law_enforcement": 3,
       "recovery": 2,
-      "other": 88
+      "other": 92
     },
     {
       "month": "2026-04",
       "confirmed_incident": 1,
-      "incident_under_review": 1,
+      "incident_under_review": 0,
       "trend_signal": 37,
       "official_notice": 8,
       "law_enforcement": 19,
       "recovery": 9,
-      "other": 138
+      "other": 139
     }
   ],
   "recentSignals": [
@@ -502,7 +486,7 @@
       "ransomwareGroup": "미상",
       "country": "유럽",
       "industry": "법집행/사법",
-      "victimOrg": "Europol alerta del salto del cibercrimen",
+      "victimOrg": "미상",
       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNY0ltaER6Xy1iUEJ0cU1OMk13NU56SHpNeWhtdmp2R3c5SGcwOVN2QkdoeWR1TUt6ZlBFcXlzTG5LNVNNa1dxUm5LUEEyekNlckw5R1JiOFIwZGY2ZWZtMDFfSmZjM1FrdmZodlZ4YlZ4U0ZwM0MwOENZd2x2LWd1NzRLWE9ycDl6QnM5MWVqQkVIem1OZTZVY2RmbkFIRTV2My05Ry1aa3hIVkhyVVN5Q3NFZ0JnOGVkeEllUG9jSGVaaFdzVUE5YmpodzY0NWpUU3I3WUR1Y21XdzdTQ014MVBvQm9QM0ZZU0ZtRUhDc25MQ1HSAfgBQVVfeXFMTXptRlgyTFczbXlFNy1TV2FqcVZkSGhpU0NZZlNPSzRrNk0tNnVZM09GNk5FNm5xa3I3MUVSd1Y3c0dfUGw0YXlSU2RDMEUySFEyckwwY21DVkYySzhiOHkwUDJTUEpUaWw5dEhIYUlURUJtai1UOTZqRlMxOFdMNXRQalk4bGxIZ18yLWY5Tk5pekZUZzBnQ1ZnQXNmRjhjSUYzbTlET3pvRFJlczlvQnRmbVkyX3E3MjRUUzBzN19VT1BCcFRuQk5JUjRocFdGOG5NQVNaNWEya0FlajdPTmZSbDNDNmtzVjlsbHJmaExHSHpLWFFqT04?oc=5"
     },
     {
@@ -541,7 +525,7 @@
       "ransomwareGroup": "미상",
       "country": "이탈리아",
       "industry": "물류/운송",
-      "victimOrg": "Europol",
+      "victimOrg": "미상",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOV0lLaFNQbk5xSW5MTmM1S2dnNkdITEMxQ1lFcS1JSEVVLThKMmtLWUFScDFjc1hIRFowVGlfMVI1M1NhOGpYbG5GUnhfX0Fqb0FSdEZrd1RSSGJoZjRIcHhia19USmFLblJUVF8yUVR4LXNMckUyc3pqeFVjM0d3T1FBcDVwWWpwMWVTNFdHSE1QQXVtLTdzSWxBZVhWSHRoemRzY0JicC1DRnpHc1JLSHFJOGhuSDRrNVpyTnRWWC1CQnh5WXRaWmYwa2stRVdZdy13?oc=5"
     },
     {
@@ -554,7 +538,7 @@
       "ransomwareGroup": "The Gentlemen",
       "country": "미상",
       "industry": "유통/서비스",
-      "victimOrg": "Gentlemen",
+      "victimOrg": "미상",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSUFuQ29Gc0s5SW1Mbm9qTlJyeU01djZ5WmpaZk9sSXZYZENhZVl0UUF5cFdUZkQzb0xuLTYweFU0Q3JYYkJqLWY2MzhzSTFEamhhWDdVWXllaXFiaHF0YnoyVzdRczBoLUQxa3AwTFl0bkk3WjR4YXk5SldaSFp2dEFaNlNaRHZPU05KeW02V2VFRkJ1eVE4MEZNb0pLbW00dWg3NVpWMk1KWlU?oc=5"
     },
     {
@@ -567,7 +551,7 @@
       "ransomwareGroup": "The Gentlemen",
       "country": "미상",
       "industry": "미상",
-      "victimOrg": "Gentlemen",
+      "victimOrg": "미상",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdm56TEt6aE5RZ3cwQ3BHYWt1cERESjFmeXh6NzQtZzBBa2QxUXVtTVM4a0JSb0RuTmtPYzIxUlJyS3RjaGZSTXdsWjJwZ2dSOXZNSE45UFVjR3Ewb3VtVC05NXNOMUh0NTk4RzRwcVFLWG9XOWpfdmhvVmhnbklDTVBFVlVaSW9pbDFCSW5XOUZBX1FEcWfSAZMBQVVfeXFMUFpKME5CZnBuMUZBajB3YzdudTY2c2JEa1R3Zjg0MUxPX3drZEl6U0YtR0d3cVVYSUd1WkJJNTd4eGRWNzJucTJIOFZNdi1teG0wWUh1anJhODJLLUY3NXl4bXFVY1N6OS1Vbk5LLWNIUGZuUnM5Y1VyWWJRejUyX2ZSYmdpcm9wd19RRmREU1hrOFZF?oc=5"
     },
     {
@@ -671,7 +655,7 @@
       "ransomwareGroup": "BlackCat/ALPHV",
       "country": "미상",
       "industry": "금융",
-      "victimOrg": "could afford to pay",
+      "victimOrg": "미상",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNi1LRFJpVmVSVV9sWU1MUV9FXzZUWEN1ZHVFZGFsSGVGTFhsSkhmNEVhZy1McUpHX0dneDVrdmFDcDMxNU94emNUelBxYkxoR1lSemJFMi1ZdHNIM1puMzRUQTBJRUFUU2MxM2RLbU5mRWItWEJ5MUhnclg2LU9NNXctTXhhcU8zSk1Kci0ybXQ5bWd2N2dmS1dRejQyVWRvZUE0Y3JyQUpJUi1VTFJEYkRCRTRUOUFGeDdRaHA0M1RUUmJsbVNQRWVSWHZzTGl4UWFqaUNRb2QwZms?oc=5"
     },
     {
@@ -723,7 +707,7 @@
       "ransomwareGroup": "The Gentlemen",
       "country": "미상",
       "industry": "의료",
-      "victimOrg": "Gentlemen",
+      "victimOrg": "미상",
       "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPSmxPd0trT0lVNG53U0lqZHd2d0dvMEFLdnMyRFRnSm8tdV9VT2dZdVh1b3g1NHRsQklKdUJHd01zejBwamNvNFhJTzI0d3p6RGJfUFJSZVcwLWcwZ0xmeHhFNEtERGh0ZDlnV2VqM2UxUjZTWVhWWWtQNDdWSjE5RWZBbDZIOXl2eDNPT3c0ZHlPVGViX2lpZUg4a1VvNkc3WUFFMWxEU25KenJrYWUtTExpZ3VtSG9HcXBveFBESnYyTklYSXhQSG9KN1RLMDdZYzREanVnWFdwX3FoUmpuQTVILUk0RGR4N3RvMnpRaDE?oc=5"
     },
     {
@@ -762,7 +746,7 @@
       "ransomwareGroup": "The Gentlemen",
       "country": "미상",
       "industry": "미상",
-      "victimOrg": "SystemBC C2 Server Reveals 1",
+      "victimOrg": "미상",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRy1Benh3RDFCTzJqY0pXOEJxX01OSWh2Nmtqc2V4aHRUYVIxdGZqbmtPVWxGOElfZFA3OTVVaGxpeU5DS0t3MDZjSGJIUVI1Y3h5SURCbWI4ck1nWjZ3SGtOeWNzLW43S3p2N1VleEotRjN5RjNDM2NLLTIzeHRXbXZESGU?oc=5"
     },
     {
@@ -803,7 +787,7 @@
   ],
   "insights": [
     "전체 기사 2297건 중 그룹명이 식별된 기사는 334건입니다.",
-    "확정 피해사례는 24건, 검토 필요 사고는 65건으로 분리했습니다.",
+    "확정 피해사례는 8건, 검토 필요 사고는 32건으로 분리했습니다.",
     "그룹 통계는 기사 언급량, 사건 기준 클러스터, 피해사례 직접 연결 그룹으로 나눠서 보여줍니다."
   ]
 }

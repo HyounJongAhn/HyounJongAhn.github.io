@@ -126,8 +126,9 @@ const VICTIM_STOPWORDS = new Set([
   'victims', 'each other', 'critical sectors', 'critical organizations', 'critical orgs'
 ]);
 
-const GENERIC_VICTIM_RE = /^(?:victims?|each other|critical sectors?|critical orgs?|critical infrastructure|city|county|networks?|services?|vendor|hospitals?|healthcare organizations?|healthcare org|healthcare provider|healthcare providers?|provider|organizations?|major organizations?|outdated systems|in q\d|in ransomware attack|across critical infrastructure sector|us healthcare org|us healthcare provider|large blood center chain|major japanese semiconductor supplier|pathology services provider)\b/i;
-const ORG_SUFFIX_RE = /(health|medical|hospital|group|center|county|city|government|schools?|university|provider|firm|services?|utilities|association|협회|센터|병원|대학|학교|정부|출판|出版|企業|公司|集团|corp|corporation|inc\b|llc\b|ltd\b|mutual|micro|vantara|nike|davita|ummc|oncology|telex|ycc|association|county schools|healthcare|publisher|systems?)/i;
+const GENERIC_VICTIM_RE = /^(?:victims?|each other|critical sectors?|critical orgs?|critical infrastructure|city|county|networks?|services?|vendor|hospitals?|healthcare organizations?|healthcare org|healthcare provider|healthcare providers?|provider|organizations?|major organizations?|outdated systems|in q\d|in ransomware attack|across critical infrastructure sector|us healthcare org|us healthcare provider|large blood center chain|major japanese semiconductor supplier|pathology services provider|lawmakers|naming and shaming|febrero de|iran['’]s next move|cyberattack hits|st\. paul cyberattack|cibercrime|ransomware-angriff|proponen declarar|sinobi ransomware|fog hackers|shinyhunters ransomware|qemu|vect|telex|osiris|eeny)\b/i;
+const ORG_SUFFIX_RE = /(health|medical|hospital|group|center|county|city|government|schools?|university|provider|firm|services?|utilities|association|협회|센터|병원|대학|학교|정부|출판|出版|企業|公司|集团|corp|corporation|inc\b|llc\b|ltd\b|mutual|micro|vantara|nike|davita|ummc|oncology|association|county schools|healthcare|systems?|hotel|병원|호텔|그룹|대학교|공사|업체|제조사|발전사)/i;
+const NON_ENTITY_TITLE_RE = /(trend|동향|추세|전망|통계|analysis|report|warning|advisory|guidance|방법|era|move|naming|shaming|cyberattack|cibercrime|terrorism designations|다음 움직임|최신 사이버 공격|피해자를 속이는 방법)/i;
 
 function escapeRegExp(value) {
   return String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -181,9 +182,12 @@ function isUsefulVictim(candidate = '', publisher = '') {
   if (/ransomware|랜섬웨어|勒索|ランサム/i.test(value)) return false;
   if (VICTIM_STOPWORDS.has(value.toLowerCase())) return false;
   if (GENERIC_VICTIM_RE.test(value)) return false;
+  if (NON_ENTITY_TITLE_RE.test(value)) return false;
   if (publisher && value.toLowerCase() === publisher.toLowerCase()) return false;
+  if (/^["'“‘].*["'”’]$/.test(value) && !ORG_SUFFIX_RE.test(value)) return false;
   if (value.split(/\s+/).length > 8 && !ORG_SUFFIX_RE.test(value)) return false;
   if (/ransomware group|threat actor|gang$/i.test(value)) return false;
+  if (!ORG_SUFFIX_RE.test(value) && value.split(/\s+/).length >= 4) return false;
   return true;
 }
 
@@ -256,7 +260,11 @@ function extractVictimOrg(item, bodyText = '') {
   }
 
   const leadingOrg = normalizeVictim((item.titleOriginal || item.title).split(/[,:]/)[0] || '');
-  if (isUsefulVictim(leadingOrg, item.publisher)) return leadingOrg;
+  const titleText = item.titleOriginal || item.title;
+  const canUseLeading = !NON_ENTITY_TITLE_RE.test(titleText)
+    && (item.articleType === 'incident' || /(랜섬웨어 공격|랜섬웨어 피해|ransomware attack|hit by ransomware|victim of ransomware|data breach)/i.test(titleText))
+    && ORG_SUFFIX_RE.test(leadingOrg);
+  if (canUseLeading && isUsefulVictim(leadingOrg, item.publisher)) return leadingOrg;
 
   return '미상';
 }
