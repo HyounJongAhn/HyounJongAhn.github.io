@@ -13,9 +13,9 @@
     "totalArticles": 2297,
     "uniquePublishers": 580,
     "groupKnownArticles": 334,
-    "confirmedIncidents": 11,
-    "reviewIncidents": 44,
-    "trendSignals": 667,
+    "confirmedIncidents": 8,
+    "reviewIncidents": 43,
+    "trendSignals": 668,
     "officialNotices": 52,
     "lawEnforcement": 101
   },
@@ -54,8 +54,8 @@
       }
     ],
     "classMix": {
-      "confirmed_incident": 1,
-      "incident_under_review": 4,
+      "confirmed_incident": 0,
+      "incident_under_review": 3,
       "trend_signal": 37,
       "official_notice": 8,
       "law_enforcement": 19,
@@ -72,13 +72,13 @@
     "trend": 129
   },
   "primaryClassCounts": {
-    "other": 1395,
-    "trend_signal": 667,
+    "other": 1398,
+    "trend_signal": 668,
     "law_enforcement": 101,
     "official_notice": 52,
-    "incident_under_review": 44,
+    "incident_under_review": 43,
     "recovery": 27,
-    "confirmed_incident": 11
+    "confirmed_incident": 8
   },
   "topGroupsAllArticles": [
     {
@@ -214,10 +214,6 @@
       "value": 1
     },
     {
-      "label": "RansomHub",
-      "value": 1
-    },
-    {
       "label": "The Gentlemen",
       "value": 1
     }
@@ -243,7 +239,7 @@
     },
     {
       "label": "제조",
-      "value": 5
+      "value": 4
     },
     {
       "label": "유통/서비스",
@@ -254,11 +250,11 @@
       "value": 3
     },
     {
-      "label": "에너지/인프라",
-      "value": 2
+      "label": "교육",
+      "value": 1
     },
     {
-      "label": "교육",
+      "label": "에너지/인프라",
       "value": 1
     }
   ],
@@ -365,13 +361,13 @@
     },
     {
       "month": "2025-06",
-      "confirmed_incident": 1,
+      "confirmed_incident": 0,
       "incident_under_review": 1,
       "trend_signal": 44,
       "official_notice": 1,
       "law_enforcement": 7,
       "recovery": 1,
-      "other": 67
+      "other": 68
     },
     {
       "month": "2025-07",
@@ -405,9 +401,9 @@
     },
     {
       "month": "2025-10",
-      "confirmed_incident": 2,
+      "confirmed_incident": 1,
       "incident_under_review": 2,
-      "trend_signal": 63,
+      "trend_signal": 64,
       "official_notice": 3,
       "law_enforcement": 1,
       "recovery": 0,
@@ -465,20 +461,20 @@
     },
     {
       "month": "2026-04",
-      "confirmed_incident": 1,
-      "incident_under_review": 2,
+      "confirmed_incident": 0,
+      "incident_under_review": 1,
       "trend_signal": 37,
       "official_notice": 8,
       "law_enforcement": 19,
       "recovery": 9,
-      "other": 137
+      "other": 139
     }
   ],
   "recentSignals": [
     {
       "id": "g-es-2026-04-01-16-RXVyb3BvbCBh",
       "date": "2026-04-29",
-      "title": "Europol은 사이버 범죄의 급증을 경고합니다: AI가 사기, '랜섬웨어' 및 디지털 갈취를 가속화합니다 - Estrella Digital",
+      "title": "Europol은 사이버 범죄의 급증을 경고합니다: AI가 사기, '랜섬웨어' 및 디지털 갈취를 가속화합니다",
       "publisher": "Estrella Digital",
       "primaryClass": "law_enforcement",
       "primaryLabel": "법집행",
@@ -491,7 +487,7 @@
     {
       "id": "g-en-2026-04-01-4-RXgtUmFuc29t",
       "date": "2026-04-28",
-      "title": "랜섬웨어 전 협상가, 미국 피해자를 강탈하고 1천만 달러 상당의 자산 압류 혐의 인정 - Carrier Management",
+      "title": "랜섬웨어 전 협상가, 미국 피해자를 강탈하고 1천만 달러 상당의 자산 압류 혐의 인정",
       "publisher": "Carrier Management",
       "primaryClass": "law_enforcement",
       "primaryLabel": "법집행",
@@ -504,7 +500,7 @@
     {
       "id": "g-pt-2026-04-01-3-QWtpcmEgcmFu",
       "date": "2026-04-28",
-      "title": "Akira 랜섬웨어: 2026년에 성장하여 FBI의 주목을 받은 그룹을 만나보세요 - WeLiveSecurity",
+      "title": "Akira 랜섬웨어: 2026년에 성장하여 FBI의 주목을 받은 그룹을 만나보세요",
       "publisher": "WeLiveSecurity",
       "primaryClass": "law_enforcement",
       "primaryLabel": "법집행",
@@ -513,19 +509,6 @@
       "industry": "법집행/사법",
       "victimOrg": "미상",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUE5GdFRjWTF0bU52SnVERkVuaFllQ2hfbDBXOU13ajlZNm9IZ0phMWVLV1B6OTUxQi0wRHAxT3RnUUs2VjVhUW53SVd5OWN2dHVNZk55cVlERVJBeFRGa3hwTEVCNjI4N2U5blI4bGJiRUlQMGNKWEg5UkMyQ2tudFZXZzRYVEVkYXVkT1dnM2xPZm9rZnlqVTVXWWNFcy1FTl9jTnM2NnRXWjZlRWl2X0YyNFZkU01raC1MaTIwSQ?oc=5"
-    },
-    {
-      "id": "en-3-RmV1ZGluZyBSYW5z",
-      "date": "2026-04-28",
-      "title": "서로의 데이터를 유출하는 랜섬웨어 그룹",
-      "publisher": "Dark Reading",
-      "primaryClass": "confirmed_incident",
-      "primaryLabel": "확정 피해사례",
-      "ransomwareGroup": "미상",
-      "country": "미상",
-      "industry": "미상",
-      "victimOrg": "each other",
-      "url": "https://www.darkreading.com/threat-intelligence/feuding-ransomware-groups-leak-data"
     },
     {
       "id": "g-it-2026-04-01-5-RXVyb3BvbDog",
@@ -556,7 +539,7 @@
     {
       "id": "g-it-2026-04-01-16-VGhlIEdlbnRs",
       "date": "2026-04-27",
-      "title": "급증하는 랜섬웨어, 더 젠틀맨(The Gentlemen) - SecurityOpenLab",
+      "title": "급증하는 랜섬웨어, 더 젠틀맨(The Gentlemen)",
       "publisher": "SecurityOpenLab",
       "primaryClass": "trend_signal",
       "primaryLabel": "추세/동향",
@@ -634,7 +617,7 @@
     {
       "id": "g-en-2026-04-01-12-J1RoZSBHZW50",
       "date": "2026-04-22",
-      "title": "'젠틀맨', 랜섬웨어로 급부상 - Dark Reading",
+      "title": "'젠틀맨', 랜섬웨어로 급부상",
       "publisher": "Dark Reading",
       "primaryClass": "trend_signal",
       "primaryLabel": "추세/동향",
@@ -647,7 +630,7 @@
     {
       "id": "g-en-2026-04-01-12-Rm9ybWVyIHJh",
       "date": "2026-04-22",
-      "title": "전 랜섬웨어 협상가, BlackCat 음모에 대해 유죄를 인정 - TechTarget",
+      "title": "전 랜섬웨어 협상가, BlackCat 음모에 대해 유죄를 인정",
       "publisher": "TechTarget",
       "primaryClass": "law_enforcement",
       "primaryLabel": "법집행",
@@ -699,7 +682,7 @@
     {
       "id": "g-en-2026-04-01-7-QSBSYW5zb213",
       "date": "2026-04-22",
-      "title": "랜섬웨어 협상가, 이중 간첩 혐의 인정 - Gizmodo",
+      "title": "랜섬웨어 협상가, 이중 간첩 혐의 인정",
       "publisher": "Gizmodo",
       "primaryClass": "law_enforcement",
       "primaryLabel": "법집행",
@@ -725,7 +708,7 @@
     {
       "id": "g-en-2026-04-01-14-Rm9ybWVyIERp",
       "date": "2026-04-21",
-      "title": "전직 DigitalMint 랜섬웨어 협상가, 갈취 계획에 대해 유죄 인정 - CyberScoop",
+      "title": "전직 DigitalMint 랜섬웨어 협상가, 갈취 계획에 대해 유죄 인정",
       "publisher": "CyberScoop",
       "primaryClass": "law_enforcement",
       "primaryLabel": "법집행",
@@ -738,7 +721,7 @@
     {
       "id": "g-es-2026-04-01-18-QWtpcmEgcmFu",
       "date": "2026-04-21",
-      "title": "Akira 랜섬웨어: 2026년의 붐과 FBI 경고 - WeLiveSecurity",
+      "title": "Akira 랜섬웨어: 2026년의 붐과 FBI 경고",
       "publisher": "WeLiveSecurity",
       "primaryClass": "law_enforcement",
       "primaryLabel": "법집행",
@@ -764,7 +747,7 @@
     {
       "id": "g-en-2026-04-01-14-VGhlIFVuaXRl",
       "date": "2026-04-21",
-      "title": "미국, 랜섬웨어 해커에 대한 중범죄 혐의 기소 - Cybersecurity Insiders",
+      "title": "미국, 랜섬웨어 해커에 대한 중범죄 혐의 기소",
       "publisher": "Cybersecurity Insiders",
       "primaryClass": "law_enforcement",
       "primaryLabel": "법집행",
@@ -786,6 +769,19 @@
       "industry": "미상",
       "victimOrg": "미상",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORXY4ZEpRYThWT1RSRjZ2aWJWamYtbnJoY3Y0TFdzX3VzOS1xUEoxV3dyTTNjb0N6eXN3T3JQejdXaHY2bllxVmpzTVhmem1PcWhGMEdQeHVXTmVTbDlRQW42WllBMV9yXzcyNFFORnJObmE1OXFWR3htYUpSSE00cmxDNA?oc=5"
+    },
+    {
+      "id": "g-en-2026-04-01-2-UmFuc29td2Fy",
+      "date": "2026-04-21",
+      "title": "랜섬웨어 협상가, 랜섬웨어 갱단을 도운 혐의로 유죄 인정",
+      "publisher": "TechCrunch",
+      "primaryClass": "law_enforcement",
+      "primaryLabel": "법집행",
+      "ransomwareGroup": "미상",
+      "country": "미상",
+      "industry": "통신/IT",
+      "victimOrg": "미상",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNa2JXMUpXVVptdjRSOTBHalZ4QmRDYzliTXVYRzkwd1g3RC1iWG1BamNIOGg3QThfRTJsTm5aYktvNDlIcmFqNEJfWldPYk5jV3BxUkpFcVRfeEIyVFVuT19ZTEx0WUJhOW5DeXpGdXV5czh0NEJ1YkxyX2ZmZDFsclNLVFdsd0VqYzV5RXZwbG1zM19iakhoREFDUDkyQQ?oc=5"
     }
   ],
   "methodology": [
@@ -799,7 +795,7 @@
   ],
   "insights": [
     "전체 기사 2297건 중 그룹명이 식별된 기사는 334건입니다.",
-    "확정 피해사례는 11건, 검토 필요 사고는 44건으로 분리했습니다.",
+    "확정 피해사례는 8건, 검토 필요 사고는 43건으로 분리했습니다.",
     "그룹 통계는 기사 언급량, 사건 기준 클러스터, 피해사례 직접 연결 그룹으로 나눠서 보여줍니다."
   ]
 }

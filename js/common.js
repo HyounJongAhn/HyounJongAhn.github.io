@@ -36,11 +36,11 @@ export function signalCard(item) {
         ${item.ransomwareGroup ? `<span class="pill">${item.ransomwareGroup}</span>` : ''}
         ${item.country ? `<span class="pill">${item.country}</span>` : ''}
         ${item.industry ? `<span class="pill">${item.industry}</span>` : ''}
-        ${item.publisher ? `<span class="pill">${item.publisher}</span>` : ''}
       </div>
       <a href="${item.url}" target="_blank" rel="noreferrer">${item.title}</a>
       ${item.description ? `<p class="signal-desc">${item.description}</p>` : ''}
-      ${item.victimOrg && item.victimOrg !== '미상' ? `<div class="signal-foot">피해주체: ${item.victimOrg}</div>` : ''}
+      ${item.victimOrg && item.victimOrg !== '미상' ? `<div class="signal-victim"><span class="signal-victim-label">피해주체</span> · ${item.victimOrg}</div>` : ''}
+      ${item.publisher ? `<div class="signal-source"><span class="signal-source-label">보도매체</span><span>${item.publisher}</span></div>` : ''}
       ${paymentBits.length ? `<div class="signal-foot">${paymentBits.join(' · ')}</div>` : ''}
     </article>
   `;

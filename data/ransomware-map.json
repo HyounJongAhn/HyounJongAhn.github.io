@@ -8,28 +8,28 @@
       "y": 33,
       "sampleVictims": [
         {
-          "title": "미국 의료 서비스 제공업체를 표적으로 한 이란 관련 랜섬웨어 작전 - Cybersecurity Dive",
+          "title": "미국 의료 서비스 제공업체를 표적으로 한 이란 관련 랜섬웨어 작전",
           "victimOrg": "US healthcare provider &nbsp",
           "primaryLabel": "확인 필요 사고",
           "date": "2026-03-25",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRHJCRTZSbVAteGVzNW1fN05wc3MzVng0RWZ6bGl2QTUwNUtMazFNeHdibzZJZmZ1XzNlWTRQMnMwZzFMWnlpbGx0LU1sWHRLd01GWlFkMXc2UVkxbG42RG5EZlZXLXQwMHBtWFVVVzBic3NjYW85dGduM3BTYl9FaEZnN3ZNLUY1R0xqbUFSQ2NGWVJOQlJMYTJKdWpwU2JsaS1TM21oSml5YlJQd2FqMA?oc=5"
         },
         {
-          "title": "이란과 연계된 랜섬웨어 갱단, 군사적 충돌 속에서 미국 의료기관 표적으로 삼아 - The Record from Recorded Future News",
+          "title": "이란과 연계된 랜섬웨어 갱단, 군사적 충돌 속에서 미국 의료기관 표적으로 삼아",
           "victimOrg": "US healthcare org",
           "primaryLabel": "확인 필요 사고",
           "date": "2026-03-24",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVGIzZWZsZHktNkg2QzJYdGMtSEZLWFdTUzItZkVaZUUyREhpNlZsLWkxbnowTmtnaG8wODgzd2xnRGVMM3FKMHYtby0tQURLUVJQa3ZOZ242aWZzT2x5bDBSNFNOTkRsMTdkTnA3U2RGYm1EbTBXWERPMi1nSjNhTzhZbmc?oc=5"
         },
         {
-          "title": "텍사스 주 유틸리티에 대한 Qilin 랜섬웨어 공격 - DeXpose",
+          "title": "텍사스 주 유틸리티에 대한 Qilin 랜섬웨어 공격",
           "victimOrg": "Texas State Utilities - DeXpose Qilin Ransomware Attack on Texas State Utilities &nbsp",
           "primaryLabel": "확인 필요 사고",
           "date": "2026-01-17",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB1bEM1RXVaVjBfQVFBWGViQVpOSTI5cXpZd2RlbFJtWDdRUDRDZFJ2MDBNRGRFZHRyWFNvZ2NnVzhrNHRZLXVnRTVnWGZfNy1CMDBEdFowcnhYT3p3NVVNT2E0U0VsdlJTclNKUEJTZlFTdW84b0FCNVFmRmw?oc=5"
         },
         {
-          "title": "FunkLocker 랜섬웨어 탐지: FunkSec, AI 활용해 미국·유럽·아시아 공격 - SOC Prime",
+          "title": "FunkLocker 랜섬웨어 탐지: FunkSec, AI 활용해 미국·유럽·아시아 공격",
           "victimOrg": "FunkLocker",
           "primaryLabel": "확인 필요 사고",
           "date": "2025-10-02",
@@ -44,7 +44,7 @@
       "y": 36,
       "sampleVictims": [
         {
-          "title": "랜섬웨어 공격으로 피해를 입은 일본의 주요 반도체 공급업체 - TechRadar",
+          "title": "랜섬웨어 공격으로 피해를 입은 일본의 주요 반도체 공급업체",
           "victimOrg": "Major Japanese semiconductor supplier",
           "primaryLabel": "확인 필요 사고",
           "date": "2026-02-23",

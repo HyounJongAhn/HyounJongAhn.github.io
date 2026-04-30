@@ -101,7 +101,8 @@ const VICTIM_PATTERNS = [
 ];
 const VICTIM_STOPWORDS = new Set([
   'ransomware', 'cyber attack', 'data breach', 'breaking news', 'cybersecurity insiders', 'the hipaa journal',
-  'insurance journal', 'dark reading', 'securityweek', 'industrial cyber', 'the hacker news'
+  'insurance journal', 'dark reading', 'securityweek', 'industrial cyber', 'the hacker news',
+  'victims', 'each other', 'critical sectors', 'critical organizations', 'critical orgs'
 ]);
 
 function inferFromPatterns(text, patterns, fallback = '미상') {
@@ -192,7 +193,12 @@ function monthKey(value) {
 }
 
 function titleFor(item) {
-  return item.titleKo || item.titleOriginal || item.title;
+  const title = item.titleKo || item.titleOriginal || item.title;
+  const publisher = item.publisher || '';
+  return title
+    .replace(new RegExp(`\\s[-|·]\\s${publisher.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`, 'i'), '')
+    .replace(/\s[-|·]\s(?:BleepingComputer|The HIPAA Journal|Cybersecurity Insiders|SecurityWeek|The Hacker News|The Record|Recorded Future News|iThome)$/i, '')
+    .trim();
 }
 
 function isoDate(value) {

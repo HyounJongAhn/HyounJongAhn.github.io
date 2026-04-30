@@ -341,23 +341,29 @@ th { color: var(--muted); font-weight: 600; }
   background: linear-gradient(180deg, rgba(241,247,255,0.9), rgba(255,255,255,0.98));
   border: 1px solid var(--line);
 }
-.world-map {
+.world-map-image {
   width: 100%;
   height: auto;
   min-height: 340px;
+  display: block;
+  filter: saturate(0.85) contrast(1.02) brightness(1.01);
 }
-.continent {
-  fill: rgba(124, 150, 186, 0.18);
-  stroke: rgba(94, 131, 181, 0.22);
-  stroke-width: 0.5;
+.map-overlay {
+  position: absolute;
+  inset: 18px;
 }
 .map-point {
+  position: absolute;
+  transform: translate(-50%, -50%);
   fill: rgba(69, 135, 255, 0.78);
-  stroke: white;
-  stroke-width: 0.6;
+  border: 2px solid rgba(255,255,255,0.92);
+  border-radius: 999px;
+  background: radial-gradient(circle at 35% 35%, rgba(255,255,255,0.9), rgba(69,135,255,0.92) 45%, rgba(47,99,201,0.98));
+  box-shadow: 0 10px 24px rgba(47,99,201,0.28);
+  cursor: pointer;
 }
 .map-point:hover {
-  fill: rgba(47, 99, 201, 0.95);
+  background: radial-gradient(circle at 35% 35%, rgba(255,255,255,0.95), rgba(69,135,255,1) 45%, rgba(47,99,201,1));
 }
 .map-tooltip {
   position: absolute;
@@ -373,6 +379,30 @@ th { color: var(--muted); font-weight: 600; }
 }
 .map-tooltip strong { display: block; margin-bottom: 4px; }
 .map-tooltip-item { margin-top: 6px; color: rgba(255,255,255,0.84); font-size: 0.84rem; }
+
+.signal-source {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  color: var(--muted-strong);
+  font-size: 0.84rem;
+}
+.signal-source-label,
+.signal-victim-label {
+  font-weight: 800;
+  color: var(--text-strong);
+}
+.signal-victim {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: rgba(69, 135, 255, 0.08);
+  border: 1px solid rgba(69, 135, 255, 0.14);
+  color: var(--text-strong);
+  font-size: 0.9rem;
+}
 @media (max-width: 960px) {
   .hero, .content-grid, .kpi-grid, .filters-grid, .tab-grid, .grid-2-simple, .meta-grid, .filters-grid-wide { grid-template-columns: 1fr; }
   .card-span-2 { grid-column: span 1; }
