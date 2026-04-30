@@ -348,10 +348,49 @@ const trends = {
   }
 };
 
+const groups = {
+  generatedAt: raw.generatedAt,
+  profiles: groupProfiles.map((profile) => {
+    const related = groupKnownItems.filter((item) => item.ransomwareGroup === profile.group);
+    const relatedIncidents = related.filter((item) => item.primaryClass === 'confirmed_incident' || item.primaryClass === 'incident_under_review');
+    return {
+      ...profile,
+      topCountries: topCounts(related.filter((item) => item.country !== '미상').map((item) => item.country), 5),
+      topIndustries: topCounts(related.filter((item) => item.industry !== '미상').map((item) => item.industry), 5),
+      recentArticles: related.slice(0, 10).map((item) => ({
+        id: item.id,
+        date: isoDate(item.publishedAt),
+        title: titleFor(item),
+        publisher: item.publisher,
+        primaryClass: item.primaryClass,
+        primaryLabel: item.primaryLabel,
+        country: item.country,
+        industry: item.industry,
+        victimOrg: item.victimOrg,
+        url: item.url
+      })),
+      relatedIncidents: relatedIncidents.slice(0, 8).map((item) => ({
+        id: item.id,
+        date: isoDate(item.publishedAt),
+        title: titleFor(item),
+        publisher: item.publisher,
+        primaryClass: item.primaryClass,
+        primaryLabel: item.primaryLabel,
+        country: item.country,
+        industry: item.industry,
+        victimOrg: item.victimOrg,
+        url: item.url
+      }))
+    };
+  })
+};
+
 fs.mkdirSync(OUT_DIR, { recursive: true });
 writeJson('ransomware-summary.json', summary);
 writeJson('ransomware-articles.json', archive);
 writeJson('ransomware-trends.json', trends);
+writeJson('ransomware-groups.json', groups);
 console.log(`Wrote ${path.join(OUT_DIR, 'ransomware-summary.json')}`);
 console.log(`Wrote ${path.join(OUT_DIR, 'ransomware-articles.json')}`);
 console.log(`Wrote ${path.join(OUT_DIR, 'ransomware-trends.json')}`);
+console.log(`Wrote ${path.join(OUT_DIR, 'ransomware-groups.json')}`);

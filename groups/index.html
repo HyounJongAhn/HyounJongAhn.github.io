@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>랜섬웨어 그룹 | HyounJongAhn</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body data-page="groups">
+    <div class="page-shell">
+      <header class="hero compact-hero">
+        <div>
+          <p class="eyebrow">Groups</p>
+          <h1>랜섬웨어 그룹 인텔</h1>
+          <p class="hero-copy">그룹별 기사량, 사건 연계 수, 최근 기사, 주요 국가/산업 분포를 보는 공개용 그룹 인텔 페이지입니다.</p>
+          <nav class="top-nav">
+            <a class="nav-link" href="/">개요</a>
+            <a class="nav-link" href="/archive/">기사 아카이브</a>
+            <a class="nav-link" href="/incidents/">피해사례</a>
+            <a class="nav-link" href="/trends/">동향/신규 이슈</a>
+            <a class="nav-link is-active" href="/groups/">그룹 인텔</a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="content-grid single-column">
+        <section class="card">
+          <div class="section-head">
+            <div>
+              <p class="section-eyebrow">Directory</p>
+              <h2>그룹 선택</h2>
+            </div>
+          </div>
+          <div class="filters-grid filters-grid-wide">
+            <select id="groupSelect" class="select"></select>
+          </div>
+        </section>
+
+        <section class="kpi-grid" id="groupKpis"></section>
+
+        <section class="card card-span-2">
+          <div class="section-head">
+            <div>
+              <p class="section-eyebrow">Overview</p>
+              <h2 id="groupTitle">-</h2>
+            </div>
+            <p id="groupPeriod" class="section-note">-</p>
+          </div>
+          <div class="grid grid-2-simple">
+            <div>
+              <h3>주요 국가</h3>
+              <div id="groupCountries" class="rank-list"></div>
+            </div>
+            <div>
+              <h3>주요 산업</h3>
+              <div id="groupIndustries" class="rank-list"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="section-head"><div><p class="section-eyebrow">Recent articles</p><h2>최근 관련 기사</h2></div></div>
+          <div id="groupRecentArticles" class="signal-list"></div>
+        </section>
+
+        <section class="card">
+          <div class="section-head"><div><p class="section-eyebrow">Incident linkage</p><h2>직접 연결된 피해사례</h2></div></div>
+          <div id="groupIncidents" class="signal-list"></div>
+        </section>
+      </main>
+    </div>
+    <script type="module" src="/js/groups.js"></script>
+  </body>
+</html>
