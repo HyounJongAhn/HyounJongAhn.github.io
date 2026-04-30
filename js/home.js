@@ -1,6 +1,22 @@
 import { getJson, renderRank, signalCard, number, dateTime, formatInsightLine } from '/js/common.js';
 
 const data = await getJson('/data/ransomware-summary.json');
+const CLASS_COLORS = {
+  confirmed_incident: '#ff6b6b',
+  incident_under_review: '#ffb347',
+  trend_signal: '#4587ff',
+  official_notice: '#4f7cff',
+  law_enforcement: '#7b61ff',
+  recovery: '#39b980'
+};
+const CLASS_LABELS = {
+  confirmed_incident: '확정 피해사례',
+  incident_under_review: '확인 필요 사고',
+  trend_signal: '추세·동향',
+  official_notice: '공식 공지',
+  law_enforcement: '법집행',
+  recovery: '복구도구'
+};
 
 const kpis = [
   ['전체 기사', data.overview.totalArticles, `${number.format(data.overview.uniquePublishers)}개 매체`],
@@ -15,6 +31,42 @@ const kpis = [
 
 document.querySelector('#generatedAt').textContent = dateTime.format(new Date(data.site.generatedAt));
 document.querySelector('#periodLabel').textContent = `${data.site.period.from.slice(0, 10)} ~ ${data.site.period.to.slice(0, 10)}`;
+
+const hero = data.hero;
+const hotLead = hero.hotGroups[0];
+document.querySelector('#heroDonutTotal').textContent = number.format(hero.articleCount);
+document.querySelector('#heroTopline').textContent = hotLead ? `${hotLead.label}` : '아직 데이터 없음';
+document.querySelector('#heroTopmeta').textContent = hotLead ? `${hero.hotWindowLabel} 기사 ${number.format(hotLead.value)}건 · 사건 연결 ${number.format(hotLead.incidentCount)}건 · 클러스터 ${number.format(hotLead.clusterCount)}건` : `${hero.hotWindowLabel} 기준 집계 대기`;
+document.querySelector('#heroHotLead').textContent = hotLead ? `${hotLead.label}` : '아직 데이터 없음';
+document.querySelector('#heroHotSub').textContent = hotLead ? `${hero.hotWindowLabel} 기사 ${number.format(hotLead.value)}건 · 사건 연결 ${number.format(hotLead.incidentCount)}건` : `${hero.hotWindowLabel} 기준 집계 대기`;
+document.querySelector('#heroHotGroups').innerHTML = hero.hotGroups.map((group, index) => `
+  <div class="hot-group-chip ${index === 0 ? 'is-lead' : ''}">
+    <span class="hot-group-name">${group.label}</span>
+    <strong>${number.format(group.value)}건</strong>
+  </div>
+`).join('');
+
+const donutNode = document.querySelector('#heroDonut');
+const legendNode = document.querySelector('#heroLegend');
+const mixEntries = Object.entries(hero.classMix).filter(([, value]) => value > 0);
+const total = mixEntries.reduce((sum, [, value]) => sum + value, 0) || 1;
+let offset = 0;
+const radius = 42;
+const circumference = 2 * Math.PI * radius;
+donutNode.innerHTML = [`<circle cx="60" cy="60" r="42" fill="none" stroke="rgba(124,150,186,0.16)" stroke-width="14"></circle>`].concat(mixEntries.map(([key, value]) => {
+  const length = (value / total) * circumference;
+  const circle = `<circle cx="60" cy="60" r="42" fill="none" stroke="${CLASS_COLORS[key]}" stroke-width="14" stroke-linecap="round" stroke-dasharray="${length} ${circumference - length}" stroke-dashoffset="${-offset}" transform="rotate(-90 60 60)"></circle>`;
+  offset += length;
+  return circle;
+})).join('');
+legendNode.innerHTML = mixEntries.map(([key, value]) => `
+  <div class="legend-row">
+    <span class="legend-swatch" style="background:${CLASS_COLORS[key]}"></span>
+    <span>${CLASS_LABELS[key]}</span>
+    <strong>${number.format(value)}</strong>
+  </div>
+`).join('');
+
 document.querySelector('#kpiGrid').innerHTML = kpis.map(([label, value, note]) => `
   <article class="card kpi-card">
     <div class="kpi-label">${label}</div>

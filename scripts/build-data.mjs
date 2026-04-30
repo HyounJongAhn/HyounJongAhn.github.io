@@ -222,10 +222,12 @@ for (const item of enriched) {
   monthlyMap.set(key, row);
 }
 
+const recent30Threshold = Date.now() - 30 * 86400000;
 const groupProfiles = [...new Set(groupKnownItems.map((item) => item.ransomwareGroup))].map((group) => {
   const items = groupKnownItems.filter((item) => item.ransomwareGroup === group);
   const clusterCount = new Set(items.map((item) => item.clusterId)).size;
   const incidentCount = items.filter((item) => item.primaryClass === 'confirmed_incident' || item.primaryClass === 'incident_under_review').length;
+  const last30 = items.filter((item) => new Date(item.publishedAt).getTime() >= recent30Threshold).length;
   const last90 = items.filter((item) => new Date(item.publishedAt).getTime() >= Date.now() - 90 * 86400000).length;
   const previous180 = items.filter((item) => {
     const ts = new Date(item.publishedAt).getTime();
@@ -238,6 +240,7 @@ const groupProfiles = [...new Set(groupKnownItems.map((item) => item.ransomwareG
     incidentCount,
     firstSeen: isoDate(items[items.length - 1].publishedAt),
     lastSeen: isoDate(items[0].publishedAt),
+    last30,
     last90,
     previous180,
     delta: last90 - previous180,
@@ -255,6 +258,26 @@ const momentumGroups = groupProfiles
   .filter((profile) => profile.last90 > 0)
   .sort((a, b) => b.delta - a.delta || b.last90 - a.last90)
   .slice(0, 12);
+
+const recent30Items = enriched.filter((item) => new Date(item.publishedAt).getTime() >= recent30Threshold);
+const recent30HotGroups = groupProfiles
+  .filter((profile) => profile.last30 > 0)
+  .sort((a, b) => b.last30 - a.last30 || b.incidentCount - a.incidentCount || a.group.localeCompare(b.group))
+  .slice(0, 5)
+  .map((profile) => ({
+    label: profile.group,
+    value: profile.last30,
+    incidentCount: profile.incidentCount,
+    clusterCount: profile.clusterCount
+  }));
+const recent30ClassMix = {
+  confirmed_incident: recent30Items.filter((item) => item.primaryClass === 'confirmed_incident').length,
+  incident_under_review: recent30Items.filter((item) => item.primaryClass === 'incident_under_review').length,
+  trend_signal: recent30Items.filter((item) => item.primaryClass === 'trend_signal').length,
+  official_notice: recent30Items.filter((item) => item.primaryClass === 'official_notice').length,
+  law_enforcement: recent30Items.filter((item) => item.primaryClass === 'law_enforcement').length,
+  recovery: recent30Items.filter((item) => item.primaryClass === 'recovery').length
+};
 
 const recentSignals = enriched
   .filter((item) => item.ransomwareGroup !== '미상' || item.primaryClass === 'confirmed_incident' || item.primaryClass === 'law_enforcement')
@@ -296,6 +319,12 @@ const summary = {
     trendSignals: byPrimaryClass.trend_signal || 0,
     officialNotices: byPrimaryClass.official_notice || 0,
     lawEnforcement: byPrimaryClass.law_enforcement || 0
+  },
+  hero: {
+    hotWindowLabel: '최근 30일',
+    hotGroups: recent30HotGroups,
+    classMix: recent30ClassMix,
+    articleCount: recent30Items.length
   },
   articleTypeCounts: raw.stats.byType,
   primaryClassCounts: byPrimaryClass,

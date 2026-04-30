@@ -17,6 +17,11 @@
             내부 운영용 동적 분석 환경에서 정제한 결과를 공개 공유용 정적 브리프로 재구성했습니다.
             기사량·사건량·그룹 동향·국가/산업 추세를 분리해서 볼 수 있게 만들었습니다.
           </p>
+          <div class="hero-highlight">
+            <div class="hero-highlight-label">가장 핫한 그룹 · 최근 30일</div>
+            <div id="heroTopline" class="hero-highlight-title">-</div>
+            <div id="heroTopmeta" class="hero-highlight-meta">-</div>
+          </div>
           <nav class="top-nav">
             <a class="nav-link is-active" href="/">개요</a>
             <a class="nav-link" href="/archive/">기사 아카이브</a>
@@ -26,10 +31,32 @@
             <a class="nav-link" href="/briefs/">월간 브리프</a>
           </nav>
         </div>
-        <div class="hero-panel">
-          <div class="hero-panel-label">Snapshot</div>
-          <div id="generatedAt" class="hero-panel-value">-</div>
-          <div id="periodLabel" class="hero-panel-subtle">-</div>
+        <div class="hero-panel hero-panel-stack">
+          <div>
+            <div class="hero-panel-label">Snapshot</div>
+            <div id="generatedAt" class="hero-panel-value">-</div>
+            <div id="periodLabel" class="hero-panel-subtle">-</div>
+          </div>
+          <div class="hero-visual-block">
+            <div>
+              <div class="hero-panel-label">대표 시각화</div>
+              <div class="hero-panel-subtle">최근 30일 분류 비중</div>
+            </div>
+            <div class="donut-wrap">
+              <svg id="heroDonut" class="donut-chart" viewBox="0 0 120 120" aria-label="최근 30일 분류 비중"></svg>
+              <div class="donut-center">
+                <strong id="heroDonutTotal">-</strong>
+                <span>최근 30일 기사</span>
+              </div>
+            </div>
+            <div id="heroLegend" class="donut-legend"></div>
+          </div>
+          <div>
+            <div class="hero-panel-label">가장 핫한 그룹</div>
+            <div id="heroHotLead" class="hero-hot-lead">-</div>
+            <div id="heroHotSub" class="hero-panel-subtle">-</div>
+            <div id="heroHotGroups" class="hot-group-list"></div>
+          </div>
         </div>
       </header>
 

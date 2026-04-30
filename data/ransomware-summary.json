@@ -19,6 +19,50 @@
     "officialNotices": 52,
     "lawEnforcement": 101
   },
+  "hero": {
+    "hotWindowLabel": "최근 30일",
+    "hotGroups": [
+      {
+        "label": "The Gentlemen",
+        "value": 7,
+        "incidentCount": 1,
+        "clusterCount": 4
+      },
+      {
+        "label": "Medusa",
+        "value": 6,
+        "incidentCount": 1,
+        "clusterCount": 11
+      },
+      {
+        "label": "Qilin",
+        "value": 4,
+        "incidentCount": 1,
+        "clusterCount": 15
+      },
+      {
+        "label": "BlackCat/ALPHV",
+        "value": 3,
+        "incidentCount": 0,
+        "clusterCount": 8
+      },
+      {
+        "label": "Akira",
+        "value": 2,
+        "incidentCount": 1,
+        "clusterCount": 15
+      }
+    ],
+    "classMix": {
+      "confirmed_incident": 1,
+      "incident_under_review": 4,
+      "trend_signal": 37,
+      "official_notice": 8,
+      "law_enforcement": 19,
+      "recovery": 9
+    },
+    "articleCount": 223
+  },
   "articleTypeCounts": {
     "other": 1339,
     "incident": 678,
