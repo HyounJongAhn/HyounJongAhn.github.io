@@ -8,7 +8,7 @@ const max = Math.max(...data.points.map((point) => point.count), 1);
 for (const point of data.points) {
   const dot = document.createElement('button');
   dot.type = 'button';
-  dot.className = 'map-point';
+  dot.className = `map-point${point.country === '유럽' ? ' is-aggregate' : ''}`;
   dot.style.left = `${point.x}%`;
   dot.style.top = `${point.y}%`;
   dot.style.width = `${14 + (point.count / max) * 20}px`;

@@ -352,8 +352,9 @@ th { color: var(--muted); font-weight: 600; }
 }
 .world-map-image-flat {
   border-radius: 18px;
-  background: linear-gradient(180deg, #dff1ff 0%, #cfe8fb 100%);
-  box-shadow: inset 0 0 0 1px rgba(94, 131, 181, 0.10);
+  background: linear-gradient(180deg, #eaf6ff 0%, #d8eefb 52%, #c8e5f6 100%);
+  box-shadow: inset 0 0 0 1px rgba(94, 131, 181, 0.10), 0 12px 24px rgba(89, 132, 173, 0.08);
+  filter: saturate(0.78) contrast(1.03) brightness(1.02);
 }
 .map-overlay {
   position: absolute;
@@ -362,18 +363,21 @@ th { color: var(--muted); font-weight: 600; }
 .map-point {
   position: absolute;
   transform: translate(-50%, -50%);
-  fill: rgba(69, 135, 255, 0.78);
-  border: 2px solid rgba(255,255,255,0.92);
+  border: 2px solid rgba(255,255,255,0.96);
   border-radius: 999px;
-  background: radial-gradient(circle at 35% 35%, rgba(255,255,255,0.9), rgba(69,135,255,0.92) 45%, rgba(47,99,201,0.98));
-  box-shadow: 0 10px 24px rgba(47,99,201,0.28);
+  background: radial-gradient(circle at 35% 35%, rgba(255,255,255,0.98), rgba(85,160,255,0.95) 38%, rgba(36,98,205,0.98) 72%, rgba(24,71,156,1));
+  box-shadow: 0 10px 22px rgba(36, 98, 205, 0.20), 0 0 0 6px rgba(111, 179, 255, 0.14);
   cursor: pointer;
-  transition: transform 140ms ease, box-shadow 140ms ease;
+  transition: transform 140ms ease, box-shadow 140ms ease, background 140ms ease;
 }
 .map-point:hover {
-  background: radial-gradient(circle at 35% 35%, rgba(255,255,255,0.95), rgba(69,135,255,1) 45%, rgba(47,99,201,1));
-  transform: translate(-50%, -50%) scale(1.08);
-  box-shadow: 0 14px 28px rgba(47,99,201,0.34);
+  background: radial-gradient(circle at 35% 35%, rgba(255,255,255,1), rgba(99,173,255,1) 38%, rgba(38,105,219,1) 72%, rgba(24,71,156,1));
+  transform: translate(-50%, -50%) scale(1.1);
+  box-shadow: 0 16px 28px rgba(36,98,205,0.28), 0 0 0 7px rgba(111,179,255,0.18);
+}
++.map-point.is-aggregate {
++  background: radial-gradient(circle at 35% 35%, rgba(255,255,255,0.98), rgba(170, 166, 255, 0.92) 42%, rgba(104, 92, 214, 0.98) 78%, rgba(76, 63, 180, 1));
++  box-shadow: 0 10px 22px rgba(104, 92, 214, 0.22), 0 0 0 6px rgba(170, 166, 255, 0.14);
 }
 .map-tooltip {
   position: absolute;
