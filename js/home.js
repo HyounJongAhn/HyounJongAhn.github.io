@@ -1,4 +1,4 @@
-import { getJson, renderRank, signalCard, number, dateTime } from '/js/common.js';
+import { getJson, renderRank, signalCard, number, dateTime, formatInsightLine } from '/js/common.js';
 
 const data = await getJson('/data/ransomware-summary.json');
 
@@ -7,7 +7,7 @@ const kpis = [
   ['그룹 식별 기사', data.overview.groupKnownArticles, '그룹명이 식별된 항목'],
   ['확정 피해사례', data.overview.confirmedIncidents, '실제 피해주체 확인'],
   ['검토 필요 사고', data.overview.reviewIncidents, '조직명은 있으나 추가 검증 필요'],
-  ['추세 신호', data.overview.trendSignals, '동향/활동량 중심'],
+  ['추세·동향', data.overview.trendSignals, '동향/활동량 중심'],
   ['공식 공지', data.overview.officialNotices, '권고/경보/보도자료'],
   ['법집행', data.overview.lawEnforcement, '체포/압수/기소'],
   ['공개 기준', '정적 공유판', '동적 내부 사이트와 분리']
@@ -23,7 +23,7 @@ document.querySelector('#kpiGrid').innerHTML = kpis.map(([label, value, note]) =
   </article>
 `).join('');
 
-document.querySelector('#insightList').innerHTML = data.insights.map((line) => `<li>${line}</li>`).join('');
+document.querySelector('#insightList').innerHTML = data.insights.map((line) => `<li>${formatInsightLine(line)}</li>`).join('');
 document.querySelector('#timelineBody').innerHTML = data.monthlyTimeline.map((row) => `
   <tr>
     <td>${row.month}</td>

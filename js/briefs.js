@@ -1,4 +1,4 @@
-import { getJson, renderRank, signalCard, number } from '/js/common.js';
+import { getJson, renderRank, signalCard, number, formatInsightLine } from '/js/common.js';
 
 const summary = await getJson('/data/ransomware-summary.json');
 const archive = await getJson('/data/ransomware-articles.json');
@@ -18,11 +18,11 @@ const insights = [
 ];
 
 document.querySelector('#briefMonth').textContent = `${month} 월간 브리프`;
-document.querySelector('#briefInsights').innerHTML = insights.map((line) => `<li>${line}</li>`).join('');
+document.querySelector('#briefInsights').innerHTML = insights.map((line) => `<li>${formatInsightLine(line)}</li>`).join('');
 document.querySelector('#briefKpis').innerHTML = [
   ['이번 달 기사', monthItems.length, '최신 월 기준'],
-  ['확정 피해', latest.confirmed_incident, 'confirmed incident'],
-  ['확인 필요', latest.incident_under_review, 'under review'],
+  ['확정 피해', latest.confirmed_incident, '실제 피해주체 확인'],
+  ['확인 필요', latest.incident_under_review, '추가 검증 필요'],
   ['그룹 식별 기사', knownGroups.length, '이번 달 그룹명이 잡힌 기사']
 ].map(([label, value, note]) => `
   <article class="card kpi-card">

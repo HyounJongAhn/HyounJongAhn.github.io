@@ -41,6 +41,12 @@ export function signalCard(item) {
   `;
 }
 
+export function formatInsightLine(line) {
+  return line
+    .replace(/(확정 피해사례|검토 필요 사고|확인 필요 사고|추세\/동향|추세 신호|공식 공지|공식공지|법집행|복구도구|그룹 식별 기사|전체 기사)/g, '<span class="term-emphasis">$1</span>')
+    .replace(/(\d[\d,]*건)/g, '<strong class="number-emphasis">$1</strong>');
+}
+
 export function fillSelect(select, values, firstLabel) {
   select.innerHTML = [`<option value="">${firstLabel}</option>`, ...values.map((value) => `<option value="${value}">${value}</option>`)].join('');
 }
