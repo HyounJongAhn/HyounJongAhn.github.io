@@ -28,6 +28,7 @@ body {
     linear-gradient(180deg, #f7fbff 0%, #eef5ff 42%, #f5f9ff 100%);
   color: var(--text);
 }
+body.help-open { overflow: hidden; }
 a { color: inherit; }
 .page-shell { max-width: 1280px; margin: 0 auto; padding: 32px 24px 56px; }
 .hero {
@@ -267,8 +268,76 @@ th { color: var(--muted); font-weight: 600; }
 .tab-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
 .meta-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
 .small-note { color: var(--muted); font-size: 0.88rem; }
+.help-fab {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  width: 56px;
+  height: 56px;
+  border: 0;
+  border-radius: 999px;
+  background: linear-gradient(180deg, var(--accent), var(--accent-strong));
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 900;
+  box-shadow: 0 18px 40px rgba(47, 99, 201, 0.24);
+  cursor: pointer;
+  z-index: 20;
+}
+.help-drawer {
+  position: fixed;
+  right: 24px;
+  bottom: 92px;
+  width: min(420px, calc(100vw - 32px));
+  max-height: min(75vh, 760px);
+  overflow: auto;
+  border: 1px solid var(--line-strong);
+  border-radius: 24px;
+  background: rgba(255,255,255,0.98);
+  box-shadow: var(--shadow);
+  padding: 20px;
+  z-index: 21;
+}
+.help-drawer-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: start;
+  margin-bottom: 10px;
+}
+.help-close {
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: white;
+  color: var(--text-strong);
+  font-size: 1.35rem;
+  cursor: pointer;
+}
+.help-drawer-body {
+  display: grid;
+  gap: 18px;
+}
+.help-section {
+  border-top: 1px solid rgba(124, 150, 186, 0.14);
+  padding-top: 14px;
+}
+.help-section:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+.help-list {
+  margin: 10px 0 0;
+  padding-left: 18px;
+  line-height: 1.7;
+  color: var(--text);
+}
+.help-list li + li { margin-top: 8px; }
 @media (max-width: 960px) {
   .hero, .content-grid, .kpi-grid, .filters-grid, .tab-grid, .grid-2-simple, .meta-grid, .filters-grid-wide { grid-template-columns: 1fr; }
   .card-span-2 { grid-column: span 1; }
   .donut-wrap, .donut-chart { width: 160px; height: 160px; }
+  .help-fab { right: 16px; bottom: 16px; }
+  .help-drawer { right: 16px; bottom: 84px; width: calc(100vw - 32px); }
 }

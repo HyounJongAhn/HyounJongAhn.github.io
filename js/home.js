@@ -96,3 +96,19 @@ renderRank('#industryRank', data.topIndustriesIncident);
 renderRank('#publisherRank', data.topPublishers);
 
 document.querySelector('#recentSignals').innerHTML = data.recentSignals.map(signalCard).join('');
+
+const helpFab = document.querySelector('#helpFab');
+const helpDrawer = document.querySelector('#helpDrawer');
+const helpClose = document.querySelector('#helpClose');
+
+function setHelpOpen(open) {
+  helpDrawer.hidden = !open;
+  helpFab.setAttribute('aria-expanded', String(open));
+  document.body.classList.toggle('help-open', open);
+}
+
+helpFab?.addEventListener('click', () => setHelpOpen(helpDrawer.hidden));
+helpClose?.addEventListener('click', () => setHelpOpen(false));
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape') setHelpOpen(false);
+});
