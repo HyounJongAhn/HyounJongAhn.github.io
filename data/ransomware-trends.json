@@ -4,7 +4,7 @@
     {
       "group": "Qilin",
       "allArticles": 61,
-      "clusterCount": 15,
+      "clusterCount": 19,
       "incidentCount": 1,
       "firstSeen": "2025-02-07",
       "lastSeen": "2026-04-24",
@@ -17,8 +17,8 @@
     {
       "group": "Akira",
       "allArticles": 41,
-      "clusterCount": 15,
-      "incidentCount": 1,
+      "clusterCount": 14,
+      "incidentCount": 2,
       "firstSeen": "2025-01-23",
       "lastSeen": "2026-04-28",
       "last30": 2,
@@ -30,8 +30,8 @@
     {
       "group": "Medusa",
       "allArticles": 41,
-      "clusterCount": 11,
-      "incidentCount": 1,
+      "clusterCount": 12,
+      "incidentCount": 0,
       "firstSeen": "2025-01-21",
       "lastSeen": "2026-04-08",
       "last30": 6,
@@ -43,8 +43,8 @@
     {
       "group": "LockBit",
       "allArticles": 25,
-      "clusterCount": 8,
-      "incidentCount": 0,
+      "clusterCount": 10,
+      "incidentCount": 1,
       "firstSeen": "2025-03-17",
       "lastSeen": "2026-02-23",
       "last30": 0,
@@ -56,8 +56,8 @@
     {
       "group": "Interlock",
       "allArticles": 19,
-      "clusterCount": 10,
-      "incidentCount": 1,
+      "clusterCount": 9,
+      "incidentCount": 0,
       "firstSeen": "2025-01-29",
       "lastSeen": "2026-03-19",
       "last30": 0,
@@ -69,8 +69,8 @@
     {
       "group": "DragonForce",
       "allArticles": 14,
-      "clusterCount": 9,
-      "incidentCount": 1,
+      "clusterCount": 10,
+      "incidentCount": 0,
       "firstSeen": "2025-02-27",
       "lastSeen": "2026-04-16",
       "last30": 1,
@@ -83,7 +83,7 @@
       "group": "The Gentlemen",
       "allArticles": 14,
       "clusterCount": 4,
-      "incidentCount": 1,
+      "incidentCount": 0,
       "firstSeen": "2025-09-09",
       "lastSeen": "2026-04-28",
       "last30": 7,
@@ -95,7 +95,7 @@
     {
       "group": "RansomHub",
       "allArticles": 13,
-      "clusterCount": 7,
+      "clusterCount": 9,
       "incidentCount": 0,
       "firstSeen": "2025-01-03",
       "lastSeen": "2026-01-23",
@@ -121,7 +121,7 @@
     {
       "group": "BlackCat/ALPHV",
       "allArticles": 11,
-      "clusterCount": 8,
+      "clusterCount": 7,
       "incidentCount": 0,
       "firstSeen": "2025-08-08",
       "lastSeen": "2026-04-22",
@@ -147,7 +147,7 @@
     {
       "group": "Lynx",
       "allArticles": 8,
-      "clusterCount": 4,
+      "clusterCount": 6,
       "incidentCount": 0,
       "firstSeen": "2025-01-14",
       "lastSeen": "2026-02-05",
@@ -173,7 +173,7 @@
     {
       "group": "8Base",
       "allArticles": 7,
-      "clusterCount": 3,
+      "clusterCount": 4,
       "incidentCount": 1,
       "firstSeen": "2025-02-11",
       "lastSeen": "2025-10-21",
@@ -200,7 +200,7 @@
       "group": "Cl0p",
       "allArticles": 7,
       "clusterCount": 4,
-      "incidentCount": 1,
+      "incidentCount": 0,
       "firstSeen": "2025-02-11",
       "lastSeen": "2025-11-24",
       "last30": 0,
@@ -306,7 +306,7 @@
       "group": "The Gentlemen",
       "allArticles": 14,
       "clusterCount": 4,
-      "incidentCount": 1,
+      "incidentCount": 0,
       "firstSeen": "2025-09-09",
       "lastSeen": "2026-04-28",
       "last30": 7,
@@ -318,7 +318,7 @@
     {
       "group": "BlackCat/ALPHV",
       "allArticles": 11,
-      "clusterCount": 8,
+      "clusterCount": 7,
       "incidentCount": 0,
       "firstSeen": "2025-08-08",
       "lastSeen": "2026-04-22",
@@ -346,8 +346,8 @@
     {
       "group": "Medusa",
       "allArticles": 41,
-      "clusterCount": 11,
-      "incidentCount": 1,
+      "clusterCount": 12,
+      "incidentCount": 0,
       "firstSeen": "2025-01-21",
       "lastSeen": "2026-04-08",
       "last30": 6,
@@ -360,7 +360,7 @@
       "group": "The Gentlemen",
       "allArticles": 14,
       "clusterCount": 4,
-      "incidentCount": 1,
+      "incidentCount": 0,
       "firstSeen": "2025-09-09",
       "lastSeen": "2026-04-28",
       "last30": 7,
@@ -385,7 +385,7 @@
     {
       "group": "Lynx",
       "allArticles": 8,
-      "clusterCount": 4,
+      "clusterCount": 6,
       "incidentCount": 0,
       "firstSeen": "2025-01-14",
       "lastSeen": "2026-02-05",
@@ -411,8 +411,8 @@
     {
       "group": "Interlock",
       "allArticles": 19,
-      "clusterCount": 10,
-      "incidentCount": 1,
+      "clusterCount": 9,
+      "incidentCount": 0,
       "firstSeen": "2025-01-29",
       "lastSeen": "2026-03-19",
       "last30": 0,
@@ -424,8 +424,8 @@
     {
       "group": "DragonForce",
       "allArticles": 14,
-      "clusterCount": 9,
-      "incidentCount": 1,
+      "clusterCount": 10,
+      "incidentCount": 0,
       "firstSeen": "2025-02-27",
       "lastSeen": "2026-04-16",
       "last30": 1,
@@ -450,7 +450,7 @@
     {
       "group": "BlackCat/ALPHV",
       "allArticles": 11,
-      "clusterCount": 8,
+      "clusterCount": 7,
       "incidentCount": 0,
       "firstSeen": "2025-08-08",
       "lastSeen": "2026-04-22",
@@ -476,8 +476,8 @@
     {
       "group": "LockBit",
       "allArticles": 25,
-      "clusterCount": 8,
-      "incidentCount": 0,
+      "clusterCount": 10,
+      "incidentCount": 1,
       "firstSeen": "2025-03-17",
       "lastSeen": "2026-02-23",
       "last30": 0,
@@ -489,8 +489,8 @@
     {
       "group": "Akira",
       "allArticles": 41,
-      "clusterCount": 15,
-      "incidentCount": 1,
+      "clusterCount": 14,
+      "incidentCount": 2,
       "firstSeen": "2025-01-23",
       "lastSeen": "2026-04-28",
       "last30": 2,
@@ -512,7 +512,7 @@
         "ransomwareGroup": "The Gentlemen",
         "country": "미상",
         "industry": "유통/서비스",
-        "victimOrg": "미상",
+        "victimOrg": "Gentlemen",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSUFuQ29Gc0s5SW1Mbm9qTlJyeU01djZ5WmpaZk9sSXZYZENhZVl0UUF5cFdUZkQzb0xuLTYweFU0Q3JYYkJqLWY2MzhzSTFEamhhWDdVWXllaXFiaHF0YnoyVzdRczBoLUQxa3AwTFl0bkk3WjR4YXk5SldaSFp2dEFaNlNaRHZPU05KeW02V2VFRkJ1eVE4MEZNb0pLbW00dWg3NVpWMk1KWlU?oc=5"
       },
       {
@@ -525,7 +525,7 @@
         "ransomwareGroup": "The Gentlemen",
         "country": "미상",
         "industry": "미상",
-        "victimOrg": "미상",
+        "victimOrg": "Gentlemen",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdm56TEt6aE5RZ3cwQ3BHYWt1cERESjFmeXh6NzQtZzBBa2QxUXVtTVM4a0JSb0RuTmtPYzIxUlJyS3RjaGZSTXdsWjJwZ2dSOXZNSE45UFVjR3Ewb3VtVC05NXNOMUh0NTk4RzRwcVFLWG9XOWpfdmhvVmhnbklDTVBFVlVaSW9pbDFCSW5XOUZBX1FEcWfSAZMBQVVfeXFMUFpKME5CZnBuMUZBajB3YzdudTY2c2JEa1R3Zjg0MUxPX3drZEl6U0YtR0d3cVVYSUd1WkJJNTd4eGRWNzJucTJIOFZNdi1teG0wWUh1anJhODJLLUY3NXl4bXFVY1N6OS1Vbk5LLWNIUGZuUnM5Y1VyWWJRejUyX2ZSYmdpcm9wd19RRmREU1hrOFZF?oc=5"
       },
       {
@@ -590,7 +590,7 @@
         "ransomwareGroup": "The Gentlemen",
         "country": "미상",
         "industry": "의료",
-        "victimOrg": "미상",
+        "victimOrg": "Gentlemen",
         "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPSmxPd0trT0lVNG53U0lqZHd2d0dvMEFLdnMyRFRnSm8tdV9VT2dZdVh1b3g1NHRsQklKdUJHd01zejBwamNvNFhJTzI0d3p6RGJfUFJSZVcwLWcwZ0xmeHhFNEtERGh0ZDlnV2VqM2UxUjZTWVhWWWtQNDdWSjE5RWZBbDZIOXl2eDNPT3c0ZHlPVGViX2lpZUg4a1VvNkc3WUFFMWxEU25KenJrYWUtTExpZ3VtSG9HcXBveFBESnYyTklYSXhQSG9KN1RLMDdZYzREanVnWFdwX3FoUmpuQTVILUk0RGR4N3RvMnpRaDE?oc=5"
       },
       {
@@ -603,7 +603,7 @@
         "ransomwareGroup": "The Gentlemen",
         "country": "미상",
         "industry": "미상",
-        "victimOrg": "미상",
+        "victimOrg": "SystemBC C2 Server Reveals 1",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRy1Benh3RDFCTzJqY0pXOEJxX01OSWh2Nmtqc2V4aHRUYVIxdGZqbmtPVWxGOElfZFA3OTVVaGxpeU5DS0t3MDZjSGJIUVI1Y3h5SURCbWI4ck1nWjZ3SGtOeWNzLW43S3p2N1VleEotRjN5RjNDM2NLLTIzeHRXbXZESGU?oc=5"
       }
     ],
@@ -619,7 +619,7 @@
         "ransomwareGroup": "미상",
         "country": "유럽",
         "industry": "법집행/사법",
-        "victimOrg": "미상",
+        "victimOrg": "Europol alerta del salto del cibercrimen",
         "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNY0ltaER6Xy1iUEJ0cU1OMk13NU56SHpNeWhtdmp2R3c5SGcwOVN2QkdoeWR1TUt6ZlBFcXlzTG5LNVNNa1dxUm5LUEEyekNlckw5R1JiOFIwZGY2ZWZtMDFfSmZjM1FrdmZodlZ4YlZ4U0ZwM0MwOENZd2x2LWd1NzRLWE9ycDl6QnM5MWVqQkVIem1OZTZVY2RmbkFIRTV2My05Ry1aa3hIVkhyVVN5Q3NFZ0JnOGVkeEllUG9jSGVaaFdzVUE5YmpodzY0NWpUU3I3WUR1Y21XdzdTQ014MVBvQm9QM0ZZU0ZtRUhDc25MQ1HSAfgBQVVfeXFMTXptRlgyTFczbXlFNy1TV2FqcVZkSGhpU0NZZlNPSzRrNk0tNnVZM09GNk5FNm5xa3I3MUVSd1Y3c0dfUGw0YXlSU2RDMEUySFEyckwwY21DVkYySzhiOHkwUDJTUEpUaWw5dEhIYUlURUJtai1UOTZqRlMxOFdMNXRQalk4bGxIZ18yLWY5Tk5pekZUZzBnQ1ZnQXNmRjhjSUYzbTlET3pvRFJlczlvQnRmbVkyX3E3MjRUUzBzN19VT1BCcFRuQk5JUjRocFdGOG5NQVNaNWEya0FlajdPTmZSbDNDNmtzVjlsbHJmaExHSHpLWFFqT04?oc=5"
       },
       {
@@ -658,7 +658,7 @@
         "ransomwareGroup": "미상",
         "country": "이탈리아",
         "industry": "물류/운송",
-        "victimOrg": "미상",
+        "victimOrg": "Europol",
         "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOV0lLaFNQbk5xSW5MTmM1S2dnNkdITEMxQ1lFcS1JSEVVLThKMmtLWUFScDFjc1hIRFowVGlfMVI1M1NhOGpYbG5GUnhfX0Fqb0FSdEZrd1RSSGJoZjRIcHhia19USmFLblJUVF8yUVR4LXNMckUyc3pqeFVjM0d3T1FBcDVwWWpwMWVTNFdHSE1QQXVtLTdzSWxBZVhWSHRoemRzY0JicC1DRnpHc1JLSHFJOGhuSDRrNVpyTnRWWC1CQnh5WXRaWmYwa2stRVdZdy13?oc=5"
       },
       {
@@ -710,7 +710,7 @@
         "ransomwareGroup": "BlackCat/ALPHV",
         "country": "미상",
         "industry": "통신/IT",
-        "victimOrg": "Former ransomware negotiator pleads guilty to BlackCat conspiracy &nbsp",
+        "victimOrg": "미상",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRFdiTF9RdDBNQWNoV01TbV9oZGtUN0xvUUpFWVRRMjRYTFY0bUhnQWV0YXF6dzlfQUUtYjBJM2pJMHFRX2RlenIweDJ4UHpjMHgxS0xfaEtUOG4xOEQzWlRWOU4xbUdXczNDcE5PSDRlM2pyZFByd3pTSnoxZkEzR3lOWkN5OFQ5bDFXNEU5UFhOcjBUSUtGNEl6M3R2OXBrTDRIODZIcVVTamlodTlPMXphMjZBLXdXNk9jZmVCbnFtYWhK?oc=5"
       },
       {
@@ -723,7 +723,7 @@
         "ransomwareGroup": "BlackCat/ALPHV",
         "country": "미상",
         "industry": "금융",
-        "victimOrg": "could afford to pay - Tom's Hardware Ransomware negotiator pleads guilty",
+        "victimOrg": "could afford to pay",
         "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNi1LRFJpVmVSVV9sWU1MUV9FXzZUWEN1ZHVFZGFsSGVGTFhsSkhmNEVhZy1McUpHX0dneDVrdmFDcDMxNU94emNUelBxYkxoR1lSemJFMi1ZdHNIM1puMzRUQTBJRUFUU2MxM2RLbU5mRWItWEJ5MUhnclg2LU9NNXctTXhhcU8zSk1Kci0ybXQ5bWd2N2dmS1dRejQyVWRvZUE0Y3JyQUpJUi1VTFJEYkRCRTRUOUFGeDdRaHA0M1RUUmJsbVNQRWVSWHZzTGl4UWFqaUNRb2QwZms?oc=5"
       },
       {

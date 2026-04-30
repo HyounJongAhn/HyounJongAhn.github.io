@@ -3,52 +3,176 @@
   "points": [
     {
       "country": "미국",
-      "count": 11,
+      "count": 28,
       "x": 18,
       "y": 33,
       "sampleVictims": [
         {
-          "title": "미국 의료 서비스 제공업체를 표적으로 한 이란 관련 랜섬웨어 작전",
-          "victimOrg": "US healthcare provider &nbsp",
+          "title": "랜섬웨어 공격을 받은 미시시피 대학 의료 센터, 주 전역의 진료소 폐쇄 - 미시시피 공영 방송",
+          "victimOrg": "University of Mississippi Medical Center",
           "primaryLabel": "확인 필요 사고",
-          "date": "2026-03-25",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRHJCRTZSbVAteGVzNW1fN05wc3MzVng0RWZ6bGl2QTUwNUtMazFNeHdibzZJZmZ1XzNlWTRQMnMwZzFMWnlpbGx0LU1sWHRLd01GWlFkMXc2UVkxbG42RG5EZlZXLXQwMHBtWFVVVzBic3NjYW85dGduM3BTYl9FaEZnN3ZNLUY1R0xqbUFSQ2NGWVJOQlJMYTJKdWpwU2JsaS1TM21oSml5YlJQd2FqMA?oc=5"
+          "date": "2026-02-19",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOamM5MWxHY1NLYkJvTFM3SjhNYnpsS2tuSW01aXNUQzBBNldEb3UyWTIteXE5NzdGbFF2RXNkSjlvMzhhQWo2LVR1RkhPd3BJV3NUM0FSa0wxT0FpQWYxWEpGX1JSWUg1a2hLWXl4ck80ckVfWmlPeHNueGREWDZlZmt0NC1UVmZ6dFo5a2kyV0lZNFFxclEyT0M1WkpscWd6YkZwUWxLNndOQUVKb1A0YXhSTVBWR0dBYmJRYWhCS1ZjLS00UUVUY21vZWo?oc=5"
         },
         {
-          "title": "이란과 연계된 랜섬웨어 갱단, 군사적 충돌 속에서 미국 의료기관 표적으로 삼아",
-          "victimOrg": "US healthcare org",
+          "title": "UMMC, 랜섬웨어 공격으로 병원 폐쇄 확인",
+          "victimOrg": "UMMC",
           "primaryLabel": "확인 필요 사고",
-          "date": "2026-03-24",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVGIzZWZsZHktNkg2QzJYdGMtSEZLWFdTUzItZkVaZUUyREhpNlZsLWkxbnowTmtnaG8wODgzd2xnRGVMM3FKMHYtby0tQURLUVJQa3ZOZ242aWZzT2x5bDBSNFNOTkRsMTdkTnA3U2RGYm1EbTBXWERPMi1nSjNhTzhZbmc?oc=5"
+          "date": "2026-02-19",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQb3JqZERiUFZCWlpsU0FlUnF5V3I0QmpzSkc5T3JyTWJSREp6NWVRODF6RjRvUzVDSEpBUExwaHJyUzJBTDNsSmRJSTNIT0RUbHZSSEhVTG9EY1lNNEpQRjlaQjllaGdDQlY2VmFLZXYwOWlxTkZNSXl2N3M0Qi1jTlJJYjBUQzM0UTdDUE5tcm5sWVVLOGN3S0dLaGVHNURMOFVpRDNEdURPR1VRVnJvYWxlNVA0RWxDalhCUVRFdDlXZEMwYmV2LWJGRWpuNHJuelNTRVlBdDc?oc=5"
         },
         {
-          "title": "텍사스 주 유틸리티에 대한 Qilin 랜섬웨어 공격",
-          "victimOrg": "Texas State Utilities - DeXpose Qilin Ransomware Attack on Texas State Utilities &nbsp",
+          "title": "랜섬웨어 공격으로 비콘 상호 공격 - 로드 아일랜드 전류",
+          "victimOrg": "Beacon Mutual",
           "primaryLabel": "확인 필요 사고",
-          "date": "2026-01-17",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB1bEM1RXVaVjBfQVFBWGViQVpOSTI5cXpZd2RlbFJtWDdRUDRDZFJ2MDBNRGRFZHRyWFNvZ2NnVzhrNHRZLXVnRTVnWGZfNy1CMDBEdFowcnhYT3p3NVVNT2E0U0VsdlJTclNKUEJTZlFTdW84b0FCNVFmRmw?oc=5"
+          "date": "2026-02-05",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQUtWZ29UTHlLd0RFaGthSlZDeUNnTTFHUGxfZUJrMkh0RmxKdHZpZWlpUFRZdGdvZXVtRDYyd1BiSWRENW55OTFsUHlaZWQxNWVCSnNIT0dJNEQyTU10OWg1dmhmUkkzbDZxWE56ZndJTFdOTzNhMkduYVUwRE5odUtmWkl4Z0dr?oc=5"
         },
         {
-          "title": "FunkLocker 랜섬웨어 탐지: FunkSec, AI 활용해 미국·유럽·아시아 공격",
-          "victimOrg": "FunkLocker",
+          "title": "Nike, 랜섬웨어 그룹의 데이터 침해 주장 조사",
+          "victimOrg": "Nike",
           "primaryLabel": "확인 필요 사고",
-          "date": "2025-10-02",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOExxSEJmN05memp0ZTQ1ZGd6bGFvQXJ0R3I4V0hER0FLcTZUazkwbXBoTWFYN08yektMM3VDZ2YwRFpMM3UzYlVqWkItZ3lhdHVvSEdWcVhWVlZLTFN4QmczRWdNaFk2Y2phM3lackVpcE1SUXZKV3dBMVd5akhkRE4xTGp1RDZqM2U3LQ?oc=5"
+          "date": "2026-01-26",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRFlGRFB1bW9kblgzbFRJU1hJTXVOZVgwMmlUd09ic0tLRFJHTFFzd0JCZWN4clN4UUhPaXA3V3RSVzBiTEJEYi1KWVNYYk4wQzAya2lhMFRmVmxMbktwbFc5akhXVXpxdVNHZlh5UWhFMkdxdUdwRWdhbkRtRU0tdC1iSEFjdi1SdWs1Z1RxRG5LbkZpTG1rd0ZqckxIRFpDLWc?oc=5"
+        }
+      ]
+    },
+    {
+      "country": "영국",
+      "count": 3,
+      "x": 42,
+      "y": 26,
+      "sampleVictims": [
+        {
+          "title": "ENISA는 공항 중단 뒤에 랜섬웨어가 있음을 확인했습니다. 히드로, 브뤼셀, 베를린 공항 지연 계속",
+          "victimOrg": "ENISA",
+          "primaryLabel": "확인 필요 사고",
+          "date": "2025-09-22",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQRTFLNWZzQnlfbHc1Ykt0SjVKVEtZaGM2S2RjdDVHU0hkck5HcXFHSVR2RWRCVGJrcmd6WDNwMXlDeWczSDlOTlJ1OWNTcVFEXzJjQmxtenZvNDlPVVZLOE93Ty16Z1psemRCTnc4UDAyLTgtcU9MaUs5NXRjcW8wLVZKTDh1ZzVPbUJqUlBUV2U2X2tSVEhwczVRc3AxVU1rMUxLUGwtOW1CVmVsMlJqZVNITm1PeVR2X09fMkszWEt4UWdoV3A3ZGY4UVE3TWhtU1ZMak9oRQ?oc=5"
+        },
+        {
+          "title": "랜섬웨어 사이버 공격으로 피해를 입은 West Lothian 학교",
+          "victimOrg": "West Lothian schools",
+          "primaryLabel": "확인 필요 사고",
+          "date": "2025-05-06",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNd2dBQ3llT3Y3TURwTDlGVlFteHlFR1VmMWRKeUJDckMxT1hlUEk4d3A2c3U5eWtQQUVOLU9KLXg0cHpwbFJWeVZ5cUtzVzBuSWpFTFJhbzRzdw?oc=5"
+        },
+        {
+          "title": "가짜: Babuk2 랜섬웨어 그룹, 가짜 피해자 주장",
+          "victimOrg": "Fake Out",
+          "primaryLabel": "확인 필요 사고",
+          "date": "2025-03-21",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTmw1VTQxUm0wVlhLRktWSUxyQXFGWVdmbnRoc1VxbVVIQUNiTHJRWnptMy10MU1SUU1oQjBNdXNxVDJMdHVuX0dfb3F0YVlaTU5GMElVWExUWmQzbGpKbFZEVFNlYzRFMkIxcUNSOG5HSHE4WVZhazI4bGFmRHZwd0NxTEp4NXNVTGJJTkFlTTMtbHhQdDNjX3ZZVzJwaDRv?oc=5"
         }
       ]
     },
     {
       "country": "일본",
-      "count": 1,
+      "count": 3,
       "x": 86,
       "y": 36,
       "sampleVictims": [
         {
-          "title": "랜섬웨어 공격으로 피해를 입은 일본의 주요 반도체 공급업체",
-          "victimOrg": "Major Japanese semiconductor supplier",
+          "title": "일본 워싱턴호텔, 랜섬웨어 공격으로 서버 마비",
+          "victimOrg": "일본 워싱턴호텔",
           "primaryLabel": "확인 필요 사고",
-          "date": "2026-02-23",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVGI1SlQ4dFJlTjhkXy15c1ZGd1NrV1NIcGJWRDlob2xuOGI1dEx4OXItZUJOdG55ZXVJWlE0ak5DYkljcEFQZUJoRWRTYWpabUxCMkZ0LWdVN3FGVkQ5OUJkcUxuR0t2NDBSdVJpZi1HWmZiV21tS2FRanBWb01uYW9uU25HMlpRTEdhN1dON0p4M0UxeXFMbEVDa3czNG9CdWN3?oc=5"
+          "date": "2026-02-19",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8zN2EzbTVRRHVpcERhbDFqZUVCRlgzdFkxeGxRenRYSUlyYUJ1YlFESFZnekczT3A5WGdlQl9xRVhmY0xDRUZNZjcxZTktd3ZuaXBVX0JCQmVodFVkUmc?oc=5"
+        },
+        {
+          "title": "일본 워싱턴호텔, 랜섬웨어 공격으로 서버 침해…기업 데이터 접근 확인",
+          "victimOrg": "일본 워싱턴호텔",
+          "primaryLabel": "확인 필요 사고",
+          "date": "2026-02-19",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9iR0JCWXl2Z1EwbDRJSXg3YkNMSnRrbUJ5UmM5ZWI1YmIwQm15M214azY0UkZiMDNzRnhlS3FUWHFmTG85QzVGLVN1NkxrZG5DNmV1cmhZVnpaY25NUWNMWWdseWRySVBIcFREbw?oc=5"
+        },
+        {
+          "title": "일본 기업들, 랜섬웨어 피해 후 수 개월간 영업 마비...복구 장기화로 몸살",
+          "victimOrg": "일본 기업들",
+          "primaryLabel": "확인 필요 사고",
+          "date": "2025-12-11",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB6S1c0S2JOYXM5cHFZMXNNeVEwZ05oRkZ0U1ZVbnJVRXBrZUdETmh2WUN6NU5XLWJfdjI5dkVtNWFsNmV3YmdyMnRzN1JTWExjVi02M3pRQUtac3pycDA3RUdXTGh5RmY0S1kyLWtR?oc=5"
+        }
+      ]
+    },
+    {
+      "country": "한국",
+      "count": 3,
+      "x": 82,
+      "y": 38,
+      "sampleVictims": [
+        {
+          "title": "\"잇단 해킹 사고에…\" 대부협회, 회원사 사이버보안 강화",
+          "victimOrg": "\"잇단 해킹 사고에…\" 대부협회",
+          "primaryLabel": "확정 피해사례",
+          "date": "2026-04-29",
+          "url": "https://www.hankooki.com/news/articleView.html?idxno=331413"
+        },
+        {
+          "title": "“한국에 진짜 맛집 다 있네”...해커들, 국내기업 랜섬웨어 공격 10배",
+          "victimOrg": "“한국에 진짜 맛집 다 있네”...해커들",
+          "primaryLabel": "확인 필요 사고",
+          "date": "2026-01-04",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9TdnRVYkhpVkp3QVJBX1h3X1NTQk5VS1BudVZ4azl2dU9HWGZKUGtZei1pQnA3ZlNSdUdiSU1UU0gxZEF5alJ2MXdIa3o4R0U?oc=5"
+        },
+        {
+          "title": "일본 ‘무지’(無印), 배송 파트너 랜섬웨어 공격으로 국내 온라인 사업 마비",
+          "victimOrg": "일본 ‘무지’(無印)",
+          "primaryLabel": "확인 필요 사고",
+          "date": "2025-10-22",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1zVFhwNlVWYm5GbTFyTi1tdWlaOVc1N0NpdmQ1UDZFa19VcXQyLUF2MTUyYmFQaHRISko1aUtvRHhsT0tPNWd4bTg0R1RjMFg3NHRNQnhaOHluczdFRG1v?oc=5"
+        }
+      ]
+    },
+    {
+      "country": "독일",
+      "count": 2,
+      "x": 49,
+      "y": 31,
+      "sampleVictims": [
+        {
+          "title": "100년 역사 독일 냅킨 기업, 랜섬웨어 공격에 파산 위기",
+          "victimOrg": "100년 역사 독일 냅킨 기업",
+          "primaryLabel": "확인 필요 사고",
+          "date": "2025-06-25",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1hRE9HNEU2VThaLXByc0xhRFExZ1VTdkhhOUJQQnpWU1BRNkpmU2tiTHRJakRMaDVESmZKelgzaTJlRjNoTGNYN2Y4XzN4TTFPWmRZNEg3OWVPcmQxM3c?oc=5"
+        },
+        {
+          "title": "Oettinger: 해커들이 랜섬웨어로 독일의 대규모 양조장을 공격했습니다",
+          "victimOrg": "Oettinger",
+          "primaryLabel": "확인 필요 사고",
+          "date": "2025-05-06",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWZjS3RwX2JYLVk2R29iUkJxSXVHSVVOWUhiTkJRa2RGems0YUI0VHdmbGw1NmVlb29WNnpKdlpDTkxaR1RVN3hQS0h6TDhELURtcFdRa2dBOU9qOGdnVk1WY0VPa1ZGTF9tQ01oYnZCZnN2RXVQeEZxbWFVR1p0YlQwdkE5TDRvQ0EycmZ6aDE1RDRuanhOc185cXBVUVByT1A4Ql83M29Ed0FlQnFjLQ?oc=5"
+        }
+      ]
+    },
+    {
+      "country": "루마니아",
+      "count": 1,
+      "x": 54,
+      "y": 32,
+      "sampleVictims": [
+        {
+          "title": "루마니아 전력 30% 담당 최대 발전사, 랜섬웨어 공격으로 IT 인프라 마비",
+          "victimOrg": "루마니아 전력 30% 담당 최대 발전사",
+          "primaryLabel": "확인 필요 사고",
+          "date": "2025-12-30",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9aSGNTUTF3ZEQyMUQ2U0I0WlcwTFAwNXNGc1Qyb183dlEzWVpJaV9wYkxaZVl2alpPdXQ5U21MUDByLXlmSmdwUUxfYnRwSVc3eTFCVEhjS0pyRF9PNTRQUzYtTjBCU2tHc29CaG5n?oc=5"
+        }
+      ]
+    },
+    {
+      "country": "유럽",
+      "count": 1,
+      "x": 52,
+      "y": 30,
+      "sampleVictims": [
+        {
+          "title": "업데이트: Ingram Micro, 랜섬웨어 공격 후 데이터 유출 확인",
+          "victimOrg": "Update",
+          "primaryLabel": "확정 피해사례",
+          "date": "2025-07-07",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcHVrWGVZdzFsa0NKaGVKaXdtRnFMVmJfV091RVM5ei1rSURYdzV1LXFKS1gyeWhLTXZpWWlxMmdWRkkwRURkSWI0LUR3bmJZQUV5dHF5dGh1ZjNZek5rVXVjUlZfRGF2YV9lNU1PajM4dzFBVUtCQXMxREdWckJMQW5JSktmZFJWUXRyMXVkOGJiQUhnOVJYSEZMWVBXdDJm?oc=5"
         }
       ]
     }

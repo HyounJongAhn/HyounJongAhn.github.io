@@ -6,6 +6,8 @@ const SCRIPT_DIR = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(SCRIPT_DIR, '..');
 const SOURCE_PATH = path.join(ROOT, '..', 'dfir-trend-radar', 'data', 'ransomware-watch.json');
 const OUT_DIR = path.join(ROOT, 'data');
+const CACHE_DIR = path.join(ROOT, '.cache');
+const BODY_CACHE_PATH = path.join(CACHE_DIR, 'ransomware-body-cache.json');
 
 const COUNTRY_PATTERNS = [
   ['한국', /(korea|korean|대한민국|한국|국내)/i],
@@ -26,9 +28,26 @@ const COUNTRY_PATTERNS = [
   ['스페인', /(spain|spanish|스페인)/i],
   ['브라질', /(brazil|brazilian|브라질)/i],
   ['멕시코', /(mexico|mexican|멕시코)/i],
+  ['루마니아', /(romania|romanian|루마니아)/i],
   ['러시아', /(russia|russian|러시아)/i],
+  ['사우디아라비아', /(saudi arabia|saudi|사우디)/i],
   ['우크라이나', /(ukraine|ukrainian|우크라이나)/i],
   ['유럽', /(europol|europe|european|유럽|swiss|switzerland)/i]
+];
+
+const EXTRA_COUNTRY_PATTERNS = [
+  ['미국', /(mississippi|arkansas|rhode island|wisconsin|georgia|atlanta|texas|nevada|foster city|coweta|cobb|sheboygan|kettering|davita|frederick health|inotiv|artemis healthcare|beacon mutual|ummc|university of mississippi medical center|ingram micro|hertz|nike|hitachi vantara)/i],
+  ['영국', /(west lothian|heathrow|british|nhs)/i],
+  ['일본', /(japanese semiconductor supplier|tokyo|osaka)/i],
+  ['사우디아라비아', /(saudi arabia|riyadh)/i]
+];
+
+const ORG_COUNTRY_HINTS = [
+  ['미국', /(university of mississippi medical center|ummc|beacon mutual|kettering health|davita|frederick health medical group|arkansas oncology group|artemis healthcare|inotiv|coweta county schools|cobb government|greenville|hitachi vantara|pharmaceutical firm inotiv|texas state utilities|nike|nevada services|sheboygan|foster city|beacon mutual|pathology services provider|large blood center chain|ingram micro)/i],
+  ['영국', /(west lothian schools)/i],
+  ['일본', /(major japanese semiconductor supplier)/i],
+  ['사우디아라비아', /(saudi arabia)/i],
+  ['한국', /\bSFA\b|kisa/i]
 ];
 
 const INDUSTRY_PATTERNS = [
@@ -89,6 +108,7 @@ const TREND_SIGNAL_RE = /(trend|analysis|report|forecast|outlook|statistics|surv
 const AGGREGATE_RE = /(victims?\b.*\b(over|more than|at least|top|global)|\b\d{2,}\+?\s+victims?\b|전세계|세계|글로벌|전 산업|피해 급증|top list|most active)/i;
 const OFFICIAL_DISCLOSURE_RE = /(official|statement|press release|sec filing|8-k|company confirms|company said|provides update|discloses|notifies affected|officially confirmed|보도자료|공식 발표|공식 확인|공시|신고|공지했다|확인했다)/i;
 const DISRUPTION_RE = /(operations disrupted|outage|shutdown|restoring systems|service disruption|data stolen|data exfiltration|encrypted|system outage|운영 중단|서비스 장애|유출|암호화|복구 중|갈취|무단 이전)/i;
+const INCIDENT_SIGNAL_RE = /(attack|attacked|victim|hit by|targeted|breach|incident|outage|shutdown|disruption|encrypted|compromised|leak|피해|공격|침해|마비|중단|유출|被害|攻撃|障害|感染|遭到|攻击|泄露|瘫痪|遭勒索|受勒索)/i;
 const LAW_ENFORCEMENT_RE = /(arrest|arrested|charged|indicted|pleads? guilty|sentenced|prison|seized|seizure|takedown|sanction|fbi|doj|europol|nca|police|law enforcement|기소|체포|압수|제재|실형)/i;
 const PRODUCT_REVIEW_RE = /(\[리뷰\]|\breview\b|product review|솔루션 리뷰|제품 소개|백업 환경|backup environment|powerprotect|cyber recovery|sponsored|buyers guide|구매 가이드|demo)/i;
 const HOWTO_RE = /(how to|remove ransomware|mitigation strategies|대책|제거)/i;
@@ -97,13 +117,42 @@ const VICTIM_PATTERNS = [
   new RegExp(`^(${ENTITY_FRAGMENT}?)\\s+(?:hit by|hit|hits|suffers?|faces?|confirms?|reports?|investigates?|discloses?|restores?|recovers?)(?:\\s+an?|\\s+the)?\\s+ransomware\\b`, 'i'),
   new RegExp(`^(${ENTITY_FRAGMENT}?)\\s+(?:victim of|falls victim to)\\s+(?:an?\\s+)?ransomware\\b`, 'i'),
   new RegExp(`(?:attack on|attacked|breach at|breach of|incident at|claims attack on|target(?:ed|ing)?|cripples?|crippled)\\s+(${ENTITY_FRAGMENT}?)(?=(?:\\s+(?:after|amid|as|with|over|under|from|in|by)\\b|[;:,.]|$))`, 'i'),
-  new RegExp(`^(${ENTITY_FRAGMENT}?)\\s+(?:랜섬웨어|被害|攻撃|勒索软件)`, 'i')
+  new RegExp(`^(${ENTITY_FRAGMENT}?)\\s*(?:는|이|가)?\\s*(?:랜섬웨어 공격|랜섬웨어 피해)`, 'i'),
+  new RegExp(`^(${ENTITY_FRAGMENT}?)\\s*(?:遭勒索軟體攻擊|受勒索軟體攻擊|遭勒索软件攻击|遭受勒索软件攻击)`, 'i')
 ];
 const VICTIM_STOPWORDS = new Set([
   'ransomware', 'cyber attack', 'data breach', 'breaking news', 'cybersecurity insiders', 'the hipaa journal',
   'insurance journal', 'dark reading', 'securityweek', 'industrial cyber', 'the hacker news',
   'victims', 'each other', 'critical sectors', 'critical organizations', 'critical orgs'
 ]);
+
+const GENERIC_VICTIM_RE = /^(?:victims?|each other|critical sectors?|critical orgs?|critical infrastructure|city|county|networks?|services?|vendor|hospitals?|healthcare organizations?|healthcare org|healthcare provider|healthcare providers?|provider|organizations?|major organizations?|outdated systems|in q\d|in ransomware attack|across critical infrastructure sector|us healthcare org|us healthcare provider|large blood center chain|major japanese semiconductor supplier|pathology services provider)\b/i;
+const ORG_SUFFIX_RE = /(health|medical|hospital|group|center|county|city|government|schools?|university|provider|firm|services?|utilities|association|협회|센터|병원|대학|학교|정부|출판|出版|企業|公司|集团|corp|corporation|inc\b|llc\b|ltd\b|mutual|micro|vantara|nike|davita|ummc|oncology|telex|ycc|association|county schools|healthcare|publisher|systems?)/i;
+
+function escapeRegExp(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function decodeEntities(value = '') {
+  return String(value)
+    .replace(/&nbsp;/gi, ' ')
+    .replace(/&amp;/gi, '&')
+    .replace(/&quot;/gi, '"')
+    .replace(/&#39;/gi, "'")
+    .replace(/&lt;/gi, '<')
+    .replace(/&gt;/gi, '>');
+}
+
+function stripHtml(html = '') {
+  return decodeEntities(String(html)
+    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<noscript[\s\S]*?<\/noscript>/gi, ' ')
+    .replace(/<svg[\s\S]*?<\/svg>/gi, ' ')
+    .replace(/<[^>]+>/g, ' '))
+    .replace(/\s+/g, ' ')
+    .trim();
+}
 
 function inferFromPatterns(text, patterns, fallback = '미상') {
   for (const [label, regex] of patterns) {
@@ -113,36 +162,127 @@ function inferFromPatterns(text, patterns, fallback = '미상') {
 }
 
 function normalizeVictim(value) {
-  return value
+  return decodeEntities(value)
     .replace(/^the\s+/i, '')
+    .replace(/^by\s+/i, '')
+    .replace(/^in\s+/i, '')
     .replace(/\s+(reopens clinics|confirms?|reports?|investigates?|discloses?|restores?)$/i, '')
+    .replace(/\s+(says subsidiary|becomes latest|affects?\s+\d[\d,]*|targeted|attacked|hit|impacted|confirms? attack.*)$/i, '')
+    .replace(/\s+-\s+.*$/i, '')
     .replace(/[;:,.]+$/g, '')
+    .replace(/\s+/g, ' ')
     .trim();
 }
 
-function extractVictimOrg(item) {
-  const text = `${item.titleOriginal || item.title} ${item.description || ''}`;
+function isUsefulVictim(candidate = '', publisher = '') {
+  const value = normalizeVictim(candidate);
+  if (!value) return false;
+  if (value.length < 3 || value.length > 110) return false;
+  if (/ransomware|랜섬웨어|勒索|ランサム/i.test(value)) return false;
+  if (VICTIM_STOPWORDS.has(value.toLowerCase())) return false;
+  if (GENERIC_VICTIM_RE.test(value)) return false;
+  if (publisher && value.toLowerCase() === publisher.toLowerCase()) return false;
+  if (value.split(/\s+/).length > 8 && !ORG_SUFFIX_RE.test(value)) return false;
+  if (/ransomware group|threat actor|gang$/i.test(value)) return false;
+  return true;
+}
+
+function bodySnippet(html = '') {
+  const article = html.match(/<article[\s\S]*?<\/article>/i)?.[0]
+    || html.match(/<main[\s\S]*?<\/main>/i)?.[0]
+    || html.match(/<body[\s\S]*?<\/body>/i)?.[0]
+    || html;
+  return stripHtml(article).slice(0, 12000);
+}
+
+function loadBodyCache() {
+  try {
+    return JSON.parse(fs.readFileSync(BODY_CACHE_PATH, 'utf8'));
+  } catch {
+    return {};
+  }
+}
+
+async function fetchArticleBodyText(url) {
+  const response = await fetch(url, {
+    headers: { 'User-Agent': 'Mozilla/5.0 (compatible; ransomware-brief/1.0; +https://example.local)' },
+    redirect: 'follow',
+    signal: AbortSignal.timeout(8000)
+  });
+  if (!response.ok) throw new Error(`fetch ${response.status}`);
+  const html = await response.text();
+  return bodySnippet(html);
+}
+
+async function hydrateBodyTexts(items) {
+  const cache = loadBodyCache();
+  const result = new Map();
+
+  async function processItem(item) {
+    const cacheKey = item.url || item.sourceUrl || item.id;
+    if (cache[cacheKey]?.text) {
+      result.set(item.id, cache[cacheKey].text);
+      return;
+    }
+    let text = '';
+    for (const candidateUrl of [item.url, item.sourceUrl].filter(Boolean)) {
+      try {
+        text = await fetchArticleBodyText(candidateUrl);
+        if (text.length > 400) break;
+      } catch {
+        text = text || '';
+      }
+    }
+    cache[cacheKey] = { text, updatedAt: new Date().toISOString() };
+    result.set(item.id, text);
+  }
+
+  const concurrency = 6;
+  for (let i = 0; i < items.length; i += concurrency) {
+    await Promise.all(items.slice(i, i + concurrency).map(processItem));
+  }
+
+  fs.mkdirSync(CACHE_DIR, { recursive: true });
+  fs.writeFileSync(BODY_CACHE_PATH, JSON.stringify(cache, null, 2));
+  return result;
+}
+
+function extractVictimOrg(item, bodyText = '') {
+  const text = `${item.titleOriginal || item.title} ${item.description || ''} ${bodyText}`;
   for (const pattern of VICTIM_PATTERNS) {
     const match = text.match(pattern);
     const candidate = normalizeVictim(match?.[1] || '');
-    if (!candidate) continue;
-    if (candidate.length < 3 || candidate.length > 100) continue;
-    if (VICTIM_STOPWORDS.has(candidate.toLowerCase())) continue;
-    if (/ransomware group|threat actor|gang$/i.test(candidate)) continue;
-    return candidate;
+    if (isUsefulVictim(candidate, item.publisher)) return candidate;
   }
+
+  const leadingOrg = normalizeVictim((item.titleOriginal || item.title).split(/[,:]/)[0] || '');
+  if (isUsefulVictim(leadingOrg, item.publisher)) return leadingOrg;
+
   return '미상';
 }
 
-function classifyPrimaryClass(item, victimOrg, ransomwareGroup) {
-  const text = `${item.title} ${item.description} ${item.publisher} ${item.titleKo || ''}`;
+function inferCountry(item, ransomwareGroup, victimOrg, bodyText = '') {
+  const text = `${item.title} ${item.description} ${item.publisher} ${item.titleKo || ''} ${item.titleOriginal || ''} ${bodyText} ${victimOrg} ${ransomwareGroup}`;
+  const direct = inferFromPatterns(text, COUNTRY_PATTERNS, '미상');
+  if (direct !== '미상') return direct;
+  const extra = inferFromPatterns(text, EXTRA_COUNTRY_PATTERNS, '미상');
+  if (extra !== '미상') return extra;
+  const orgHint = inferFromPatterns(victimOrg, ORG_COUNTRY_HINTS, '미상');
+  if (orgHint !== '미상') return orgHint;
+  return '미상';
+}
+
+function classifyPrimaryClass(item, victimOrg, ransomwareGroup, bodyText = '') {
+  const text = `${item.title} ${item.description} ${item.publisher} ${item.titleKo || ''} ${bodyText}`;
+  const hasIncidentSignal = item.articleType === 'incident' || (INCIDENT_SIGNAL_RE.test(text) && !TREND_SIGNAL_RE.test(text) && !AGGREGATE_RE.test(text));
   if (PRODUCT_REVIEW_RE.test(text) || HOWTO_RE.test(text)) return 'other';
   if (item.articleType === 'recovery') return 'recovery';
   if (item.articleType === 'law_enforcement' || LAW_ENFORCEMENT_RE.test(text)) return 'law_enforcement';
   if (item.articleType === 'official_notice') return 'official_notice';
+  if (/(전담팀|대응 전담 조직|task force|warning|advisory|guidance|주의보|권고)/i.test(text) && /(kisa|cisa|enisa|agency|ministry|기관|정부)/i.test(text)) return 'official_notice';
   if (item.articleType === 'trend' || TREND_SIGNAL_RE.test(text) || AGGREGATE_RE.test(text)) return 'trend_signal';
-  if (victimOrg !== '미상' && (OFFICIAL_DISCLOSURE_RE.test(text) || DISRUPTION_RE.test(text))) return 'confirmed_incident';
-  if (victimOrg !== '미상') return 'incident_under_review';
+  if (victimOrg !== '미상' && hasIncidentSignal && (OFFICIAL_DISCLOSURE_RE.test(text) || DISRUPTION_RE.test(text))) return 'confirmed_incident';
+  if (victimOrg !== '미상' && item.articleType === 'incident') return 'incident_under_review';
   if (ransomwareGroup !== '미상') return 'trend_signal';
   return 'other';
 }
@@ -163,8 +303,8 @@ function extractRansomAmount(text) {
   return null;
 }
 
-function extractRansomPaymentInfo(item) {
-  const text = `${item.titleOriginal || item.title} ${item.description || ''} ${item.titleKo || ''}`;
+function extractRansomPaymentInfo(item, bodyText = '') {
+  const text = `${item.titleOriginal || item.title} ${item.description || ''} ${item.titleKo || ''} ${bodyText}`;
   const paid = /(paid(?:\s+(?:a|the))?\s+ransom|ransom (?:was )?paid|paid the extortion demand|몸값을?\s+(?:지불|지급|냈)|랜섬머니\s+(?:지불|지급))/i.test(text);
   const notPaid = /(refused to pay|did not pay|has not paid|won't pay|would not pay|declined to pay|몸값을?\s+지불하지 않|몸값을?\s+내지 않|지불 거부)/i.test(text);
   return {
@@ -210,7 +350,7 @@ function writeJson(name, value) {
 }
 
 const raw = JSON.parse(fs.readFileSync(SOURCE_PATH, 'utf8'));
-const enriched = raw.items.map((item) => {
+const baseEnriched = raw.items.map((item) => {
   const text = `${item.title} ${item.description} ${item.publisher} ${item.titleKo || ''} ${item.titleOriginal || ''}`;
   const ransomwareGroup = inferFromPatterns(text, GROUP_PATTERNS, '미상');
   const victimOrg = extractVictimOrg(item);
@@ -228,6 +368,27 @@ const enriched = raw.items.map((item) => {
     primaryLabel: TYPE_LABELS[primaryClass],
     clusterId: buildClusterKey(item, victimOrg, ransomwareGroup),
     ...ransomInfo
+  };
+}).sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+
+const bodyTargets = baseEnriched.filter((item) => item.primaryClass === 'confirmed_incident' || item.primaryClass === 'incident_under_review' || /paid|payment|extortion|몸값|랜섬머니/i.test(`${item.title} ${item.description}`)).slice(0, 80);
+const bodyTexts = await hydrateBodyTexts(bodyTargets);
+
+const enriched = baseEnriched.map((item) => {
+  const bodyText = bodyTexts.get(item.id) || '';
+  const ransomwareGroup = item.ransomwareGroup;
+  const victimOrg = extractVictimOrg(item, bodyText);
+  const country = inferCountry(item, ransomwareGroup, victimOrg, bodyText);
+  const primaryClass = classifyPrimaryClass(item, victimOrg, ransomwareGroup, bodyText);
+  const ransomInfo = extractRansomPaymentInfo(item, bodyText);
+  return {
+    ...item,
+    victimOrg,
+    country,
+    primaryClass,
+    primaryLabel: TYPE_LABELS[primaryClass],
+    ...ransomInfo,
+    bodyTextAvailable: bodyText.length > 400
   };
 }).sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
 
@@ -419,6 +580,7 @@ const COUNTRY_COORDS = {
   '스페인': [43, 40],
   '브라질': [31, 62],
   '멕시코': [17, 46],
+  '루마니아': [54, 32],
   '러시아': [63, 18],
   '우크라이나': [56, 29],
   '유럽': [52, 30]
