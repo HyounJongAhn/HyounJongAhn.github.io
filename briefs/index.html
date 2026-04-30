@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>월간 브리프 | HyounJongAhn</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body data-page="briefs">
+    <div class="page-shell">
+      <header class="hero compact-hero">
+        <div>
+          <p class="eyebrow">Monthly brief</p>
+          <h1>월간 브리프</h1>
+          <p class="hero-copy">최신 월 기준으로 핵심 숫자와 주목 기사, 활동 증가 그룹을 요약해서 보는 공개용 월간 브리프입니다.</p>
+          <nav class="top-nav">
+            <a class="nav-link" href="/">개요</a>
+            <a class="nav-link" href="/archive/">기사 아카이브</a>
+            <a class="nav-link" href="/incidents/">피해사례</a>
+            <a class="nav-link" href="/trends/">동향/신규 이슈</a>
+            <a class="nav-link" href="/groups/">그룹 인텔</a>
+            <a class="nav-link is-active" href="/briefs/">월간 브리프</a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="content-grid">
+        <section class="kpi-grid" id="briefKpis"></section>
+        <section class="card card-span-2">
+          <div class="section-head">
+            <div>
+              <p class="section-eyebrow">Summary</p>
+              <h2 id="briefMonth">-</h2>
+            </div>
+          </div>
+          <ul id="briefInsights" class="insight-list"></ul>
+        </section>
+        <section class="card">
+          <div class="section-head"><div><p class="section-eyebrow">Momentum</p><h2>이번 달 주목 그룹</h2></div></div>
+          <div id="briefGroups" class="rank-list"></div>
+        </section>
+        <section class="card">
+          <div class="section-head"><div><p class="section-eyebrow">Incidents</p><h2>이번 달 사건 분포</h2></div></div>
+          <div id="briefClassRows" class="rank-list"></div>
+        </section>
+        <section class="card card-span-2">
+          <div class="section-head"><div><p class="section-eyebrow">Highlights</p><h2>이번 달 주목 기사</h2></div></div>
+          <div id="briefSignals" class="signal-list"></div>
+        </section>
+      </main>
+    </div>
+    <script type="module" src="/js/briefs.js"></script>
+  </body>
+</html>

@@ -19,6 +19,7 @@
             <a class="nav-link" href="/incidents/">피해사례</a>
             <a class="nav-link" href="/trends/">동향/신규 이슈</a>
             <a class="nav-link is-active" href="/groups/">그룹 인텔</a>
+            <a class="nav-link" href="/briefs/">월간 브리프</a>
           </nav>
         </div>
       </header>
@@ -33,6 +34,12 @@
           </div>
           <div class="filters-grid filters-grid-wide">
             <select id="groupSelect" class="select"></select>
+            <select id="groupSort" class="select">
+              <option value="articles_desc">기사 많은순</option>
+              <option value="incidents_desc">사건 연계 많은순</option>
+              <option value="recent_desc">최근 활동 많은순</option>
+              <option value="name">이름순</option>
+            </select>
           </div>
         </section>
 

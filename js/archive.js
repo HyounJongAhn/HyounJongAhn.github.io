@@ -6,7 +6,8 @@ const controls = {
   primaryClass: document.querySelector('#filterClass'),
   ransomwareGroup: document.querySelector('#filterGroup'),
   country: document.querySelector('#filterCountry'),
-  industry: document.querySelector('#filterIndustry')
+  industry: document.querySelector('#filterIndustry'),
+  sortBy: document.querySelector('#sortBy')
 };
 
 fillSelect(controls.primaryClass, [...new Set(items.map((item) => item.primaryLabel))].filter(Boolean).sort(), '전체 분류');
@@ -24,6 +25,17 @@ function render() {
     if (controls.industry.value && item.industry !== controls.industry.value) return false;
     return true;
   });
+
+  filtered.sort((a, b) => {
+    switch (controls.sortBy.value) {
+      case 'date_asc': return a.date.localeCompare(b.date);
+      case 'group': return (a.ransomwareGroup || '').localeCompare(b.ransomwareGroup || '') || b.date.localeCompare(a.date);
+      case 'publisher': return (a.publisher || '').localeCompare(b.publisher || '') || b.date.localeCompare(a.date);
+      case 'class': return (a.primaryLabel || '').localeCompare(b.primaryLabel || '') || b.date.localeCompare(a.date);
+      default: return b.date.localeCompare(a.date);
+    }
+  });
+
   document.querySelector('#archiveCount').textContent = `${number.format(filtered.length)} / ${number.format(total)}`;
   document.querySelector('#archiveList').innerHTML = filtered.slice(0, 300).map((item) => signalCard(item)).join('');
 }

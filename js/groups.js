@@ -1,10 +1,28 @@
 import { fillSelect, getJson, renderRank, signalCard, number } from '/js/common.js';
 
 const data = await getJson('/data/ransomware-groups.json');
-const profiles = data.profiles;
+let profiles = [...data.profiles];
 const select = document.querySelector('#groupSelect');
-fillSelect(select, profiles.map((profile) => profile.group), '그룹 선택');
-select.value = profiles[0]?.group || '';
+const sortSelect = document.querySelector('#groupSort');
+
+function refillGroups(current) {
+  fillSelect(select, profiles.map((profile) => profile.group), '그룹 선택');
+  select.value = current && profiles.some((profile) => profile.group === current) ? current : (profiles[0]?.group || '');
+}
+
+function sortProfiles() {
+  profiles.sort((a, b) => {
+    switch (sortSelect.value) {
+      case 'incidents_desc': return b.incidentCount - a.incidentCount || b.allArticles - a.allArticles;
+      case 'recent_desc': return b.last90 - a.last90 || b.allArticles - a.allArticles;
+      case 'name': return a.group.localeCompare(b.group);
+      default: return b.allArticles - a.allArticles || a.group.localeCompare(b.group);
+    }
+  });
+}
+
+sortProfiles();
+refillGroups();
 
 function renderKpis(profile) {
   document.querySelector('#groupKpis').innerHTML = [
@@ -34,6 +52,14 @@ function renderProfile(profile) {
 }
 
 select.addEventListener('input', () => {
+  const profile = profiles.find((entry) => entry.group === select.value);
+  if (profile) renderProfile(profile);
+});
+
+sortSelect.addEventListener('input', () => {
+  const current = select.value;
+  sortProfiles();
+  refillGroups(current);
   const profile = profiles.find((entry) => entry.group === select.value);
   if (profile) renderProfile(profile);
 });
