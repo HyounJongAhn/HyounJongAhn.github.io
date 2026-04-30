@@ -14,6 +14,7 @@ for (const point of data.points) {
   dot.style.width = `${14 + (point.count / max) * 20}px`;
   dot.style.height = `${14 + (point.count / max) * 20}px`;
   dot.setAttribute('aria-label', `${point.country} 피해사례 ${point.count}건`);
+  dot.title = `${point.country} 피해사례 ${point.count}건`;
   dot.addEventListener('mouseenter', () => {
     tooltip.hidden = false;
     tooltip.innerHTML = `<strong>${point.country}</strong><div>피해사례 ${point.count}건</div>${point.sampleVictims.slice(0, 2).map((item) => `<div class="map-tooltip-item">${item.date} · ${item.victimOrg !== '미상' ? item.victimOrg : item.title}</div>`).join('')}`;
@@ -25,7 +26,10 @@ for (const point of data.points) {
   dot.addEventListener('mouseleave', () => {
     tooltip.hidden = true;
   });
+  dot.addEventListener('click', () => {
+    window.location.href = `/incidents/?country=${encodeURIComponent(point.country)}`;
+  });
   map.appendChild(dot);
 }
 
-renderRank('#mapCountryRank', data.points.map((point) => ({ label: point.country, value: point.count })), 'value', 'label');
+renderRank('#mapCountryRank', data.points.map((point) => ({ label: `<a class="rank-link" href="/incidents/?country=${encodeURIComponent(point.country)}">${point.country}</a>`, value: point.count })), 'value', 'label');

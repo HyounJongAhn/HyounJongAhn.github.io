@@ -2,13 +2,21 @@ import { getJson, renderRank, signalCard, number } from '/js/common.js';
 
 const { items } = await getJson('/data/ransomware-articles.json');
 const sortSelect = document.querySelector('#incidentSort');
+const countryFilter = new URLSearchParams(window.location.search).get('country');
 const incidentItems = items.filter((item) => item.primaryClass === 'confirmed_incident' || item.primaryClass === 'incident_under_review');
-const paidCount = incidentItems.filter((item) => item.ransomPaymentStatus === 'paid').length;
-const notPaidCount = incidentItems.filter((item) => item.ransomPaymentStatus === 'not_paid').length;
-const amountKnownCount = incidentItems.filter((item) => item.ransomAmount).length;
+const filteredIncidentItems = countryFilter ? incidentItems.filter((item) => item.country === countryFilter) : incidentItems;
+const paidCount = filteredIncidentItems.filter((item) => item.ransomPaymentStatus === 'paid').length;
+const notPaidCount = filteredIncidentItems.filter((item) => item.ransomPaymentStatus === 'not_paid').length;
+const amountKnownCount = filteredIncidentItems.filter((item) => item.ransomAmount).length;
+
+if (countryFilter) {
+  document.querySelector('#incidentFilterNotice').hidden = false;
+  document.querySelector('#incidentFilterTitle').textContent = `${countryFilter} 피해사례 보기`;
+  document.querySelector('#incidentFilterCopy').textContent = `${countryFilter}로 분류된 확정 피해사례와 확인 필요 사고만 모아 보여줍니다.`;
+}
 
 document.querySelector('#incidentKpis').innerHTML = [
-  ['확정+검토 사고', incidentItems.length, '기사 기준'],
+  ['확정+검토 사고', filteredIncidentItems.length, countryFilter ? `${countryFilter} 기준` : '기사 기준'],
   ['지불 확인', paidCount, '기사에 명시된 경우만'],
   ['미지급 확인', notPaidCount, '기사에 명시된 경우만'],
   ['금액 언급', amountKnownCount, '요구/지불 금액 추출']
@@ -32,11 +40,11 @@ function sortItems(list) {
 }
 
 function render() {
-  const sorted = sortItems(incidentItems);
+  const sorted = sortItems(filteredIncidentItems);
   const confirmed = sorted.filter((item) => item.primaryClass === 'confirmed_incident').slice(0, 80);
   const review = sorted.filter((item) => item.primaryClass === 'incident_under_review').slice(0, 80);
   const groupMap = new Map();
-  for (const item of incidentItems.filter((item) => item.ransomwareGroup !== '미상')) {
+  for (const item of filteredIncidentItems.filter((item) => item.ransomwareGroup !== '미상')) {
     groupMap.set(item.ransomwareGroup, (groupMap.get(item.ransomwareGroup) || 0) + 1);
   }
   const groups = [...groupMap.entries()].sort((a, b) => b[1] - a[1]).slice(0, 12).map(([label, value]) => ({ label, value }));

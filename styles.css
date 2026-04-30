@@ -234,6 +234,8 @@ h3 { font-size: 1rem; margin-bottom: 12px; }
 .rank-row { display: grid; gap: 8px; }
 .rank-head { display: flex; justify-content: space-between; gap: 12px; font-size: 0.95rem; color: var(--text-strong); }
 .rank-head strong { color: var(--accent-strong); }
+.rank-link { text-decoration: none; color: inherit; font-weight: 700; }
+.rank-link:hover { color: var(--accent-strong); }
 .track { height: 9px; background: rgba(148,163,184,0.16); border-radius: 999px; overflow: hidden; }
 .bar { height: 100%; background: linear-gradient(90deg, var(--accent), #79b0ff); border-radius: 999px; }
 .table-wrap { overflow-x: auto; }
