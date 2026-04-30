@@ -5,18 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HyounJongAhn | Ransomware Trend Brief</title>
     <meta name="description" content="공개 공유용 랜섬웨어 추세 브리프" />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="/styles.css" />
   </head>
-  <body>
+  <body data-page="home">
     <div class="page-shell">
       <header class="hero">
         <div>
           <p class="eyebrow">HyounJongAhn.github.io</p>
           <h1>Ransomware Trend Brief</h1>
           <p class="hero-copy">
-            내부 운영용 동적 분석 환경과 분리된, 공개 공유용 정적 랜섬웨어 브리프입니다.
-            기사량과 사건량을 분리하고, 그룹·국가·산업·월별 추세를 한 번에 볼 수 있게 구성합니다.
+            내부 운영용 동적 분석 환경에서 정제한 결과를 공개 공유용 정적 브리프로 재구성했습니다.
+            기사량·사건량·그룹 동향·국가/산업 추세를 분리해서 볼 수 있게 만들었습니다.
           </p>
+          <nav class="top-nav">
+            <a class="nav-link is-active" href="/">개요</a>
+            <a class="nav-link" href="/archive/">기사 아카이브</a>
+            <a class="nav-link" href="/incidents/">피해사례</a>
+            <a class="nav-link" href="/trends/">동향/신규 이슈</a>
+          </nav>
         </div>
         <div class="hero-panel">
           <div class="hero-panel-label">Snapshot</div>
@@ -136,19 +142,8 @@
           </div>
           <div id="recentSignals" class="signal-list"></div>
         </section>
-
-        <section class="card card-span-2">
-          <div class="section-head">
-            <div>
-              <p class="section-eyebrow">Methodology</p>
-              <h2>산출 기준</h2>
-            </div>
-          </div>
-          <ul id="methodologyList" class="methodology-list"></ul>
-        </section>
       </main>
     </div>
-
-    <script type="module" src="./app.js"></script>
+    <script type="module" src="/js/home.js"></script>
   </body>
 </html>

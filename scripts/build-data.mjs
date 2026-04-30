@@ -1,10 +1,11 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const ROOT = process.cwd();
+const SCRIPT_DIR = path.dirname(fileURLToPath(import.meta.url));
+const ROOT = path.resolve(SCRIPT_DIR, '..');
 const SOURCE_PATH = path.join(ROOT, '..', 'dfir-trend-radar', 'data', 'ransomware-watch.json');
 const OUT_DIR = path.join(ROOT, 'data');
-const OUT_PATH = path.join(OUT_DIR, 'ransomware-summary.json');
 
 const COUNTRY_PATTERNS = [
   ['한국', /(korea|korean|대한민국|한국|국내)/i],
@@ -74,15 +75,23 @@ const GROUP_PATTERNS = [
   ['The Gentlemen', /the gentlemen/i]
 ];
 
+const TYPE_LABELS = {
+  confirmed_incident: '확정 피해사례',
+  incident_under_review: '확인 필요 사고',
+  trend_signal: '추세/동향',
+  official_notice: '공식공지',
+  law_enforcement: '법집행',
+  recovery: '복구도구',
+  other: '기타'
+};
+
 const TREND_SIGNAL_RE = /(trend|analysis|report|forecast|outlook|statistics|survey|predicted|predictions?|rise[s]?|surge[s]?|emerging|new variant|group profile|closer look|동향|추세|전망|통계|급증|확산|등장|주의|증가|활동량|생태계|전술 변화|기법|post-quantum|양자내성)/i;
 const AGGREGATE_RE = /(victims?\b.*\b(over|more than|at least|top|global)|\b\d{2,}\+?\s+victims?\b|전세계|세계|글로벌|전 산업|피해 급증|top list|most active)/i;
 const OFFICIAL_DISCLOSURE_RE = /(official|statement|press release|sec filing|8-k|company confirms|company said|provides update|discloses|notifies affected|officially confirmed|보도자료|공식 발표|공식 확인|공시|신고|공지했다|확인했다)/i;
 const DISRUPTION_RE = /(operations disrupted|outage|shutdown|restoring systems|service disruption|data stolen|data exfiltration|encrypted|system outage|운영 중단|서비스 장애|유출|암호화|복구 중|갈취|무단 이전)/i;
-const ATTACKER_CLAIM_RE = /(claims? (first )?victims?|takes credit|attacker claims?|leak site|named on leak site|gang said|operators said|책임을 주장|주장했다|게시했다|claims attack on)/i;
 const LAW_ENFORCEMENT_RE = /(arrest|arrested|charged|indicted|pleads? guilty|sentenced|prison|seized|seizure|takedown|sanction|fbi|doj|europol|nca|police|law enforcement|기소|체포|압수|제재|실형)/i;
 const PRODUCT_REVIEW_RE = /(\[리뷰\]|\breview\b|product review|솔루션 리뷰|제품 소개|백업 환경|backup environment|powerprotect|cyber recovery|sponsored|buyers guide|구매 가이드|demo)/i;
 const HOWTO_RE = /(how to|remove ransomware|mitigation strategies|대책|제거)/i;
-
 const ENTITY_FRAGMENT = `[A-Z][A-Za-z0-9&'().,\-/ ]{1,90}`;
 const VICTIM_PATTERNS = [
   new RegExp(`^(${ENTITY_FRAGMENT}?)\\s+(?:hit by|hit|hits|suffers?|faces?|confirms?|reports?|investigates?|discloses?|restores?|recovers?)(?:\\s+an?|\\s+the)?\\s+ransomware\\b`, 'i'),
@@ -90,10 +99,9 @@ const VICTIM_PATTERNS = [
   new RegExp(`(?:attack on|attacked|breach at|breach of|incident at|claims attack on|target(?:ed|ing)?|cripples?|crippled)\\s+(${ENTITY_FRAGMENT}?)(?=(?:\\s+(?:after|amid|as|with|over|under|from|in|by)\\b|[;:,.]|$))`, 'i'),
   new RegExp(`^(${ENTITY_FRAGMENT}?)\\s+(?:랜섬웨어|被害|攻撃|勒索软件)`, 'i')
 ];
-
 const VICTIM_STOPWORDS = new Set([
-  'ransomware', 'cyber attack', 'data breach', 'breaking news', 'cybersecurity insiders',
-  'the hipaa journal', 'insurance journal', 'dark reading', 'securityweek', 'industrial cyber'
+  'ransomware', 'cyber attack', 'data breach', 'breaking news', 'cybersecurity insiders', 'the hipaa journal',
+  'insurance journal', 'dark reading', 'securityweek', 'industrial cyber', 'the hacker news'
 ]);
 
 function inferFromPatterns(text, patterns, fallback = '미상') {
@@ -140,23 +148,33 @@ function classifyPrimaryClass(item, victimOrg, ransomwareGroup) {
 
 function buildClusterKey(item, victimOrg, ransomwareGroup) {
   if (victimOrg !== '미상') return `victim:${victimOrg.toLowerCase()}`;
-  if (ransomwareGroup !== '미상') return `group:${ransomwareGroup}:${item.publishedAt.slice(0, 7)}`;
+  if (ransomwareGroup !== '미상') return `group:${ransomwareGroup}:${String(item.publishedAt).slice(0, 7)}`;
   return `title:${(item.titleOriginal || item.title).toLowerCase().replace(/[^a-z0-9가-힣]+/gi, ' ').trim().slice(0, 64)}`;
 }
 
 function topCounts(values, limit) {
   const map = new Map();
   for (const value of values) map.set(value, (map.get(value) || 0) + 1);
-  return [...map.entries()].sort((a, b) => b[1] - a[1] || String(a[0]).localeCompare(String(b[0]))).slice(0, limit)
+  return [...map.entries()]
+    .sort((a, b) => b[1] - a[1] || String(a[0]).localeCompare(String(b[0])))
+    .slice(0, limit)
     .map(([label, value]) => ({ label, value }));
 }
 
-function monthKey(iso) {
-  return String(iso).slice(0, 7);
+function monthKey(value) {
+  return String(value).slice(0, 7);
 }
 
 function titleFor(item) {
   return item.titleKo || item.titleOriginal || item.title;
+}
+
+function isoDate(value) {
+  return String(value).slice(0, 10);
+}
+
+function writeJson(name, value) {
+  fs.writeFileSync(path.join(OUT_DIR, name), JSON.stringify(value, null, 2));
 }
 
 const raw = JSON.parse(fs.readFileSync(SOURCE_PATH, 'utf8'));
@@ -174,11 +192,14 @@ const enriched = raw.items.map((item) => {
     country,
     industry,
     primaryClass,
+    primaryLabel: TYPE_LABELS[primaryClass],
     clusterId: buildClusterKey(item, victimOrg, ransomwareGroup)
   };
-});
+}).sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
 
-const byPrimaryClass = Object.fromEntries(topCounts(enriched.map((item) => item.primaryClass), 20).map(({ label, value }) => [label, value]));
+const byPrimaryClass = Object.fromEntries(
+  topCounts(enriched.map((item) => item.primaryClass), 20).map(({ label, value }) => [label, value])
+);
 const groupKnownItems = enriched.filter((item) => item.ransomwareGroup !== '미상');
 const incidentItems = enriched.filter((item) => item.primaryClass === 'confirmed_incident' || item.primaryClass === 'incident_under_review');
 const confirmedItems = enriched.filter((item) => item.primaryClass === 'confirmed_incident');
@@ -201,13 +222,64 @@ for (const item of enriched) {
   monthlyMap.set(key, row);
 }
 
+const groupProfiles = [...new Set(groupKnownItems.map((item) => item.ransomwareGroup))].map((group) => {
+  const items = groupKnownItems.filter((item) => item.ransomwareGroup === group);
+  const clusterCount = new Set(items.map((item) => item.clusterId)).size;
+  const incidentCount = items.filter((item) => item.primaryClass === 'confirmed_incident' || item.primaryClass === 'incident_under_review').length;
+  const last90 = items.filter((item) => new Date(item.publishedAt).getTime() >= Date.now() - 90 * 86400000).length;
+  const previous180 = items.filter((item) => {
+    const ts = new Date(item.publishedAt).getTime();
+    return ts < Date.now() - 90 * 86400000 && ts >= Date.now() - 270 * 86400000;
+  }).length;
+  return {
+    group,
+    allArticles: items.length,
+    clusterCount,
+    incidentCount,
+    firstSeen: isoDate(items[items.length - 1].publishedAt),
+    lastSeen: isoDate(items[0].publishedAt),
+    last90,
+    previous180,
+    delta: last90 - previous180,
+    sampleTitle: titleFor(items[0])
+  };
+}).sort((a, b) => b.allArticles - a.allArticles || a.group.localeCompare(b.group));
+
+const emergingGroups = groupProfiles
+  .filter((profile) => profile.allArticles >= 2)
+  .filter((profile) => new Date(profile.firstSeen).getTime() >= Date.now() - 365 * 86400000)
+  .sort((a, b) => new Date(b.firstSeen).getTime() - new Date(a.firstSeen).getTime() || b.allArticles - a.allArticles)
+  .slice(0, 12);
+
+const momentumGroups = groupProfiles
+  .filter((profile) => profile.last90 > 0)
+  .sort((a, b) => b.delta - a.delta || b.last90 - a.last90)
+  .slice(0, 12);
+
+const recentSignals = enriched
+  .filter((item) => item.ransomwareGroup !== '미상' || item.primaryClass === 'confirmed_incident' || item.primaryClass === 'law_enforcement')
+  .slice(0, 24)
+  .map((item) => ({
+    id: item.id,
+    date: isoDate(item.publishedAt),
+    title: titleFor(item),
+    publisher: item.publisher,
+    primaryClass: item.primaryClass,
+    primaryLabel: item.primaryLabel,
+    ransomwareGroup: item.ransomwareGroup,
+    country: item.country,
+    industry: item.industry,
+    victimOrg: item.victimOrg,
+    url: item.url
+  }));
+
 const insightLines = [
   `전체 기사 ${raw.stats.totalItems}건 중 그룹명이 식별된 기사는 ${groupKnownItems.length}건입니다.`,
   `확정 피해사례는 ${confirmedItems.length}건, 검토 필요 사고는 ${incidentItems.length - confirmedItems.length}건으로 분리했습니다.`,
-  `그룹 통계는 기사 언급량, 사건 기준 클러스터, 피해사례 직접 연결 그룹을 따로 보여줍니다.`
+  `공개판에서는 그룹 통계를 기사 언급량, 사건 기준 클러스터, 피해사례 직접 연결 그룹으로 따로 보여줍니다.`
 ];
 
-const output = {
+const summary = {
   site: {
     title: 'Ransomware Trend Brief',
     subtitle: '공개 공유용 정적 랜섬웨어 브리프',
@@ -234,24 +306,52 @@ const output = {
   topIndustriesIncident: topCounts(incidentItems.filter((item) => item.industry !== '미상').map((item) => item.industry), 10),
   topPublishers: topCounts(enriched.map((item) => item.publisher), 12),
   monthlyTimeline: [...monthlyMap.values()].sort((a, b) => a.month.localeCompare(b.month)),
-  recentSignals: enriched
-    .filter((item) => item.ransomwareGroup !== '미상' || item.primaryClass === 'confirmed_incident' || item.primaryClass === 'law_enforcement')
-    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
-    .slice(0, 18)
-    .map((item) => ({
-      date: item.publishedAt.slice(0, 10),
-      title: titleFor(item),
-      publisher: item.publisher,
-      primaryClass: item.primaryClass,
-      ransomwareGroup: item.ransomwareGroup,
-      country: item.country,
-      industry: item.industry,
-      url: item.url
-    })),
+  recentSignals,
   methodology: raw.methodology,
   insights: insightLines
 };
 
+const archive = {
+  generatedAt: raw.generatedAt,
+  total: enriched.length,
+  items: enriched.map((item) => ({
+    id: item.id,
+    date: isoDate(item.publishedAt),
+    title: titleFor(item),
+    titleOriginal: item.titleOriginal || item.title,
+    publisher: item.publisher,
+    primaryClass: item.primaryClass,
+    primaryLabel: item.primaryLabel,
+    ransomwareGroup: item.ransomwareGroup,
+    country: item.country,
+    industry: item.industry,
+    victimOrg: item.victimOrg,
+    clusterId: item.clusterId,
+    articleType: item.articleType,
+    languageHint: item.languageHint,
+    url: item.url,
+    sourceUrl: item.sourceUrl,
+    description: item.description
+  }))
+};
+
+const trends = {
+  generatedAt: raw.generatedAt,
+  groupProfiles: groupProfiles.slice(0, 20),
+  emergingGroups,
+  momentumGroups,
+  recentSignalsByClass: {
+    trend_signal: recentSignals.filter((item) => item.primaryClass === 'trend_signal').slice(0, 10),
+    official_notice: recentSignals.filter((item) => item.primaryClass === 'official_notice').slice(0, 10),
+    law_enforcement: recentSignals.filter((item) => item.primaryClass === 'law_enforcement').slice(0, 10),
+    recovery: recentSignals.filter((item) => item.primaryClass === 'recovery').slice(0, 10)
+  }
+};
+
 fs.mkdirSync(OUT_DIR, { recursive: true });
-fs.writeFileSync(OUT_PATH, JSON.stringify(output, null, 2));
-console.log(`Wrote ${OUT_PATH}`);
+writeJson('ransomware-summary.json', summary);
+writeJson('ransomware-articles.json', archive);
+writeJson('ransomware-trends.json', trends);
+console.log(`Wrote ${path.join(OUT_DIR, 'ransomware-summary.json')}`);
+console.log(`Wrote ${path.join(OUT_DIR, 'ransomware-articles.json')}`);
+console.log(`Wrote ${path.join(OUT_DIR, 'ransomware-trends.json')}`);

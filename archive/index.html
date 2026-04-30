@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>기사 아카이브 | HyounJongAhn</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body data-page="archive">
+    <div class="page-shell">
+      <header class="hero compact-hero">
+        <div>
+          <p class="eyebrow">Archive</p>
+          <h1>기사 아카이브</h1>
+          <p class="hero-copy">전체 기사 목록을 정적 JSON으로 제공하고, 브라우저에서 바로 검색/필터링할 수 있게 구성한 공개 아카이브입니다.</p>
+          <nav class="top-nav">
+            <a class="nav-link" href="/">개요</a>
+            <a class="nav-link is-active" href="/archive/">기사 아카이브</a>
+            <a class="nav-link" href="/incidents/">피해사례</a>
+            <a class="nav-link" href="/trends/">동향/신규 이슈</a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="content-grid single-column">
+        <section class="card">
+          <div class="section-head">
+            <div>
+              <p class="section-eyebrow">Filters</p>
+              <h2>검색과 필터</h2>
+            </div>
+            <p class="section-note"><span id="archiveCount">-</span>건 표시</p>
+          </div>
+          <div class="filters-grid">
+            <input id="filterQ" class="input" type="text" placeholder="제목, 그룹, 피해조직, 매체 검색" />
+            <select id="filterClass" class="select"></select>
+            <select id="filterGroup" class="select"></select>
+            <select id="filterCountry" class="select"></select>
+            <select id="filterIndustry" class="select"></select>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="section-head">
+            <div>
+              <p class="section-eyebrow">Articles</p>
+              <h2>전체 기사 목록</h2>
+            </div>
+          </div>
+          <div id="archiveList" class="signal-list"></div>
+        </section>
+      </main>
+    </div>
+    <script type="module" src="/js/archive.js"></script>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>동향/신규 이슈 | HyounJongAhn</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body data-page="trends">
+    <div class="page-shell">
+      <header class="hero compact-hero">
+        <div>
+          <p class="eyebrow">Trends</p>
+          <h1>동향 / 신규 이슈</h1>
+          <p class="hero-copy">신규 그룹, 최근 활동 증가 그룹, 법집행·공지·복구 신호를 분리해서 보는 공개용 동향 페이지입니다.</p>
+          <nav class="top-nav">
+            <a class="nav-link" href="/">개요</a>
+            <a class="nav-link" href="/archive/">기사 아카이브</a>
+            <a class="nav-link" href="/incidents/">피해사례</a>
+            <a class="nav-link is-active" href="/trends/">동향/신규 이슈</a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="content-grid">
+        <section class="card">
+          <div class="section-head"><div><p class="section-eyebrow">Emerging groups</p><h2>최근 등장 그룹</h2></div></div>
+          <div id="emergingGroups" class="rank-list"></div>
+        </section>
+        <section class="card">
+          <div class="section-head"><div><p class="section-eyebrow">Momentum</p><h2>최근 활동 증가 그룹</h2></div></div>
+          <div id="momentumGroups" class="rank-list"></div>
+        </section>
+        <section class="card card-span-2">
+          <div class="section-head"><div><p class="section-eyebrow">Recent signals</p><h2>법집행 / 공지 / 복구 / 동향</h2></div></div>
+          <div class="tab-grid">
+            <div>
+              <h3>법집행</h3>
+              <div id="lawSignals" class="signal-list compact-list"></div>
+            </div>
+            <div>
+              <h3>공식공지</h3>
+              <div id="noticeSignals" class="signal-list compact-list"></div>
+            </div>
+            <div>
+              <h3>복구도구</h3>
+              <div id="recoverySignals" class="signal-list compact-list"></div>
+            </div>
+            <div>
+              <h3>추세/동향</h3>
+              <div id="trendSignals" class="signal-list compact-list"></div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script type="module" src="/js/trends.js"></script>
+  </body>
+</html>

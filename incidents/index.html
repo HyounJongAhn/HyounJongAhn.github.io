@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>피해사례 | HyounJongAhn</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body data-page="incidents">
+    <div class="page-shell">
+      <header class="hero compact-hero">
+        <div>
+          <p class="eyebrow">Incidents</p>
+          <h1>피해사례 브리프</h1>
+          <p class="hero-copy">확정 피해사례와 확인 필요 사고를 분리해 보여주는 공개용 정적 사건 브리프입니다.</p>
+          <nav class="top-nav">
+            <a class="nav-link" href="/">개요</a>
+            <a class="nav-link" href="/archive/">기사 아카이브</a>
+            <a class="nav-link is-active" href="/incidents/">피해사례</a>
+            <a class="nav-link" href="/trends/">동향/신규 이슈</a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="content-grid">
+        <section class="card">
+          <div class="section-head"><div><p class="section-eyebrow">Confirmed</p><h2>확정 피해사례</h2></div></div>
+          <div id="confirmedList" class="signal-list"></div>
+        </section>
+        <section class="card">
+          <div class="section-head"><div><p class="section-eyebrow">Review</p><h2>확인 필요 사고</h2></div></div>
+          <div id="reviewList" class="signal-list"></div>
+        </section>
+        <section class="card card-span-2">
+          <div class="section-head"><div><p class="section-eyebrow">Groups</p><h2>피해사례 직접 연결 그룹</h2></div></div>
+          <div id="incidentGroups" class="rank-list"></div>
+        </section>
+      </main>
+    </div>
+    <script type="module" src="/js/incidents.js"></script>
+  </body>
+</html>
