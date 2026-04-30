@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HyounJongAhn | Ransomware Trend Brief</title>
+    <meta name="description" content="공개 공유용 랜섬웨어 추세 브리프" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">HyounJongAhn.github.io</p>
+          <h1>Ransomware Trend Brief</h1>
+          <p class="hero-copy">
+            내부 운영용 동적 분석 환경과 분리된, 공개 공유용 정적 랜섬웨어 브리프입니다.
+            기사량과 사건량을 분리하고, 그룹·국가·산업·월별 추세를 한 번에 볼 수 있게 구성합니다.
+          </p>
+        </div>
+        <div class="hero-panel">
+          <div class="hero-panel-label">Snapshot</div>
+          <div id="generatedAt" class="hero-panel-value">-</div>
+          <div id="periodLabel" class="hero-panel-subtle">-</div>
+        </div>
+      </header>
+
+      <main class="content-grid">
+        <section class="kpi-grid" id="kpiGrid"></section>
+
+        <section class="card card-span-2">
+          <div class="section-head">
+            <div>
+              <p class="section-eyebrow">Executive summary</p>
+              <h2>핵심 인사이트</h2>
+            </div>
+          </div>
+          <ul id="insightList" class="insight-list"></ul>
+        </section>
+
+        <section class="card card-span-2">
+          <div class="section-head">
+            <div>
+              <p class="section-eyebrow">Trend</p>
+              <h2>월별 분류 추세</h2>
+            </div>
+            <p class="section-note">confirmed / review / trend / official / law enforcement / recovery</p>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>월</th>
+                  <th>확정</th>
+                  <th>검토</th>
+                  <th>추세</th>
+                  <th>공식공지</th>
+                  <th>법집행</th>
+                  <th>복구</th>
+                </tr>
+              </thead>
+              <tbody id="timelineBody"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="section-head">
+            <div>
+              <p class="section-eyebrow">Groups</p>
+              <h2>그룹 언급량</h2>
+            </div>
+            <p class="section-note">전체 기사 기준</p>
+          </div>
+          <div id="groupsAll" class="rank-list"></div>
+        </section>
+
+        <section class="card">
+          <div class="section-head">
+            <div>
+              <p class="section-eyebrow">Groups</p>
+              <h2>사건 기준 그룹</h2>
+            </div>
+            <p class="section-note">중복 사건 정리 후</p>
+          </div>
+          <div id="groupsCluster" class="rank-list"></div>
+        </section>
+
+        <section class="card">
+          <div class="section-head">
+            <div>
+              <p class="section-eyebrow">Incidents</p>
+              <h2>피해사례 직접 연결 그룹</h2>
+            </div>
+            <p class="section-note">incident only</p>
+          </div>
+          <div id="groupsIncident" class="rank-list"></div>
+        </section>
+
+        <section class="card">
+          <div class="section-head">
+            <div>
+              <p class="section-eyebrow">Countries</p>
+              <h2>피해사례 상위 국가</h2>
+            </div>
+          </div>
+          <div id="countryRank" class="rank-list"></div>
+        </section>
+
+        <section class="card">
+          <div class="section-head">
+            <div>
+              <p class="section-eyebrow">Industries</p>
+              <h2>피해사례 상위 산업</h2>
+            </div>
+          </div>
+          <div id="industryRank" class="rank-list"></div>
+        </section>
+
+        <section class="card">
+          <div class="section-head">
+            <div>
+              <p class="section-eyebrow">Media</p>
+              <h2>주요 매체</h2>
+            </div>
+          </div>
+          <div id="publisherRank" class="rank-list"></div>
+        </section>
+
+        <section class="card card-span-2">
+          <div class="section-head">
+            <div>
+              <p class="section-eyebrow">Recent signals</p>
+              <h2>최근 주목 항목</h2>
+            </div>
+          </div>
+          <div id="recentSignals" class="signal-list"></div>
+        </section>
+
+        <section class="card card-span-2">
+          <div class="section-head">
+            <div>
+              <p class="section-eyebrow">Methodology</p>
+              <h2>산출 기준</h2>
+            </div>
+          </div>
+          <ul id="methodologyList" class="methodology-list"></ul>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
