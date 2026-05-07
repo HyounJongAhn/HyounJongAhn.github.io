@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-05T04:40:29.719Z",
+  "generatedAt": "2026-05-07T06:07:18.686Z",
   "points": [
     {
       "country": "미국",
-      "count": 20,
+      "count": 19,
       "x": 17.2,
       "y": 32.1,
       "sampleVictims": [
@@ -29,7 +29,7 @@
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRFlGRFB1bW9kblgzbFRJU1hJTXVOZVgwMmlUd09ic0tLRFJHTFFzd0JCZWN4clN4UUhPaXA3V3RSVzBiTEJEYi1KWVNYYk4wQzAya2lhMFRmVmxMbktwbFc5akhXVXpxdVNHZlh5UWhFMkdxdUdwRWdhbkRtRU0tdC1iSEFjdi1SdWs1Z1RxRG5LbkZpTG1rd0ZqckxIRFpDLWc?oc=5"
         },
         {
-          "title": "Artemis Healthcare Falls Victim to Ransomware Attack",
+          "title": "Artemis Healthcare가 랜섬웨어 공격의 피해자가 되었습니다 - HIPAA 저널",
           "victimOrg": "Artemis Healthcare",
           "primaryLabel": "확인 필요 사고",
           "date": "2025-12-30",

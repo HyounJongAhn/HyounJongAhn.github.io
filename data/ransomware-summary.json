@@ -2,100 +2,104 @@
   "site": {
     "title": "Ransomware Trend Brief",
     "subtitle": "랜섬웨어 추세 브리프",
-    "generatedAt": "2026-05-05T04:40:29.719Z",
+    "generatedAt": "2026-05-07T06:07:18.686Z",
     "period": {
       "from": "2025-01-01T00:00:00Z",
-      "to": "2026-04-30T23:59:59Z"
+      "to": "2026-05-07T06:06:56.978Z"
     },
     "sourceRepoNote": "Source data snapshot generated from local dfir-trend-radar workspace."
   },
   "overview": {
-    "totalArticles": 2257,
-    "uniquePublishers": 586,
-    "groupKnownArticles": 316,
-    "confirmedIncidents": 7,
-    "reviewIncidents": 30,
-    "trendSignals": 598,
-    "officialNotices": 50,
-    "lawEnforcement": 95
+    "totalArticles": 2368,
+    "uniquePublishers": 633,
+    "groupKnownArticles": 323,
+    "confirmedIncidents": 11,
+    "reviewIncidents": 32,
+    "trendSignals": 681,
+    "officialNotices": 51,
+    "lawEnforcement": 116
   },
   "hero": {
     "hotWindowLabel": "최근 30일",
     "hotGroups": [
       {
+        "label": "BlackCat/ALPHV",
+        "value": 8,
+        "incidentCount": 0,
+        "clusterCount": 7
+      },
+      {
         "label": "Medusa",
-        "value": 7,
+        "value": 6,
         "incidentCount": 0,
         "clusterCount": 10
       },
       {
-        "label": "The Gentlemen",
-        "value": 5,
+        "label": "Akira",
+        "value": 4,
         "incidentCount": 0,
-        "clusterCount": 3
+        "clusterCount": 13
       },
       {
         "label": "Qilin",
         "value": 3,
         "incidentCount": 0,
-        "clusterCount": 14
+        "clusterCount": 16
       },
       {
-        "label": "Akira",
+        "label": "The Gentlemen",
         "value": 2,
-        "incidentCount": 1,
-        "clusterCount": 13
-      },
-      {
-        "label": "BlackCat/ALPHV",
-        "value": 1,
         "incidentCount": 0,
-        "clusterCount": 6
+        "clusterCount": 3
       }
     ],
     "classMix": {
-      "confirmed_incident": 0,
-      "incident_under_review": 0,
-      "trend_signal": 36,
+      "confirmed_incident": 2,
+      "incident_under_review": 2,
+      "trend_signal": 67,
       "official_notice": 8,
-      "law_enforcement": 17,
-      "recovery": 4
+      "law_enforcement": 31,
+      "recovery": 6
     },
-    "articleCount": 179
+    "articleCount": 298
   },
   "articleTypeCounts": {
-    "incident": 679,
-    "other": 1310,
-    "trend": 128,
-    "law_enforcement": 64,
-    "recovery": 28,
-    "official_notice": 48
+    "incident": 738,
+    "trend": 133,
+    "other": 1344,
+    "official_notice": 49,
+    "law_enforcement": 74,
+    "recovery": 30
   },
   "primaryClassCounts": {
-    "other": 1449,
-    "trend_signal": 598,
-    "law_enforcement": 95,
-    "official_notice": 50,
-    "incident_under_review": 30,
-    "recovery": 28,
-    "confirmed_incident": 7
+    "other": 1448,
+    "trend_signal": 681,
+    "law_enforcement": 116,
+    "official_notice": 51,
+    "incident_under_review": 32,
+    "recovery": 29,
+    "confirmed_incident": 11
   },
   "topGroupsAllArticles": [
     {
       "label": "Qilin",
-      "value": 56
+      "value": 58
     },
     {
       "label": "Medusa",
-      "value": 45
+      "value": 48
     },
     {
       "label": "Akira",
-      "value": 38
+      "value": 34
     },
     {
       "label": "LockBit",
-      "value": 27
+      "value": 28
+    },
+    {
+      "label": "BlackCat/ALPHV",
+      "value": 16
     },
     {
       "label": "Interlock",
@@ -103,15 +107,11 @@
     },
     {
       "label": "DragonForce",
-      "value": 14
+      "value": 15
     },
     {
       "label": "RansomHub",
-      "value": 12
-    },
-    {
-      "label": "The Gentlemen",
-      "value": 11
+      "value": 13
     },
     {
       "label": "SafePay",
@@ -119,21 +119,21 @@
     },
     {
       "label": "Anubis",
-      "value": 9
-    },
-    {
-      "label": "BlackCat/ALPHV",
-      "value": 9
+      "value": 8
     },
     {
       "label": "Lynx",
+      "value": 8
+    },
+    {
+      "label": "The Gentlemen",
       "value": 8
     }
   ],
   "topGroupsByCluster": [
     {
       "label": "Qilin",
-      "value": 14
+      "value": 16
     },
     {
       "label": "Akira",
@@ -157,11 +157,11 @@
     },
     {
       "label": "RansomHub",
-      "value": 7
+      "value": 8
     },
     {
       "label": "BlackCat/ALPHV",
-      "value": 6
+      "value": 7
     },
     {
       "label": "Anubis",
@@ -180,16 +180,11 @@
       "value": 4
     }
   ],
-  "topIncidentGroups": [
-    {
-      "label": "Akira",
-      "value": 1
-    }
-  ],
+  "topIncidentGroups": [],
   "topCountriesIncident": [
     {
       "label": "미국",
-      "value": 20
+      "value": 19
     },
     {
       "label": "영국",
@@ -211,73 +206,85 @@
   "topIndustriesIncident": [
     {
       "label": "의료",
-      "value": 8
+      "value": 9
     },
     {
       "label": "공공",
-      "value": 3
+      "value": 4
     },
     {
       "label": "교육",
-      "value": 2
+      "value": 3
+    },
+    {
+      "label": "유통/서비스",
+      "value": 3
     },
     {
       "label": "제조",
       "value": 2
     },
     {
+      "label": "금융",
+      "value": 1
+    },
+    {
       "label": "에너지/인프라",
+      "value": 1
+    },
+    {
+      "label": "통신/IT",
       "value": 1
     }
   ],
   "topPublishers": [
     {
       "label": "iThome",
-      "value": 136
+      "value": 116
     },
     {
       "label": "보안뉴스",
-      "value": 59
+      "value": 63
     },
     {
       "label": "informationsecurity.com.tw",
-      "value": 55
+      "value": 56
     },
     {
       "label": "Industrial Cyber",
-      "value": 52
+      "value": 50
     },
     {
       "label": "ScanNetSecurity",
-      "value": 41
-    },
-    {
-      "label": "www.trendmicro.com",
-      "value": 36
-    },
-    {
-      "label": "合同会社ロケットボーイズ",
-      "value": 34
+      "value": 44
     },
     {
       "label": "데일리시큐",
-      "value": 33
+      "value": 42
     },
     {
-      "label": "지디넷코리아",
-      "value": 33
+      "label": "www.trendmicro.com",
+      "value": 38
     },
     {
-      "label": "Halcyon",
-      "value": 32
+      "label": "合同会社ロケットボーイズ",
+      "value": 36
     },
     {
       "label": "安全内参",
-      "value": 32
+      "value": 36
+    },
+    {
+      "label": "Halcyon",
+      "value": 35
+    },
+    {
+      "label": "The Record from Recorded Future News",
+      "value": 33
     },
     {
       "label": "The HIPAA Journal",
-      "value": 31
+      "value": 32
     }
   ],
   "monthlyTimeline": [
@@ -286,90 +293,90 @@
       "confirmed_incident": 0,
       "incident_under_review": 0,
       "trend_signal": 26,
-      "official_notice": 2,
-      "law_enforcement": 0,
+      "official_notice": 3,
+      "law_enforcement": 1,
       "recovery": 0,
-      "other": 76
+      "other": 75
     },
     {
       "month": "2025-02",
       "confirmed_incident": 0,
-      "incident_under_review": 2,
-      "trend_signal": 27,
+      "incident_under_review": 1,
+      "trend_signal": 26,
       "official_notice": 1,
-      "law_enforcement": 11,
-      "recovery": 0,
-      "other": 79
+      "law_enforcement": 14,
+      "recovery": 1,
+      "other": 76
     },
     {
       "month": "2025-03",
-      "confirmed_incident": 0,
+      "confirmed_incident": 1,
       "incident_under_review": 1,
-      "trend_signal": 47,
-      "official_notice": 5,
-      "law_enforcement": 9,
+      "trend_signal": 46,
+      "official_notice": 6,
+      "law_enforcement": 8,
       "recovery": 0,
-      "other": 64
+      "other": 63
     },
     {
       "month": "2025-04",
       "confirmed_incident": 0,
-      "incident_under_review": 5,
-      "trend_signal": 26,
-      "official_notice": 1,
-      "law_enforcement": 3,
+      "incident_under_review": 4,
+      "trend_signal": 27,
+      "official_notice": 0,
+      "law_enforcement": 2,
       "recovery": 2,
-      "other": 61
+      "other": 60
     },
     {
       "month": "2025-05",
-      "confirmed_incident": 0,
-      "incident_under_review": 5,
-      "trend_signal": 42,
+      "confirmed_incident": 1,
+      "incident_under_review": 6,
+      "trend_signal": 48,
       "official_notice": 1,
-      "law_enforcement": 5,
+      "law_enforcement": 6,
       "recovery": 0,
-      "other": 72
+      "other": 68
     },
     {
       "month": "2025-06",
       "confirmed_incident": 0,
       "incident_under_review": 1,
-      "trend_signal": 35,
+      "trend_signal": 41,
       "official_notice": 1,
       "law_enforcement": 7,
       "recovery": 1,
-      "other": 78
+      "other": 70
     },
     {
       "month": "2025-07",
       "confirmed_incident": 0,
       "incident_under_review": 1,
-      "trend_signal": 29,
+      "trend_signal": 37,
       "official_notice": 3,
-      "law_enforcement": 2,
-      "recovery": 1,
-      "other": 96
+      "law_enforcement": 4,
+      "recovery": 2,
+      "other": 87
     },
     {
       "month": "2025-08",
       "confirmed_incident": 4,
       "incident_under_review": 1,
-      "trend_signal": 28,
-      "official_notice": 2,
-      "law_enforcement": 3,
-      "recovery": 2,
-      "other": 100
+      "trend_signal": 37,
+      "official_notice": 3,
+      "law_enforcement": 4,
+      "recovery": 3,
+      "other": 83
     },
     {
       "month": "2025-09",
       "confirmed_incident": 0,
       "incident_under_review": 2,
-      "trend_signal": 38,
-      "official_notice": 4,
-      "law_enforcement": 8,
-      "recovery": 2,
-      "other": 88
+      "trend_signal": 46,
+      "official_notice": 5,
+      "law_enforcement": 6,
+      "recovery": 0,
+      "other": 80
     },
     {
       "month": "2025-10",
@@ -377,76 +384,190 @@
       "incident_under_review": 1,
       "trend_signal": 60,
       "official_notice": 2,
-      "law_enforcement": 1,
+      "law_enforcement": 2,
       "recovery": 0,
-      "other": 115
+      "other": 112
     },
     {
       "month": "2025-11",
       "confirmed_incident": 0,
       "incident_under_review": 0,
-      "trend_signal": 48,
+      "trend_signal": 46,
       "official_notice": 6,
       "law_enforcement": 11,
       "recovery": 3,
-      "other": 87
+      "other": 82
     },
     {
       "month": "2025-12",
       "confirmed_incident": 1,
       "incident_under_review": 2,
-      "trend_signal": 21,
-      "official_notice": 3,
+      "trend_signal": 30,
+      "official_notice": 2,
       "law_enforcement": 7,
       "recovery": 4,
-      "other": 121
+      "other": 112
     },
     {
       "month": "2026-01",
       "confirmed_incident": 2,
       "incident_under_review": 2,
-      "trend_signal": 33,
+      "trend_signal": 36,
       "official_notice": 1,
-      "law_enforcement": 6,
-      "recovery": 3,
-      "other": 98
+      "law_enforcement": 7,
+      "recovery": 2,
+      "other": 95
     },
     {
       "month": "2026-02",
       "confirmed_incident": 0,
       "incident_under_review": 7,
-      "trend_signal": 59,
-      "official_notice": 5,
+      "trend_signal": 60,
+      "official_notice": 4,
       "law_enforcement": 2,
       "recovery": 2,
-      "other": 92
+      "other": 88
     },
     {
       "month": "2026-03",
       "confirmed_incident": 0,
-      "incident_under_review": 0,
+      "incident_under_review": 1,
       "trend_signal": 39,
-      "official_notice": 5,
-      "law_enforcement": 3,
-      "recovery": 3,
-      "other": 96
+      "official_notice": 4,
+      "law_enforcement": 4,
+      "recovery": 2,
+      "other": 97
     },
     {
       "month": "2026-04",
       "confirmed_incident": 0,
       "incident_under_review": 0,
-      "trend_signal": 40,
-      "official_notice": 8,
-      "law_enforcement": 17,
-      "recovery": 5,
-      "other": 126
+      "trend_signal": 35,
+      "official_notice": 5,
+      "law_enforcement": 13,
+      "recovery": 3,
+      "other": 125
+    },
+    {
+      "month": "2026-05",
+      "confirmed_incident": 2,
+      "incident_under_review": 2,
+      "trend_signal": 41,
+      "official_notice": 4,
+      "law_enforcement": 18,
+      "recovery": 4,
+      "other": 75
     }
   ],
   "recentSignals": [
     {
-      "id": "g-en-2026-04-01-8-Rm9ybWVyIGlu",
-      "date": "2026-04-30",
-      "title": "랜섬웨어 공격으로 전직 사고 대응자에게 징역 4년 선고",
+      "id": "g-ja-2026-05-01-3-44OH44Oz44K9",
+      "date": "2026-05-06",
+      "title": "덴소 (6902), 해외 그룹 회사에 대한 무단 액세스 - 랜섬웨어 그룹 Qilin 범행 성명",
+      "publisher": "合同会社ロケットボーイズ",
+      "primaryClass": "trend_signal",
+      "primaryLabel": "추세/동향",
+      "ransomwareGroup": "Qilin",
+      "country": "미상",
+      "industry": "미상",
+      "victimOrg": "미상",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ2NkYTNvVUxUd3JxNVM5VDBoSk9iMlBmcUR5TlJhVDlQNW5OamxCbGlhQVplQWJVa09kamdoYjlhZ09fMC1QU19ZS19fNWpWYTRVRUVaQk96eWprNVZzbzctV2tpdnBBd2lmLTNzYlNYOVJnS2UwWHpxRTlodkhzZWVRYVhOcEZ3aE5uWXhITGUtbkpQU2RlQTRXem1uM3M?oc=5"
+    },
+    {
+      "id": "g-pt-2026-05-01-8-RE9KIGRpeiBx",
+      "date": "2026-05-06",
+      "title": "DOJ는 랜섬웨어 갱단이 정부 데이터베이스에 접근했다고 밝혔습니다.",
+      "publisher": "Boa Informação",
+      "primaryClass": "law_enforcement",
+      "primaryLabel": "법집행",
+      "ransomwareGroup": "미상",
+      "country": "미상",
+      "industry": "공공",
+      "victimOrg": "미상",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMi1hV3VTdDZxZUJaS0t5czRTb2pOam5VekNwT2xOVlRMTGJCT2I1ZmEyQWFhakJiRHNZSng3em5aanJPQlBicnppd3E1OUNZZUR4NUhyN0VLNWRCYzFXNUctY09xR09USEZCY3F1UXI5aVc2RFNmM2dXOWVqY2U2ZDVPX21HcDFzeDVRdkl5eHptVGNQNXdYSjRMYkx5SGg3cl9MYk5lRjA?oc=5"
+    },
+    {
+      "id": "g-en-2026-05-01-0-RE9KIHNheXMg",
+      "date": "2026-05-06",
+      "title": "DOJ는 랜섬웨어 갱단이 러시아 정부 데이터베이스를 도청했다고 밝혔습니다",
+      "publisher": "TechCrunch",
+      "primaryClass": "law_enforcement",
+      "primaryLabel": "법집행",
+      "ransomwareGroup": "미상",
+      "country": "러시아",
+      "industry": "공공",
+      "victimOrg": "미상",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNY3UtemFBM2p6cHlCcFd1YUJQNjJSMUs3UE1Ia1BEaXR1eGVyMEpDLWhwdnIxU09faUNEOW4yRHlXSFA1dzdpYlJVdmhZb2xkMUloMVNNV0s5aFdVaDlYSHdHRE5yclU1aGpFanpISW02MkZPazJCRFFhNUphU01JRGFTU0lWLVlWRV95Z3g1M1p3WEVxOVEtSDNhUDFib1Z1dnc?oc=5"
+    },
+    {
+      "id": "g-en-2026-05-01-14-RE9KIHNheXMg",
+      "date": "2026-05-06",
+      "title": "DOJ는 랜섬웨어 갱단이 러시아 정부 데이터베이스를 도청했다고 밝혔습니다.",
+      "publisher": "Yahoo",
+      "primaryClass": "law_enforcement",
+      "primaryLabel": "법집행",
+      "ransomwareGroup": "미상",
+      "country": "러시아",
+      "industry": "공공",
+      "victimOrg": "미상",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPR3V4b05uT0ljcG5XcGNTcGF4YzdhdTJZekhSckNnYXFwZUl1WGpNOWZuVndoYTZHbllJeHNFVDUyZElSY0N3ZTNuTnR0VkxIZXhyb2dSbWNHLTVsZEFhd0FvSkhEWloyVVBwM3g2bURVOWJLc2pKRXk3V01DS1Y0NXN4anBVcFJFR0E?oc=5"
+    },
+    {
+      "id": "g-en-2026-05-01-17-U3RhcnIgSW5z",
+      "date": "2026-05-06",
+      "title": "Starr Insurance, 랜섬웨어 공격 공개",
+      "publisher": "The HIPAA Journal",
+      "primaryClass": "confirmed_incident",
+      "primaryLabel": "확정 피해사례",
+      "ransomwareGroup": "미상",
+      "country": "미상",
+      "industry": "금융",
+      "victimOrg": "Starr Insurance",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE81SDAxQ2t0Y0VUdWZIVXRIaVUzSEZBQm5Wc01wNWEtcF9fU0hfRDNucFNBdHBuNm9IYmlDN25nSXhlVTlmMXZTckIxQWV3NHFBRm5Hd2w2VFZYcDlMMjFFX2FvdlBVMXVsTFc0MXNQTXI?oc=5"
+    },
+    {
+      "id": "zh-4-576O5ZyL5rOV6Zmi",
+      "date": "2026-05-06",
+      "title": "미국 법원, 러시아 카라쿠르트 랜섬웨어 그룹에서 일하고 정부 데이터베이스를 해킹한 혐의로 라트비아 해커 Deniss Zolotarjovs에게 8년 이상의 징역형을 선고",
+      "publisher": "Techritual 香港",
+      "primaryClass": "trend_signal",
+      "primaryLabel": "추세/동향",
+      "ransomwareGroup": "Akira",
+      "country": "홍콩",
+      "industry": "공공",
+      "victimOrg": "미상",
+      "url": "https://www.techritual.com/2026/05/07/523238/"
+    },
+    {
+      "id": "en-0-RE9KIHNheXMgcmFu",
+      "date": "2026-05-06",
+      "title": "DOJ는 랜섬웨어 갱단이 러시아 정부 데이터베이스를 도청했다고 밝혔습니다.",
+      "publisher": "TechCrunch",
+      "primaryClass": "law_enforcement",
+      "primaryLabel": "법집행",
+      "ransomwareGroup": "미상",
+      "country": "미국",
+      "industry": "공공",
+      "victimOrg": "미상",
+      "url": "https://techcrunch.com/2026/05/06/doj-says-ransomware-gang-tapped-into-russian-government-databases/"
+    },
+    {
+      "id": "g-en-2026-05-01-18-Q29udGksIEFr",
+      "date": "2026-05-05",
+      "title": "Conti, Akira 랜섬웨어 제휴업체에 8년 형 선고",
+      "publisher": "The Record from Recorded Future News",
+      "primaryClass": "trend_signal",
+      "primaryLabel": "추세/동향",
+      "ransomwareGroup": "Akira",
+      "country": "미상",
+      "industry": "미상",
+      "victimOrg": "미상",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1QVnRFNVdjS1BJSGFuWHg3NXdXdXRtM3ZyamJpUTNocmctT1VHY0JkTjY3U1JPVTRkeldWWlVqNGM2WXdvOVVfdVdSVFk4OWUzMFZnX1I5M2RkbldVdXp4RDZpUElqcXgyS1lnelJYQUV2azR6?oc=5"
+    },
+    {
+      "id": "g-en-2026-05-01-4-TGF0dmlhbiBu",
+      "date": "2026-05-05",
+      "title": "전 Conti 지도자들이 운영한 랜섬웨어 공격으로 라트비아 국민에게 선고",
       "publisher": "CyberScoop",
       "primaryClass": "law_enforcement",
       "primaryLabel": "법집행",
@@ -454,306 +575,202 @@
       "country": "미상",
       "industry": "미상",
       "victimOrg": "미상",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNlZrRkJJcG1oU3otc2tGYXIwblMwOEhxX2lSMHloQkJEYTB4WHdxVzFOWk5BbWFTU1lObHJsWEZHaHlQdW5GM3lWWkhpcjZiTVVBNXZjQ3NnZks4MHEwMzljVUwxTzNUeV9HRDZsN3EyY3RCZE41Zk9iUkhucF9yRWN5ZHRPUDRXa3hnak9JRmxwZmxrdVE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE14STdKNjdQV2hXX0FJaDdhbW1MWjJrSEh5MEpvakdPU3F5YnN3N09TNnIwSzdMdUtsWXJpRkhMcXQ2N0lXQ2V2NXFTcmpoQjZZNFQwcXVRd0dKZzl0UENGN203LWFieTdqcUY3U2JEdnpCX1U?oc=5"
     },
     {
-      "id": "en-10-QXV0byBpbmR1c3Ry",
-      "date": "2026-04-30",
-      "title": "2025년 자동차 산업 랜섬웨어 공격 두 배 이상 증가",
-      "publisher": "Yahoo Finance",
+      "id": "en-10-RkJJIENpbmNpbm5h",
+      "date": "2026-05-05",
+      "title": "FBI 신시내티, Tri-State를 겨냥한 러시아 랜섬웨어 그룹 배후에 연방 징역형 선고",
+      "publisher": "WCPO 9 News",
       "primaryClass": "law_enforcement",
       "primaryLabel": "법집행",
       "ransomwareGroup": "미상",
-      "country": "미상",
+      "country": "러시아",
       "industry": "법집행/사법",
-      "victimOrg": "미상",
-      "url": "https://finance.yahoo.com/sectors/technology/articles/auto-industry-ransomware-attacks-more-092905367.html"
+      "victimOrg": "Tri-State Deniss Zolotarjovs",
+      "url": "https://www.wcpo.com/news/crime/fbi-cincinnati-secures-federal-prison-sentence-for-man-behind-russian-ransomware-group-targeting-tri-state"
     },
     {
-      "id": "g-es-2026-04-01-13-RXVyb3BvbCBh",
-      "date": "2026-04-29",
-      "title": "Europol은 사이버 범죄의 급증을 경고합니다: AI가 사기, '랜섬웨어' 및 디지털 갈취를 가속화합니다",
-      "publisher": "Estrella Digital",
-      "primaryClass": "law_enforcement",
-      "primaryLabel": "법집행",
-      "ransomwareGroup": "미상",
-      "country": "유럽",
-      "industry": "법집행/사법",
-      "victimOrg": "미상",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNY0ltaER6Xy1iUEJ0cU1OMk13NU56SHpNeWhtdmp2R3c5SGcwOVN2QkdoeWR1TUt6ZlBFcXlzTG5LNVNNa1dxUm5LUEEyekNlckw5R1JiOFIwZGY2ZWZtMDFfSmZjM1FrdmZodlZ4YlZ4U0ZwM0MwOENZd2x2LWd1NzRLWE9ycDl6QnM5MWVqQkVIem1OZTZVY2RmbkFIRTV2My05Ry1aa3hIVkhyVVN5Q3NFZ0JnOGVkeEllUG9jSGVaaFdzVUE5YmpodzY0NWpUU3I3WUR1Y21XdzdTQ014MVBvQm9QM0ZZU0ZtRUhDc25MQ1HSAfgBQVVfeXFMTXptRlgyTFczbXlFNy1TV2FqcVZkSGhpU0NZZlNPSzRrNk0tNnVZM09GNk5FNm5xa3I3MUVSd1Y3c0dfUGw0YXlSU2RDMEUySFEyckwwY21DVkYySzhiOHkwUDJTUEpUaWw5dEhIYUlURUJtai1UOTZqRlMxOFdMNXRQalk4bGxIZ18yLWY5Tk5pekZUZzBnQ1ZnQXNmRjhjSUYzbTlET3pvRFJlczlvQnRmbVkyX3E3MjRUUzBzN19VT1BCcFRuQk5JUjRocFdGOG5NQVNaNWEya0FlajdPTmZSbDNDNmtzVjlsbHJmaExHSHpLWFFqT04?oc=5"
-    },
-    {
-      "id": "g-en-2026-04-01-5-RXgtUmFuc29t",
-      "date": "2026-04-28",
-      "title": "Ex-Ransomware Negotiator Pleads Guilty to Extorting U.S. Victims, $10M in Assets Seized",
-      "publisher": "Carrier Management",
-      "primaryClass": "law_enforcement",
-      "primaryLabel": "법집행",
-      "ransomwareGroup": "미상",
-      "country": "미국",
-      "industry": "미상",
-      "victimOrg": "미상",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5fUmhsQzlwc1ROdFJ6MVhRYWlvc0xyOTRGVTUxYnJ4RFBlRVJFZXNELV9QZzNBNEZCbTJoYlZiLUpvZGlpS3Qyb05zMFNiWERGZHpKSHFLWHNXb3V4bi0tc0FMMEhwZDFESUZxaw?oc=5"
-    },
-    {
-      "id": "g-pt-2026-04-01-3-QWtpcmEgcmFu",
-      "date": "2026-04-28",
-      "title": "Akira 랜섬웨어: 2026년에 성장하여 FBI의 주목을 받은 그룹을 만나보세요",
-      "publisher": "WeLiveSecurity",
-      "primaryClass": "law_enforcement",
-      "primaryLabel": "법집행",
-      "ransomwareGroup": "Akira",
-      "country": "미상",
-      "industry": "법집행/사법",
-      "victimOrg": "미상",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUE5GdFRjWTF0bU52SnVERkVuaFllQ2hfbDBXOU13ajlZNm9IZ0phMWVLV1B6OTUxQi0wRHAxT3RnUUs2VjVhUW53SVd5OWN2dHVNZk55cVlERVJBeFRGa3hwTEVCNjI4N2U5blI4bGJiRUlQMGNKWEg5UkMyQ2tudFZXZzRYVEVkYXVkT1dnM2xPZm9rZnlqVTVXWWNFcy1FTl9jTnM2NnRXWjZlRWl2X0YyNFZkU01raC1MaTIwSQ?oc=5"
-    },
-    {
-      "id": "g-it-2026-04-01-6-RXVyb3BvbDog",
-      "date": "2026-04-28",
-      "title": "Europol: “AI 덕분에 랜섬웨어, 사기, 온라인 위협이 점점 더 위험해지고 있습니다.” IOCTA 보고서 2026 - CyberSecurity 이탈리아",
-      "publisher": "CyberSecurity Italia",
-      "primaryClass": "law_enforcement",
-      "primaryLabel": "법집행",
-      "ransomwareGroup": "미상",
-      "country": "이탈리아",
-      "industry": "물류/운송",
-      "victimOrg": "미상",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOV0lLaFNQbk5xSW5MTmM1S2dnNkdITEMxQ1lFcS1JSEVVLThKMmtLWUFScDFjc1hIRFowVGlfMVI1M1NhOGpYbG5GUnhfX0Fqb0FSdEZrd1RSSGJoZjRIcHhia19USmFLblJUVF8yUVR4LXNMckUyc3pqeFVjM0d3T1FBcDVwWWpwMWVTNFdHSE1QQXVtLTdzSWxBZVhWSHRoemRzY0JicC1DRnpHc1JLSHFJOGhuSDRrNVpyTnRWWC1CQnh5WXRaWmYwa2stRVdZdy13?oc=5"
-    },
-    {
-      "id": "g-it-2026-04-01-15-VGhlIEdlbnRs",
-      "date": "2026-04-28",
-      "title": "The Gentlemen: 2026년 가장 활발한 서비스형 랜섬웨어 작전 - Cyber ​​​​Security 360",
-      "publisher": "Cyber Security 360",
+      "id": "g-fr-2026-05-01-3-UmFuc29td2Fy",
+      "date": "2026-05-05",
+      "title": "ALPHV BlackCat 랜섬웨어: 보안 전문가가 공격자의 편으로 전환하는 경우",
+      "publisher": "Solutions-Numeriques",
       "primaryClass": "trend_signal",
       "primaryLabel": "추세/동향",
-      "ransomwareGroup": "The Gentlemen",
+      "ransomwareGroup": "BlackCat/ALPHV",
       "country": "미상",
-      "industry": "유통/서비스",
+      "industry": "미상",
       "victimOrg": "미상",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNjZuMS04djFTc0h2OF9SV1Z5bm1BdGVWa0JyeDNaakhNdUkyeVUzTVhQVzYxa2didl9vejdqWHkwSUxoV1NKU0tWcnA1ZjAwMDJsd2lpbHNHZmU5ZVFpRjRaMm9TRGVDTmlQQUxZcWlkcnYwRGU3TlQyZFdHQ1AwNkViY1BWWl9SNzRrRDVGWklfRFBhazc5UVBSQWtXSDFoV2hWWVFLWjhxbE5Qc2Y5RHc2NEV0RG8?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVi1XUjcyZnh1WGZVbENyYjBJcVh6MUc3WllVUG5fZmdqcjI1LW93RVhrYTUzR3NDZU5PdU1mNGM3OXBISGx0VW93WVBVNUxPc2s2ZG5POWt6eHQtOWl2WUZlVE1MbzhRcERoT2NkVXE2VTJUV3pKMDRMR1l0NzVLN0xaYUJucFA4b0NfOFJESVUxb2xSRXhRa2plSDZTNGlSQm5TYUFfb2JnMWJMNlFESGZoUGpNaFRKUVprdmxDY2o?oc=5"
     },
     {
-      "id": "g-it-2026-04-01-10-VGhlIEdlbnRs",
-      "date": "2026-04-27",
-      "title": "급증하는 랜섬웨어, 더 젠틀맨(The Gentlemen)",
-      "publisher": "SecurityOpenLab",
+      "id": "g-de-2026-05-01-5-V2VyIGlzdCBS",
+      "date": "2026-05-05",
+      "title": "RansomHub는 누구입니까? - 보안 내부자",
+      "publisher": "Security-Insider",
       "primaryClass": "trend_signal",
       "primaryLabel": "추세/동향",
-      "ransomwareGroup": "The Gentlemen",
+      "ransomwareGroup": "RansomHub",
       "country": "미상",
       "industry": "미상",
       "victimOrg": "미상",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdm56TEt6aE5RZ3cwQ3BHYWt1cERESjFmeXh6NzQtZzBBa2QxUXVtTVM4a0JSb0RuTmtPYzIxUlJyS3RjaGZSTXdsWjJwZ2dSOXZNSE45UFVjR3Ewb3VtVC05NXNOMUh0NTk4RzRwcVFLWG9XOWpfdmhvVmhnbklDTVBFVlVaSW9pbDFCSW5XOUZBX1FEcWfSAZMBQVVfeXFMUFpKME5CZnBuMUZBajB3YzdudTY2c2JEa1R3Zjg0MUxPX3drZEl6U0YtR0d3cVVYSUd1WkJJNTd4eGRWNzJucTJIOFZNdi1teG0wWUh1anJhODJLLUY3NXl4bXFVY1N6OS1Vbk5LLWNIUGZuUnM5Y1VyWWJRejUyX2ZSYmdpcm9wd19RRmREU1hrOFZF?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONnZUZ3IwdVNMZWNyM3RsQWhFQVlwaDI5UTZZRjJ1N2pfSG15Z0x5NVZ4VS15UFFNellnMVJWNUlJajNnVThtR3lheHZrc1ZUQy1rYjhuSGs2M0NIdnhua3dYN0FmVzhDOWRxNEd1V2lETkx6YUcyUzZ2VzlHYTlRcWJHcUFnRHJfMjJjS3dGRVgyUUtpQ2JfY0h3VU9Hd2NLTk0xbWRPcw?oc=5"
     },
     {
-      "id": "g-en-2026-04-01-10-Rm9ybWVyIFJh",
-      "date": "2026-04-27",
-      "title": "전직 랜섬웨어 협상가, 공격자 지원에 유죄 인정 - 보험 저널",
-      "publisher": "Insurance Journal",
-      "primaryClass": "law_enforcement",
-      "primaryLabel": "법집행",
-      "ransomwareGroup": "미상",
-      "country": "미상",
-      "industry": "금융",
-      "victimOrg": "미상",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAwdHE0eVloUi1hbXpmNEwwZVM4X1dwX3ctZnZOVDlmeUFVY3hlN3huOHBGVnZfcnBubnRheVFURTNTTnI0X1AzcHBUaVBrS1dNaC1PWENYUmQ0cEZ5UDZmamtuRjhDVDh4MzBSTGF2OXZBRFg0NFJr?oc=5"
-    },
-    {
-      "id": "g-en-2026-04-01-13-UmFuc29td2Fy",
-      "date": "2026-04-26",
-      "title": "랜섬웨어 협상가, 랜섬웨어를 직접 배포한 것에 대해 유죄를 인정 - 미래주의",
-      "publisher": "Futurism",
+      "id": "g-en-2026-05-01-19-S2FyYWt1cnQg",
+      "date": "2026-05-05",
+      "title": "Karakurt 랜섬웨어 협상가에게 징역형이 선고됨",
+      "publisher": "SecurityWeek",
       "primaryClass": "law_enforcement",
       "primaryLabel": "법집행",
       "ransomwareGroup": "미상",
       "country": "미상",
       "industry": "미상",
       "victimOrg": "미상",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rV0tzV2kzTFlYNWxUdXZCRkVHLXY1d0w2SjI3NHlqMTFDcVpGa3o4enk2cHpGUC1rOVQwc0VJZzIyanNjd3UzcmJMNUg2X09lU0gzTEVKZEZMcmwwTDlZcHdncXN1Q1dJYlE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNYmdQOHZRWjVCRDA0eFdBTlJSZHdmdG9LTXdqVS1fQ2Q0SjFOelZ5WXU5a2FhMUVKVWZ0ZG5hZjJFOUNYcjR1RURYdmZjNmF2S1l4eWU3c0JjNWlHdEZwM1IyaWw2UzFESDF2cUtiaG1Bd1UxUGJpb1BURTN4eEIyTVdWZkptMHPSAYwBQVVfeXFMTzNvdlJDMDVoeUVrNW5pcVhmd0FwRzRHdWRvUS1zUGYxOTRWYVJ5VFl0ZzQwOFEtTEpxTWxjOVJoWWQtVWFqbUt5dTViRkF6NmF3dkpNS2c3Ujh3Z05BemM3MmxONk00bzJMSl8wY2JuUUk5d2VXWjJpZ29EOWtlQzNHMFdxQ2poMVNzSG0?oc=5"
     },
     {
-      "id": "en-7-UmFuc29td2FyZSBO",
-      "date": "2026-04-26",
-      "title": "랜섬웨어 협상가, 랜섬웨어를 직접 배포한 것에 대해 유죄를 인정",
-      "publisher": "Futurism on MSN",
-      "primaryClass": "law_enforcement",
-      "primaryLabel": "법집행",
-      "ransomwareGroup": "미상",
-      "country": "미상",
-      "industry": "미상",
-      "victimOrg": "미상",
-      "url": "https://www.msn.com/en-us/news/crime/ransomware-negotiator-pleads-guilty-to-deploying-ransomware-himself/ar-AA21LtGD"
-    },
-    {
-      "id": "g-en-2026-04-01-6-QSBSYW5zb213",
-      "date": "2026-04-22",
-      "title": "랜섬웨어 협상가, 이중 간첩 혐의 인정",
-      "publisher": "Gizmodo",
-      "primaryClass": "law_enforcement",
-      "primaryLabel": "법집행",
-      "ransomwareGroup": "미상",
-      "country": "미상",
-      "industry": "미상",
-      "victimOrg": "미상",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYllXRFgtT0ZmWjdxTy1Fa3lMOTlkR19CdktfQlVyNWt5bmphUG9zY0I0aFJXQV9iQkJYUGtRMFJ2czZyaU9ndHlOTUVBV2VQSEE4VS16SjQ0UnJaSmlNSU1kbnpGcFh5OXhHUW1GUENla3pFZjg1X1F6WTMyem1iQ2dfdklCQzhRMUdoVGVwdjFkUWNYRG5n?oc=5"
-    },
-    {
-      "id": "g-zh-2026-04-01-1-5rOw5Zu9VGhh",
-      "date": "2026-04-22",
-      "title": "泰国Thai Rung Union Car遭遇The Gentlemen勒索软件攻击事件分析",
-      "publisher": "电子工程专辑",
-      "primaryClass": "trend_signal",
-      "primaryLabel": "추세/동향",
-      "ransomwareGroup": "The Gentlemen",
-      "country": "미상",
-      "industry": "미상",
-      "victimOrg": "미상",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5wa0pmSTNRVWFWNjluVTFUZFlkWDR1WnlJRFRMczh5Sy0zbVlMS3lLcVRXVllVcV9sY2wzNk1kQmQwTmVmUl9vMFgxMkprQW5neXVr?oc=5"
-    },
-    {
-      "id": "g-es-2026-04-01-14-VGhlIEdlbnRs",
-      "date": "2026-04-22",
-      "title": "The Gentlemen, el peligroso grupo de ransomware que ataca al sector tecnológico y sanitario a nivel mundial",
-      "publisher": "20Minutos",
-      "primaryClass": "trend_signal",
-      "primaryLabel": "추세/동향",
-      "ransomwareGroup": "The Gentlemen",
-      "country": "미상",
-      "industry": "미상",
-      "victimOrg": "미상",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPSmxPd0trT0lVNG53U0lqZHd2d0dvMEFLdnMyRFRnSm8tdV9VT2dZdVh1b3g1NHRsQklKdUJHd01zejBwamNvNFhJTzI0d3p6RGJfUFJSZVcwLWcwZ0xmeHhFNEtERGh0ZDlnV2VqM2UxUjZTWVhWWWtQNDdWSjE5RWZBbDZIOXl2eDNPT3c0ZHlPVGViX2lpZUg4a1VvNkc3WUFFMWxEU25KenJrYWUtTExpZ3VtSG9HcXBveFBESnYyTklYSXhQSG9KN1RLMDdZYzREanVnWFdwX3FoUmpuQTVILUk0RGR4N3RvMnpRaDE?oc=5"
-    },
-    {
-      "id": "g-es-2026-04-01-4-QWtpcmEgcmFu",
-      "date": "2026-04-21",
-      "title": "Akira 랜섬웨어: 2026년의 붐과 FBI 경고",
-      "publisher": "WeLiveSecurity",
-      "primaryClass": "law_enforcement",
-      "primaryLabel": "법집행",
-      "ransomwareGroup": "Akira",
-      "country": "미상",
-      "industry": "법집행/사법",
-      "victimOrg": "미상",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSjdydHhUZndaTDl1V3Y4cUFqZlphUDBTdnhkbURXMWFud3B4djdGajZ4R25TekQyNFdVUU9ya0hlVXdLZlo1U1NNUl9HcGdaeTU0bVVUcEhESnNhY3o4WGd2WkNXd1hITUhfcVpua3RrYXBhVVQxeUJlN3pQeDNhNw?oc=5"
-    },
-    {
-      "id": "g-en-2026-04-01-10-VGhlIFVuaXRl",
-      "date": "2026-04-21",
-      "title": "미국, 랜섬웨어 해커에 대한 중범죄 혐의 기소",
-      "publisher": "Cybersecurity Insiders",
-      "primaryClass": "law_enforcement",
-      "primaryLabel": "법집행",
-      "ransomwareGroup": "미상",
-      "country": "미국",
-      "industry": "미상",
-      "victimOrg": "미상",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbWNkSGF1bHlocmxMMHYyYnJyWVRvX1pNRU84bW0wR3RjdDktbEYzblZPdTd1c25DTC02eElpR0R6bUtrZmVQNExadEw5R0ZTd0taaFhRX1RmYXBuRGtGV2E2azNsZ2Zaek5KUHNxY1RHTGd1ZndXTVMxSjFqdWYxTjJCM1JzWmZNbWdBb0RFYWhvZ2ttSmM2SDI5M3BxT3RKMElZcm5YZzA4d1dN?oc=5"
-    },
-    {
-      "id": "g-en-2026-04-01-19-U3lzdGVtQkMg",
-      "date": "2026-04-21",
-      "title": "SystemBC C2 Server Reveals 1,570+ Victims in The Gentlemen Ransomware Operation",
-      "publisher": "The Hacker News",
-      "primaryClass": "trend_signal",
-      "primaryLabel": "추세/동향",
-      "ransomwareGroup": "The Gentlemen",
-      "country": "미상",
-      "industry": "미상",
-      "victimOrg": "미상",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRy1Benh3RDFCTzJqY0pXOEJxX01OSWh2Nmtqc2V4aHRUYVIxdGZqbmtPVWxGOElfZFA3OTVVaGxpeU5DS0t3MDZjSGJIUVI1Y3h5SURCbWI4ck1nWjZ3SGtOeWNzLW43S3p2N1VleEotRjN5RjNDM2NLLTIzeHRXbXZESGU?oc=5"
-    },
-    {
-      "id": "g-en-2026-04-01-19-UmFuc29td2Fy",
-      "date": "2026-04-21",
-      "title": "Ransomware Negotiator Pleads Guilty to Aiding BlackCat Attacks in 2023",
-      "publisher": "The Hacker News",
+      "id": "fr-8-UmFuc29td2FyZSBB",
+      "date": "2026-05-05",
+      "title": "ALPHV BlackCat 랜섬웨어: 보안 전문가가 공격자의 편으로 전환하는 경우",
+      "publisher": "Solutions Numériques",
       "primaryClass": "law_enforcement",
       "primaryLabel": "법집행",
       "ransomwareGroup": "BlackCat/ALPHV",
       "country": "미상",
       "industry": "미상",
       "victimOrg": "미상",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORXY4ZEpRYThWT1RSRjZ2aWJWamYtbnJoY3Y0TFdzX3VzOS1xUEoxV3dyTTNjb0N6eXN3T3JQejdXaHY2bllxVmpzTVhmem1PcWhGMEdQeHVXTmVTbDlRQW42WllBMV9yXzcyNFFORnJObmE1OXFWR3htYUpSSE00cmxDNA?oc=5"
+      "url": "https://www.solutions-numeriques.com/ransomware-alphv-blackcat-quand-les-experts-securite-basculent-du-cote-des-attaquants/"
     },
     {
-      "id": "g-en-2026-04-01-1-UmFuc29td2Fy",
-      "date": "2026-04-21",
-      "title": "랜섬웨어 협상가, 랜섬웨어 갱단을 도운 혐의로 유죄 인정",
-      "publisher": "TechCrunch",
+      "id": "g-en-2026-05-01-10-RkJJIENpbmNp",
+      "date": "2026-05-05",
+      "title": "FBI 신시내티, Tri-State를 표적으로 삼은 러시아 랜섬웨어 그룹 배후 남성에 대해 연방 징역형 선고",
+      "publisher": "WCPO 9 Cincinnati",
+      "primaryClass": "law_enforcement",
+      "primaryLabel": "법집행",
+      "ransomwareGroup": "미상",
+      "country": "러시아",
+      "industry": "법집행/사법",
+      "victimOrg": "Tri-State &nbsp",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPS2RiTldQbGxTbTdSMUpwU0RoYVkzYmNlQXpJYW5taWZCSTdlQ1pQR29sb2k4THZtT2tCRzhMUFdVTUZyUmxFQU5MQ0RqWlRIcnNZaVo5NGxrcG83ZWdINHhHRHF5Zm1xNXZuVHZmUmNib2YtSlVPY21tOHdPbnR1NUtaSElTVkRzNU1DcnpEY0FiV3NiNWJPeE1mZC0yYnotRVhkeDRhT3dEeXNKMVJuVTU0QWhBdXRpeEd6Rkt3YmNWNmRJUmNrVWV6Mm1aUmZidEIwMw?oc=5"
+    },
+    {
+      "id": "g-en-2026-05-01-12-QXJkbW9yZSBw",
+      "date": "2026-05-05",
+      "title": "랜섬웨어 공격으로 Ardmore 경찰 데이터베이스 타격",
+      "publisher": "KXII",
       "primaryClass": "law_enforcement",
       "primaryLabel": "법집행",
       "ransomwareGroup": "미상",
       "country": "미상",
-      "industry": "통신/IT",
-      "victimOrg": "미상",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNa2JXMUpXVVptdjRSOTBHalZ4QmRDYzliTXVYRzkwd1g3RC1iWG1BamNIOGg3QThfRTJsTm5aYktvNDlIcmFqNEJfWldPYk5jV3BxUkpFcVRfeEIyVFVuT19ZTEx0WUJhOW5DeXpGdXV5czh0NEJ1YkxyX2ZmZDFsclNLVFdsd0VqYzV5RXZwbG1zM19iakhoREFDUDkyQQ?oc=5"
+      "industry": "법집행/사법",
+      "victimOrg": "Ardmore police database",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeml2YU5RN0hJU0l0Qy0temxfSmFlWE5vdDVIcDg5b1E2eGlkNlY3aGJvZGpKOWlaVVQ4S2xHODU0RVlzRm5LOWtKMXlobVVEVjM1amxBRFJxSE1RandSbE1fUjNmZ1JXMlhZU1V4UWZiRF9LdzNqU0ZuenEyc09NakVubXd5QWVz0gGcAUFVX3lxTE5CUUwtaVBnNVh2QVBiMHNaaHJJbmllYmR3QTZZTXZtTHVfRmdrd21FM25JTURIZUM3cjZsdnZwSXZCeXlkLWZ3aXZEU3loM1JWN1hZZFBOeUlWc0lMV1lPWXpYcFBpXzNlNU12VGZsS0tka1lMR1lMVTJTTS1UQ01pWVl6cWg3Ym5IRGlLQ0JqQzhTZ19xNWVfeDgxYw?oc=5"
     },
     {
-      "id": "g-zh-2026-04-01-17-RkJJ55m85biD",
-      "date": "2026-04-21",
-      "title": "FBI, 2025년 사이버 범죄 보고서 발표: 연간 손실액이 미화 208억 달러를 초과하고, AI가 사기를 조장하며, 랜섬웨어가 주요 인프라에 계속 영향을 미치고 있습니다",
-      "publisher": "iThome",
+      "id": "en-8-QXJkbW9yZSBwb2xp",
+      "date": "2026-05-04",
+      "title": "랜섬웨어 공격으로 Ardmore 경찰 데이터베이스 타격",
+      "publisher": "KXII on MSN",
       "primaryClass": "law_enforcement",
       "primaryLabel": "법집행",
       "ransomwareGroup": "미상",
       "country": "미상",
-      "industry": "에너지/인프라",
-      "victimOrg": "미상",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1YaFA5R0NUeXlXOUl3T0tKUmdFUEhLQjNQYXljbnhidkxyMHR0NE1FSl9NcW1EanJNeGFfdjZ5VjBtMGJ6eGhUaE52VElXQQ?oc=5"
+      "industry": "법집행/사법",
+      "victimOrg": "Ardmore police database",
+      "url": "https://www.msn.com/en-us/news/world/ardmore-police-database-hit-by-ransomware-attack/ar-AA22nZ2h"
     },
     {
-      "id": "ja-4-44Ki44K144OS44Kw",
-      "date": "2026-04-20",
-      "title": "アサヒグループも襲ったQilinの手口とは 2025年国内被害22件に ...",
-      "publisher": "TechTargetジャパン",
-      "primaryClass": "trend_signal",
-      "primaryLabel": "추세/동향",
-      "ransomwareGroup": "Qilin",
-      "country": "일본",
-      "industry": "통신/IT",
-      "victimOrg": "미상",
-      "url": "https://techtarget.itmedia.co.jp/tt/news/2604/21/news01.html"
-    },
-    {
-      "id": "g-zh-2026-04-01-15-UHl0aG9u5b6M",
-      "date": "2026-04-16",
-      "title": "DragonForce 랜섬웨어 캠페인에 사용된 Python 백도어 ViperTunnel",
-      "publisher": "iThome",
-      "primaryClass": "trend_signal",
-      "primaryLabel": "추세/동향",
-      "ransomwareGroup": "DragonForce",
-      "country": "미상",
-      "industry": "미상",
-      "victimOrg": "미상",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9zVDI5MVF2MWFFeXBsQ2VIMEdwLVdqbnN1OE1kLV9WRklzWlNHX0R4aU43ZFZxY0dGQ09VcDE1b1lMaXgxV0JNUGFrZmo3dw?oc=5"
-    },
-    {
-      "id": "g-en-2026-04-01-16-RkJJOiBSYW5z",
-      "date": "2026-04-14",
-      "title": "FBI: 랜섬웨어는 여전히 중요 인프라에 대한 가장 큰 위협입니다",
-      "publisher": "govtech.com",
-      "primaryClass": "law_enforcement",
-      "primaryLabel": "법집행",
-      "ransomwareGroup": "미상",
-      "country": "미상",
-      "industry": "통신/IT",
-      "victimOrg": "미상",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSUhybUlLNXB5dHhEVk0wcmJrSktzaElfNUQ3MWZzRTFFbVBXM0Y5ZFd3X3lZZ1FQODZnVmtGXzFQTTAyRVBmU3dFMnRHQlUzRDZiS0phY3JndWhTR1lYWExTcHNFaTBFZzB5bzdVaVhWLVM2OXkxOE1SYi1zMmhPWXdfd2gtSEdFVFE5STNOTF9STC16cFBvbQ?oc=5"
-    },
-    {
-      "id": "g-it-2026-04-01-16-UmFuc29td2Fy",
-      "date": "2026-04-14",
-      "title": "Sapienza 랜섬웨어, Bergamot(Mimit): “데이터 손실 없음”. Pd: “랜섬웨어에 대한 전략이 없습니다”",
-      "publisher": "CyberSecurity Italia",
+      "id": "g-en-2026-05-01-9-Q3liZXJzZWN1",
+      "date": "2026-05-04",
+      "title": "랜섬웨어 공격으로 징역형을 선고받은 사이버 보안 전문가",
+      "publisher": "Security Magazine",
       "primaryClass": "law_enforcement",
       "primaryLabel": "법집행",
       "ransomwareGroup": "미상",
       "country": "미상",
       "industry": "미상",
       "victimOrg": "미상",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPdFJzYTVOQ0ljWVprSW9HalhSZUY1cjc3U1B2X2toLVAzUm1wWWNUTHc5TFNIaFVua2gtSmlTbDdLdlg0MVRrd2Nmc09ERXpNYThfZzBhT0dpY3FqOS1EbDRWbjJUNjJyT3NxYWZIVTVFYUtCTXpMNXdPWFF6MU55WXFsRFY3SzlQUlg3WUo4ZmVaY0JRVzhsRjZ5Wmx4TGkxS0N3ZlZGUUF4Z3NadFg3Sm1nTHF3d0VjVVlGTUlhUlJoalB6VW1jaUYxTk94a0xpcTNKUUNqdw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeDVURDMwY2p3bzlCa0Y2VVJHZ1NXb3prMUxxbnF1X3d0VnBsS2xpV3laVXF1MGpSOGxqbnExLWpKQWU0ZkZfeS1aNmR1ZW55WVNmNVpLSU16b3JKcFZzSWtsS01icEFGRGYyWUxxbHl1ZUpXMmktcXpEM1dLT3ZaVGwwNzJMVUh2V25PT1dDRDVTRGxlSEFCa3VwVXdlMFhDUmFTb1BlTUlJUVVBalJMUlhmZF9pUGpxTGZF?oc=5"
+    },
+    {
+      "id": "g-en-2026-05-01-8-Rm91ciBZZWFy",
+      "date": "2026-05-04",
+      "title": "랜섬웨어 공격자로 변신한 사이버 보안 전문가, 징역 4년",
+      "publisher": "Bitdefender",
+      "primaryClass": "law_enforcement",
+      "primaryLabel": "법집행",
+      "ransomwareGroup": "미상",
+      "country": "미상",
+      "industry": "미상",
+      "victimOrg": "미상",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQT0Z2dWdBaTlsbXlzLTZKX1U2aGFkTVJYWU4zSTY1WGEzZEtFTDRsUjBHdGV0dndkaEJHRURIcVFuanB4STRWTkJ5d1BnZTVmTjk1dlo5bTdFbEdZbVBXNjM2OGlxaTdUODV3Qld2MUNncXhwcWotM0hZbnU4dm9YQkNyTmdGYXVxVnJ0ckxBdGlUTTJKR2IteDhGZnFQQVQ2U1VCX2YtZFE4R3lkWVIwSzNOMklJdVRBTmFXQTl3Z2VUODg?oc=5"
+    },
+    {
+      "id": "g-en-2026-05-01-7-Rm91ciBZZWFy",
+      "date": "2026-05-04",
+      "title": "랜섬웨어 공격자로 변신한 사이버 보안 전문가, 징역 4년",
+      "publisher": "Bitdefender",
+      "primaryClass": "law_enforcement",
+      "primaryLabel": "법집행",
+      "ransomwareGroup": "미상",
+      "country": "미상",
+      "industry": "미상",
+      "victimOrg": "미상",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQLW9nb0tQaXB2M3pwTUx5Qkl4SzJWTXRSdm5MZVdwb1c1clB0Mk85SE1SRUFWX1AtekpXX0ZTc2VIRENTcVNVUG8yZUhUd0JFUGVTVWNVQWIwbDlFck0xX0hlZEhnZVd0dFpCUU1EeVJlbVE4eExEZjlqNWZIUFJrbmtzb3dPSks4eFVacmctZ0Y1UFhCSGRhY0NYX1c3WGwtU1BnclFWUG43dGxsTnRHOXl3clNXSUJ5RGlPU1p0eG50Tmc?oc=5"
+    },
+    {
+      "id": "g-en-2026-05-01-9-VHdvIGN5YmVy",
+      "date": "2026-05-04",
+      "title": "두 명의 사이버 보안 전문가가 랜섬웨어 갱단을 도운 혐의로 감옥에 갇혔습니다",
+      "publisher": "Help Net Security",
+      "primaryClass": "law_enforcement",
+      "primaryLabel": "법집행",
+      "ransomwareGroup": "미상",
+      "country": "미상",
+      "industry": "미상",
+      "victimOrg": "미상",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTjhUWlU3bXF1SENLU2ZWeGpiOWlhM19kUFN2TTVscXVHTFBSYlZCNWpya0VzWnd0LWxReHNJWkI1dm1BTmR4ZE9VLUh1VzJQRmhXNERDeGcyVTNEakxJUHk3V0pFeUQzTHRfT2U2U1l5a29hVjJrR2tKUzNaeVFMWDR2WDk3d1BWX0Y0NjhLeE9hQmQ1TUZqcEhpbDJDSld6SFNr?oc=5"
+    },
+    {
+      "id": "ko-3-67O07JWIIOyghOus",
+      "date": "2026-05-02",
+      "title": "보안 전문가가 랜섬웨어 공격 가담…블랙캣 사건으로 징역 4년 선고",
+      "publisher": "데일리시큐",
+      "primaryClass": "law_enforcement",
+      "primaryLabel": "법집행",
+      "ransomwareGroup": "BlackCat/ALPHV",
+      "country": "미국",
+      "industry": "미상",
+      "victimOrg": "미상",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=206562"
+    },
+    {
+      "id": "g-en-2026-05-01-17-VHdvIFVTIGN5",
+      "date": "2026-05-02",
+      "title": "랜섬웨어 사건으로 2명의 미국 사이버보안 전문가가 형을 선고받았고, 3번째는 7월 판결을 기다리고 있다.",
+      "publisher": "Security Affairs",
+      "primaryClass": "law_enforcement",
+      "primaryLabel": "법집행",
+      "ransomwareGroup": "미상",
+      "country": "미국",
+      "industry": "미상",
+      "victimOrg": "미상",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRmM2UnNzTkxjUE50ZHJDa1BYM0VQZGY1T3ZvSG9vOE1GSjhOSHlXQ0dwYS1nS0U5T0lnTDFEdlJkLWU4YTQ0dk1NNlF4bXZkWnpwY3c3Qk5YS1VjY1dwMWI0aUNZenJBQzBEYVhkbXdYanAySWE2UEt1TlRfT1JvcUdSQjN2dWVFcUJkcjA1M3kyb3JtS1dLVHBYTjUwRW1DNjc0cC12NUpFb2t5bzBJSW01Xy1tRWQzSnpCR0l2NzRPcVNOdUNoVDFaWlBXMVU?oc=5"
+    },
+    {
+      "id": "g-en-2026-05-01-19-MiBVUyBDeWJl",
+      "date": "2026-05-02",
+      "title": "ALPHV(BlackCat) 랜섬웨어를 지원한 미국 사이버 보안 전문가 2명 투옥",
+      "publisher": "Hackread",
+      "primaryClass": "trend_signal",
+      "primaryLabel": "추세/동향",
+      "ransomwareGroup": "BlackCat/ALPHV",
+      "country": "미국",
+      "industry": "미상",
+      "victimOrg": "미상",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMHJNZC1VeWNBSW1vMWVwMEJCY2owY21nbEpkRXEyUVRoZ3lFQVBsWkRFblZVbVpVOENodERTYWI2VVZ1WjBCQ1VyaUtwOUI3OWJTX1FYU18yY01TSFNQX0RPdm1kTXNRTFlxZDlKUjBpbUJPcjJjSlRnd3V4QkhnNWRpZw?oc=5"
     }
   ],
   "methodology": [
@@ -762,12 +779,12 @@
     "언어별 query locale(예: KR:ko, JP:ja, DE:de)를 분리해 비영어 시드에 영어권 결과만 과도하게 섞이는 문제를 줄이도록 조정했습니다.",
     "기사 제목·설명 기반으로 사고사례/복구/법집행/공식공지/추세를 휴리스틱 분류했습니다.",
     "제목은 가능한 경우 한국어 번역본(titleKo)을 함께 저장하고, 원문 제목(titleOriginal)도 유지했습니다.",
-    "중복 URL과 유사 제목을 제거했고, 2025-01-01부터 2026-04-30까지 발행된 항목만 남겼습니다.",
+    "중복 URL과 유사 제목을 제거했고, 2025-01-01부터 2026-05-07까지 발행된 항목만 남겼습니다.",
     "자동 분류 결과이므로 최종 인용 전에 원문 확인이 필요합니다."
   ],
   "insights": [
-    "전체 기사 2257건 중 그룹명이 식별된 기사는 316건입니다.",
-    "확정 피해사례는 7건, 검토 필요 사고는 30건으로 분리했습니다.",
+    "전체 기사 2368건 중 그룹명이 식별된 기사는 323건입니다.",
+    "확정 피해사례는 11건, 검토 필요 사고는 32건으로 분리했습니다.",
     "그룹 통계는 기사 언급량, 사건 기준 클러스터, 피해사례 직접 연결 그룹으로 나눠서 보여줍니다."
   ]
 }

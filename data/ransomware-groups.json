@@ -1,48 +1,48 @@
 {
-  "generatedAt": "2026-05-05T04:40:29.719Z",
+  "generatedAt": "2026-05-07T06:07:18.686Z",
   "profiles": [
     {
       "group": "Qilin",
-      "allArticles": 56,
-      "clusterCount": 14,
+      "allArticles": 58,
+      "clusterCount": 16,
       "incidentCount": 0,
       "firstSeen": "2025-02-07",
-      "lastSeen": "2026-04-20",
+      "lastSeen": "2026-05-06",
       "last30": 3,
-      "last90": 10,
-      "previous180": 32,
-      "delta": -22,
-      "sampleTitle": "アサヒグループも襲ったQilinの手口とは 2025年国内被害22件に ...",
+      "last90": 11,
+      "previous180": 31,
+      "delta": -20,
+      "sampleTitle": "덴소 (6902), 해외 그룹 회사에 대한 무단 액세스 - 랜섬웨어 그룹 Qilin 범행 성명",
       "topCountries": [
         {
-          "label": "일본",
+          "label": "한국",
           "value": 5
         },
         {
-          "label": "독일",
-          "value": 2
+          "label": "일본",
+          "value": 4
         },
         {
           "label": "미국",
           "value": 2
         },
         {
-          "label": "한국",
-          "value": 2
+          "label": "대만",
+          "value": 1
         },
         {
-          "label": "루마니아",
+          "label": "독일",
           "value": 1
         }
       ],
       "topIndustries": [
         {
           "label": "통신/IT",
-          "value": 6
+          "value": 4
         },
         {
           "label": "금융",
-          "value": 2
+          "value": 3
         },
         {
           "label": "물류/운송",
@@ -59,19 +59,31 @@
       ],
       "recentArticles": [
         {
-          "id": "ja-4-44Ki44K144OS44Kw",
-          "date": "2026-04-20",
-          "title": "アサヒグループも襲ったQilinの手口とは 2025年国内被害22件に ...",
-          "publisher": "TechTargetジャパン",
+          "id": "g-ja-2026-05-01-3-44OH44Oz44K9",
+          "date": "2026-05-06",
+          "title": "덴소 (6902), 해외 그룹 회사에 대한 무단 액세스 - 랜섬웨어 그룹 Qilin 범행 성명",
+          "publisher": "合同会社ロケットボーイズ",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
-          "country": "일본",
-          "industry": "통신/IT",
+          "country": "미상",
+          "industry": "미상",
           "victimOrg": "미상",
-          "url": "https://techtarget.itmedia.co.jp/tt/news/2604/21/news01.html"
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ2NkYTNvVUxUd3JxNVM5VDBoSk9iMlBmcUR5TlJhVDlQNW5OamxCbGlhQVplQWJVa09kamdoYjlhZ09fMC1QU19ZS19fNWpWYTRVRUVaQk96eWprNVZzbzctV2tpdnBBd2lmLTNzYlNYOVJnS2UwWHpxRTlodkhzZWVRYVhOcEZ3aE5uWXhITGUtbkpQU2RlQTRXem1uM3M?oc=5"
         },
         {
-          "id": "g-zh-2026-04-01-2-UWlsaW7jgIFX",
+          "id": "g-ja-2026-05-01-4-5q2i44G44KJ4",
+          "date": "2026-05-01",
+          "title": "멈출 수없는 랜섬웨어 피해",
+          "publisher": "Arctic Wolf",
+          "primaryClass": "trend_signal",
+          "primaryLabel": "추세/동향",
+          "country": "미상",
+          "industry": "미상",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxPSXlOOW1vb2xMeUQ2TG9YcFQ1VHNLcTRRbzh4RWdrZ2JEaVJIWjJYbHhVaDR3ZU96VGdld3J5S09Na2RNS0JsWDItaWdOcWtWdFd6d1JGZWMzYlZoSlNUcDNuS1lXUFRYSWtDMVdXVlU5MnlYdW45VU5iUmFHaWVyeU5YQ3RKdVhLc2J5RW9Ed05faTRXUk8tR2lzc0pWeWpvYkh1d1o3N2ZzTUhaRTJUcElFX1F2cWFJdVpZcWd2a1dmYnI1bW4yZkhndEdYREllWXFXbTItR09Qc3JqaXIwOWhlUGUxNU1VX2o4X3lkRlc2cTRBa0k5ZXMtX0s4RG51YWZUZlFab1hfS0xfODlBLWlLdjJKVUp5eUNMY2ZObkdPRTBsNmN1c2YxQ1psNHFubzR2b2FidUh3eFc2cGZxUUxLc2tLVTRxSkdjX2VYTWRITXl4R0V3LWJjSkJ3bHZWUTZoMUJFcTI?oc=5"
+        },
+        {
+          "id": "g-zh-2026-04-01-12-UWlsaW7jgIFX",
           "date": "2026-04-10",
           "title": "Qilin 및 Warlock 랜섬웨어는 취약한 드라이버를 악용하고 300개 이상의 EDR 도구를 마비시키려고 시도했습니다.",
           "publisher": "informationsecurity.com.tw",
@@ -95,7 +107,7 @@
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1BS3RVNHlDVkMzNXpocUJjRnlIX1NIR3JkSUpCWE9WWERqTlllVjRCWHU1NW5MZm1vUEhvbG5yRDZjSHhBcG1WSTBRdDhaRjYxSkVMSHlwLUNIOFlWSGNlRHFsVlZ3RzNIYmNnRm5CREtSVlE?oc=5"
         },
         {
-          "id": "g-en-2026-04-01-7-UWlsaW4gcmFu",
+          "id": "g-en-2026-04-01-10-UWlsaW4gcmFu",
           "date": "2026-04-04",
           "title": "Qilin 랜섬웨어 그룹, 독일 정당인 Die Linke를 해킹했다고 주장 - 보안 문제",
           "publisher": "Security Affairs",
@@ -107,7 +119,7 @@
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQU9zMHlLNUxQM19uZDJoSWZ2SUV6d1pRZ3NsX1d1bWliMVdfTUpNRnhVX2JaeXpEQS01VW5KNGo5dFoyWmhkUlIzQzc3azFfVDBPREVrVmlTTnZyWWh3amQ4WHhETC0xazl2SDdHak9Vb2lqM0xHVzZlbFVwMmtPblVrUjFLanY2cVZsRUd2c3lCelhIeFpGQnVyeXhOdFE4ZFUtLTFVYkZQZG44TTBlRGVGZ0NLNGlodllBY3ZEUEhSSjhl?oc=5"
         },
         {
-          "id": "g-en-2026-04-01-9-QW4gb3ZlcnZp",
+          "id": "g-en-2026-04-01-11-QW4gb3ZlcnZp",
           "date": "2026-04-02",
           "title": "2025년 일본의 랜섬웨어 위협 개요 및 Qilin 사례를 통한 조기 탐지 인사이트 - Cisco Talos 블로그",
           "publisher": "Cisco Talos Blog",
@@ -119,13 +131,13 @@
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUXJEbEIwWlJfLUYwd3dGVV9DYkNYNUFPamQ2UmFoNzNLX2JuRWd4ei1LNXZSYlVJSTJUTFpGZ2lBVHpOMWczS0hrbm1ma2toa0RoMmRiWFF6UTBjYUFKMjdzWDRZbkxGbURrOGhLZF9xYlZHbWxTdlFRYUNpbEZfR2xKcGc5VHdvdVRRbHhDckM4cUluYkRiVGpDLXhZVjhmcm51OU5BN0lKM1RVSWVpeFJuMUFRd3NqaXZ6STN3X1RZTHoxbGxMYzZqYWs?oc=5"
         },
         {
-          "id": "g-de-2026-03-01-0-UWlsaW46IExp",
+          "id": "g-de-2026-03-01-2-UWlsaW46IExp",
           "date": "2026-03-27",
-          "title": "Qilin: Linkspartei meldet russischen Ransomware-Angriff",
+          "title": "기린(Qilin): 좌파당, 러시아 랜섬웨어 공격 보고",
           "publisher": "heise online",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
-          "country": "미상",
+          "country": "러시아",
           "industry": "미상",
           "victimOrg": "미상",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORkw2cDczaElDQ1VwSVdGMm90UmNtSXdUNk5rdWtNV1lJNi1kQi05VzdMWmNGcHFuS2hsTG5XM2lEbHk5Zl95clVfa3ZibHFoU3FITHZ0bUNvM0F4dWpVdklIT092N2lNUkVIazNROHA5a0NVNnZCRUl3dl9pS0dlOUFoY3VOT0FqblNadDZCYWNCSmpfaVdWNmt3?oc=5"
@@ -155,7 +167,7 @@
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5iMkVoOVNNMDZmc3JxV0lxR3VvLV9na0tuSUE0blJrQldScndGX3lkTVBnbklnWXBLcnZUZjhQZC15eV84YktVMXN5Z1dISjV2bmttSXc0WURxUC1CTDRhaWFHblF6VlVvUEQ4Zlp0NFBNbVNROE1LTw?oc=5"
         },
         {
-          "id": "g-ja-2026-02-01-14-44OB44Kn44OD",
+          "id": "g-ja-2026-02-01-15-44OB44Kn44OD",
           "date": "2026-02-17",
           "title": "Check Point Research, 2026년 1월 주요 사이버 위협 발표",
           "publisher": "PR TIMES",
@@ -165,42 +177,34 @@
           "industry": "미상",
           "victimOrg": "미상",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVWUFsV1hNb3REa2JlcGNjNzBvQXRvODN6SlhUZ1F6RUN3a215d1BvMnBIMjZwRUtnNGhUajlvMUlDUEt0VFFGcVFTUEUwSWJDRWhXamM0RzNFLXdkUUotRE5PX2JFc0hMbkE?oc=5"
-        },
-        {
-          "id": "g-zh-2026-02-01-7-576F6aas5bC8",
-          "date": "2026-02-13",
-          "title": "루마니아의 국영 송유관 운영업체가 Qilin 랜섬웨어의 공격을 받아 데이터를 훔쳤습니다",
-          "publisher": "iThome",
-          "primaryClass": "trend_signal",
-          "primaryLabel": "추세/동향",
-          "country": "루마니아",
-          "industry": "미상",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5rTDJWaVE0ZHRHbE40Q3JmUUVIZGMwR3ZFRENvN0EwbG83Sm1NbWxkT3k5VjFabWt2TlpHcUpHdC01UVdneURtVE1oNk9kZw?oc=5"
         }
       ],
       "relatedIncidents": []
     },
     {
       "group": "Medusa",
-      "allArticles": 45,
+      "allArticles": 48,
       "clusterCount": 10,
       "incidentCount": 0,
       "firstSeen": "2025-01-21",
       "lastSeen": "2026-04-10",
-      "last30": 7,
-      "last90": 10,
-      "previous180": 4,
-      "delta": 6,
-      "sampleTitle": "Storm-1175 해커 그룹은 취약점 공개 후 24시간 이내에 Medusa 랜섬웨어를 배포했습니다. - Tencent News - Tencent News",
+      "last30": 6,
+      "last90": 13,
+      "previous180": 3,
+      "delta": 10,
+      "sampleTitle": "Storm-1175 해커 그룹은 취약점 공개 후 24시간 이내에 Medusa 랜섬웨어를 배포했습니다. - Tencent News",
       "topCountries": [
         {
           "label": "미국",
-          "value": 39
+          "value": 41
         },
         {
           "label": "중국",
           "value": 4
+        },
+        {
+          "label": "영국",
+          "value": 1
         },
         {
           "label": "일본",
@@ -218,11 +222,11 @@
         },
         {
           "label": "의료",
-          "value": 4
+          "value": 5
         },
         {
           "label": "법집행/사법",
-          "value": 2
+          "value": 3
         },
         {
           "label": "제조",
@@ -231,10 +235,10 @@
       ],
       "recentArticles": [
         {
-          "id": "g-zh-2026-04-01-7-U3Rvcm0tMTE3",
+          "id": "g-zh-2026-04-01-5-U3Rvcm0tMTE3",
           "date": "2026-04-10",
-          "title": "Storm-1175 해커 그룹은 취약점 공개 후 24시간 이내에 Medusa 랜섬웨어를 배포했습니다. - Tencent News - Tencent News",
-          "publisher": "腾讯新闻",
+          "title": "Storm-1175 해커 그룹은 취약점 공개 후 24시간 이내에 Medusa 랜섬웨어를 배포했습니다. - Tencent News",
+          "publisher": "QQ News",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
           "country": "미국",
@@ -243,7 +247,7 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1YLXdlQUo2ZTZ0ZmpLX2RPcHZycVZaa2k5el9nQ0gxalU0WVgzRFk2MEpUeThVYldpWFItUGl0T0xsbDlWRkxyQzRxcFVTanpWdkFZblJn?oc=5"
         },
         {
-          "id": "g-zh-2026-04-01-8-5Lit5ZyL6aet",
+          "id": "g-zh-2026-04-01-11-5Lit5ZyL6aet",
           "date": "2026-04-08",
           "title": "중국 해커, 제로데이 취약점을 악용해 주요 글로벌 산업을 표적으로 삼아 메두사(Medusa) 랜섬웨어 배포 - 팬 뉴스",
           "publisher": "蕃新聞",
@@ -267,7 +271,7 @@
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE92N29qN1RrZVh1bkMwUEhZNDdrXzlsbEw3YVk3MUFYT2pCMXJ4YTBLUFdLRUc2b2FxZ2hJWVlKdHZqOGJGc1NnUWxVNA?oc=5"
         },
         {
-          "id": "g-en-2026-04-01-17-Q2hpbmEtTGlu",
+          "id": "g-en-2026-04-01-16-Q2hpbmEtTGlu",
           "date": "2026-04-07",
           "title": "중국 관련 Storm-1175, 제로데이를 악용하여 Medusa 랜섬웨어를 신속하게 배포 - 해커 뉴스",
           "publisher": "The Hacker News",
@@ -279,7 +283,7 @@
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVXdoWEtvMlV4S01tVzJ1V0dZQkt6VkUyZTVEaEF1QktYb1hFTE84X0VheDJKbFcwZTFGRnRVT0NGZlpVd0NuOGhNT013QXN1MDJsMUFLMG1XYU9CQjlabnoyOVVVN1BRVUpBaVRlckRMcFZqb0RwRHFQcjBMekRCaG5n?oc=5"
         },
         {
-          "id": "g-en-2026-04-01-18-TWVkdXNhIFJh",
+          "id": "g-en-2026-04-01-17-TWVkdXNhIFJh",
           "date": "2026-04-07",
           "title": "취약점과 시스템 침해를 빠르게 악용하는 Medusa 랜섬웨어",
           "publisher": "SecurityWeek",
@@ -303,7 +307,31 @@
           "url": "https://news.google.com/rss/articles/CBMilANBVV95cUxQQ25qT19FcHNDNk10T085U1p6bHBrZ3lOQThWTUxCSDNZS0xBTkpxN2VfSThacVE5c25CcEtVT19BTjRiOXd1VE92T0lWWHlCNnNYNnpaTmo3UUFLUDdtemFLZ0l4SGFuZ05LM2EteVVvR25EQWhMLXZSRGxYR3dxUVZRTTVia2ZxS0RUWkpPbWtoc3ZVSGRweXVIMW5vM1Npd0NVYzh1SGhWblRmNHFOSGE0V0Z2THhudy1fYUIxaDFXX01CVVB3Y3lmSDl1RkRTTDR4ZUlYUmplX2ZqRWFneTVLTDhWSlVaQ2hfNHEySkIwN2dZTVVGTzV4UFc3UnM2NEFVcFBsMHhwd1FyZVhXSTBZUFdJNUh4YzdFNTJtMUEzVWdiTnVmc0FQZlpQbF8xYkRENWxIeDdaVXZFT25Fck1XcWo3Z3FPZEpqMmNMUWdkZ1VtbU1HczBET2xOOE1ndkdTMFRCRVhiSmRjMGE0U3NrU3B2b2pXVE5mZlQzaUdrWWNwZlZ0YmJWOHpYN21tUnRFNA?oc=5"
         },
         {
-          "id": "g-en-2026-04-01-0-U3Rvcm0tMTE3",
+          "id": "g-zh-2026-04-01-2-TWVkdXNhIOWL",
+          "date": "2026-04-07",
+          "title": "Medusa 랜섬웨어는 24시간 이내에 전체 공격 프로세스를 완료합니다! Microsoft는 Storm-1175에 제로데이 취약점 공격 기능이 있다고 경고합니다",
+          "publisher": "informationsecurity.com.tw",
+          "primaryClass": "trend_signal",
+          "primaryLabel": "추세/동향",
+          "country": "미국",
+          "industry": "미상",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZGxycU9JRi1IRlVTY2x2LVFma2ZXdzdtM3kwSEw2MjEwVTJfcE5ZeUNfU0pEZ3U2bzBPbUozSHVCYjNSOGJ3SVJmLXFEdW5meU1KVXpUbHhZV3BITENKRVhFa2lFZURseWZWbUwzM0FMRFdfQ3dnS3k3dWtWTVA3RVhR?oc=5"
+        },
+        {
+          "id": "g-es-2026-04-01-0-U3Rvcm0tMTE3",
+          "date": "2026-04-06",
+          "title": "Storm-1175는 고속 Medusa 랜섬웨어 작업에서 취약한 웹 연결 자산에 주의를 집중합니다.",
+          "publisher": "Microsoft Source",
+          "primaryClass": "trend_signal",
+          "primaryLabel": "추세/동향",
+          "country": "미국",
+          "industry": "미상",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPYWxEWk8zWVVXYk4ydzRzTy01UmIwdzVuZlRZT3RCckZtcW5HS3BuUEdzMXNzTmcyajl2bmYxbFRYM2hMeTZvX3VTT2Y0WFFmcENXQ1Rpc0ZHZ2VDcVJSLXhxaXlkY0czY0xPYk9XMkdHbTZ6WDUweURuWjhOVXBvNG5GeVVCc0EwNEppdU5IR3hYT0xMbUhqWkVvV0VkSE81bnNYNHgxX1dPUkxpR1NyU19pOXlxRDU0MjhocThQRnBMR0FhWC1hYlpwTkRXOUJLSzhnTGN5RWcwakRRczE2QXpMbjFSZ2VlN1BzM1lfeUFrdThjZ2RvVzE2cTVDQndsemdESTdpMlZpV1RfZ19VdmVhV2lUUmhYMm5XbzlpWQ?oc=5"
+        },
+        {
+          "id": "g-en-2026-04-01-4-U3Rvcm0tMTE3",
           "date": "2026-04-06",
           "title": "Storm-1175는 빠른 템포의 Medusa 랜섬웨어 작전에서 취약한 웹 관련 자산을 집중적으로 관찰합니다.",
           "publisher": "Microsoft",
@@ -315,7 +343,7 @@
           "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVlRVTzZDbVAySDI3XzFLNWlWRkE0bUE4a0xuOTFlSm1WVG4yMUZXWnZNOEtZUWJZRHpKTVZMRmhHVUoxZGl5YmJlTXpPU3ViaVZDQ1p5dHl3bC1WVVNqaXVtbDNOSnZwWDAyeTFnNjNKZ1pJaXQ1ZGdpcFNXRFVwVlpsTDJWS1NTRGFKU1NYb0Z4Z1RuUmxTa1dSSHZYajFCUFZhcnowVlpGSlhwM3VQVTlFTWJPVldXVXJ1eFZhcFVack0yTWVnUG9GS1c3LWNlczcxWVoxZjN5TFpUdWdnOGowSVZnRndxX2JkQg?oc=5"
         },
         {
-          "id": "g-en-2026-03-01-13-TWVkdXNhIHJh",
+          "id": "g-en-2026-03-01-15-TWVkdXNhIHJh",
           "date": "2026-03-17",
           "title": "Medusa 랜섬웨어 갱단이 뉴저지 카운티의 유명한 미시시피 병원을 공격했다고 주장합니다.",
           "publisher": "The Record from Recorded Future News",
@@ -325,68 +353,48 @@
           "industry": "의료",
           "victimOrg": "미상",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBscjNfejhacTh4dE50MFRQcFpkNG96R21IakJFTEZrbG43RG50dHI5RkExNWV0UmV4U2E3TTBGNnVtVTVjdkloR1BFVkRiMWtONHBudkd6d3dkUTNUeVplVHVnaU9PSlJCM2VJ?oc=5"
-        },
-        {
-          "id": "g-zh-2026-02-01-9-5YyX6ZT6aet5",
-          "date": "2026-02-25",
-          "title": "북한 해커 라자루스(Lazarus), 랜섬웨어 메두사(Medusa)를 이용해 미국과 중동 공격 개시",
-          "publisher": "iThome",
-          "primaryClass": "trend_signal",
-          "primaryLabel": "추세/동향",
-          "country": "미국",
-          "industry": "미상",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBTSWpWd3cwWHNmd081bUlneXFMcGpqRHdvaGtnUDNVajdaY1NhTHVSUWFqc2JYSWJUYi1mVnlFbFJQb0RWY1BlV3RNYWw3UQ?oc=5"
-        },
-        {
-          "id": "g-en-2026-02-01-18-Tm9ydGggS29y",
-          "date": "2026-02-24",
-          "title": "북한 Lazarus, 메두사 랜섬웨어 공격 사용",
-          "publisher": "Cybersecurity Insiders",
-          "primaryClass": "trend_signal",
-          "primaryLabel": "추세/동향",
-          "country": "한국",
-          "industry": "미상",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPT0V3WG85WUJCakFrcHZIZlpOZU1QVjZIWkFvOC1qS2g1T29tUDJ4bE0xNkE2MHB0QWZmNmFWcXNKZ29sV1NqQjRQZ0gtRk9QbmpldERYRVpUUHVkUnRBSW1aUjY3aUZhbF9HODdJbzBTbDhyQm1OLXQyOHp5dFlYTThtUjN2UUNLMzNfYzZxSjY2dE5t?oc=5"
         }
       ],
       "relatedIncidents": []
     },
     {
       "group": "Akira",
-      "allArticles": 38,
+      "allArticles": 34,
       "clusterCount": 13,
-      "incidentCount": 1,
+      "incidentCount": 0,
       "firstSeen": "2025-01-23",
-      "lastSeen": "2026-04-28",
-      "last30": 2,
-      "last90": 3,
-      "previous180": 22,
-      "delta": -19,
-      "sampleTitle": "Akira 랜섬웨어: 2026년에 성장하여 FBI의 주목을 받은 그룹을 만나보세요",
+      "lastSeen": "2026-05-06",
+      "last30": 4,
+      "last90": 5,
+      "previous180": 21,
+      "delta": -16,
+      "sampleTitle": "미국 법원, 러시아 카라쿠르트 랜섬웨어 그룹에서 일하고 정부 데이터베이스를 해킹한 혐의로 라트비아 해커 Deniss Zolotarjovs에게 8년 이상의 징역형을 선고",
       "topCountries": [
         {
           "label": "미국",
-          "value": 4
+          "value": 5
         },
         {
           "label": "브라질",
           "value": 1
         },
         {
-          "label": "호주",
+          "label": "홍콩",
           "value": 1
         }
       ],
       "topIndustries": [
         {
           "label": "통신/IT",
-          "value": 9
+          "value": 6
         },
         {
           "label": "법집행/사법",
           "value": 4
+        },
+        {
+          "label": "공공",
+          "value": 1
         },
         {
           "label": "에너지/인프라",
@@ -395,15 +403,35 @@
         {
           "label": "의료",
           "value": 1
-        },
-        {
-          "label": "제조",
-          "value": 1
         }
       ],
       "recentArticles": [
         {
-          "id": "g-pt-2026-04-01-3-QWtpcmEgcmFu",
+          "id": "zh-4-576O5ZyL5rOV6Zmi",
+          "date": "2026-05-06",
+          "title": "미국 법원, 러시아 카라쿠르트 랜섬웨어 그룹에서 일하고 정부 데이터베이스를 해킹한 혐의로 라트비아 해커 Deniss Zolotarjovs에게 8년 이상의 징역형을 선고",
+          "publisher": "Techritual 香港",
+          "primaryClass": "trend_signal",
+          "primaryLabel": "추세/동향",
+          "country": "홍콩",
+          "industry": "공공",
+          "victimOrg": "미상",
+          "url": "https://www.techritual.com/2026/05/07/523238/"
+        },
+        {
+          "id": "g-en-2026-05-01-18-Q29udGksIEFr",
+          "date": "2026-05-05",
+          "title": "Conti, Akira 랜섬웨어 제휴업체에 8년 형 선고",
+          "publisher": "The Record from Recorded Future News",
+          "primaryClass": "trend_signal",
+          "primaryLabel": "추세/동향",
+          "country": "미상",
+          "industry": "미상",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1QVnRFNVdjS1BJSGFuWHg3NXdXdXRtM3ZyamJpUTNocmctT1VHY0JkTjY3U1JPVTRkeldWWlVqNGM2WXdvOVVfdVdSVFk4OWUzMFZnX1I5M2RkbldVdXp4RDZpUElqcXgyS1lnelJYQUV2azR6?oc=5"
+        },
+        {
+          "id": "g-pt-2026-04-01-2-QWtpcmEgcmFu",
           "date": "2026-04-28",
           "title": "Akira 랜섬웨어: 2026년에 성장하여 FBI의 주목을 받은 그룹을 만나보세요",
           "publisher": "WeLiveSecurity",
@@ -415,7 +443,7 @@
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUE5GdFRjWTF0bU52SnVERkVuaFllQ2hfbDBXOU13ajlZNm9IZ0phMWVLV1B6OTUxQi0wRHAxT3RnUUs2VjVhUW53SVd5OWN2dHVNZk55cVlERVJBeFRGa3hwTEVCNjI4N2U5blI4bGJiRUlQMGNKWEg5UkMyQ2tudFZXZzRYVEVkYXVkT1dnM2xPZm9rZnlqVTVXWWNFcy1FTl9jTnM2NnRXWjZlRWl2X0YyNFZkU01raC1MaTIwSQ?oc=5"
         },
         {
-          "id": "g-es-2026-04-01-4-QWtpcmEgcmFu",
+          "id": "g-es-2026-04-01-5-QWtpcmEgcmFu",
           "date": "2026-04-21",
           "title": "Akira 랜섬웨어: 2026년의 붐과 FBI 경고",
           "publisher": "WeLiveSecurity",
@@ -439,7 +467,19 @@
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE15emxuM1FlcE9sSE1lQVYyRTdhdjZRMzNjZFFKczVsLUxqSFF5anFaSkdWa0ZGUW9HWXc4RTFCcW05d2h5NzlPZHlzNHBvSUdIdWVqVGY3b3VQc3pVdDhSWjdQQQ?oc=5"
         },
         {
-          "id": "g-pt-2025-11-01-10-RkJJIHJldmVs",
+          "id": "g-de-2025-12-01-1-UmFuc29td2Fy",
+          "date": "2025-12-23",
+          "title": "랜섬웨어 그룹 Akira, Ideal Versicherung 마비",
+          "publisher": "it-daily",
+          "primaryClass": "trend_signal",
+          "primaryLabel": "추세/동향",
+          "country": "미상",
+          "industry": "미상",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8weDYwOGZPamI0UzY5cG9HSDQ2Tmg5aDltSF9QelM2eEI3WHFUcDY1RWR3ZnIzbWpUM3FVTmFDTmJocWMzcG51dE5oM2hhVkEyMDU5NzJ2S2FKakNGdDA1UWRLWG9GbWNvTjhPb2NjdEY5eHp6c2w1UA?oc=5"
+        },
+        {
+          "id": "g-pt-2025-11-01-9-RkJJIHJldmVs",
           "date": "2025-11-17",
           "title": "FBI는 Akira 그룹이 이미 랜섬웨어 몸값으로 약 2억 5천만 달러를 모금했다고 밝혔습니다 - Cyber ​​​​Security Brazil",
           "publisher": "Cyber Security Brazil",
@@ -463,9 +503,9 @@
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUktqS2JZSW1lQ1FEV2JDbXc2ZlJhc1lTaURGRERlNEZLTjUtR25yZFp1ZkltUS1pazQzLVRxUUVzTmZQTkJsNTd0Ums5bllPTk91QnM5OHNCNURFZTNNVm1lMHJheU9aRmwzUEZtaXZxV0NSRnRUVmprb0lhSF9yOXEyZDN4bldlS2xiZkFsWF9BYzg4TzJHQlRXQm93OWFHMWg3YmlmS19VNGVFZTlad0hTSVFzUU9oSnBXN3h3ZVVjd2hNMFE?oc=5"
         },
         {
-          "id": "g-en-2025-11-01-8-V2FybmluZyBJ",
+          "id": "g-en-2025-11-01-7-V2FybmluZyBJ",
           "date": "2025-11-14",
-          "title": "Warning Issued About Akira Ransomware as Attacks on Critical Infrastructure Accelerate",
+          "title": "중요 인프라에 대한 공격이 가속화됨에 따라 Akira 랜섬웨어에 대한 경고 발령",
           "publisher": "The HIPAA Journal",
           "primaryClass": "official_notice",
           "primaryLabel": "공식공지",
@@ -485,82 +525,37 @@
           "industry": "미상",
           "victimOrg": "미상",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBmVVgyaTVadk0zQzMyQXZTZUdzSzlGaU54cDNDWVhCdC1tUFM4cWVQZHFpdnUyalY1OG0tdVoxTFpFNHJIbUNVb2R2aVFBQQ?oc=5"
-        },
-        {
-          "id": "g-zh-2025-11-01-4-5YuS57Si6Luf",
-          "date": "2025-11-14",
-          "title": "Akira 랜섬웨어는 암호화된 데이터를 Nutanix 가상 머신으로 확장합니다",
-          "publisher": "iThome",
-          "primaryClass": "trend_signal",
-          "primaryLabel": "추세/동향",
-          "country": "미상",
-          "industry": "미상",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9hbnRmdlkxMzFyc0sxRTZsZ2NkOTdCZVhsVDRRNDdGSEpIbWMyV3Jjcm1xeEdreE05UWVLbHVzV0w2aUtoTzJZSEktUEg2dw?oc=5"
-        },
-        {
-          "id": "g-zh-2025-11-01-13-6ZuZ6YeN6LOH",
-          "date": "2025-11-14",
-          "title": "雙重資安警報！Fortinet FortiWeb 零日漏洞遭利用、Akira 勒索軟體鎖定 Nutanix AHV",
-          "publisher": "informationsecurity.com.tw",
-          "primaryClass": "trend_signal",
-          "primaryLabel": "추세/동향",
-          "country": "미상",
-          "industry": "미상",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYjkwNTBHYVRIYkpzMDRnWU5xNklwb3NXOHQ5cmJfYmpXbDZyc1dSbGZjcExZajhxNHZvNVVlb1Q1a0NHTGp5MjRmeDRlb0RpcENmbHhZcU45aGg4OXp5a0hVYnl0U0x2WlZIU25xZlNKQkZLRWRxWEdlNUY2dWRNS1VB?oc=5"
-        },
-        {
-          "id": "g-pt-2025-11-01-9-R3J1cG8gQWtp",
-          "date": "2025-11-14",
-          "title": "Grupo Akira embolsa US$ 244 milhões com ataques de ransomware",
-          "publisher": "TecMundo",
-          "primaryClass": "trend_signal",
-          "primaryLabel": "추세/동향",
-          "country": "미상",
-          "industry": "미상",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZGRaLXJQNVlXdUdXRUdyR3RJZTJ2XzhTMTl0U2dLRWxKSnBLdG0tVHNOVHZEREtWblUwc1A5X1VSUWR1SVNvNkdhYURsN0tnS2FIX3hnVWJDSEhLSEgyeDR4YmN4X2ctN09JSHAwZ3U5SWdUbnYxV0VwZlNuSFQyczFrc29jdGpqbUlibEkxWS1BQjAwdGFNdGI1aUs4eVJuMm1YY3N3QXZYSWhsT0E?oc=5"
         }
       ],
-      "relatedIncidents": [
-        {
-          "id": "g-en-2025-04-01-17-QWtpcmEgUmFu",
-          "date": "2025-04-29",
-          "title": "Hitachi Vantara 서버에 대한 Akira 랜섬웨어 공격",
-          "publisher": "Cybersecurity Insiders",
-          "primaryClass": "incident_under_review",
-          "primaryLabel": "확인 필요 사고",
-          "country": "미국",
-          "industry": "미상",
-          "victimOrg": "Hitachi Vantara Servers &nbsp",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMzZYa1RtZ2c0R0VsdnJpUFZuZjBneFg5VF9zOEFvaVNFRTBHTWFjdUFzaWl5VTFkQjVXR3c4OU1TTUxPS1pkSXVmMEFTaGUwb3FYWUVXbmtoRE5ELU9KUVdxRDFXb2xEd2UwZ1FwNkszS084Sm4yQW5qVWNjR1NpSjJCRzNqLVI3TU5sYzVIZUg1bGRY?oc=5"
-        }
-      ]
+      "relatedIncidents": []
     },
     {
       "group": "LockBit",
-      "allArticles": 27,
+      "allArticles": 28,
       "clusterCount": 8,
       "incidentCount": 0,
-      "firstSeen": "2025-03-27",
+      "firstSeen": "2025-03-17",
       "lastSeen": "2026-02-23",
       "last30": 0,
-      "last90": 3,
-      "previous180": 15,
-      "delta": -12,
+      "last90": 2,
+      "previous180": 16,
+      "delta": -14,
       "sampleTitle": "Apache ActiveMQ 취약점을 통한 LockBit 랜섬웨어: 2단계 공격",
       "topCountries": [
         {
-          "label": "영국",
+          "label": "미국",
           "value": 1
         },
         {
-          "label": "이탈리아",
+          "label": "영국",
           "value": 1
         }
       ],
       "topIndustries": [
+        {
+          "label": "에너지/인프라",
+          "value": 1
+        },
         {
           "label": "통신/IT",
           "value": 1
@@ -568,7 +563,7 @@
       ],
       "recentArticles": [
         {
-          "id": "g-de-2026-02-01-13-TG9ja0JpdC1S",
+          "id": "g-de-2026-02-01-14-TG9ja0JpdC1S",
           "date": "2026-02-23",
           "title": "Apache ActiveMQ 취약점을 통한 LockBit 랜섬웨어: 2단계 공격",
           "publisher": "all-about-security.de",
@@ -592,21 +587,21 @@
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVHEtOFNnV3p1NGxSUWo3d2FHSVJocGRoWUt2VWZhVndTa3JsTDhOTzRvMkQ4a3RsUEtXNFI2TzUydjNqRk9kZXE4bldfWXN2ZENzbURmTWN6X2NVaFdnNDJCSXJibmpTTHlkWUVFNzFVdzQ2dDJrRDZPclZUQVpJQS1UQUtKOGdNWXZScWYyT21IZ0V6TEY1YzJ4bm0zb0NGREVTOW9IcXR4cmlQYjF5U1Q4dzlQSzFfVnlfLVBtSzhUWTJrNmczek9EUnBJdw?oc=5"
         },
         {
-          "id": "g-it-2026-02-01-12-QXR0YWNjaGkg",
-          "date": "2026-02-05",
-          "title": "이탈리아에서 5분마다 한 번씩 해커 공격: LockBit3, Play, RansomHub 습격 및 AI로 생성된 최초의 사이버 범죄 사례",
-          "publisher": "Quotidiano Nazionale",
-          "primaryClass": "trend_signal",
-          "primaryLabel": "추세/동향",
-          "country": "이탈리아",
+          "id": "g-es-2026-01-01-12-RWwgcG9wdWxh",
+          "date": "2026-01-08",
+          "title": "인기 있는 LockBit 랜섬웨어가 그 어느 때보다 더 위험해졌습니다. 모든 파일을 잃지 마세요",
+          "publisher": "RedesZone",
+          "primaryClass": "law_enforcement",
+          "primaryLabel": "법집행",
+          "country": "미상",
           "industry": "미상",
           "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRlBpSEkxTmd5YnN6NTV6TnBRYlFGRHdTWDlDLVNlMENtZGExTVBZemlYSi1tOVNMTi1JMm82dUFnNGJPU29kbm1TeWFUWlJ0czB2NEp1eGxXRUtDWWtWVTdwMGI0MVZ3VHZIM1NWMEtCM1NIdElBeklDRWxINV9zQVo2WGMtX2ht?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQU2FhT20xMXMya2M3VVN6OUY4Y29BTDY2MmhocEV3elZjWFZ0Q0phenYwUEw4ZzFRbVREWHYxM0ZPVTRjcDJnWVNzU3dOSWtQUVZjZzZKODFaMzlabXZWM2VBVEgxQlZNTkpVXzhyMTFmU0FFVjFuYktHSm92QnJ5M09QdEpiVS1INGJJODhLeXE?oc=5"
         },
         {
-          "id": "g-it-2026-01-01-6-TG9ja0JpdCA1",
+          "id": "g-it-2026-01-01-7-TG9ja0JpdCA1",
           "date": "2026-01-05",
-          "title": "LockBit 5.0: il ritorno del ransomware più temuto del web",
+          "title": "LockBit 5.0: 웹에서 가장 두려운 랜섬웨어의 귀환 - Digital Agenda",
           "publisher": "Agenda Digitale",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
@@ -618,43 +613,31 @@
         {
           "id": "g-en-2026-01-01-19-TG9ja0JpdCBS",
           "date": "2026-01-02",
-          "title": "LockBit Ransomware Takedown Hero to Receive Prestigious Award from King of Britain",
+          "title": "LockBit 랜섬웨어 제거 영웅, 영국 왕으로부터 권위 있는 상 수상",
           "publisher": "Cybersecurity Insiders",
-          "primaryClass": "law_enforcement",
-          "primaryLabel": "법집행",
+          "primaryClass": "other",
+          "primaryLabel": "기타",
           "country": "영국",
           "industry": "미상",
           "victimOrg": "미상",
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOU0djcEF2TF9sZERqcnhGc2Nmc1EtQzRkczN6V2FWdzJqVUR0cVBHd0RHWjlVMGdNNUVHREpvcV9XaE8yaUxlR2tWdzJfbm9sTVdXRmxhWExfV1hfaXJTNXRfMU1mY2h0QkphMnZwT3hpWVJSQW5pLUR1S3J2dElRV0pFaTdGd1pJRUZnbDJNczJRcDBXN0c1OVh4d19WU2pyQXRzeVMtLW4zVVB6M2Q1QnExVnRwaW9YV2JVVHNDaw?oc=5"
         },
         {
-          "id": "g-zh-2025-12-01-10-TG9ja0JpdCA1",
+          "id": "g-zh-2025-12-01-16-TG9ja0JpdCA1",
           "date": "2025-12-08",
-          "title": "LockBit 5.0勒索软件核心基础设施泄露，关键IP与勒索域名曝光",
+          "title": "LockBit 5.0 랜섬웨어 핵심 인프라 유출, 주요 IP 및 랜섬웨어 도메인 이름 노출 - 보안 내부 참조",
           "publisher": "安全内参",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
           "country": "미상",
-          "industry": "미상",
+          "industry": "에너지/인프라",
           "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1FS0hFUjAzZTU4MVdPYUlVZ3p1enZ3TVpVaVI4SXAwR2tVT0FLdkM2UHZTMlRCZFFWWHVaeWRoVmo0RUpjamNpc3pnR1A3dw?oc=5"
-        },
-        {
-          "id": "g-pt-2025-11-01-6-TG9ja0JpdCA1",
-          "date": "2025-11-18",
-          "title": "LockBit 5.0: 가장 잘 알려진 랜섬웨어 중 하나인 WeLiveSecurity의 최신 버전",
-          "publisher": "WeLiveSecurity",
-          "primaryClass": "trend_signal",
-          "primaryLabel": "추세/동향",
-          "country": "미상",
-          "industry": "미상",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeklLZ2FIbkRPRG13dVN6UnRCMlMxbDhzeFJ5aGk2UTdOT2M0M0puem9NTmkxQXVGcjBYN1FkWlYwUWlFRWtQVDVPRjNkZFYzTXFmVFZpampRcjFKZVB3bWttQ2t4LUo0WG5wNy13WHFwbTgxSlpfOHp6VlRvQUdzMU5hMjhQR2M5LW9oZHJMZGFJWHB4UXAwUmlwQ1hHMzRsVmdZN3FaR2hWQU9KUjJwZDEyWm1jLTQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FTzZYNFVyV2hkd0xnQ2dhdjZwQWRoZGNMR0NMa0ZQNzZFRjVBTlF5bXJvRXBzQkdydF9TdlVhUUdRSi1YV1kxQWhSREk2Q3oyeVZzWUJB?oc=5"
         },
         {
           "id": "g-en-2025-11-01-16-UmFuc29td2Fy",
           "date": "2025-11-14",
-          "title": "Ransomware's Fragmentation Reaches a Breaking Point While LockBit Returns",
+          "title": "LockBit이 돌아오는 동안 랜섬웨어의 단편화가 한계점에 도달 - 해커 뉴스",
           "publisher": "The Hacker News",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
@@ -664,9 +647,9 @@
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5KYUIzR0t2dW82Si1fVnVVdXpFNVA0YlFVWkR3LXE4RXctdUduckFzX0ZwV0lKWGtsZ0ZpUDM4aTFWdDlidGxIeHRtb0lMUU9UTlR5TzR1NkJ4ZzZQVTk1QlpmaW0wbmRRNkZFcGI2WDlCdUVLM2xBZDJlUnY?oc=5"
         },
         {
-          "id": "g-es-2025-11-01-11-TG9ja0JpdCA1",
+          "id": "g-es-2025-11-01-13-TG9ja0JpdCA1",
           "date": "2025-11-13",
-          "title": "LockBit 5.0: la última versión del reconocido ransomware",
+          "title": "LockBit 5.0: 유명한 랜섬웨어의 최신 버전",
           "publisher": "WeLiveSecurity",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
@@ -676,7 +659,7 @@
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMFpab2NMNXhEQmRqWjRWd2tjR0lSQW5UektqbHVPUkNJcVZGSnVFS0cwTExUbjlmVWV1X1YxUEF1QmdNeU1xWjZydDdENV9PaDA5TmdPb0tMMzVFTGJYR05TcXBkOHFsLWh3VWp3NXdFMWZaUjljbjZSNkZBRUstR01WZkF1Snhn?oc=5"
         },
         {
-          "id": "g-en-2025-10-01-16-TmV3IExvY2tC",
+          "id": "g-en-2025-10-01-11-TmV3IExvY2tC",
           "date": "2025-10-24",
           "title": "보안 연구원이 확인한 새로운 LockBit 랜섬웨어 피해자",
           "publisher": "Infosecurity Magazine",
@@ -686,6 +669,166 @@
           "industry": "미상",
           "victimOrg": "미상",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wVEdWUjR1YnJxZjdWZzFzUGM3UVhBSWI5LWhnZUpJa0xWLVp3VUtwVnUwS3Y2eFpTa1Y5Q0VUT01rQ2lNTmF3alNlaUlGTkZBUUg5V2hEcENuVTNjcUFGd2Z4dnhUdThYODBuZVU5NDhDeUpUREY2UnkyOC01WDg?oc=5"
+        },
+        {
+          "id": "g-zh-2025-10-01-9-5LiJ5aSn5YuS",
+          "date": "2025-10-09",
+          "title": "세 가지 주요 랜섬웨어 그룹인 LockBit, DragonForce 및 Qilin이 제휴를 맺었습니다.",
+          "publisher": "iThome",
+          "primaryClass": "trend_signal",
+          "primaryLabel": "추세/동향",
+          "country": "미상",
+          "industry": "미상",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBwSERLNHNDR0tSX2xfTDRFV1NIY05LYjFKNFNuSlI1ckFCcGFsdzdWT2x2QWRDVDNFQ0JfRmVCOXA4czdQUTBWU1RtbG9fZw?oc=5"
+        }
+      ],
+      "relatedIncidents": []
+    },
+    {
+      "group": "BlackCat/ALPHV",
+      "allArticles": 16,
+      "clusterCount": 7,
+      "incidentCount": 0,
+      "firstSeen": "2025-08-08",
+      "lastSeen": "2026-05-05",
+      "last30": 8,
+      "last90": 9,
+      "previous180": 6,
+      "delta": 3,
+      "sampleTitle": "ALPHV BlackCat 랜섬웨어: 보안 전문가가 공격자의 편으로 전환하는 경우",
+      "topCountries": [
+        {
+          "label": "미국",
+          "value": 5
+        }
+      ],
+      "topIndustries": [
+        {
+          "label": "법집행/사법",
+          "value": 2
+        }
+      ],
+      "recentArticles": [
+        {
+          "id": "g-fr-2026-05-01-3-UmFuc29td2Fy",
+          "date": "2026-05-05",
+          "title": "ALPHV BlackCat 랜섬웨어: 보안 전문가가 공격자의 편으로 전환하는 경우",
+          "publisher": "Solutions-Numeriques",
+          "primaryClass": "trend_signal",
+          "primaryLabel": "추세/동향",
+          "country": "미상",
+          "industry": "미상",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVi1XUjcyZnh1WGZVbENyYjBJcVh6MUc3WllVUG5fZmdqcjI1LW93RVhrYTUzR3NDZU5PdU1mNGM3OXBISGx0VW93WVBVNUxPc2s2ZG5POWt6eHQtOWl2WUZlVE1MbzhRcERoT2NkVXE2VTJUV3pKMDRMR1l0NzVLN0xaYUJucFA4b0NfOFJESVUxb2xSRXhRa2plSDZTNGlSQm5TYUFfb2JnMWJMNlFESGZoUGpNaFRKUVprdmxDY2o?oc=5"
+        },
+        {
+          "id": "fr-8-UmFuc29td2FyZSBB",
+          "date": "2026-05-05",
+          "title": "ALPHV BlackCat 랜섬웨어: 보안 전문가가 공격자의 편으로 전환하는 경우",
+          "publisher": "Solutions Numériques",
+          "primaryClass": "law_enforcement",
+          "primaryLabel": "법집행",
+          "country": "미상",
+          "industry": "미상",
+          "victimOrg": "미상",
+          "url": "https://www.solutions-numeriques.com/ransomware-alphv-blackcat-quand-les-experts-securite-basculent-du-cote-des-attaquants/"
+        },
+        {
+          "id": "ko-3-67O07JWIIOyghOus",
+          "date": "2026-05-02",
+          "title": "보안 전문가가 랜섬웨어 공격 가담…블랙캣 사건으로 징역 4년 선고",
+          "publisher": "데일리시큐",
+          "primaryClass": "law_enforcement",
+          "primaryLabel": "법집행",
+          "country": "미국",
+          "industry": "미상",
+          "victimOrg": "미상",
+          "url": "https://www.dailysecu.com/news/articleView.html?idxno=206562"
+        },
+        {
+          "id": "g-en-2026-05-01-19-MiBVUyBDeWJl",
+          "date": "2026-05-02",
+          "title": "ALPHV(BlackCat) 랜섬웨어를 지원한 미국 사이버 보안 전문가 2명 투옥",
+          "publisher": "Hackread",
+          "primaryClass": "trend_signal",
+          "primaryLabel": "추세/동향",
+          "country": "미국",
+          "industry": "미상",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMHJNZC1VeWNBSW1vMWVwMEJCY2owY21nbEpkRXEyUVRoZ3lFQVBsWkRFblZVbVpVOENodERTYWI2VVZ1WjBCQ1VyaUtwOUI3OWJTX1FYU18yY01TSFNQX0RPdm1kTXNRTFlxZDlKUjBpbUJPcjJjSlRnd3V4QkhnNWRpZw?oc=5"
+        },
+        {
+          "id": "g-es-2026-05-01-4-Q29uZGVuYSBh",
+          "date": "2026-05-01",
+          "title": "랜섬웨어 공격으로 BlackCat 회원 2명 유죄 판결",
+          "publisher": "Foro3D",
+          "primaryClass": "trend_signal",
+          "primaryLabel": "추세/동향",
+          "country": "미상",
+          "industry": "미상",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRnRTV0kxdmxDYVRRNnB0UUYxNVE4MV9xbnBhTkJnZTQ0ancxY2tUc0FoUVlCSXdmdnU3dE1zeHBYODdFZVVSbUh3ZGdfOGl1ZDZVZGJkeWZBWXlOTHowbU92SDhwQlM2TkZSS0k4Y0FQbW9mWTU2bkpGTWlSQlpZSXllTGVvUVlyVDF5SUdvV0F2azEtSXBuaENB?oc=5"
+        },
+        {
+          "id": "g-en-2026-05-01-0-VHdvIEN5YmVy",
+          "date": "2026-05-01",
+          "title": "BlackCat 랜섬웨어 공격으로 사이버 보안 전문가 2명 징역 4년 선고 - 해커 뉴스",
+          "publisher": "The Hacker News",
+          "primaryClass": "trend_signal",
+          "primaryLabel": "추세/동향",
+          "country": "미상",
+          "industry": "미상",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTk45QVpWLXZtNG9ZTXVneG5NVENfMFlPTjV5WFdWLUszcnBIM2tmcVlFdmlTMDBoWVd1bWlqZmJpVlhFSURCQTBiSjFOdWtQS2s4c1phQkRFQWp5R1N2S0tJNXJVMVJwUnFuOC1pVXk3VEpiTkNzYTBtM1pMZXcwQXpB?oc=5"
+        },
+        {
+          "id": "g-zh-2026-04-01-7-QmxhY2tDYXTl",
+          "date": "2026-05-01",
+          "title": "BlackCat 랜섬웨어 공격 멤버 2명 선고",
+          "publisher": "Foro3D",
+          "primaryClass": "trend_signal",
+          "primaryLabel": "추세/동향",
+          "country": "미상",
+          "industry": "미상",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZ2lXbjkzMG5wX1B6Y3NNVTA3UGdfQmowSUVRTGQ4Slo5TVBVaHh0Mk5uUkNpVVluUEZuX2t2YUhHb2NKTDA0RGRpdXdkbVNZNWJqSDVfOC1la29GWFVaWUlsMXpSQWN6RXByQmptSWNwd0QzVWdKQWlBS29XSnZKV3VqY1NEeWRjUXBlV0VXS2RqWEVKYXZKTTZJRTRlX0FwZXc?oc=5"
+        },
+        {
+          "id": "g-en-2026-04-01-19-UmFuc29td2Fy",
+          "date": "2026-04-21",
+          "title": "랜섬웨어 협상가, 2023년 BlackCat 공격 지원에 유죄 인정 - 해커 뉴스",
+          "publisher": "The Hacker News",
+          "primaryClass": "law_enforcement",
+          "primaryLabel": "법집행",
+          "country": "미상",
+          "industry": "미상",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORXY4ZEpRYThWT1RSRjZ2aWJWamYtbnJoY3Y0TFdzX3VzOS1xUEoxV3dyTTNjb0N6eXN3T3JQejdXaHY2bllxVmpzTVhmem1PcWhGMEdQeHVXTmVTbDlRQW42WllBMV9yXzcyNFFORnJObmE1OXFWR3htYUpSSE00cmxDNA?oc=5"
+        },
+        {
+          "id": "g-en-2026-03-01-11-UmFuc29td2Fy",
+          "date": "2026-03-13",
+          "title": "DOJ는 랜섬웨어 사고 대응자가 협상 중에 BlackCat 사이버 범죄자에게 정보를 제공했다고 주장했습니다.",
+          "publisher": "The Record from Recorded Future News",
+          "primaryClass": "law_enforcement",
+          "primaryLabel": "법집행",
+          "country": "미상",
+          "industry": "법집행/사법",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5vdUhNSkVEdXhBTzhWdmltX3R0YWVOQ3NLVGtIQmlrYmthQXdHWEVFSW1TWDN1WTFjamV3c1E4ZkpvVjg3NlRqb3dmUTFYUFFkd0d0TVI5ZzRvZ3lueUpTUkpFdEw5VG53VTRqOXJvR3dwbVN2?oc=5"
+        },
+        {
+          "id": "g-en-2026-01-01-11-VVMgQ3liZXIg",
+          "date": "2026-01-05",
+          "title": "미국 사이버 전문가, BlackCat 랜섬웨어 활동에 대해 유죄를 인정",
+          "publisher": "Dark Reading",
+          "primaryClass": "law_enforcement",
+          "primaryLabel": "법집행",
+          "country": "미국",
+          "industry": "미상",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOW05cnpfYmpEcVRQU0dmUlJpMm9SOVNhN3VROUFJUjNjeEE2MzVHN0prVHk5cVpRN241QTg4cUM3ZnN1UEhYQlFlWXJaZVRDMHBWTU9iWENnbmVaTFo5aTU4d0V0eUtxTzIzOXdYcFlpc1pBdjlsME85Ui1Ua2lFUUVQekNHWmFSdGowdWZoamtUTzdK?oc=5"
         }
       ],
       "relatedIncidents": []
@@ -701,15 +844,11 @@
       "last90": 3,
       "previous180": 3,
       "delta": 0,
-      "sampleTitle": "思科防火牆管理平臺零時差漏洞遭勒索軟體駭客Interlock濫用，最早可追溯至一月底",
+      "sampleTitle": "Cisco 방화벽 관리 플랫폼의 제로데이 취약점, 랜섬웨어 해커인 Interlock에 의해 악용되었으며, 추적 가능 시기는 1월말로 거슬러 올라갑니다.",
       "topCountries": [
         {
           "label": "미국",
-          "value": 1
-        },
-        {
-          "label": "유럽",
-          "value": 1
+          "value": 3
         }
       ],
       "topIndustries": [
@@ -726,7 +865,7 @@
           "value": 1
         },
         {
-          "label": "에너지/인프라",
+          "label": "통신/IT",
           "value": 1
         }
       ],
@@ -734,12 +873,12 @@
         {
           "id": "g-zh-2026-03-01-15-5oCd56eR6Ziy",
           "date": "2026-03-19",
-          "title": "思科防火牆管理平臺零時差漏洞遭勒索軟體駭客Interlock濫用，最早可追溯至一月底",
+          "title": "Cisco 방화벽 관리 플랫폼의 제로데이 취약점, 랜섬웨어 해커인 Interlock에 의해 악용되었으며, 추적 가능 시기는 1월말로 거슬러 올라갑니다.",
           "publisher": "iThome",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
           "country": "미상",
-          "industry": "미상",
+          "industry": "통신/IT",
           "victimOrg": "미상",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBHaDJvaUVHRmNLZXNRWElQOGZTc2V6ZGhYcHQzTlduWE9KeGpNSE45QjNDZm5FS19ranNLRVRjZjhyZXJMdXdsR0VTb0RxUQ?oc=5"
         },
@@ -768,7 +907,7 @@
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBGVFJOMlM5WnZjdkJ2QUJxLUdBYTF4a2pWWjNuZnpZbmpldDFJS3BMSDMyVW8zSWhRWnAyRFBSbzdQajFUWmVjaGVCV0pPUQ?oc=5"
         },
         {
-          "id": "g-pt-2025-10-01-13-UmFuc29td2Fy",
+          "id": "g-pt-2025-10-01-6-UmFuc29td2Fy",
           "date": "2025-10-18",
           "title": "Interlock 랜섬웨어가 진화하고 있으며 사이버 보안 기관을 걱정하고 있습니다",
           "publisher": "TecMundo",
@@ -780,9 +919,9 @@
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeHhvWmhjY0N2YmJQZmx0ZDRsQUVkNTVPSFRxSV9Ob0VpRHFqNjBNdjQtR0ZyTUR6YXhZb1JBelBpU1IxbG0wUUROZUZQaWRaVHJSN2VDTnQ1M0pDN2JqZFdtaHlxLVFYZjBVX0ZnV0JsLVFrS28tU1o3b2Jld2dDVm5rVGhiUV9aYjRWQWh0WGUxUE1aZ3VFbU5LWFhTMW10QmlQZGNDWUxtV2R6aVI4ajFPQmw?oc=5"
         },
         {
-          "id": "g-es-2025-09-01-19-Q0lTQSBhZHZp",
+          "id": "g-es-2025-09-01-18-Q0lTQSBhZHZp",
           "date": "2025-09-02",
-          "title": "CISA advierte sobre el crecimiento del ransomware Interlock",
+          "title": "CISA, Interlock 랜섬웨어 증가 경고",
           "publisher": "WeLiveSecurity",
           "primaryClass": "official_notice",
           "primaryLabel": "공식공지",
@@ -792,9 +931,9 @@
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbmxpSkV6M1BKdlJhUXpKdHg4R3h0dGVvMnJWRXRpdl9jb3dHUFJZVlpIVThPeWVrUlFYTHZWTXF3bmFwTUtQU1d2WFY1MmM0aG00U3IyTU9nT1FYSTVFa25RSmFEZ2h3X0djd0tpZnhXa3htc2t4OXhCU3NwX1M2OFhMVDJhODdxS091cmpQSkJpUFhibVE?oc=5"
         },
         {
-          "id": "g-en-2025-08-01-3-VGhyZWF0IEFj",
+          "id": "g-en-2025-08-01-2-VGhyZWF0IEFj",
           "date": "2025-08-15",
-          "title": "Threat Actor Profile: Interlock Ransomware",
+          "title": "위협 행위자 프로필: Interlock 랜섬웨어",
           "publisher": "Arctic Wolf",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
@@ -804,9 +943,9 @@
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPT05hWlBKWFFZU05WY2l5a2V3clR4UHNZMWJLMGxGUFpxTzFydDhpa3dfdnpSNzJqamdFSDFMbUNhWk1icW9PT0dpQWxrQ0lhOGlGSkJYR01VcGg3NDRyQ3hlS3hsXzhZREZzRHYyeUpKdUtzeGxDckItVzJrdS1rNXpBc2tPR3M?oc=5"
         },
         {
-          "id": "g-en-2025-07-01-10-QWdlbmNpZXMg",
+          "id": "g-en-2025-07-01-9-QWdlbmNpZXMg",
           "date": "2025-07-24",
-          "title": "Agencies warn of activity by Interlock ransomware",
+          "title": "기관들, Interlock 랜섬웨어 활동 경고 - 미국 병원 협회",
           "publisher": "American Hospital Association",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
@@ -816,13 +955,13 @@
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWF9KYmFreDdZSnMtZ2t5UzZWU1NZcEx6THZiNXVMZmRWT0sxU0tuVk1PWjVRQ2tEU01taHoxTTR6dENibEdkSy16RTN1VFZVbGZ4QXFXaENseWh0bWNNcDBEZHBMbGRVVnhpNWRSdVhzU2Zsa2g1S2wtR2hyZVVub3BHUk5LSFZ3b2lPSlBmY2Vkdw?oc=5"
         },
         {
-          "id": "g-zh-2025-07-01-12-576O5ZyLRkJJ",
+          "id": "g-zh-2025-07-01-14-576O5ZyLRkJJ",
           "date": "2025-07-24",
-          "title": "美國FBI與CISA緊急示警：Interlock勒索軟體攻擊活動急劇升溫",
+          "title": "미국 FBI 및 CISA 긴급 경고: Interlock 랜섬웨어 공격이 급격히 증가하고 있습니다",
           "publisher": "informationsecurity.com.tw",
           "primaryClass": "law_enforcement",
           "primaryLabel": "법집행",
-          "country": "미상",
+          "country": "미국",
           "industry": "법집행/사법",
           "victimOrg": "미상",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUGZneWJWanZ4ejVPcUthT2xWeG9tRlowTTByeW5nWmNqNWtVOVFZX3N5YUdqX2RQYi1XcVVXNlJ2djZYcjBvVFR6WE1jVGxLTGJNQ1JCTnR6VnpCLTdGejJlZkhEeFhGWjltVEloZnNDU083TXdCX0VqTUdWN3JmVFNn?oc=5"
@@ -830,11 +969,11 @@
         {
           "id": "g-en-2025-07-01-18-VVMgYWdlbmNp",
           "date": "2025-07-23",
-          "title": "US agencies warn of Interlock ransomware targeting critical infrastructure in North America, Europe",
+          "title": "미국 기관, 북미, 유럽의 중요 인프라를 노리는 Interlock 랜섬웨어 경고 - 산업사이버",
           "publisher": "Industrial Cyber",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
-          "country": "유럽",
+          "country": "미국",
           "industry": "제조",
           "victimOrg": "미상",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPemtwcVpaU0ZtVnhlcjQzNTJNdEd2bnQ0NzdaMEVURnBhcXBuUC1pM2RGZDhNS2dnMWN4MzQzWF84Q0hBSEVZT1ROeHY5dmxmOGNmdWtjRHlaTHd6a2gzT0JSdENVU3MxeFBuTzlibzF0SEhVakJWbXRSUzlNaXdwXzFhU2hhVHg4eDZUQ0hmX2hsNjNTQlg5VUszRzNHVS1sbzFfQ3NKNWllVk9FSG9lY0VqcGYtZm5sWkxTeUxVWnBxQ0FraGRGYjNzTQ?oc=5"
@@ -842,7 +981,7 @@
         {
           "id": "g-en-2025-07-01-16-RmVkcyBJc3N1",
           "date": "2025-07-23",
-          "title": "Feds Issue Interlock Ransomware Warning as Healthcare Attacks Spike",
+          "title": "의료 공격 급증으로 Feds, Interlock 랜섬웨어 경고 발행",
           "publisher": "The HIPAA Journal",
           "primaryClass": "official_notice",
           "primaryLabel": "공식공지",
@@ -856,23 +995,23 @@
     },
     {
       "group": "DragonForce",
-      "allArticles": 14,
+      "allArticles": 15,
       "clusterCount": 8,
       "incidentCount": 0,
       "firstSeen": "2025-02-27",
-      "lastSeen": "2026-04-16",
+      "lastSeen": "2026-04-17",
       "last30": 1,
       "last90": 2,
       "previous180": 3,
       "delta": -1,
-      "sampleTitle": "DragonForce 랜섬웨어 캠페인에 사용된 Python 백도어 ViperTunnel",
+      "sampleTitle": "Hacktivist 그룹 DragonForce Malaysia, Windows LPE Exploit 공개, 랜섬웨어 그룹으로 진화할 계획 공개",
       "topCountries": [
         {
-          "label": "사우디아라비아",
-          "value": 2
+          "label": "영국",
+          "value": 3
         },
         {
-          "label": "영국",
+          "label": "사우디아라비아",
           "value": 2
         },
         {
@@ -883,7 +1022,7 @@
       "topIndustries": [
         {
           "label": "유통/서비스",
-          "value": 2
+          "value": 3
         },
         {
           "label": "제조",
@@ -891,21 +1030,21 @@
         },
         {
           "label": "통신/IT",
-          "value": 1
+          "value": 2
         }
       ],
       "recentArticles": [
         {
-          "id": "g-zh-2026-04-01-15-UHl0aG9u5b6M",
-          "date": "2026-04-16",
-          "title": "DragonForce 랜섬웨어 캠페인에 사용된 Python 백도어 ViperTunnel",
-          "publisher": "iThome",
+          "id": "g-pt-2026-04-01-8-R3J1cG8gaGFj",
+          "date": "2026-04-17",
+          "title": "Hacktivist 그룹 DragonForce Malaysia, Windows LPE Exploit 공개, 랜섬웨어 그룹으로 진화할 계획 공개",
+          "publisher": "CloudSEK",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
           "country": "미상",
-          "industry": "미상",
+          "industry": "통신/IT",
           "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9zVDI5MVF2MWFFeXBsQ2VIMEdwLVdqbnN1OE1kLV9WRklzWlNHX0R4aU43ZFZxY0dGQ09VcDE1b1lMaXgxV0JNUGFrZmo3dw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQdHBCemhNbnlZWlhjaVU5YWFKU0ZnYVJrRHJXVmdoZnRhWVRIbnpRaklUUXl2SVFGY2tybXV5M2lOR25XNkJTNF9zTnhFX1kzdE5nd211ZFBEZ3FZNlNMUklVSk9qUjNGb0Vqc2pwN3ZDMXNVOU9VYmFya3pxRkdGVm9pb0N2RWJ3am1IOXpGeVpPN1RQanNYcWRGbU5rSnFiWDBES3R3VUk4bzdScm1lbGtYRFhmVThBTzhwa2g2VnVyTVZvWkQ0Q0FxZ25rdGJHeFlKMFFvMThQdnBqQWpQZkNzb3BlWjdBZVM0RU1TNE9mWVBzLTBJUld3?oc=5"
         },
         {
           "id": "g-pt-2026-03-01-3-R3J1cG8gZGUg",
@@ -920,7 +1059,7 @@
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNS3FHUndhd0duZERfdjBScEptMkpFWVRrYzdZS090ZEI0Zl91ZWQ5RUlTOHdQaTA4TXBzY0dxUWtxS0h5Mk9RZzRaWURPd1pScVR6dUtpR01OV0QxSi11dmpONDE5QmlzZGItQWxSZmFjQ3RQTmNBbHZmTXIzM1VSNmVWbHFud0k5U0I3TVdQNE9vWnJ2SVVOekltNXFfcTJMQnZ5TzRuQm1DT0hU?oc=5"
         },
         {
-          "id": "g-zh-2026-01-01-16-6Yed5bCN6Zu7",
+          "id": "g-zh-2026-01-01-14-6Yed5bCN6Zu7",
           "date": "2026-01-09",
           "title": "전자 부품 제조사 SINBON에 대한 사이버 공격, 랜섬웨어 DragonForce가 자신들의 소행이라고 주장",
           "publisher": "iThome",
@@ -956,9 +1095,9 @@
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcVgwZ2NROFc5WTJzVkd4UXFsck1oU0k3ZXZvQ2doa0Y1OFNJN2tjeG9tQkVPeGJaNzd2Uk82SWwycnN4Z1ZxWjMxajZab1RQR2xrOTd6cFJhZ0dpOU9FWkwyc0lteUYwZldXRjJ3SU5ocmlISjE0OTZfR3hUNXRIM1ZPNF9vRXU5bWMxcQ?oc=5"
         },
         {
-          "id": "g-it-2025-06-01-13-RHJhZ29uRm9y",
+          "id": "g-it-2025-06-01-7-RHJhZ29uRm9y",
           "date": "2025-06-05",
-          "title": "DragonForce ransomware mette in ginocchio il retail UK: cosa insegna alle aziende italiane",
+          "title": "DragonForce 랜섬웨어는 영국 소매업체를 무릎 꿇게 만들었습니다: 이탈리아 기업에 가르치는 내용 - Cyber ​​​​Security 360",
           "publisher": "Cyber Security 360",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
@@ -970,7 +1109,7 @@
         {
           "id": "g-zh-2025-05-01-6-RHJhZ29uRm9y",
           "date": "2025-05-30",
-          "title": "DragonForce利用SimpleHelp漏洞在终端部署勒索软件",
+          "title": "DragonForce, SimpleHelp 취약점을 악용하여 터미널에 랜섬웨어 배포",
           "publisher": "blog.csdn.net",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
@@ -980,9 +1119,9 @@
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBWcG56aWpSRjNhVlJFNVVFRDBIbkQ5c2ptTlBiU1FKeGVqRUpsU1I0LWlUMzJrRng3RXZKX3JoblEwME1ENFVXdlg3WXgzU3lRU0VXemtxQUtUSGNPZG1BVktNWnZ2NnM?oc=5"
         },
         {
-          "id": "g-zh-2025-05-01-8-5YuS57Si6Luf",
+          "id": "g-zh-2025-05-01-7-5YuS57Si6Luf",
           "date": "2025-05-29",
-          "title": "勒索軟體DragonForce利用遠端管理工具SimpleHelp漏洞，攻擊MSP業者與其客戶",
+          "title": "DragonForce 랜섬웨어, 원격 관리 도구 SimpleHelp의 취약점을 악용하여 MSP와 고객 공격",
           "publisher": "iThome",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
@@ -992,21 +1131,21 @@
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1TSWNDMDNhSkF3dDlwLTJQdkt5MS0zcUpDYTQ3d3ljcm85TE9EanRfX0pZdEk4YjVGcmhjR01QNjNIcGdCVThkTXZvaVk4UQ?oc=5"
         },
         {
-          "id": "g-it-2025-05-01-8-RHJhZ29uRm9y",
+          "id": "g-it-2025-05-01-7-RHJhZ29uRm9y",
           "date": "2025-05-29",
-          "title": "DragonForce Exploits: Ransomware-as-a-Service",
+          "title": "DragonForce 악용: 서비스형 랜섬웨어 - ICT 보안 매거진",
           "publisher": "ICT Security Magazine",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
           "country": "미상",
-          "industry": "미상",
+          "industry": "유통/서비스",
           "victimOrg": "미상",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5GVzJyTDRvSXFRUVl2d2Rta0lRaklldmNTSVVVYzZkSXVsMHlnOXBiRTdMcldFTTdnYTViUlNzaEFFWU91NkxEc3IyTHB1QnVMRVNraElGUm4xdkR0ZVd4X09HNEdJVzA1a2dYYi11cXYwb3lV?oc=5"
         },
         {
           "id": "g-en-2025-05-01-19-RHJhZ29uRm9y",
           "date": "2025-05-12",
-          "title": "DragonForce Ransomware Operators Hint at Ties to Russian Federation",
+          "title": "DragonForce 랜섬웨어 운영자, 러시아 연방과의 연관성 암시",
           "publisher": "Halcyon",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
@@ -1020,16 +1159,16 @@
     },
     {
       "group": "RansomHub",
-      "allArticles": 12,
-      "clusterCount": 7,
+      "allArticles": 13,
+      "clusterCount": 8,
       "incidentCount": 0,
       "firstSeen": "2025-01-03",
-      "lastSeen": "2026-01-23",
-      "last30": 0,
-      "last90": 0,
+      "lastSeen": "2026-05-05",
+      "last30": 1,
+      "last90": 1,
       "previous180": 5,
-      "delta": -5,
-      "sampleTitle": "Luxshare Precision은 RansomHub 랜섬웨어 공격을 받은 것으로 의심되며 Apple, Nvidia 및 기타 고객의 비밀이 유출될 수 있습니다 - 온라인 정보 매거진",
+      "delta": -4,
+      "sampleTitle": "RansomHub는 누구입니까? - 보안 내부자",
       "topCountries": [
         {
           "label": "영국",
@@ -1051,6 +1190,18 @@
         }
       ],
       "recentArticles": [
+        {
+          "id": "g-de-2026-05-01-5-V2VyIGlzdCBS",
+          "date": "2026-05-05",
+          "title": "RansomHub는 누구입니까? - 보안 내부자",
+          "publisher": "Security-Insider",
+          "primaryClass": "trend_signal",
+          "primaryLabel": "추세/동향",
+          "country": "미상",
+          "industry": "미상",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONnZUZ3IwdVNMZWNyM3RsQWhFQVlwaDI5UTZZRjJ1N2pfSG15Z0x5NVZ4VS15UFFNellnMVJWNUlJajNnVThtR3lheHZrc1ZUQy1rYjhuSGs2M0NIdnhua3dYN0FmVzhDOWRxNEd1V2lETkx6YUcyUzZ2VzlHYTlRcWJHcUFnRHJfMjJjS3dGRVgyUUtpQ2JfY0h3VU9Hd2NLTk0xbWRPcw?oc=5"
+        },
         {
           "id": "g-zh-2026-01-01-4-56uL6KiK57K5",
           "date": "2026-01-23",
@@ -1090,7 +1241,7 @@
         {
           "id": "g-en-2025-10-01-11-UWlsaW4gcmFu",
           "date": "2025-10-27",
-          "title": "Qilin ransomware escalates rapidly in 2025, targeting critical sectors with 700 attacks amid RansomHub shutdown",
+          "title": "Qilin 랜섬웨어는 2025년에 RansomHub가 종료되는 동안 중요 부문을 대상으로 700건의 공격으로 급속히 확대됩니다.",
           "publisher": "Industrial Cyber",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
@@ -1102,7 +1253,7 @@
         {
           "id": "g-zh-2025-08-01-1-5paw5Z6LRURS",
           "date": "2025-08-11",
-          "title": "新型EDR殺手工具橫掃八大勒索軟體集團：RansomHub打造終極安全繞過利器",
+          "title": "새로운 EDR 킬러 도구가 8개의 주요 랜섬웨어 그룹을 휩쓸었습니다. RansomHub는 최고의 보안 우회 도구인 informationsecurity.com.tw를 만듭니다.",
           "publisher": "informationsecurity.com.tw",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
@@ -1114,7 +1265,7 @@
         {
           "id": "g-de-2025-06-01-1-UmFuc29tSHVi",
           "date": "2025-06-30",
-          "title": "RansomHub-Ransomware: Angriff über RDP mit Mimikatz und Netzwerk-Scanning-Tools",
+          "title": "RansomHub 랜섬웨어: Mimikatz 및 네트워크 검색 도구를 사용한 RDP를 통한 공격",
           "publisher": "all-about-security.de",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
@@ -1126,7 +1277,7 @@
         {
           "id": "g-en-2025-06-01-17-SW5zaWRlIFJh",
           "date": "2025-06-03",
-          "title": "Inside RansomHub: Tactics, Targets, and What It Means for You",
+          "title": "RansomHub 내부: 전술, 표적, 그리고 그것이 당신에게 의미하는 것",
           "publisher": "Bitsight",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
@@ -1148,7 +1299,7 @@
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQa0JvYU81ZFJwVWVQSjBfTlY4eUNEVW50eldPRXNJczROMG8tU1Ywc3h4U09Geml3cFFieTU2TFF1NEFVUmdzNEg5anFObVBJZm1pVU16U3p3YTFXMUtJS2lUamlMWm5pWFRGSnl2YlFjaFgzRVo2SF9fSzdmM25vbXNIUXY2ekFCb2FSdFk1Q0dicG5BRldpLVdSWTRTcWd2RTZZTUhxdnNnYm9ya043U1BnenQ0Wkt2M1NTVFhXVG9Qdm1DNl94Z3pWZF9nRWNDOFlST0I5bzcwX0NILTR5RG02VU9wQQ?oc=5"
         },
         {
-          "id": "g-it-2025-03-01-15-QmV0cnVnZXI6",
+          "id": "g-it-2025-03-01-14-QmV0cnVnZXI6",
           "date": "2025-03-22",
           "title": "Betruger: RansomHub의 새로운 다기능 백도어",
           "publisher": "Punto Informatico",
@@ -1158,166 +1309,6 @@
           "industry": "미상",
           "victimOrg": "미상",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTHR6YXRpSVN2RUdOUUxTLTB3ZFpLRjBxZXFZNWw0UFAyVVo4MGZ2Uk9odEpYbXlvQ2t4ZTQzNzdzLXFMQXY0T2d0R0dBRUM1X0VWaVhNbDFYWS1zUlhmWXdCQ0x4MVNmQk9BaEZVOV9ZMW9mWlF5empweXVnLXZBZHplc0Q5ZExp?oc=5"
-        },
-        {
-          "id": "g-ja-2025-03-01-15-44Ot44O844OA",
-          "date": "2025-03-20",
-          "title": "로더형 악성코드 'SocGholish'에 의한 침입 수법: 랜섬웨어 'RansomHub' 활동에 가담",
-          "publisher": "www.trendmicro.com",
-          "primaryClass": "trend_signal",
-          "primaryLabel": "추세/동향",
-          "country": "미상",
-          "industry": "미상",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQc2FDekNhcjJCVWlSb1hFWUxnOG9teVh6aEpRZnBxZldqOEsxbko5Ni1Cc0I0dzRlM0stZWRrQjNrbG1hNmdsWmVISFZ3S1RfNlBKSGVHMDRCbFpJa2JZNVpyOEJfbXNCQjlUY1dmaFFSNXRvNXR3eXhuLWlLTlItcGp5RGVyUXptdlNSVktQb2t0d2VaRVc3S0xRRldVcEktSV9PREMzZkdPLVFnaG5oV29yLTNFY3c?oc=5"
-        }
-      ],
-      "relatedIncidents": []
-    },
-    {
-      "group": "The Gentlemen",
-      "allArticles": 11,
-      "clusterCount": 3,
-      "incidentCount": 0,
-      "firstSeen": "2025-09-11",
-      "lastSeen": "2026-04-28",
-      "last30": 5,
-      "last90": 7,
-      "previous180": 4,
-      "delta": 3,
-      "sampleTitle": "The Gentlemen: 2026년 가장 활발한 서비스형 랜섬웨어 작전 - Cyber ​​​​Security 360",
-      "topCountries": [
-        {
-          "label": "미국",
-          "value": 3
-        }
-      ],
-      "topIndustries": [
-        {
-          "label": "유통/서비스",
-          "value": 1
-        }
-      ],
-      "recentArticles": [
-        {
-          "id": "g-it-2026-04-01-15-VGhlIEdlbnRs",
-          "date": "2026-04-28",
-          "title": "The Gentlemen: 2026년 가장 활발한 서비스형 랜섬웨어 작전 - Cyber ​​​​Security 360",
-          "publisher": "Cyber Security 360",
-          "primaryClass": "trend_signal",
-          "primaryLabel": "추세/동향",
-          "country": "미상",
-          "industry": "유통/서비스",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNjZuMS04djFTc0h2OF9SV1Z5bm1BdGVWa0JyeDNaakhNdUkyeVUzTVhQVzYxa2didl9vejdqWHkwSUxoV1NKU0tWcnA1ZjAwMDJsd2lpbHNHZmU5ZVFpRjRaMm9TRGVDTmlQQUxZcWlkcnYwRGU3TlQyZFdHQ1AwNkViY1BWWl9SNzRrRDVGWklfRFBhazc5UVBSQWtXSDFoV2hWWVFLWjhxbE5Qc2Y5RHc2NEV0RG8?oc=5"
-        },
-        {
-          "id": "g-it-2026-04-01-10-VGhlIEdlbnRs",
-          "date": "2026-04-27",
-          "title": "급증하는 랜섬웨어, 더 젠틀맨(The Gentlemen)",
-          "publisher": "SecurityOpenLab",
-          "primaryClass": "trend_signal",
-          "primaryLabel": "추세/동향",
-          "country": "미상",
-          "industry": "미상",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdm56TEt6aE5RZ3cwQ3BHYWt1cERESjFmeXh6NzQtZzBBa2QxUXVtTVM4a0JSb0RuTmtPYzIxUlJyS3RjaGZSTXdsWjJwZ2dSOXZNSE45UFVjR3Ewb3VtVC05NXNOMUh0NTk4RzRwcVFLWG9XOWpfdmhvVmhnbklDTVBFVlVaSW9pbDFCSW5XOUZBX1FEcWfSAZMBQVVfeXFMUFpKME5CZnBuMUZBajB3YzdudTY2c2JEa1R3Zjg0MUxPX3drZEl6U0YtR0d3cVVYSUd1WkJJNTd4eGRWNzJucTJIOFZNdi1teG0wWUh1anJhODJLLUY3NXl4bXFVY1N6OS1Vbk5LLWNIUGZuUnM5Y1VyWWJRejUyX2ZSYmdpcm9wd19RRmREU1hrOFZF?oc=5"
-        },
-        {
-          "id": "g-zh-2026-04-01-1-5rOw5Zu9VGhh",
-          "date": "2026-04-22",
-          "title": "泰国Thai Rung Union Car遭遇The Gentlemen勒索软件攻击事件分析",
-          "publisher": "电子工程专辑",
-          "primaryClass": "trend_signal",
-          "primaryLabel": "추세/동향",
-          "country": "미상",
-          "industry": "미상",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5wa0pmSTNRVWFWNjluVTFUZFlkWDR1WnlJRFRMczh5Sy0zbVlMS3lLcVRXVllVcV9sY2wzNk1kQmQwTmVmUl9vMFgxMkprQW5neXVr?oc=5"
-        },
-        {
-          "id": "g-es-2026-04-01-14-VGhlIEdlbnRs",
-          "date": "2026-04-22",
-          "title": "The Gentlemen, el peligroso grupo de ransomware que ataca al sector tecnológico y sanitario a nivel mundial",
-          "publisher": "20Minutos",
-          "primaryClass": "trend_signal",
-          "primaryLabel": "추세/동향",
-          "country": "미상",
-          "industry": "미상",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPSmxPd0trT0lVNG53U0lqZHd2d0dvMEFLdnMyRFRnSm8tdV9VT2dZdVh1b3g1NHRsQklKdUJHd01zejBwamNvNFhJTzI0d3p6RGJfUFJSZVcwLWcwZ0xmeHhFNEtERGh0ZDlnV2VqM2UxUjZTWVhWWWtQNDdWSjE5RWZBbDZIOXl2eDNPT3c0ZHlPVGViX2lpZUg4a1VvNkc3WUFFMWxEU25KenJrYWUtTExpZ3VtSG9HcXBveFBESnYyTklYSXhQSG9KN1RLMDdZYzREanVnWFdwX3FoUmpuQTVILUk0RGR4N3RvMnpRaDE?oc=5"
-        },
-        {
-          "id": "g-en-2026-04-01-19-U3lzdGVtQkMg",
-          "date": "2026-04-21",
-          "title": "SystemBC C2 Server Reveals 1,570+ Victims in The Gentlemen Ransomware Operation",
-          "publisher": "The Hacker News",
-          "primaryClass": "trend_signal",
-          "primaryLabel": "추세/동향",
-          "country": "미상",
-          "industry": "미상",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRy1Benh3RDFCTzJqY0pXOEJxX01OSWh2Nmtqc2V4aHRUYVIxdGZqbmtPVWxGOElfZFA3OTVVaGxpeU5DS0t3MDZjSGJIUVI1Y3h5SURCbWI4ck1nWjZ3SGtOeWNzLW43S3p2N1VleEotRjN5RjNDM2NLLTIzeHRXbXZESGU?oc=5"
-        },
-        {
-          "id": "g-pt-2026-03-01-0-VGhlIEdlbnRs",
-          "date": "2026-03-27",
-          "title": "The Gentlemen: 차세대 맞춤형 랜섬웨어",
-          "publisher": "WeLiveSecurity",
-          "primaryClass": "trend_signal",
-          "primaryLabel": "추세/동향",
-          "country": "미상",
-          "industry": "미상",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbUlEN1BIRGh0d1VqVWd6VWJwRG0tVS1kMTFpNkpubXN0NnhNc2FoRm9uWkotNnN0eVZjclZ2V2t2QTdfenpqU2NWWnRaR0pOcFVpT2VEdHhCbmN4UjJZWlR3Y2w4UVl0TTNmXzZnS2ZsY3Fqb1dtanhTc3hWZTZPMEJ2X0s2ZExDMHVaNHFiY2NwRjdJTVprem9NYWVfSDNR?oc=5"
-        },
-        {
-          "id": "g-es-2026-03-01-4-VGhlIEdlbnRs",
-          "date": "2026-03-26",
-          "title": "The Gentlemen: 맞춤형 공격을 수행하는 차세대 랜섬웨어",
-          "publisher": "WeLiveSecurity",
-          "primaryClass": "trend_signal",
-          "primaryLabel": "추세/동향",
-          "country": "미상",
-          "industry": "미상",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTDZtYUZyTTMzLXJ0OHhZd0VEXzAybU9RTkhUbEZYa2lySGZIU2pfdko4S3JWV0pfT0dwX3FMSjNiSlFRV3dESGRYdmtxXzVHN1hIRHZJTTFaUUxFUmFER2Z2VmlFNlg0TWdYZFNNXzNiQ0kyVW5UZFpJbDRJRlFRc2dLNXRyYXpqeDRJUjk5VnMyT0hLOEM1SUpJSFZDR1VVYzQ1MjBuYkRiLTlpb1hwd1F3?oc=5"
-        },
-        {
-          "id": "g-ko-2025-09-01-4-VGhlIEdlbnRs",
-          "date": "2025-09-11",
-          "title": "The Gentlemen 랜섬웨어 탐지: 그룹 정책 악용 및 고급 도구 사용한 새로운 공격 캠페인으로 주요 조직 표적",
-          "publisher": "SOC Prime",
-          "primaryClass": "trend_signal",
-          "primaryLabel": "추세/동향",
-          "country": "미상",
-          "industry": "미상",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1GaVVpUFRhcG5RTHpESWFPRUNVdFpyOHAwRUZkdENRZmEzMlpJcUNSSkI3dTQ5d1NtOTc5cXFWaXRZSFV4UjJtTUFvMGlBYTFUMi02eXRrcURGb19OVGJ2ZjV3a2dUeHlmWXM1clYwbDQ2dw?oc=5"
-        },
-        {
-          "id": "g-es-2025-09-01-1-RGV0ZWNjacOz",
-          "date": "2025-09-11",
-          "title": "Detección de The Gentlemen Ransomware: Nueva Campaña de Adversarios Usa Políticas de Grupo y Herramientas Avanzadas para Atacar Organizaciones Críticas",
-          "publisher": "SOC Prime",
-          "primaryClass": "trend_signal",
-          "primaryLabel": "추세/동향",
-          "country": "미국",
-          "industry": "미상",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1aWnhmbzdNdk9SbXUweGNHdnV2TEdyQVpXX19VdkdKSTFrVlZYTXM1NzFtUjhSUEduUEdWSVhhZDVvR2lUeTItTDVmM0MxVnVzaGgwcUVkcjhfWkNfSkZCUmItSzdiMFd4Y1ZJeWg0VWJxZw?oc=5"
-        },
-        {
-          "id": "g-pt-2025-09-01-1-RGV0ZWPDp8Oj",
-          "date": "2025-09-11",
-          "title": "Detecção do The Gentlemen Ransomware: Nova Campanha de Adversários Abusa de Políticas de Grupo e Ferramentas Avançadas para Alvos Críticos",
-          "publisher": "SOC Prime",
-          "primaryClass": "trend_signal",
-          "primaryLabel": "추세/동향",
-          "country": "미국",
-          "industry": "미상",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1KOHNsNTRmVmJCVHNBUV9kT2dlVFBLR0ZQSWhmOWw3M2pCaUZqRzN6YzBmOTFyX1dneERBemM4UU9YWXdFSmlGN2F5Yjc2MWdfRnhtbWVLQUVycEJRUWFzSmtVZlJrZTEzbkpGcTVIR2tnQQ?oc=5"
         }
       ],
       "relatedIncidents": []
@@ -1366,7 +1357,7 @@
         {
           "id": "g-ja-2025-07-01-2-U2FmZVBheSDj",
           "date": "2025-07-16",
-          "title": "SafePay ランサムウェアグループによる攻撃｜BLOG",
+          "title": "SafePay 랜섬웨어 그룹에 의한 공격 | BLOG - 사이버 트러스트",
           "publisher": "サイバートラスト",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
@@ -1376,9 +1367,9 @@
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNElxSFZsc21CR0JLR3RPQUt6X0V4RTh6MEZsY1JtSEh1Z1dLWlhwOUNQaXVoYU1MeC1WYWF0aWFPWHJHd1JzUzN3WWlXMmE3VFVmeWhfT3JKWlMxR0JGRTQ2T2RzenNORzQ2RVdkV1FsYnBMelhwYUhZLTRmVlVrT1M2dFJSWHd4ZU5LYUp6U2hxcjNKSjJLbUt4WUp0ZFAtbDRibjJnSmlJcGFPN2RF?oc=5"
         },
         {
-          "id": "g-de-2025-07-01-9-RGllIFJhbnNv",
+          "id": "g-de-2025-07-01-8-RGllIFJhbnNv",
           "date": "2025-07-15",
-          "title": "Die Ransomware SafePay: Eine schnell wachsende Bedrohung für MSPs",
+          "title": "SafePay 랜섬웨어: MSP에 대한 위협이 빠르게 증가하고 있습니다",
           "publisher": "Acronis",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
@@ -1388,9 +1379,9 @@
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPN0VTS3VIaUplcXdqeURDend5dEZ0RE5OZ2huNUFocHJ1dVhzLTBhSGpNNHZhSW84b1lVbEdlM2t2Mm95X3hYYTM4ZU9pLW1hbXhUN0lhNll0MEI4YnRJZkdxYlUzdWlhMjdHcDU5VDdJN0gtOUIwYWFYSFhtVEphU1BTcXhEa3MtUEs2TFhqa0tHVU5XRGZ1Q2hn?oc=5"
         },
         {
-          "id": "g-en-2025-07-01-9-VW5tYXNraW5n",
+          "id": "g-en-2025-07-01-16-VW5tYXNraW5n",
           "date": "2025-07-10",
-          "title": "Unmasking the SafePay Ransomware Group",
+          "title": "SafePay 랜섬웨어 그룹의 정체를 밝히다",
           "publisher": "Infosecurity Magazine",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
@@ -1400,9 +1391,9 @@
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNm5OdGFwaVROeDd4blJHSUhLSFZ0aDhFYWl5ei1mTUZfNzM0SENHUFVIWXBFQ2h2OWNKV1BCUHlEWllsYkJrQ085QmZhZEZIU0hXYW5LblhGY0E2d3V5Vl9DdklkMjJ3aFVmYVg0RVlEcmxVVzdZdThRaUQtN0RMT25wVGJTcHd3NmZEQmlUNkk?oc=5"
         },
         {
-          "id": "g-it-2025-07-01-17-SWwgY29sb3Nz",
+          "id": "g-it-2025-07-01-14-SWwgY29sb3Nz",
           "date": "2025-07-09",
-          "title": "Il colosso informatico Ingram Micro colpito dal ransomware SafePay",
+          "title": "IT 대기업 Ingram Micro가 SafePay 랜섬웨어에 공격당했습니다",
           "publisher": "CyberSecurity Italia",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
@@ -1414,7 +1405,7 @@
         {
           "id": "g-de-2025-07-01-0-UmFuc29td2Fy",
           "date": "2025-07-08",
-          "title": "Ransomware-Angriff auf Ingram Micro legt Systeme lahm – mutmaßlich SafePay verantwortlich",
+          "title": "Ingram Micro에 대한 랜섬웨어 공격으로 시스템 마비 – SafePay가 책임이 있는 것으로 의심됨",
           "publisher": "all-about-security.de",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
@@ -1426,7 +1417,7 @@
         {
           "id": "g-en-2025-07-01-2-SW5ncmFtIE1p",
           "date": "2025-07-07",
-          "title": "Ingram Micro Working Through Ransomware Attack by SafePay Group",
+          "title": "Ingram Micro, SafePay Group의 랜섬웨어 공격 대응 - MSSP 경고",
           "publisher": "MSSP Alert",
           "primaryClass": "official_notice",
           "primaryLabel": "공식공지",
@@ -1438,7 +1429,7 @@
         {
           "id": "g-de-2025-07-01-3-U2FmZVBheS1S",
           "date": "2025-07-07",
-          "title": "SafePay-Ransomware legt IT-Systeme von Ingram Micro lahm",
+          "title": "SafePay 랜섬웨어로 Ingram Micro의 IT 시스템 마비",
           "publisher": "it-daily",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
@@ -1450,7 +1441,7 @@
         {
           "id": "g-en-2025-07-01-18-SW5ncmFtIE1p",
           "date": "2025-07-05",
-          "title": "Ingram Micro Hit By SafePay Ransomware Attack: Report",
+          "title": "Ingram Micro, SafePay 랜섬웨어 공격에 타격: 보고서",
           "publisher": "crn.com",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
@@ -1476,7 +1467,7 @@
     },
     {
       "group": "Anubis",
-      "allArticles": 9,
+      "allArticles": 8,
       "clusterCount": 5,
       "incidentCount": 0,
       "firstSeen": "2025-02-25",
@@ -1495,7 +1486,7 @@
       ],
       "recentArticles": [
         {
-          "id": "g-en-2025-10-01-15-QXVzc2llIEZs",
+          "id": "g-en-2025-10-01-17-QXVzc2llIEZs",
           "date": "2025-10-20",
           "title": "랜섬웨어 그룹인 Anubis가 책임을 주장함에 따라 Aussie Fluid Power가 사이버 공격을 당했습니다",
           "publisher": "Industrial Cyber",
@@ -1509,7 +1500,7 @@
         {
           "id": "g-zh-2025-08-01-6-5YuS57Si6Luf",
           "date": "2025-08-05",
-          "title": "勒索軟體Anubis攻擊Windows、安卓裝置竊取資料、刪除檔案",
+          "title": "랜섬웨어 Anubis는 Windows 및 Android 장치를 공격하여 데이터를 훔치고 파일을 삭제합니다.",
           "publisher": "iThome",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
@@ -1521,7 +1512,7 @@
         {
           "id": "g-en-2025-07-01-13-QW51YmlzIGFu",
           "date": "2025-07-30",
-          "title": "Anubis and the Death of Data: A New Era of Ransomware Operations",
+          "title": "아누비스와 데이터의 죽음: 랜섬웨어 작전의 새로운 시대",
           "publisher": "Bitsight",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
@@ -1531,33 +1522,21 @@
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNY0dzbThuTzh6akdTdjhsbERWeGdwZENWR2pUWTBtWUtGNllieVpuUDE4LUlTWk1OWDRFcHpLOTFyRE5pcFdBeUxaS0NjZElhNURXUGRHY0JOQjhTRUE1bXFMMnZkUkhqUXdjWktUOFY0Q2VadTBzWjQ0WFFpb3V6ZHBB?oc=5"
         },
         {
-          "id": "g-en-2025-06-01-12-QW51YmlzIFJh",
-          "date": "2025-06-20",
-          "title": "Anubis Ransomware Lists Disneyland Paris as New Victim",
-          "publisher": "Hackread",
-          "primaryClass": "trend_signal",
-          "primaryLabel": "추세/동향",
-          "country": "미상",
-          "industry": "미상",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBfaVNadkdUYXhkMnIzVkFqUHJnSzdKN1VXQkNYSHFSWVRVTzFHOG1fQkVRMlkxbGZtZk1OdzlhaVNqM2FMaTMzRWNoOEtJWXNZYkFad2pSZmZfOV8tUGw2VGZuQnRHTENtZGhxUVk4LUJWcmh0NVhidDVfdklYQQ?oc=5"
-        },
-        {
-          "id": "g-zh-2025-06-01-3-5paw5YW05YuS",
+          "id": "g-es-2025-06-01-15-RWwgcmFuc29t",
           "date": "2025-06-17",
-          "title": "新兴勒索软件Anubis具有删除文件功能 即便支付赎金可能也无法恢复数据",
-          "publisher": "蓝点网",
+          "title": "Anubis 랜섬웨어는 파일을 암호화하고 파괴합니다: 복구 비용을 지불할 이유가 없습니다",
+          "publisher": "Bit Life Media",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
           "country": "미상",
           "industry": "미상",
           "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84VjBiTWh6ejg5LUxCeG9Jay1DNWd1R042blpvaEZzanZrTmh3WWhLaTFSczJPZmI1ck5OWDA5eHphY2RDenl1UXBhSWxvQXpsOUpJaFF4OTBjR0xf?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSWQ2UDBoTFBMbjc3SFVSc01GQzVJRUdHcWRkQVNaa3ZPM3I1Rmtsa1VQRGpfRXIyWmRaS0dvUUhDN0ZVc0hhSzFac0FCM2ZabGtSMXhDcGhvN3V3R3ROQ2RXU2dZNVc5ZDE0QnJXa2NmcnBvNXVMRDVoODBuQmlzU0JKWHFqWFBDRmxyV203TXR6aGlESTdQTG9sR05CUnNXbFhrRUVR?oc=5"
         },
         {
           "id": "g-es-2025-06-01-6-RWwgcmFuc29t",
           "date": "2025-06-16",
-          "title": "El ransomware Anubis cifra y borra archivos, lo que hace imposible recuperarlos incluso después del pago.",
+          "title": "아누비스(Anubis) 랜섬웨어는 파일을 암호화하고 삭제해 결제 후에도 복구가 불가능하게 만든다. - 링크드인",
           "publisher": "LinkedIn",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
@@ -1569,7 +1548,7 @@
         {
           "id": "g-en-2025-06-01-0-QW51YmlzOiBB",
           "date": "2025-06-13",
-          "title": "Anubis: A Closer Look at an Emerging Ransomware with Built-in Wiper",
+          "title": "Anubis: 와이퍼가 내장된 새로운 랜섬웨어 자세히 살펴보기",
           "publisher": "www.trendmicro.com",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
@@ -1581,7 +1560,7 @@
         {
           "id": "g-en-2025-06-01-18-QW51YmlzOiBB",
           "date": "2025-06-13",
-          "title": "Anubis: A Closer Look at an Emerging Ransomware with Built-in Wiper",
+          "title": "Anubis: 와이퍼가 내장된 새로운 랜섬웨어 자세히 살펴보기",
           "publisher": "www.trendmicro.com",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
@@ -1591,7 +1570,7 @@
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaGpGM3hpQUFDVmpzdHZNUndPNVBXRW9uV3Rmbm9HT0FxNE1nRVJ4aFh6dkJTNVVBRFJWU2pMeElOcTlsQlkyNENtblZCM0NDbU9jbkNIeTJ1eTB6ZklzZnVvREpIZk5PeTlLYUJ0c0o2dGR4X2xjQncxVTMzVmxfcGtqYU52RXFLejlRWXo5TTEzamZPNFV6VS1zbw?oc=5"
         },
         {
-          "id": "g-en-2025-02-01-15-QW51YmlzOiBB",
+          "id": "g-en-2025-02-01-9-QW51YmlzOiBB",
           "date": "2025-02-25",
           "title": "아누비스: 새로운 랜섬웨어 위협 - KELA Cyber ​​Threat Intelligence",
           "publisher": "KELA Cyber Threat Intelligence",
@@ -1606,142 +1585,6 @@
       "relatedIncidents": []
     },
     {
-      "group": "BlackCat/ALPHV",
-      "allArticles": 9,
-      "clusterCount": 6,
-      "incidentCount": 0,
-      "firstSeen": "2025-08-08",
-      "lastSeen": "2026-04-21",
-      "last30": 1,
-      "last90": 2,
-      "previous180": 7,
-      "delta": -5,
-      "sampleTitle": "Ransomware Negotiator Pleads Guilty to Aiding BlackCat Attacks in 2023",
-      "topCountries": [
-        {
-          "label": "미국",
-          "value": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "label": "법집행/사법",
-          "value": 2
-        }
-      ],
-      "recentArticles": [
-        {
-          "id": "g-en-2026-04-01-19-UmFuc29td2Fy",
-          "date": "2026-04-21",
-          "title": "Ransomware Negotiator Pleads Guilty to Aiding BlackCat Attacks in 2023",
-          "publisher": "The Hacker News",
-          "primaryClass": "law_enforcement",
-          "primaryLabel": "법집행",
-          "country": "미상",
-          "industry": "미상",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORXY4ZEpRYThWT1RSRjZ2aWJWamYtbnJoY3Y0TFdzX3VzOS1xUEoxV3dyTTNjb0N6eXN3T3JQejdXaHY2bllxVmpzTVhmem1PcWhGMEdQeHVXTmVTbDlRQW42WllBMV9yXzcyNFFORnJObmE1OXFWR3htYUpSSE00cmxDNA?oc=5"
-        },
-        {
-          "id": "g-en-2026-03-01-11-UmFuc29td2Fy",
-          "date": "2026-03-13",
-          "title": "DOJ는 랜섬웨어 사고 대응자가 협상 중에 BlackCat 사이버 범죄자에게 정보를 제공했다고 주장했습니다.",
-          "publisher": "The Record from Recorded Future News",
-          "primaryClass": "law_enforcement",
-          "primaryLabel": "법집행",
-          "country": "미상",
-          "industry": "법집행/사법",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5vdUhNSkVEdXhBTzhWdmltX3R0YWVOQ3NLVGtIQmlrYmthQXdHWEVFSW1TWDN1WTFjamV3c1E4ZkpvVjg3NlRqb3dmUTFYUFFkd0d0TVI5ZzRvZ3lueUpTUkpFdEw5VG53VTRqOXJvR3dwbVN2?oc=5"
-        },
-        {
-          "id": "g-en-2026-01-01-10-VVMgQ3liZXIg",
-          "date": "2026-01-05",
-          "title": "US Cyber Pros Plead Guilty Over BlackCat Ransomware Activity",
-          "publisher": "Dark Reading",
-          "primaryClass": "law_enforcement",
-          "primaryLabel": "법집행",
-          "country": "미상",
-          "industry": "미상",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOW05cnpfYmpEcVRQU0dmUlJpMm9SOVNhN3VROUFJUjNjeEE2MzVHN0prVHk5cVpRN241QTg4cUM3ZnN1UEhYQlFlWXJaZVRDMHBWTU9iWENnbmVaTFo5aTU4d0V0eUtxTzIzOXdYcFlpc1pBdjlsME85Ui1Ua2lFUUVQekNHWmFSdGowdWZoamtUTzdK?oc=5"
-        },
-        {
-          "id": "g-en-2026-01-01-8-VHdvIFUuUy4g",
-          "date": "2026-01-02",
-          "title": "Two U.S. cybersecurity professionals plead guilty in BlackCat/Alphv ransomware case",
-          "publisher": "Security Affairs",
-          "primaryClass": "law_enforcement",
-          "primaryLabel": "법집행",
-          "country": "미국",
-          "industry": "미상",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQX3FuMDFpSTg2Z0pSTmJMOFZRemQ2Tzh1UFc4NktmZS05T2tNLUlISWNlY3BTSk1KLXNaR0FGMmpEQndIcV9rT2V4UmtHekdjNHdtQUk4aXVPbkw3RVA1ZTRCWmpPSXRCVUlZVm0tQjNrTmlKcDYxNzNNakpxMk53YVltcmljT0dZWm5ONE5CN294dGpaVDlDajlPM3cwQndPenlkeWJXZU12NERDeHByLU5GaEd6Rl9wNGpDZVRhTG51eUg3alJtRHJ6LWV6YVHSAdQBQVVfeXFMT3ljbU1jSkFULWkyUk1DNTNteXN4Slg0SHBKVjgwY1daXzJUbUVYekFEM1J0THYyUFhKNFhralN5NmxmdWxocV9HOUxvcDRiTktlNm4tSXFoZ0IxZzJvZm92c0VkOW92cTVtZmwxWjFtWWdLaThPWmc4OVg4Qmh3NTFJcjd6aFBqMERRbGgxelFGZnpkQlBqaGluRzBFSlhqQmlOUzV2Y2s0cF94LWdIQjNpVmVCRl9aWUtINk9haFNDdHAwTFRZLWVRSTFpS2NOQ2ZFck4?oc=5"
-        },
-        {
-          "id": "g-zh-2025-12-01-4-5YuS57Si6Luf",
-          "date": "2026-01-01",
-          "title": "勒索軟體ALPHV BlackCat主犯認罪！全球逾千人受害，某受害者曾損失120萬美元比特幣",
-          "publisher": "動區動趨",
-          "primaryClass": "trend_signal",
-          "primaryLabel": "추세/동향",
-          "country": "미상",
-          "industry": "미상",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOa0xyQ1hmS09zWEZCTUNPeGItOG1yTnMteTlrZjFyRklsNmFkUDhyaVVYMFRtNHlYRXZZQlM0TVgxS0IxcURMdE01UnpTR0NNUFRxbDFwOVUyRVRzS2ktcnpEd0pnMGllbGwtRk12SklYQzMtR1BHaDZ1aHlqdFRyd21GRW5iVWpJRVR2Rmc5cEJPcDJkOW5RdElLUmNndmlZRnhCU0pGMA?oc=5"
-        },
-        {
-          "id": "g-en-2025-12-01-18-UmFuc29td2Fy",
-          "date": "2025-12-30",
-          "title": "Ransomware responders plead guilty to using ALPHV in attacks on US organizations",
-          "publisher": "The Record from Recorded Future News",
-          "primaryClass": "law_enforcement",
-          "primaryLabel": "법집행",
-          "country": "미상",
-          "industry": "미상",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRWc5T3haOGxzMlRUdnlVYjVCVlNrYlhCVkRjWjFacU5sZ3dFQ3JyZ0xkS0tUU0s1U1AzMXZLZHMzS0Z5cVhBZldEUm96SEFOdTVSdHl6b0RWajRQLVNMLWVSWWtrUmUxMzJ3WXAyNl9aRnRPOWFOcm9ibW9KSjA2YjRyNkpzQ3RROFNhRWduQ1RJVmM?oc=5"
-        },
-        {
-          "id": "g-en-2025-11-01-14-Q3liZXJzZWN1",
-          "date": "2025-11-04",
-          "title": "BlackCat 랜섬웨어 운영을 담당하는 사이버 보안 전문가",
-          "publisher": "csoonline.com",
-          "primaryClass": "law_enforcement",
-          "primaryLabel": "법집행",
-          "country": "미상",
-          "industry": "미상",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOazJTdUdyMzJUVklUdE1iZlVyNnNRdzJNdkxfT09MTVl1X1NkV0gwaGxPWWxZQkp3RGhnMGQxQk9MTllhUVVRM1BoRHh2RWxuYi1IaUl3dDRoRXVCQkc1d1NoRFZnTnNCVjRMVTlqLVZuZmhhQzJUb0ZfZGxob1Jqb1g2RmdSUVZuMlZadUlNeHRUeXlEZ3JYQmhzeEk0OHpwNm1pU3I5MV9VSEtSWmNIWVFOWWdSalVnYTJn?oc=5"
-        },
-        {
-          "id": "g-en-2025-11-01-9-UHJvc2VjdXRv",
-          "date": "2025-11-03",
-          "title": "검찰, 사건 대응 전문가들이 ALPHV/BlackCat을 사용해 일련의 랜섬웨어 공격을 저질렀다고 주장",
-          "publisher": "CyberScoop",
-          "primaryClass": "trend_signal",
-          "primaryLabel": "추세/동향",
-          "country": "미상",
-          "industry": "법집행/사법",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQ2MxM1ZWX0ZMbnlVSmhrR2NFM1I1VEFwOE5FS3A1R2ZmcjRNcy1wek5aX2xyeGE3WUlmMWc0dFRUcExCclhVVkdfUWFRcXBBdjJUSFl5WTYtTnI5NTlsZHpxZlRPT0lfUTQtcjc0VXBrbDZWZkstUTB0RjYwRzZnMXdDdXZjakhTbWc?oc=5"
-        },
-        {
-          "id": "g-en-2025-08-01-11-VW5tYXNraW5n",
-          "date": "2025-08-08",
-          "title": "Unmasking Embargo Ransomware: A Deep Dive Into the Group’s TTPs and BlackCat Links | TRM Blog",
-          "publisher": "TRM Labs",
-          "primaryClass": "trend_signal",
-          "primaryLabel": "추세/동향",
-          "country": "미상",
-          "industry": "미상",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQemZneFp0aGR2b1VLb0hxZzhyRFUtQWJ5SzEzV1Fra1lHcmpxa0JEYTRkSEtvTTlCamM2eG5JY2dVUV9XRy1DbHdWUm03emlzeUVrMUJKcEJxQm1RRnpmdjdRSWpkalZJQ0JudHQ5QU0wUFhUbXEzWmJuem1wNVB0ektoM3RyTWVQQ3l2cTVZVnpxVERmN3dOaVN6dTF0X1RmVmlIT3M2LWtuX0lqekFEdjdmTF9RUTNHa0Jz?oc=5"
-        }
-      ],
-      "relatedIncidents": []
-    },
-    {
       "group": "Lynx",
       "allArticles": 8,
       "clusterCount": 4,
@@ -1749,9 +1592,9 @@
       "firstSeen": "2025-01-14",
       "lastSeen": "2026-02-05",
       "last30": 0,
-      "last90": 1,
-      "previous180": 0,
-      "delta": 1,
+      "last90": 0,
+      "previous180": 1,
+      "delta": -1,
       "sampleTitle": "스위스 기업 Trisa AG가 LYNX 랜섬웨어의 피해자인가요? 몇 분 만에 AWS에 대한 AI 기반 공격 성공",
       "topCountries": [],
       "topIndustries": [
@@ -1766,7 +1609,7 @@
       ],
       "recentArticles": [
         {
-          "id": "g-de-2026-02-01-9-U2Nod2VpemVy",
+          "id": "g-de-2026-02-01-8-U2Nod2VpemVy",
           "date": "2026-02-05",
           "title": "스위스 기업 Trisa AG가 LYNX 랜섬웨어의 피해자인가요? 몇 분 만에 AWS에 대한 AI 기반 공격 성공",
           "publisher": "BornCity",
@@ -1814,7 +1657,7 @@
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1yQ3dyZExLdDhwelh2ck9wX2UyTEFpTW4xRzZtc0VhNzRfTERoNkg4ai15bWJUY1hWSGNRQ3ZZTmhPZjhBLU5BbHhPY245YzFkMlJhdFBWTmRNSXp3aC1WVUJ3dEVHQjUwMl83VXY0RFBjUUJLUUE?oc=5"
         },
         {
-          "id": "g-en-2025-01-01-16-THlueCBSYW5z",
+          "id": "g-en-2025-01-01-17-THlueCBSYW5z",
           "date": "2025-01-28",
           "title": "Lynx 랜섬웨어 그룹, '산업화'에 계열사 추가",
           "publisher": "Dark Reading",
@@ -1838,7 +1681,7 @@
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9CdVFNNjJaUE9qU1pmMW43bU1xR3lxckRkRDJKelFvcTBzT1AwYnoyOEpkVW9keUZ5UGYwWURMbjFtXzYwcXRvbURVMkp6WlUxMGtVa3Z4R0R6ZENDOUpQWk5FLXhqMFkxUnFBMmxqZ3U3ek5Pd3F5TDZn?oc=5"
         },
         {
-          "id": "g-it-2025-01-01-14-Q29uYWQgdml0",
+          "id": "g-it-2025-01-01-11-Q29uYWQgdml0",
           "date": "2025-01-15",
           "title": "코나드(Conad) 랜섬웨어 피해자. Lynx는 72시간 이내에 결제를 요청했습니다.",
           "publisher": "CyberSecurity Italia",
@@ -1865,247 +1708,144 @@
       "relatedIncidents": []
     },
     {
-      "group": "Cl0p",
-      "allArticles": 7,
-      "clusterCount": 4,
+      "group": "The Gentlemen",
+      "allArticles": 8,
+      "clusterCount": 3,
       "incidentCount": 0,
-      "firstSeen": "2025-02-11",
-      "lastSeen": "2025-11-24",
-      "last30": 0,
-      "last90": 0,
+      "firstSeen": "2025-09-09",
+      "lastSeen": "2026-04-22",
+      "last30": 2,
+      "last90": 4,
       "previous180": 4,
-      "delta": -4,
-      "sampleTitle": "Cl0p 랜섬웨어 해커들이 Oracle 제로데이 취약점 공격을 통해 Broadcom 내부 데이터를 획득했다고 주장",
+      "delta": 0,
+      "sampleTitle": "전 세계 기술 및 의료 부문을 공격하는 위험한 랜섬웨어 그룹 The Gentlemen - 20Minutes",
       "topCountries": [
         {
           "label": "미국",
-          "value": 1
-        },
-        {
-          "label": "영국",
-          "value": 1
+          "value": 3
         }
       ],
       "topIndustries": [
         {
-          "label": "통신/IT",
-          "value": 3
+          "label": "의료",
+          "value": 1
         },
         {
-          "label": "의료",
+          "label": "통신/IT",
           "value": 1
         }
       ],
       "recentArticles": [
         {
-          "id": "g-zh-2025-11-01-14-5YuS57Si6Luf",
-          "date": "2025-11-24",
-          "title": "Cl0p 랜섬웨어 해커들이 Oracle 제로데이 취약점 공격을 통해 Broadcom 내부 데이터를 획득했다고 주장",
-          "publisher": "iThome",
+          "id": "g-es-2026-04-01-9-VGhlIEdlbnRs",
+          "date": "2026-04-22",
+          "title": "전 세계 기술 및 의료 부문을 공격하는 위험한 랜섬웨어 그룹 The Gentlemen - 20Minutes",
+          "publisher": "20Minutos",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
           "country": "미상",
-          "industry": "통신/IT",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1acjBpcDZFOWFkLTREb0ZUVlJqWjJKSFpENUMzaTJ6RlY3NnV5Y3Jic0JEV0NqbW1pRDhkZVZuVllJQTZCaUdaRlBXSGduUQ?oc=5"
-        },
-        {
-          "id": "g-zh-2025-11-01-19-576F5oqA6K2J",
-          "date": "2025-11-17",
-          "title": "Logitech은 Cl0p 랜섬웨어 그룹의 공격을 받았다고 확인했습니다! 1.8TB 데이터 유출",
-          "publisher": "informationsecurity.com.tw",
-          "primaryClass": "trend_signal",
-          "primaryLabel": "추세/동향",
-          "country": "미상",
-          "industry": "통신/IT",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZU9paWtiSkNkY1c5Rlp6QXRLSzFjdXVubnNZTlA0akliWWY4eHRkbHBoOEZ1YWtMVDBQaURGdGhfMFRDTjZTbENJekU3MURiUkoxQS1UWEszSEJ4cDQ0RjRTRlpIZnRtMjlHRXN2UUwya2FFTGdwaXd5RFdMQUFQYl9R?oc=5"
-        },
-        {
-          "id": "g-en-2025-11-01-9-Q2wwcCBSYW5z",
-          "date": "2025-11-11",
-          "title": "Cl0p Ransomware Lists NHS UK as Victim, Days After Washington Post Breach",
-          "publisher": "Hackread",
-          "primaryClass": "trend_signal",
-          "primaryLabel": "추세/동향",
-          "country": "영국",
           "industry": "의료",
           "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9OVVZKdlVuT3FtU2VISS0wU3dkWWNuUEZvdlVJUnp5cGlxOG9DTWVUTUZKRjViV3JsZ1dtNmJwcXd2dU1ua3ZUTnJmS1c2RVc1bm1Rb1IxMHBmWjZ5cktrakxNRlE5LVd1ODhqYUhJVVBUOFRlTGc?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPSmxPd0trT0lVNG53U0lqZHd2d0dvMEFLdnMyRFRnSm8tdV9VT2dZdVh1b3g1NHRsQklKdUJHd01zejBwamNvNFhJTzI0d3p6RGJfUFJSZVcwLWcwZ0xmeHhFNEtERGh0ZDlnV2VqM2UxUjZTWVhWWWtQNDdWSjE5RWZBbDZIOXl2eDNPT3c0ZHlPVGViX2lpZUg4a1VvNkc3WUFFMWxEU25KenJrYWUtTExpZ3VtSG9HcXBveFBESnYyTklYSXhQSG9KN1RLMDdZYzREanVnWFdwX3FoUmpuQTVILUk0RGR4N3RvMnpRaDE?oc=5"
         },
         {
-          "id": "g-en-2025-11-01-1-TmVhcmx5IDMw",
-          "date": "2025-11-10",
-          "title": "Cl0p 랜섬웨어 사이트에 Oracle EBS 해킹 피해자 약 30명 밝혀져",
-          "publisher": "SecurityWeek",
-          "primaryClass": "trend_signal",
-          "primaryLabel": "추세/동향",
-          "country": "미상",
-          "industry": "통신/IT",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWkpVaTAxVmt1MWd1MDk5anBKaDFBdlJ3dUprUzhDMTNpUFk2WldFeDNwZWZSQThKV1kwMmdiSjFVMl80V3ZpWVVWeVBmckh1ZkVTLWVUYjJ2WnFrOHVKOVNhbEk3WlJwZkJmR2txTldVQlNWemEzWE54ZER3RlprSzVyT3d3RGd5OUhoV1RYOWVoR1pRbjlEU21Kd0lrVmhPalVTb1dENNIBrAFBVV95cUxPZmZZbEpjel9xd3ZNdHU5VlBZM2J4UWR4c1JQdTVtODE4NEUtRG1RdFhYdXhBclVFRkpHUEh0R1oxcnpicjl1Q0NrcDBQU003VWp4bGxDb2JkN2wyZFAzb0szeHdGOElJRF9jN3dkTUgxbVNid0JCcGZIMXFRQ0FzaEdEejUxNzE4Skc2Z3RQSGEtZWxNNnVtU29VeWhzemlJbk91TzJFTWh0UG9H?oc=5"
-        },
-        {
-          "id": "g-es-2025-05-01-9-Q2wwcCByYW5z",
-          "date": "2025-05-16",
-          "title": "Cl0p ransomware: El invasor sucio que muerde mientras duermes",
-          "publisher": "Barracuda Networks",
+          "id": "g-en-2026-04-01-19-U3lzdGVtQkMg",
+          "date": "2026-04-21",
+          "title": "SystemBC C2 서버, The Gentlemen 랜섬웨어 작전의 피해자 1,570명 이상 밝혀져 - 해커 뉴스",
+          "publisher": "The Hacker News",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
           "country": "미상",
           "industry": "미상",
           "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQVpVVHcwbUcxWklBUzJiZjEycEhzQVZETk1ObHVLNmZ1R0R0WU1JeDk5NFJmOGtMaHN4R0tYeVVsVFhUZmhJdlctd2VFeXkwYmdhSVJ3X3JyUFc4MG5RNjJGUUhlWXZTalJGdjkwOWV2Sm05V2dJbzVkQl9ZYlhkMVBWR2RVenRrbkhNdEV3SDNyX2FJUVI0YjlDd3ljX2o4REUyLWRB?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRy1Benh3RDFCTzJqY0pXOEJxX01OSWh2Nmtqc2V4aHRUYVIxdGZqbmtPVWxGOElfZFA3OTVVaGxpeU5DS0t3MDZjSGJIUVI1Y3h5SURCbWI4ck1nWjZ3SGtOeWNzLW43S3p2N1VleEotRjN5RjNDM2NLLTIzeHRXbXZESGU?oc=5"
         },
         {
-          "id": "g-en-2025-04-01-6-SGVydHogZGF0",
-          "date": "2025-04-15",
-          "title": "공급업체에 대한 CL0P 랜섬웨어 공격으로 인한 Hertz 데이터 유출",
-          "publisher": "Malwarebytes",
+          "id": "g-pt-2026-03-01-0-VGhlIEdlbnRs",
+          "date": "2026-03-27",
+          "title": "The Gentlemen: 차세대 맞춤형 랜섬웨어",
+          "publisher": "WeLiveSecurity",
+          "primaryClass": "trend_signal",
+          "primaryLabel": "추세/동향",
+          "country": "미상",
+          "industry": "미상",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbUlEN1BIRGh0d1VqVWd6VWJwRG0tVS1kMTFpNkpubXN0NnhNc2FoRm9uWkotNnN0eVZjclZ2V2t2QTdfenpqU2NWWnRaR0pOcFVpT2VEdHhCbmN4UjJZWlR3Y2w4UVl0TTNmXzZnS2ZsY3Fqb1dtanhTc3hWZTZPMEJ2X0s2ZExDMHVaNHFiY2NwRjdJTVprem9NYWVfSDNR?oc=5"
+        },
+        {
+          "id": "g-es-2026-03-01-4-VGhlIEdlbnRs",
+          "date": "2026-03-26",
+          "title": "The Gentlemen: 맞춤형 공격을 수행하는 차세대 랜섬웨어",
+          "publisher": "WeLiveSecurity",
+          "primaryClass": "trend_signal",
+          "primaryLabel": "추세/동향",
+          "country": "미상",
+          "industry": "미상",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTDZtYUZyTTMzLXJ0OHhZd0VEXzAybU9RTkhUbEZYa2lySGZIU2pfdko4S3JWV0pfT0dwX3FMSjNiSlFRV3dESGRYdmtxXzVHN1hIRHZJTTFaUUxFUmFER2Z2VmlFNlg0TWdYZFNNXzNiQ0kyVW5UZFpJbDRJRlFRc2dLNXRyYXpqeDRJUjk5VnMyT0hLOEM1SUpJSFZDR1VVYzQ1MjBuYkRiLTlpb1hwd1F3?oc=5"
+        },
+        {
+          "id": "g-es-2025-09-01-1-RGV0ZWNjacOz",
+          "date": "2025-09-11",
+          "title": "The Gentlemen 랜섬웨어 탐지: 그룹 정책과 고급 도구를 사용하여 중요 조직을 공격하는 새로운 적대 캠페인",
+          "publisher": "SOC Prime",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
           "country": "미국",
           "industry": "미상",
           "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQ2tMSXZlUXBKZEZnQmIzNmh5MWlQSTlGRmJkakZOa1I1b0dGRUhnZEhpYWNsTnVRcTVhYm5SY3U0Xzd3UUJEYXRLeEE1YjhVZzdUaE1SOFVqN2NCUU85RWhybGQ2TEZlYXRxb1pJcHZvTkExRUlsRTdmRlF4WkJyY0I3LWhCbHp6OWxnamdqYlFHaTNLS05tek5FSzJwZjNpc1hwQjBDb0lLSVE?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1aWnhmbzdNdk9SbXUweGNHdnV2TEdyQVpXX19VdkdKSTFrVlZYTXM1NzFtUjhSUEduUEdWSVhhZDVvR2lUeTItTDVmM0MxVnVzaGgwcUVkcjhfWkNfSkZCUmItSzdiMFd4Y1ZJeWg0VWJxZw?oc=5"
         },
         {
-          "id": "g-en-2025-02-01-17-Q0wwUCBSYW5z",
-          "date": "2025-02-11",
-          "title": "CL0P 랜섬웨어: 최신 공격",
-          "publisher": "cyfirma",
+          "id": "g-pt-2025-09-01-1-RGV0ZWPDp8Oj",
+          "date": "2025-09-11",
+          "title": "The Gentlemen 랜섬웨어 탐지: 새로운 적대 캠페인이 중요 대상을 위한 그룹 정책 및 고급 도구를 남용합니다",
+          "publisher": "SOC Prime",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
-          "country": "미상",
+          "country": "미국",
           "industry": "미상",
           "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE80c0VxcVNsM0NhN3dsc1B3Mmx2T0FhX1dxNXRrMElFbEFxZjhhc2Z4MGV2N0ZWZ2Fqc3Q0RHdHU01yNFRmbXFuM1FpMFBtSzFpUXVNRC14cVk4S1o3TktuUHF4NGxva1BSZnJsY0p2NXVKZw?oc=5"
-        }
-      ],
-      "relatedIncidents": []
-    },
-    {
-      "group": "Play",
-      "allArticles": 7,
-      "clusterCount": 3,
-      "incidentCount": 0,
-      "firstSeen": "2025-06-04",
-      "lastSeen": "2026-03-10",
-      "last30": 0,
-      "last90": 1,
-      "previous180": 1,
-      "delta": 0,
-      "sampleTitle": "Play 랜섬웨어, 디스크 관리자를 통해 EDR/EPP 파괴 - 네트워크 방화벽 탈취",
-      "topCountries": [],
-      "topIndustries": [
-        {
-          "label": "법집행/사법",
-          "value": 3
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1KOHNsNTRmVmJCVHNBUV9kT2dlVFBLR0ZQSWhmOWw3M2pCaUZqRzN6YzBmOTFyX1dneERBemM4UU9YWXdFSmlGN2F5Yjc2MWdfRnhtbWVLQUVycEJRUWFzSmtVZlJrZTEzbkpGcTVIR2tnQQ?oc=5"
         },
         {
-          "label": "통신/IT",
-          "value": 1
-        }
-      ],
-      "recentArticles": [
-        {
-          "id": "g-en-2026-03-01-17-UGxheSBSYW5z",
-          "date": "2026-03-10",
-          "title": "Play 랜섬웨어, 디스크 관리자를 통해 EDR/EPP 파괴 - 네트워크 방화벽 탈취",
-          "publisher": "Halcyon",
+          "id": "g-it-2025-09-01-0-UmlsZXZhbWVu",
+          "date": "2025-09-11",
+          "title": "The Gentlemen 랜섬웨어 탐지: 새로운 공격 캠페인은 그룹 정책을 남용하고 중요 조직을 대상으로 고급 도구를 사용합니다",
+          "publisher": "SOC Prime",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
-          "country": "미상",
+          "country": "미국",
           "industry": "미상",
           "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOb2ZxRzRUbVgyOGVvOUs1QXVWNzl6YmJGRGFUZ3hOSmNtOE9rQm0tWUVsX2tlQktjYVFJUDdUZXN5UTJOZWpJcml0alA0YUwtNUVNWmdXbUNWQzlWU3BHZUlQRjVxdDB5U2N1Y0dFSkl5UjFUOWxpV0h2OUNSMEVrNFB5LWdka3A4YUFQWFVEdTd1ZEVEdHdHMDZLcW5BNDExMEg1T2d3VkNCUmcxV2ZkTEpnVlh2bjlYQUhFLWZqdkZGWXM?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0xTUlLaHJjaWJvWkJjdk10WURzdmZrVDJGbm1SaGh3cVpQVkF6YjdsRkpMdk1YUUw1dWxFb1dMbnlSSmZSUTJGVzVhemVmdHZyNHQ0YzZCcDhicm5qYkFMYmd0blJsM1MwTk1wY3phMjBRQQ?oc=5"
         },
         {
-          "id": "g-en-2025-08-01-11-UmFuc29td2Fy",
-          "date": "2025-08-15",
-          "title": "Ransomware victims are refusing to play ball with hackers – just 17% of enterprises have paid up so far in 2025, marking an all-time low",
-          "publisher": "IT Pro",
+          "id": "g-en-2025-09-01-3-VW5tYXNraW5n",
+          "date": "2025-09-09",
+          "title": "The Gentlemen 랜섬웨어의 가면을 벗기다: 전술, 기법, 절차 공개",
+          "publisher": "www.trendmicro.com",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
-          "country": "미상",
-          "industry": "미상",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPNjVueE9TTjR6OGZxaFgzamNReG5xa2V2YkpEaV9meXZiS2dFTVpXcEltODl6WHhtMjRXT0V3MWJoQVBDeTBONVpWZ3JlNjhwWkpLdnJCcE90VWxtaFFXZEg4VEtzNmhFTzBEY1pZUUxzS2hTZTJUWGdKNnhYRkxiWG5kM3VQakJEMy0ydzhTVzJVU0VkdVNkT2VsdnBEMTAwR3RkVnNNVXF5X18wbkU1MUJQbWNwWWl6V205NjJ2cGVCb3dxT3JYNE1TeWI2aXljbTEyZi1adlE3a2o3SFBfRzB4NEp5M1VqSzV4Rk9IbDJrWjlJdkM4dXNJbXRJR0lrMWc2NnB6TG56QjB4WE9lX0lMcW9KR3dR?oc=5"
-        },
-        {
-          "id": "g-en-2025-06-01-3-RkJJLCBDSVNB",
-          "date": "2025-06-05",
-          "title": "FBI, CISA warn Play ransomware targeting critical infrastructure with evolving techniques",
-          "publisher": "Cybersecurity Dive",
-          "primaryClass": "law_enforcement",
-          "primaryLabel": "법집행",
           "country": "미상",
           "industry": "통신/IT",
           "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdVRQenRuczlmOXBKal9sZU5aYk5hbkktRnRYVEZQSEdBYmFTQmV6WmttNmJfNEN0VXVtRG1ZUVdpdUxFRGx6Z1FSbEI0Wl94Y0xXT20zNExIVERqYmdRSTRhNjV2WGpwWDBkSHVfU3ppNXJ2Vm9XTmpIbk1CbXZEaWxMcktMQkxwRzBzQjN2ZFV6MWs1SE9LZFNLNA?oc=5"
-        },
-        {
-          "id": "g-en-2025-06-01-11-RkJJIEF3YXJl",
-          "date": "2025-06-05",
-          "title": "FBI Aware of 900 Organizations Hit by Play Ransomware",
-          "publisher": "SecurityWeek",
-          "primaryClass": "law_enforcement",
-          "primaryLabel": "법집행",
-          "country": "미상",
-          "industry": "법집행/사법",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeXJIcllkRDZUTXpldno3cEROQXRiQVRzc3FQZEtZRXJNOEZ4dUEtRHZBN0wtZGJPY09NanZWUGl5Ylh5YUZ1V3FtN1hUMkdrVkhmeTRqcmtoc2VXWVZqY1E4TkVOSGdoejJ1eEVDZFN1cTFqZXByeFVaMEg0Y3NhRC1SU0VldEloZWgw0gGQAUFVX3lxTE9qTDY0bEJNUFM4eXI5aFZCS3ZGbVV5N2ZwQXExcGRxSkZNUFUzZHVFdndzM1lxNVZ6Y3VMTG9HN2hWU2tGWVNlRk5RQldjdHZOMURHb2VETGJIX3hScmpnSzVhZTlwYXJNczRXWWtRQzJDLTNuMXB5YXNHSjF4ZmY1ZThsTENmNlZHT2hyZVN5Ng?oc=5"
-        },
-        {
-          "id": "g-en-2025-06-01-19-RkJJOiBPdmVy",
-          "date": "2025-06-05",
-          "title": "FBI: Over 900 Organizations Disrupted by Play Ransomware Attacks",
-          "publisher": "Halcyon",
-          "primaryClass": "law_enforcement",
-          "primaryLabel": "법집행",
-          "country": "미상",
-          "industry": "법집행/사법",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdVc2aVVlRHQwLWRDczVyMXllcUs0OW8wTkx4ZmVTYk5tZzlJYk5IdmR5QTZfZ2pWRDE5aTZLMHhOS1BJNTBZWk5kS0pDX19ZdkZYRUtnejlHOEJDWjFHb2dZTHNLRmxraFlSbWoyNnFXTGt6QXYzOC0zUTBMNnBEbXUteVM1V1hyV2ZxallJYWQ5Ni16ZGc?oc=5"
-        },
-        {
-          "id": "g-en-2025-06-01-14-VXBkYXRlZCBQ",
-          "date": "2025-06-05",
-          "title": "Updated Play Ransomware Cybersecurity Advisory Issued as Victim Count Reaches 900",
-          "publisher": "The HIPAA Journal",
-          "primaryClass": "official_notice",
-          "primaryLabel": "공식공지",
-          "country": "미상",
-          "industry": "미상",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUnlYSk5lemZLdXNOVEF3OG9rRjYxbVhhUXFNOXl5d1JnczhsZE1VX29Yd0VxcFJLQ2hJVHBkMHJ6MC1jZkc1STRDREdqTHZiQmJ0YXNxenRjSjVpU20xdEp5M0xSRWhWaldRMjlXZWRWUDdlT0Q4U1M1RGlfVE5NNGJ3?oc=5"
-        },
-        {
-          "id": "g-en-2025-06-01-9-RkJJOiBQbGF5",
-          "date": "2025-06-04",
-          "title": "FBI: Play ransomware breached 900 victims, including critical orgs",
-          "publisher": "BleepingComputer",
-          "primaryClass": "law_enforcement",
-          "primaryLabel": "법집행",
-          "country": "미상",
-          "industry": "법집행/사법",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNc3VfYzVRYl9zTDNhU193eDBFM0RTTUNYc28tYnZmUlVBYTctZTMtZGg5RnJDWjZmUi1qMjNMenpCMERYdk00dW5RMlNlckNhQl9uUHd6M2hUbFVEUGtvV3Zya2RhNUVLQmZKSzJVVE85MlJtb1E3dTJFX2l5TDlFeUVDbDRQU3pQdVk3SURWUUhPQy1BYkJYc0ZRZDFvbndEaGNpbEpIbzJ2ZGJCRl96UEZn0gG3AUFVX3lxTE5iblJGUzlvN0RISkp0WjNzT0szblRzcnU1Qk5wRzFhMnpaSS1yUjJNME8zcmtEdmZWbUUxTXd1U0QyQ1lsc2NVUWN0bFZzdy1heDZ4SjJfQ3FjNmI5RGxUeFpCYTQwT2R3VDlub3c2cHdqUmlpaHd6WDFZSHNsWUliNDZDSUx2TWpqcEduaUZqay1WV3I5NmZZa1phMUlsTnRTZEtMWmE2LUFSTHVIbDJjbFhlOUNWNA?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ0JXRThLYXBSX2RkZmtaTjVJV3lPWlZOaU8tNkRFOVJkN0ZMRGdCbEticXJqVkFDWXRLNi1ONGF3Ml9Wa3JhM0dSaXNGUkVGbVBhVmRpakVYVHFUNUdodnJPd1kzaTZnaFptZk14ajltN25zQUx6M3kwbk94bWVsQm0zSDc0ZGo1NFdEMmJ4SQ?oc=5"
         }
       ],
       "relatedIncidents": []
     },
     {
       "group": "8Base",
-      "allArticles": 6,
+      "allArticles": 7,
       "clusterCount": 2,
       "incidentCount": 0,
       "firstSeen": "2025-02-11",
       "lastSeen": "2025-10-21",
       "last30": 0,
       "last90": 0,
-      "previous180": 1,
-      "delta": -1,
+      "previous180": 2,
+      "delta": -2,
       "sampleTitle": "폭스바겐, 8Base 랜섬웨어 공격 받아 회사 업무 및 개인정보 유출 의심",
       "topCountries": [
         {
@@ -2114,6 +1854,10 @@
         }
       ],
       "topIndustries": [
+        {
+          "label": "물류/운송",
+          "value": 1
+        },
         {
           "label": "법집행/사법",
           "value": 1
@@ -2133,6 +1877,18 @@
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBzZWpheTBqcVR1MkMzb1pLTUV0OWx4eDN6T0VVdEZPUHFaSVFmN1NxWHZ4YWYxVXhyZlQ3WWZlQ0JDUmVYM09FYnNscXpRQQ?oc=5"
         },
         {
+          "id": "g-en-2025-10-01-16-Vm9sa3N3YWdl",
+          "date": "2025-10-19",
+          "title": "Volkswagen, 8Base Group의 랜섬웨어 공격으로 해킹당하고 민감한 데이터 유출된 것으로 알려짐",
+          "publisher": "cyberpress.org",
+          "primaryClass": "trend_signal",
+          "primaryLabel": "추세/동향",
+          "country": "미상",
+          "industry": "물류/운송",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE45Q1pvY08yV3ZTcEk3Q0dfRFczME1tdUx0ZXBadWxtaXBEZnE4RnJtV095LWFUQlIwdjlNRU1DQUFfaWR2YTFkM3ZMMFZyeHpNYzM1RGVEdVJUM3V4RWhQUnlhcHVoU0stZFh6bUUtUzhaZUFUOWRmREtB?oc=5"
+        },
+        {
           "id": "g-ja-2025-02-01-0-44Op44Oz44K1",
           "date": "2025-02-12",
           "title": "랜섬웨어 집단 '8Base', 러시아인 체포 이세토도 피해 - 일본경제신문",
@@ -2145,7 +1901,7 @@
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5LN05VV2EwOTE5cC04Y1pER0xxTVRMWTgyWlZ1WDVQeEE0ZUpaM1RpY0ZGNGw3UGJuNUwyRF9UUE5yeGVCMzBINzBQcHhpOTEyWkpHdVFoakFMTTdUYW5WOEJReXF6dVVLVkplRw?oc=5"
         },
         {
-          "id": "g-ja-2025-02-01-14-44Op44Oz44K1",
+          "id": "g-ja-2025-02-01-13-44Op44Oz44K1",
           "date": "2025-02-12",
           "title": "랜섬웨어 공격 그룹 '8Base' 사이트가 폐쇄, 관계자 4명을 체포 | 보안 뉴스 보안 대책",
           "publisher": "合同会社ロケットボーイズ",
@@ -2196,6 +1952,126 @@
       "relatedIncidents": []
     },
     {
+      "group": "Cl0p",
+      "allArticles": 7,
+      "clusterCount": 4,
+      "incidentCount": 0,
+      "firstSeen": "2025-02-11",
+      "lastSeen": "2025-11-24",
+      "last30": 0,
+      "last90": 0,
+      "previous180": 4,
+      "delta": -4,
+      "sampleTitle": "Cl0p 랜섬웨어 해커들이 Oracle 제로데이 취약점 공격을 통해 Broadcom 내부 데이터를 획득했다고 주장",
+      "topCountries": [
+        {
+          "label": "미국",
+          "value": 1
+        },
+        {
+          "label": "영국",
+          "value": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "label": "통신/IT",
+          "value": 3
+        },
+        {
+          "label": "의료",
+          "value": 1
+        }
+      ],
+      "recentArticles": [
+        {
+          "id": "g-zh-2025-11-01-12-5YuS57Si6Luf",
+          "date": "2025-11-24",
+          "title": "Cl0p 랜섬웨어 해커들이 Oracle 제로데이 취약점 공격을 통해 Broadcom 내부 데이터를 획득했다고 주장",
+          "publisher": "iThome",
+          "primaryClass": "trend_signal",
+          "primaryLabel": "추세/동향",
+          "country": "미상",
+          "industry": "통신/IT",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1acjBpcDZFOWFkLTREb0ZUVlJqWjJKSFpENUMzaTJ6RlY3NnV5Y3Jic0JEV0NqbW1pRDhkZVZuVllJQTZCaUdaRlBXSGduUQ?oc=5"
+        },
+        {
+          "id": "g-zh-2025-11-01-18-576F5oqA6K2J",
+          "date": "2025-11-17",
+          "title": "Logitech은 Cl0p 랜섬웨어 그룹의 공격을 받았다고 확인했습니다! 1.8TB 데이터 유출",
+          "publisher": "informationsecurity.com.tw",
+          "primaryClass": "trend_signal",
+          "primaryLabel": "추세/동향",
+          "country": "미상",
+          "industry": "통신/IT",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZU9paWtiSkNkY1c5Rlp6QXRLSzFjdXVubnNZTlA0akliWWY4eHRkbHBoOEZ1YWtMVDBQaURGdGhfMFRDTjZTbENJekU3MURiUkoxQS1UWEszSEJ4cDQ0RjRTRlpIZnRtMjlHRXN2UUwya2FFTGdwaXd5RFdMQUFQYl9R?oc=5"
+        },
+        {
+          "id": "g-en-2025-11-01-8-Q2wwcCBSYW5z",
+          "date": "2025-11-11",
+          "title": "Cl0p 랜섬웨어는 Washington Post 위반 후 며칠 만에 NHS UK를 피해자로 등록했습니다.",
+          "publisher": "Hackread",
+          "primaryClass": "trend_signal",
+          "primaryLabel": "추세/동향",
+          "country": "영국",
+          "industry": "의료",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9OVVZKdlVuT3FtU2VISS0wU3dkWWNuUEZvdlVJUnp5cGlxOG9DTWVUTUZKRjViV3JsZ1dtNmJwcXd2dU1ua3ZUTnJmS1c2RVc1bm1Rb1IxMHBmWjZ5cktrakxNRlE5LVd1ODhqYUhJVVBUOFRlTGc?oc=5"
+        },
+        {
+          "id": "g-en-2025-11-01-1-TmVhcmx5IDMw",
+          "date": "2025-11-10",
+          "title": "Cl0p 랜섬웨어 사이트에 Oracle EBS 해킹 피해자 약 30명 밝혀져",
+          "publisher": "SecurityWeek",
+          "primaryClass": "trend_signal",
+          "primaryLabel": "추세/동향",
+          "country": "미상",
+          "industry": "통신/IT",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWkpVaTAxVmt1MWd1MDk5anBKaDFBdlJ3dUprUzhDMTNpUFk2WldFeDNwZWZSQThKV1kwMmdiSjFVMl80V3ZpWVVWeVBmckh1ZkVTLWVUYjJ2WnFrOHVKOVNhbEk3WlJwZkJmR2txTldVQlNWemEzWE54ZER3RlprSzVyT3d3RGd5OUhoV1RYOWVoR1pRbjlEU21Kd0lrVmhPalVTb1dENNIBrAFBVV95cUxPZmZZbEpjel9xd3ZNdHU5VlBZM2J4UWR4c1JQdTVtODE4NEUtRG1RdFhYdXhBclVFRkpHUEh0R1oxcnpicjl1Q0NrcDBQU003VWp4bGxDb2JkN2wyZFAzb0szeHdGOElJRF9jN3dkTUgxbVNid0JCcGZIMXFRQ0FzaEdEejUxNzE4Skc2Z3RQSGEtZWxNNnVtU29VeWhzemlJbk91TzJFTWh0UG9H?oc=5"
+        },
+        {
+          "id": "g-es-2025-05-01-8-Q2wwcCByYW5z",
+          "date": "2025-05-16",
+          "title": "Cl0p 랜섬웨어: 잠자는 동안 물어뜯는 더러운 침입자",
+          "publisher": "Barracuda Networks",
+          "primaryClass": "trend_signal",
+          "primaryLabel": "추세/동향",
+          "country": "미상",
+          "industry": "미상",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQVpVVHcwbUcxWklBUzJiZjEycEhzQVZETk1ObHVLNmZ1R0R0WU1JeDk5NFJmOGtMaHN4R0tYeVVsVFhUZmhJdlctd2VFeXkwYmdhSVJ3X3JyUFc4MG5RNjJGUUhlWXZTalJGdjkwOWV2Sm05V2dJbzVkQl9ZYlhkMVBWR2RVenRrbkhNdEV3SDNyX2FJUVI0YjlDd3ljX2o4REUyLWRB?oc=5"
+        },
+        {
+          "id": "g-en-2025-04-01-6-SGVydHogZGF0",
+          "date": "2025-04-15",
+          "title": "공급업체에 대한 CL0P 랜섬웨어 공격으로 인한 Hertz 데이터 침해",
+          "publisher": "Malwarebytes",
+          "primaryClass": "trend_signal",
+          "primaryLabel": "추세/동향",
+          "country": "미국",
+          "industry": "미상",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQ2tMSXZlUXBKZEZnQmIzNmh5MWlQSTlGRmJkakZOa1I1b0dGRUhnZEhpYWNsTnVRcTVhYm5SY3U0Xzd3UUJEYXRLeEE1YjhVZzdUaE1SOFVqN2NCUU85RWhybGQ2TEZlYXRxb1pJcHZvTkExRUlsRTdmRlF4WkJyY0I3LWhCbHp6OWxnamdqYlFHaTNLS05tek5FSzJwZjNpc1hwQjBDb0lLSVE?oc=5"
+        },
+        {
+          "id": "g-en-2025-02-01-18-Q0wwUCBSYW5z",
+          "date": "2025-02-11",
+          "title": "CL0P 랜섬웨어: 최신 공격",
+          "publisher": "cyfirma",
+          "primaryClass": "trend_signal",
+          "primaryLabel": "추세/동향",
+          "country": "미상",
+          "industry": "미상",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE80c0VxcVNsM0NhN3dsc1B3Mmx2T0FhX1dxNXRrMElFbEFxZjhhc2Z4MGV2N0ZWZ2Fqc3Q0RHdHU01yNFRmbXFuM1FpMFBtSzFpUXVNRC14cVk4S1o3TktuUHF4NGxva1BSZnJsY0p2NXVKZw?oc=5"
+        }
+      ],
+      "relatedIncidents": []
+    },
+    {
       "group": "Black Basta",
       "allArticles": 6,
       "clusterCount": 4,
@@ -2232,9 +2108,9 @@
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYlAxNG1LRFkzQS05MWxySXcwckVWZjJzVE8xaFNPZTRVamNTNnBqcjJfMldnc3hmZTYwOURiN2x2SjkxampjMlBMV0VzbVlaWW5LWXhNazNPSkJPWnhfRzJJeklJVlFXNC1WZGZxNDB5QVFRZ0dIS1VsZWs5NkFLczBrZ0lfZXdFdzJxYVRlMXd0QzhoNU5KT01zODlTLXVmcTNPSlpPNWVhdw?oc=5"
         },
         {
-          "id": "g-ja-2025-05-01-16-44Or44O844OE",
+          "id": "g-ja-2025-05-01-15-44Or44O844OE",
           "date": "2025-05-21",
-          "title": "ルーツからオペレーションまで：Black Bastaランサムウェアを理解する",
+          "title": "뿌리부터 운영까지: 블랙 바스타 랜섬웨어 이해 - 주식회사 마키나 레코드",
           "publisher": "株式会社マキナレコード",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
@@ -2268,7 +2144,7 @@
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQk84aXpIYWdUYWZtTElGd3FhZUxLVTZOREVfeDdEV0NzSWZGY2R1VXRoQ1JkZDN1czJibGZWblNBWm9vQ0t0UXVuTlVKeUwydnlnT3dGU2t3YkwxRzhfV1ZNZG1lalc3c3ZDM0NyaVZLcUVKRGVzeThkU0o5cXEtMkJ1S3N5RVVMaTVYVmM2V1Z4RjBaclF0cA?oc=5"
         },
         {
-          "id": "g-zh-2025-03-01-11-QmxhY2sgQmFz",
+          "id": "g-zh-2025-03-01-10-QmxhY2sgQmFz",
           "date": "2025-03-03",
           "title": "Black Basta 랜섬웨어 조직 내부 유출 사건 분석 보고서 - 보안 내부 참조",
           "publisher": "安全内参",
@@ -2319,7 +2195,7 @@
       "topIndustries": [
         {
           "label": "법집행/사법",
-          "value": 1
+          "value": 2
         },
         {
           "label": "의료",
@@ -2352,31 +2228,31 @@
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWi1ZR2luQWI4Sm5hT1hMYWJPd3plbXRmOW1OZW1VV19lNmJiN09UT1VGM3ZEWTIwX0FQS1QzNzNHSUJ3aXJ5dmREMEh2Vkk2T0ZhaGtyMGNpWXp3NTFwUE5RaWlGRFBqeENtay05em1YcXRhSXQyeE1idEZXdkREVXdWYkE5S0xYSUF1VmlqQkp6WE5xYzdVMC0yRDgtYkRfTlNGYlNpZFFNbUxvSGpkQQ?oc=5"
         },
         {
-          "id": "g-ja-2025-07-01-13-44Op44Oz44K1",
+          "id": "g-ja-2025-07-01-14-44Op44Oz44K1",
           "date": "2025-07-23",
-          "title": "ランサムウェア攻撃者グループ「Phobos（フォボス）」の起訴を考察 | トレンドマイクロ (JP)",
+          "title": "랜섬웨어 공격자 그룹 \"Phobos (포보스)\"의 기소를 고찰 | 트렌드 마이크로 (KR)",
           "publisher": "www.trendmicro.com",
-          "primaryClass": "trend_signal",
-          "primaryLabel": "추세/동향",
+          "primaryClass": "law_enforcement",
+          "primaryLabel": "법집행",
           "country": "미상",
           "industry": "미상",
           "victimOrg": "미상",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbzNCUFBRTF9JcHhDbHRTMmM1ekNaUzU2eDVvcnZTazYtRVkzT3NvYTQzU0RoRzE2OEhUM3RieUx0ajM0Rjh1TDEzZEFPb013WlJNbmNJQ21IUHlrQ3FaU0FLNUE1NXV1UE5oZmRyRDRBeHdaQU1UeklGVHU1a201REtNNA?oc=5"
         },
         {
-          "id": "g-ja-2025-07-01-14-6K2m5af5bqB4",
+          "id": "g-ja-2025-07-01-15-6K2m5af5bqB4",
           "date": "2025-07-17",
-          "title": "警察庁サイバー特別捜査部が“世界初”の「復元ツール」を開発 ランサムウェア「Phobos」「8Base」の暗号化された被害データを完全復活",
+          "title": "경찰청 사이버 특별 수사부가 '세계 최초'의 '복원 도구'를 개발",
           "publisher": "TBS NEWS DIG",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
           "country": "미상",
-          "industry": "미상",
+          "industry": "법집행/사법",
           "victimOrg": "미상",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8yMEJnM1pBQVprSTNOb2Vtb3QzOC1iNnIzN3pPTnkyaXdSdzUzQXNDSWNkemZXNjNkVkpFd1ZqLWZCTjA5ZGc0LVhlRFZGRmN6ZEo2WDBEUQ?oc=5"
         },
         {
-          "id": "g-en-2025-02-01-14-RE9KIGFubm91",
+          "id": "g-en-2025-02-01-15-RE9KIGFubm91",
           "date": "2025-02-18",
           "title": "DOJ, Phobos 랜섬웨어 그룹 계열사에 대한 혐의 발표",
           "publisher": "American Hospital Association",
@@ -2403,24 +2279,118 @@
       "relatedIncidents": []
     },
     {
+      "group": "Play",
+      "allArticles": 6,
+      "clusterCount": 2,
+      "incidentCount": 0,
+      "firstSeen": "2025-06-04",
+      "lastSeen": "2025-08-15",
+      "last30": 0,
+      "last90": 0,
+      "previous180": 1,
+      "delta": -1,
+      "sampleTitle": "랜섬웨어 피해자들은 해커와의 공놀이를 거부하고 있습니다. 2025년 현재까지 기업의 17%만이 비용을 지불했으며 이는 사상 최저치를 기록했습니다.",
+      "topCountries": [],
+      "topIndustries": [
+        {
+          "label": "법집행/사법",
+          "value": 3
+        },
+        {
+          "label": "통신/IT",
+          "value": 1
+        }
+      ],
+      "recentArticles": [
+        {
+          "id": "g-en-2025-08-01-10-UmFuc29td2Fy",
+          "date": "2025-08-15",
+          "title": "랜섬웨어 피해자들은 해커와의 공놀이를 거부하고 있습니다. 2025년 현재까지 기업의 17%만이 비용을 지불했으며 이는 사상 최저치를 기록했습니다.",
+          "publisher": "IT Pro",
+          "primaryClass": "trend_signal",
+          "primaryLabel": "추세/동향",
+          "country": "미상",
+          "industry": "미상",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPNjVueE9TTjR6OGZxaFgzamNReG5xa2V2YkpEaV9meXZiS2dFTVpXcEltODl6WHhtMjRXT0V3MWJoQVBDeTBONVpWZ3JlNjhwWkpLdnJCcE90VWxtaFFXZEg4VEtzNmhFTzBEY1pZUUxzS2hTZTJUWGdKNnhYRkxiWG5kM3VQakJEMy0ydzhTVzJVU0VkdVNkT2VsdnBEMTAwR3RkVnNNVXF5X18wbkU1MUJQbWNwWWl6V205NjJ2cGVCb3dxT3JYNE1TeWI2aXljbTEyZi1adlE3a2o3SFBfRzB4NEp5M1VqSzV4Rk9IbDJrWjlJdkM4dXNJbXRJR0lrMWc2NnB6TG56QjB4WE9lX0lMcW9KR3dR?oc=5"
+        },
+        {
+          "id": "g-en-2025-06-01-3-RkJJLCBDSVNB",
+          "date": "2025-06-05",
+          "title": "FBI, CISA, 진화하는 기술로 중요 인프라를 표적으로 삼는 Play 랜섬웨어 경고",
+          "publisher": "Cybersecurity Dive",
+          "primaryClass": "law_enforcement",
+          "primaryLabel": "법집행",
+          "country": "미상",
+          "industry": "통신/IT",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdVRQenRuczlmOXBKal9sZU5aYk5hbkktRnRYVEZQSEdBYmFTQmV6WmttNmJfNEN0VXVtRG1ZUVdpdUxFRGx6Z1FSbEI0Wl94Y0xXT20zNExIVERqYmdRSTRhNjV2WGpwWDBkSHVfU3ppNXJ2Vm9XTmpIbk1CbXZEaWxMcktMQkxwRzBzQjN2ZFV6MWs1SE9LZFNLNA?oc=5"
+        },
+        {
+          "id": "g-en-2025-06-01-11-RkJJIEF3YXJl",
+          "date": "2025-06-05",
+          "title": "FBI는 Play 랜섬웨어로 피해를 입은 900개 조직을 인지했습니다",
+          "publisher": "SecurityWeek",
+          "primaryClass": "law_enforcement",
+          "primaryLabel": "법집행",
+          "country": "미상",
+          "industry": "법집행/사법",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeXJIcllkRDZUTXpldno3cEROQXRiQVRzc3FQZEtZRXJNOEZ4dUEtRHZBN0wtZGJPY09NanZWUGl5Ylh5YUZ1V3FtN1hUMkdrVkhmeTRqcmtoc2VXWVZqY1E4TkVOSGdoejJ1eEVDZFN1cTFqZXByeFVaMEg0Y3NhRC1SU0VldEloZWgw0gGQAUFVX3lxTE9qTDY0bEJNUFM4eXI5aFZCS3ZGbVV5N2ZwQXExcGRxSkZNUFUzZHVFdndzM1lxNVZ6Y3VMTG9HN2hWU2tGWVNlRk5RQldjdHZOMURHb2VETGJIX3hScmpnSzVhZTlwYXJNczRXWWtRQzJDLTNuMXB5YXNHSjF4ZmY1ZThsTENmNlZHT2hyZVN5Ng?oc=5"
+        },
+        {
+          "id": "g-en-2025-06-01-19-RkJJOiBPdmVy",
+          "date": "2025-06-05",
+          "title": "FBI: Play 랜섬웨어 공격으로 인해 900개 이상의 조직이 중단되었습니다",
+          "publisher": "Halcyon",
+          "primaryClass": "law_enforcement",
+          "primaryLabel": "법집행",
+          "country": "미상",
+          "industry": "법집행/사법",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdVc2aVVlRHQwLWRDczVyMXllcUs0OW8wTkx4ZmVTYk5tZzlJYk5IdmR5QTZfZ2pWRDE5aTZLMHhOS1BJNTBZWk5kS0pDX19ZdkZYRUtnejlHOEJDWjFHb2dZTHNLRmxraFlSbWoyNnFXTGt6QXYzOC0zUTBMNnBEbXUteVM1V1hyV2ZxallJYWQ5Ni16ZGc?oc=5"
+        },
+        {
+          "id": "g-en-2025-06-01-14-VXBkYXRlZCBQ",
+          "date": "2025-06-05",
+          "title": "피해자 수가 900명에 도달함에 따라 업데이트된 Play 랜섬웨어 사이버 보안 권고 발표",
+          "publisher": "The HIPAA Journal",
+          "primaryClass": "official_notice",
+          "primaryLabel": "공식공지",
+          "country": "미상",
+          "industry": "미상",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUnlYSk5lemZLdXNOVEF3OG9rRjYxbVhhUXFNOXl5d1JnczhsZE1VX29Yd0VxcFJLQ2hJVHBkMHJ6MC1jZkc1STRDREdqTHZiQmJ0YXNxenRjSjVpU20xdEp5M0xSRWhWaldRMjlXZWRWUDdlT0Q4U1M1RGlfVE5NNGJ3?oc=5"
+        },
+        {
+          "id": "g-en-2025-06-01-7-RkJJOiBQbGF5",
+          "date": "2025-06-04",
+          "title": "FBI: Play 랜섬웨어가 중요한 조직을 포함해 900명의 피해자를 침해했습니다",
+          "publisher": "BleepingComputer",
+          "primaryClass": "law_enforcement",
+          "primaryLabel": "법집행",
+          "country": "미상",
+          "industry": "법집행/사법",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNc3VfYzVRYl9zTDNhU193eDBFM0RTTUNYc28tYnZmUlVBYTctZTMtZGg5RnJDWjZmUi1qMjNMenpCMERYdk00dW5RMlNlckNhQl9uUHd6M2hUbFVEUGtvV3Zya2RhNUVLQmZKSzJVVE85MlJtb1E3dTJFX2l5TDlFeUVDbDRQU3pQdVk3SURWUUhPQy1BYkJYc0ZRZDFvbndEaGNpbEpIbzJ2ZGJCRl96UEZn0gG3AUFVX3lxTE5iblJGUzlvN0RISkp0WjNzT0szblRzcnU1Qk5wRzFhMnpaSS1yUjJNME8zcmtEdmZWbUUxTXd1U0QyQ1lsc2NVUWN0bFZzdy1heDZ4SjJfQ3FjNmI5RGxUeFpCYTQwT2R3VDlub3c2cHdqUmlpaHd6WDFZSHNsWUliNDZDSUx2TWpqcEduaUZqay1WV3I5NmZZa1phMUlsTnRTZEtMWmE2LUFSTHVIbDJjbFhlOUNWNA?oc=5"
+        }
+      ],
+      "relatedIncidents": []
+    },
+    {
       "group": "Everest",
       "allArticles": 5,
       "clusterCount": 4,
       "incidentCount": 0,
-      "firstSeen": "2025-10-30",
+      "firstSeen": "2025-09-18",
       "lastSeen": "2026-02-04",
       "last30": 0,
-      "last90": 1,
-      "previous180": 4,
-      "delta": -3,
+      "last90": 0,
+      "previous180": 5,
+      "delta": -5,
       "sampleTitle": "Everest 랜섬웨어, Iron Mountain에 침입하여 데이터 유출",
       "topCountries": [],
-      "topIndustries": [
-        {
-          "label": "에너지/인프라",
-          "value": 1
-        }
-      ],
+      "topIndustries": [],
       "recentArticles": [
         {
           "id": "g-en-2026-02-01-6-RXZlcmVzdCBS",
@@ -2447,7 +2417,7 @@
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcUx0djU3Qk9JQ0hVVVpIck9RUHFRcm85dUlmTVgtTFkxLWRYcU5tZFVZQ3pQa3dsS1FEa1JmSDJOakpRdGNqdThwMXdRVG9oc0FUX3h3ellRelNCTG5aUGNxX2lUa21yQkpiUy1fOVFSZzFTR2dMVTJCSFVJVy1WdnpJY2MtTHQ3VlJJMFhqa0gzRXh6cG8wZ1dHZ05qZERFSF9ZSXFQbXVNTmlGUXhmOVR1Q3ZTc2RXSVU3cnIzYU8wR093UUpZbTB30gHPAUFVX3lxTFBROEZPU0QyWG5uazRzTWVYSHNHOHRTZzk5VFJvQ0lRQk54d3FlXzJ3UFRlU3JJclBjNHFvZUk0LXpzQzdEUlMyQkU0VHV4bi1lY2xFRHhiUEpEMnJSUTRvZE9QeTB5YXFlNzNITTZzUTZfUGY1OE5sT09aRE9Pa2Nkb0ZBaFdzQk1TQkhRelVjQ3UxX3d4RG91dWN1ZmFDNzgzN2NTZDljY1MwZFZwLXF4VXF0RklEMXI2OFZ0alZ6RUVWbklVbVdFX3UzSWV0OA?oc=5"
         },
         {
-          "id": "g-es-2025-11-01-18-RWwgZ3J1cG8g",
+          "id": "g-es-2025-11-01-19-RWwgZ3J1cG8g",
           "date": "2025-11-26",
           "title": "에베레스트 랜섬웨어 그룹, 이베리아에게 몸값 600만 달러 요구",
           "publisher": "Escudo Digital",
@@ -2461,7 +2431,7 @@
         {
           "id": "g-en-2025-11-01-14-VW5kZXIgQXJt",
           "date": "2025-11-18",
-          "title": "Under Armor data breach by Everest Ransomware Group",
+          "title": "Everest Ransomware Group에 의한 Under Armour 데이터 유출",
           "publisher": "Cybersecurity Insiders",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
@@ -2471,16 +2441,16 @@
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUzNoT2VQNGVSQnpPc2RiSDVuWWtwemtKMnl4TUpmZk8xaHY2b1pYeHVBRV9RcWhtZlRnOVFZUUNiZ1MyYjJjWW5uMFNvd1kxd1pGVnNXdGx6SW9VSTMxYUJxMWxiWEpMS3J4SjJ3RHdjclJsVUgzb3hDdHlNd0Vub0trT3BzM2w0bm9zT1E4VHM4LXVWd1E?oc=5"
         },
         {
-          "id": "g-es-2025-10-01-19-RWwgZ3J1cG8g",
-          "date": "2025-10-30",
-          "title": "Everest 랜섬웨어 그룹은 스웨덴 전력 회사 Svenska Krafnt에 대한 사이버 공격을 주장했습니다.",
-          "publisher": "Escudo Digital",
+          "id": "g-de-2025-09-01-13-RXZlcmVzdC1C",
+          "date": "2025-09-18",
+          "title": "에베레스트 갱단, 랜섬웨어 해커들 사이에서 유행하는 럭셔리 브랜드 BMW 표적으로 삼다",
+          "publisher": "Cybernews",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
           "country": "미상",
-          "industry": "에너지/인프라",
+          "industry": "미상",
           "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORDhjNmhvTEFpV0ZsM2VmQXJkXzlGOXI3Qk5LM3MteDctTWVSeWJ0aU9hemhHSWxValladDZmY1VNZ1RJZkFQMnVDNGNUbWR4UVNsZjVWd3JyM1JncWdNcUVyRjk1Q0hDTWRWLUZkSkNGaU5VRTBoRDFQc0M3ek1VR0Zuc2ptbGxCU1VKZ3laZGlCdUZEQXc?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9NUnI4YUJGRE9nSWtUZGRwaHZwbU04SHFJZ05VdlFIRGREZFhsVVZ0ZzhoLW1iaDc3RzI0d21RS25kdVNDa01fSDRvMGdQenE4R1RucVhPbnFxclcyRjluYV9KVzRYVVA3NWlKVHNDODdZMVFFSUlhUQ?oc=5"
         }
       ],
       "relatedIncidents": []
@@ -2496,7 +2466,7 @@
       "last90": 0,
       "previous180": 0,
       "delta": 0,
-      "sampleTitle": "Fog Ransomware: Unusual Toolset Used in Recent Attack",
+      "sampleTitle": "Fog 랜섬웨어: 최근 공격에 사용된 특이한 도구 세트",
       "topCountries": [],
       "topIndustries": [
         {
@@ -2508,7 +2478,7 @@
         {
           "id": "g-en-2025-06-01-1-Rm9nIFJhbnNv",
           "date": "2025-06-12",
-          "title": "Fog Ransomware: Unusual Toolset Used in Recent Attack",
+          "title": "Fog 랜섬웨어: 최근 공격에 사용된 특이한 도구 세트",
           "publisher": "SECURITY.COM",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
@@ -2518,9 +2488,9 @@
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5RcHZyNWJCM3hjSUxuVDQyQmRfTXpUMFh4WUhMZFBoM3VRSkRUTWhHQXJGUElkU21sR1d5dW1hbU1lSUtlS1Z1TWVwRFN1RE9pMmo4eWQzYmdQd01jdVFXWjQ2aEhnSVA4YV9ITXoyb19EaDRE?oc=5"
         },
         {
-          "id": "g-en-2025-06-01-10-Rm9nIHJhbnNv",
+          "id": "g-en-2025-06-01-11-Rm9nIHJhbnNv",
           "date": "2025-06-12",
-          "title": "Fog ransomware attack on Asia financial org draws attention over use of employee monitoring software",
+          "title": "아시아 금융 기관에 대한 Fog 랜섬웨어 공격으로 직원 모니터링 소프트웨어 사용에 대한 관심 불러일으키다",
           "publisher": "The Record from Recorded Future News",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
@@ -2569,93 +2539,9 @@
       "relatedIncidents": []
     },
     {
-      "group": "INC Ransom",
-      "allArticles": 4,
-      "clusterCount": 4,
-      "incidentCount": 0,
-      "firstSeen": "2025-04-17",
-      "lastSeen": "2026-03-17",
-      "last30": 0,
-      "last90": 1,
-      "previous180": 2,
-      "delta": -1,
-      "sampleTitle": "Ransomware INC Ransom, 오세아니아 의료 산업에 대한 공격 개시",
-      "topCountries": [
-        {
-          "label": "이탈리아",
-          "value": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "label": "공공",
-          "value": 1
-        },
-        {
-          "label": "의료",
-          "value": 1
-        },
-        {
-          "label": "제조",
-          "value": 1
-        }
-      ],
-      "recentArticles": [
-        {
-          "id": "g-zh-2026-03-01-9-5YuS57Si6Luf",
-          "date": "2026-03-17",
-          "title": "Ransomware INC Ransom, 오세아니아 의료 산업에 대한 공격 개시",
-          "publisher": "iThome",
-          "primaryClass": "trend_signal",
-          "primaryLabel": "추세/동향",
-          "country": "미상",
-          "industry": "의료",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5fU2VWWXZmcWU3V1NtY2xOblZXZVN3Z1JTSmYxSVhQbHBSSkRucW1VY1FSVW1SbmE4X1B6eGlMdDByZDVuZmNOcUNmVEU5UQ?oc=5"
-        },
-        {
-          "id": "g-zh-2025-12-01-8-6bS75rW35peX",
-          "date": "2025-12-03",
-          "title": "Hon Hai의 커넥터 제조업체 Hongteng Precision이 랜섬웨어 INC Ransom의 공격을 받은 것으로 보고되었습니다",
-          "publisher": "iThome",
-          "primaryClass": "trend_signal",
-          "primaryLabel": "추세/동향",
-          "country": "미상",
-          "industry": "제조",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1mdkdNT0tXYjlsUlhfOXM0RnNvZE1mUzZRdlFWVUpSdTM5Wm81OF8yeVRaenQ1Ujh0dTlQSlE4NXZLSDdKdXBEUDhuRHo0UQ?oc=5"
-        },
-        {
-          "id": "g-zh-2025-09-01-6-5be05ou6aas5",
-          "date": "2025-09-12",
-          "title": "파나마 경제재정부는 INC 랜섬웨어의 공격을 받았으며 해커들은 1.5TB의 데이터를 훔쳤다고 주장했습니다.",
-          "publisher": "iThome",
-          "primaryClass": "law_enforcement",
-          "primaryLabel": "법집행",
-          "country": "미상",
-          "industry": "공공",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB2V3ExZmpCSG1KYmVndEhMWTBmWEF4d0ctejFVMXd3QWtRbTAwY2NRSXhmUnRvdDJ3M2Exd1FEY18wLUxZSXVFWlNuTXd2UQ?oc=5"
-        },
-        {
-          "id": "g-it-2025-04-01-6-SU5DIHJhbnNv",
-          "date": "2025-04-17",
-          "title": "INC 랜섬웨어는 이탈리아를 노리고 있습니다. 자신을 방어하기 위한 대책은 다음과 같습니다. - Cyber ​​​​Security 360",
-          "publisher": "Cyber Security 360",
-          "primaryClass": "other",
-          "primaryLabel": "기타",
-          "country": "이탈리아",
-          "industry": "미상",
-          "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOekRmSWR4OFd6T1JpRnpQaGNXakRrUjFxanhGNEpTTU1MYjhPMHhKWmEzRXBUNlZzQ3JLc3ZISlNDeFRkUUhaRld0enhUTnZ3dnFLY2JPa05NY2NrX25wVGtzMWRxNmYxSkNscmp6dlNtUVRRSzRhVkZicUZJUkVsQkF3cF9RS01tUVBlQ2dKUXl4czVXNEJkZzdEY0o0RFk2NWpQUUltNjJkYzBndE0zMU81VFJRVzEzdXc1TE9nOG5sRnNyUHdLNElB?oc=5"
-        }
-      ],
-      "relatedIncidents": []
-    },
-    {
       "group": "FunkSec",
-      "allArticles": 3,
-      "clusterCount": 2,
+      "allArticles": 4,
+      "clusterCount": 3,
       "incidentCount": 0,
       "firstSeen": "2025-01-10",
       "lastSeen": "2025-10-02",
@@ -2690,7 +2576,19 @@
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOExxSEJmN05memp0ZTQ1ZGd6bGFvQXJ0R3I4V0hER0FLcTZUazkwbXBoTWFYN08yektMM3VDZ2YwRFpMM3UzYlVqWkItZ3lhdHVvSEdWcVhWVlZLTFN4QmczRWdNaFk2Y2phM3lackVpcE1SUXZKV3dBMVd5akhkRE4xTGp1RDZqM2U3LQ?oc=5"
         },
         {
-          "id": "g-zh-2025-01-01-2-5paw5omL6buR",
+          "id": "g-it-2025-07-01-16-RnVua1NlYywg",
+          "date": "2025-07-09",
+          "title": "생성 AI로 구동되는 랜섬웨어 FunkSec: 자신을 보호하는 방법 - Cyber ​​​​Security 360",
+          "publisher": "Cyber Security 360",
+          "primaryClass": "trend_signal",
+          "primaryLabel": "추세/동향",
+          "country": "미상",
+          "industry": "미상",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNY0pkemNUZjhhNDZiQmVxc1BRMFpzTjduSU84OHNaX184NGVSMkJ1MFQycFQzVjFpajJnTHRNNXdWeDYzc3hBdVBHNktfeXR5c09zY0N1ak5ibVg0WllWdnE1dlRkVHRFdW9tQng5VEh5eEdPT1QwOWhUV3hrY1EzazdGWXItODVkd3RtWWNUWFA5dVpvOGpMQTVwN1FBYW90Um5TT2hxbUE?oc=5"
+        },
+        {
+          "id": "g-zh-2025-01-01-3-5paw5omL6buR",
           "date": "2025-01-16",
           "title": "초보 해커가 AI 도구를 활용하여 FunkSec 랜섬웨어 개발",
           "publisher": "51CTO",
@@ -2717,65 +2615,137 @@
       "relatedIncidents": []
     },
     {
-      "group": "KillSec",
+      "group": "INC Ransom",
       "allArticles": 3,
-      "clusterCount": 1,
+      "clusterCount": 3,
       "incidentCount": 0,
-      "firstSeen": "2025-09-10",
-      "lastSeen": "2025-09-17",
+      "firstSeen": "2025-04-17",
+      "lastSeen": "2026-03-17",
       "last30": 0,
-      "last90": 0,
-      "previous180": 3,
-      "delta": -3,
-      "sampleTitle": "랜섬웨어 그룹 Killsec이 브라질 의료 소프트웨어 공급업체를 손상시켜 여러 의료 기관에 영향을 미쳤다고 주장",
+      "last90": 1,
+      "previous180": 1,
+      "delta": 0,
+      "sampleTitle": "Ransomware INC Ransom, 오세아니아 의료 산업에 대한 공격 개시",
       "topCountries": [
         {
-          "label": "브라질",
-          "value": 3
+          "label": "이탈리아",
+          "value": 1
         }
       ],
       "topIndustries": [
         {
           "label": "의료",
-          "value": 3
+          "value": 1
+        },
+        {
+          "label": "제조",
+          "value": 1
         }
       ],
       "recentArticles": [
         {
-          "id": "g-zh-2025-09-01-0-5YuS57Si6Luf",
-          "date": "2025-09-17",
-          "title": "랜섬웨어 그룹 Killsec이 브라질 의료 소프트웨어 공급업체를 손상시켜 여러 의료 기관에 영향을 미쳤다고 주장",
+          "id": "g-zh-2026-03-01-10-5YuS57Si6Luf",
+          "date": "2026-03-17",
+          "title": "Ransomware INC Ransom, 오세아니아 의료 산업에 대한 공격 개시",
           "publisher": "iThome",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
-          "country": "브라질",
+          "country": "미상",
           "industry": "의료",
           "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1iRlpTU1dNZ1EySkdHc2hyZFl0SFlPbnVwYXlzbFdUSjE5bERYc05HR2V6dlNRSWFFTjFnajBCVnVaQ3lLR1NqYTF5c2tOZw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5fU2VWWXZmcWU3V1NtY2xOblZXZVN3Z1JTSmYxSVhQbHBSSkRucW1VY1FSVW1SbmE4X1B6eGlMdDByZDVuZmNOcUNmVEU5UQ?oc=5"
         },
         {
-          "id": "g-pt-2025-09-01-3-UmFuc29td2Fy",
-          "date": "2025-09-12",
-          "title": "KillSec 랜섬웨어가 브라질의 의료 서비스를 공격하고 34GB의 검사, 의료 기록 및 이미지를 캡처합니다",
-          "publisher": "ConvergenciaDigital",
+          "id": "g-zh-2025-12-01-9-6bS75rW35peX",
+          "date": "2025-12-03",
+          "title": "Hon Hai의 커넥터 제조업체 Hongteng Precision이 랜섬웨어 INC Ransom의 공격을 받은 것으로 보고되었습니다",
+          "publisher": "iThome",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
-          "country": "브라질",
-          "industry": "의료",
+          "country": "미상",
+          "industry": "제조",
           "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYzFaZnc2ZlBMLXhZa2FxU28yZjNwT3ZvUG1MMU51RHUxakNSZkpDZDdVbzZZc3NIR3RGOS0zdDJUQnNrYzlJdjVDbEkyOHV3eXRZOWNxTGNFTzdwU1BnbWd2M1dMTC1zdXF2WU55WEVlejhYVEdrNUJCOU9HM1M1cFpiZ3FaRVh4Wi1QSlVaajNfWThuRWRsUEpmaGxuWnBtN1E3amh2SlFiTFRubVEtaHA0UHc3a3YzSDNpWlNBUjZ4TVRNLUJCUU1qVTFzREU?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1mdkdNT0tXYjlsUlhfOXM0RnNvZE1mUzZRdlFWVUpSdTM5Wm81OF8yeVRaenQ1Ujh0dTlQSlE4NXZLSDdKdXBEUDhuRHo0UQ?oc=5"
         },
         {
-          "id": "g-en-2025-09-01-5-S2lsbFNlYyBS",
-          "date": "2025-09-10",
-          "title": "KillSec Ransomware is Attacking Healthcare Institutions in Brazil",
-          "publisher": "Resecurity",
+          "id": "g-it-2025-04-01-5-SU5DIHJhbnNv",
+          "date": "2025-04-17",
+          "title": "INC 랜섬웨어는 이탈리아를 노리고 있습니다. 자신을 방어하기 위한 대책은 다음과 같습니다. - Cyber ​​​​Security 360",
+          "publisher": "Cyber Security 360",
+          "primaryClass": "other",
+          "primaryLabel": "기타",
+          "country": "이탈리아",
+          "industry": "미상",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOekRmSWR4OFd6T1JpRnpQaGNXakRrUjFxanhGNEpTTU1MYjhPMHhKWmEzRXBUNlZzQ3JLc3ZISlNDeFRkUUhaRld0enhUTnZ3dnFLY2JPa05NY2NrX25wVGtzMWRxNmYxSkNscmp6dlNtUVRRSzRhVkZicUZJUkVsQkF3cF9RS01tUVBlQ2dKUXl4czVXNEJkZzdEY0o0RFk2NWpQUUltNjJkYzBndE0zMU81VFJRVzEzdXc1TE9nOG5sRnNyUHdLNElB?oc=5"
+        }
+      ],
+      "relatedIncidents": []
+    },
+    {
+      "group": "Rhysida",
+      "allArticles": 3,
+      "clusterCount": 3,
+      "incidentCount": 0,
+      "firstSeen": "2025-05-02",
+      "lastSeen": "2025-10-23",
+      "last30": 0,
+      "last90": 0,
+      "previous180": 2,
+      "delta": -2,
+      "sampleTitle": "시애틀 항구에 대한 Rhysida 랜섬웨어 공격 이후 배운 교훈 - BPS 컴퓨팅",
+      "topCountries": [
+        {
+          "label": "미국",
+          "value": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "label": "공공",
+          "value": 1
+        },
+        {
+          "label": "제조",
+          "value": 1
+        }
+      ],
+      "recentArticles": [
+        {
+          "id": "g-es-2025-10-01-1-TGVjY2lvbmVz",
+          "date": "2025-10-23",
+          "title": "시애틀 항구에 대한 Rhysida 랜섬웨어 공격 이후 배운 교훈 - BPS 컴퓨팅",
+          "publisher": "Computing BPS",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
-          "country": "브라질",
-          "industry": "의료",
+          "country": "미상",
+          "industry": "미상",
           "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZ2IxLU5Yd2sya2JLSnE0NmpZaXdudG9FdzdXSVZPNU01T0M4WHEzQ0U5VEFXY25FZWoyUTRjWFk0aFpqZDB5VWpRdUE2ckZsOXJlUjJVVTd2Z1hzS3lHcU1qZXFXYm5Xc0ZJdHRGT0RXaUQ5Y2t5QnFZUU4tV2x3RmY5bEF5Y1YwTWxoVU9hUkdkY01qbU9kT2VXT0lrZjQ2R1lPcXJoZnE?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdFRGX25KVTNXNk92eFBaeXdQbS1rdGVoRE5xM0ktTDNRLTZ1S3FFVEZtVFdWWlZmQkdYczd1SENhUWhkVm03bzZZSExXSWxlTTkzc0dIZHRLOG5jMVhCcXNiYkFZVWVodHBZMUI0YU5XSnM5b19TX2NfbEJfdkNuMU5DUmpVV0hPcFZwV3Q1cDZNdWZxY0NOZjlQdWFvNTgwSTJZckJmNFFTTEFVb0FlU09yV2lBUQ?oc=5"
+        },
+        {
+          "id": "g-en-2025-09-01-16-Umh5c2lkYSBy",
+          "date": "2025-09-26",
+          "title": "Rhysida 랜섬웨어 갱단, 메릴랜드 교통국 침해 주장, 340만 달러 요구 - 산업 사이버",
+          "publisher": "Industrial Cyber",
+          "primaryClass": "trend_signal",
+          "primaryLabel": "추세/동향",
+          "country": "미국",
+          "industry": "제조",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMmlQaUZoWUVTdXhGQmsxY3VNSjBvVHJZblA3UkxhRWV6YkJ2c1RGUU9Tdjl3VlVZVW5UdVN4TEwwZGZWbDNsZ1FLNTNHdW5RR084UzFaVlNlMFJmZXhWMmpkcTR4bXdMQVNaLWhUbDdyU2pZdms4S2RnN0NBZkljdUtiOWJYdl9BSlRHY28yT2lDN0ZwbzUzZG8tQ0VRckVHZTZaSjY4QWF3b25jLVdjb0R5RE0xQXJsaXpVX18yVnZQYk1ETnc?oc=5"
+        },
+        {
+          "id": "g-en-2025-05-01-17-UGVydSBnb3Zl",
+          "date": "2025-05-02",
+          "title": "페루 정부가 랜섬웨어 공격을 당했고, Rhysida 갱단이 의심됨",
+          "publisher": "Cybernews",
+          "primaryClass": "trend_signal",
+          "primaryLabel": "추세/동향",
+          "country": "미상",
+          "industry": "공공",
+          "victimOrg": "미상",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5sNUtLM2dSTFdfSHU0cDlWSURIR2ZPcHJUa0dCM0diYnZrOEhjWVZjVFpfWUpNR0V0Z2tUMG9tOVYxS0RGc3VrVmxRVEp4QTlfSGhCRFlZTnNjVTN5R0hsUjV0cTE3a1RhVlV2Y0NFRVZnLWJGMkJJSzdTZEV0M1E?oc=5"
         }
       ],
       "relatedIncidents": []
@@ -2829,7 +2799,7 @@
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9MbFBWNlFLNzdSWkRyaENHUmhGV3RlZ0xKM2tQYjR2YzlDWmFfaFlLNTNzakNuR3pRRkxjbnlvb1RrQ1piUmVNbVRKdw?oc=5"
         },
         {
-          "id": "g-zh-2025-02-01-8-5YuS57Si6Luf",
+          "id": "g-zh-2025-02-01-11-5YuS57Si6Luf",
           "date": "2025-02-13",
           "title": "랜섬웨어 육종(Ransomware Sarcoma)은 PCB 제조업체인 Xinxing Electronics를 공격하여 337GB의 내부 데이터를 훔쳤다고 주장합니다.",
           "publisher": "iThome",
@@ -2854,14 +2824,14 @@
       "last90": 0,
       "previous180": 0,
       "delta": 0,
-      "sampleTitle": "ランサムウェア グループ「Hunters International」が活動停止－過去、HOYAへのサイバー攻撃も主張",
+      "sampleTitle": "랜섬웨어 그룹 '헌터스 인터내셔널' 활동 중단 - 과거 HOYA에 대한 사이버 공격도 주장",
       "topCountries": [],
       "topIndustries": [],
       "recentArticles": [
         {
-          "id": "g-ja-2025-07-01-18-44Op44Oz44K1",
+          "id": "g-ja-2025-07-01-19-44Op44Oz44K1",
           "date": "2025-07-07",
-          "title": "ランサムウェア グループ「Hunters International」が活動停止－過去、HOYAへのサイバー攻撃も主張",
+          "title": "랜섬웨어 그룹 '헌터스 인터내셔널' 활동 중단 - 과거 HOYA에 대한 사이버 공격도 주장",
           "publisher": "合同会社ロケットボーイズ",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
@@ -2873,7 +2843,7 @@
         {
           "id": "g-en-2025-07-01-19-SHVudGVycyBJ",
           "date": "2025-07-04",
-          "title": "Hunters International Ransomware Group Shuts Down; Offers Free Decryptors",
+          "title": "Hunters International 랜섬웨어 그룹이 폐쇄되었습니다. 무료 암호 해독기 제공 - HIPAA 저널",
           "publisher": "The HIPAA Journal",
           "primaryClass": "recovery",
           "primaryLabel": "복구도구",
@@ -2886,53 +2856,53 @@
       "relatedIncidents": []
     },
     {
-      "group": "Rhysida",
+      "group": "KillSec",
       "allArticles": 2,
-      "clusterCount": 2,
+      "clusterCount": 1,
       "incidentCount": 0,
-      "firstSeen": "2025-09-26",
-      "lastSeen": "2025-10-23",
+      "firstSeen": "2025-09-10",
+      "lastSeen": "2025-09-12",
       "last30": 0,
       "last90": 0,
       "previous180": 2,
       "delta": -2,
-      "sampleTitle": "시애틀 항구에 대한 Rhysida 랜섬웨어 공격 이후 배운 교훈 - BPS 컴퓨팅",
+      "sampleTitle": "KillSec 랜섬웨어가 브라질의 의료 서비스를 공격하고 34GB의 검사, 의료 기록 및 이미지를 캡처합니다",
       "topCountries": [
         {
-          "label": "미국",
-          "value": 1
+          "label": "브라질",
+          "value": 2
         }
       ],
       "topIndustries": [
         {
-          "label": "제조",
-          "value": 1
+          "label": "의료",
+          "value": 2
         }
       ],
       "recentArticles": [
         {
-          "id": "g-es-2025-10-01-1-TGVjY2lvbmVz",
-          "date": "2025-10-23",
-          "title": "시애틀 항구에 대한 Rhysida 랜섬웨어 공격 이후 배운 교훈 - BPS 컴퓨팅",
-          "publisher": "Computing BPS",
+          "id": "g-pt-2025-09-01-4-UmFuc29td2Fy",
+          "date": "2025-09-12",
+          "title": "KillSec 랜섬웨어가 브라질의 의료 서비스를 공격하고 34GB의 검사, 의료 기록 및 이미지를 캡처합니다",
+          "publisher": "ConvergenciaDigital",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
-          "country": "미상",
-          "industry": "미상",
+          "country": "브라질",
+          "industry": "의료",
           "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdFRGX25KVTNXNk92eFBaeXdQbS1rdGVoRE5xM0ktTDNRLTZ1S3FFVEZtVFdWWlZmQkdYczd1SENhUWhkVm03bzZZSExXSWxlTTkzc0dIZHRLOG5jMVhCcXNiYkFZVWVodHBZMUI0YU5XSnM5b19TX2NfbEJfdkNuMU5DUmpVV0hPcFZwV3Q1cDZNdWZxY0NOZjlQdWFvNTgwSTJZckJmNFFTTEFVb0FlU09yV2lBUQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYzFaZnc2ZlBMLXhZa2FxU28yZjNwT3ZvUG1MMU51RHUxakNSZkpDZDdVbzZZc3NIR3RGOS0zdDJUQnNrYzlJdjVDbEkyOHV3eXRZOWNxTGNFTzdwU1BnbWd2M1dMTC1zdXF2WU55WEVlejhYVEdrNUJCOU9HM1M1cFpiZ3FaRVh4Wi1QSlVaajNfWThuRWRsUEpmaGxuWnBtN1E3amh2SlFiTFRubVEtaHA0UHc3a3YzSDNpWlNBUjZ4TVRNLUJCUU1qVTFzREU?oc=5"
         },
         {
-          "id": "g-en-2025-09-01-16-Umh5c2lkYSBy",
-          "date": "2025-09-26",
-          "title": "Rhysida 랜섬웨어 갱단, 메릴랜드 교통국 침해 주장, 340만 달러 요구 - 산업 사이버",
-          "publisher": "Industrial Cyber",
+          "id": "g-en-2025-09-01-6-S2lsbFNlYyBS",
+          "date": "2025-09-10",
+          "title": "KillSec 랜섬웨어가 브라질의 의료 기관을 공격하고 있습니다 - 보안",
+          "publisher": "Resecurity",
           "primaryClass": "trend_signal",
           "primaryLabel": "추세/동향",
-          "country": "미국",
-          "industry": "제조",
+          "country": "브라질",
+          "industry": "의료",
           "victimOrg": "미상",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMmlQaUZoWUVTdXhGQmsxY3VNSjBvVHJZblA3UkxhRWV6YkJ2c1RGUU9Tdjl3VlVZVW5UdVN4TEwwZGZWbDNsZ1FLNTNHdW5RR084UzFaVlNlMFJmZXhWMmpkcTR4bXdMQVNaLWhUbDdyU2pZdms4S2RnN0NBZkljdUtiOWJYdl9BSlRHY28yT2lDN0ZwbzUzZG8tQ0VRckVHZTZaSjY4QWF3b25jLVdjb0R5RE0xQXJsaXpVX18yVnZQYk1ETnc?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZ2IxLU5Yd2sya2JLSnE0NmpZaXdudG9FdzdXSVZPNU01T0M4WHEzQ0U5VEFXY25FZWoyUTRjWFk0aFpqZDB5VWpRdUE2ckZsOXJlUjJVVTd2Z1hzS3lHcU1qZXFXYm5Xc0ZJdHRGT0RXaUQ5Y2t5QnFZUU4tV2x3RmY5bEF5Y1YwTWxoVU9hUkdkY01qbU9kT2VXT0lrZjQ2R1lPcXJoZnE?oc=5"
         }
       ],
       "relatedIncidents": []
@@ -2958,7 +2928,7 @@
       "topIndustries": [],
       "recentArticles": [
         {
-          "id": "g-zh-2025-05-01-3-5YuS57Si6Luf",
+          "id": "g-zh-2025-05-01-0-5YuS57Si6Luf",
           "date": "2025-05-06",
           "title": "랜섬웨어 Babuk은 목표를 달성하기 위해 로컬 설치 프로그램을 사용하여 EDR 보호를 우회하는 새로운 방법을 사용합니다",
           "publisher": "iThome",
@@ -2988,7 +2958,7 @@
       "topIndustries": [],
       "recentArticles": [
         {
-          "id": "g-ja-2025-02-01-15-44Op44Oz44K1",
+          "id": "g-ja-2025-02-01-14-44Op44Oz44K1",
           "date": "2025-02-28",
           "title": "랜섬웨어 공격 그룹 Cicada3301이 DTS 그룹 회사, 디지털 기술에 대한 무단 액세스를 주장 - 합동 회사 로켓 보이즈",
           "publisher": "合同会社ロケットボーイズ",
