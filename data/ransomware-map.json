@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T00:13:22.458Z",
+  "generatedAt": "2026-05-13T00:26:51.672Z",
   "points": [
     {
       "country": "미국",
@@ -15,7 +15,7 @@
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOamM5MWxHY1NLYkJvTFM3SjhNYnpsS2tuSW01aXNUQzBBNldEb3UyWTIteXE5NzdGbFF2RXNkSjlvMzhhQWo2LVR1RkhPd3BJV3NUM0FSa0wxT0FpQWYxWEpGX1JSWUg1a2hLWXl4ck80ckVfWmlPeHNueGREWDZlZmt0NC1UVmZ6dFo5a2kyV0lZNFFxclEyT0M1WkpscWd6YkZwUWxLNndOQUVKb1A0YXhSTVBWR0dBYmJRYWhCS1ZjLS00UUVUY21vZWo?oc=5"
         },
         {
-          "title": "UMMC, 랜섬웨어 공격으로 병원 폐쇄 확인",
+          "title": "UMMC confirms ransomware attack forcing clinics to close",
           "victimOrg": "UMMC",
           "primaryLabel": "확인 필요 사고",
           "date": "2026-02-19",
@@ -29,7 +29,7 @@
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQUtWZ29UTHlLd0RFaGthSlZDeUNnTTFHUGxfZUJrMkh0RmxKdHZpZWlpUFRZdGdvZXVtRDYyd1BiSWRENW55OTFsUHlaZWQxNWVCSnNIT0dJNEQyTU10OWg1dmhmUkkzbDZxWE56ZndJTFdOTzNhMkduYVUwRE5odUtmWkl4Z0dr?oc=5"
         },
         {
-          "title": "Nike, 랜섬웨어 그룹의 데이터 침해 주장 조사",
+          "title": "Nike Investigates Ransomware Group’s Claims of Data Breach",
           "victimOrg": "Nike",
           "primaryLabel": "확인 필요 사고",
           "date": "2026-01-26",

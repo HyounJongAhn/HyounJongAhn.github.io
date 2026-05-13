@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-05-13T00:13:22.458Z",
+  "generatedAt": "2026-05-13T00:26:51.672Z",
   "groupProfiles": [
     {
       "group": "Qilin",
-      "allArticles": 65,
+      "allArticles": 67,
       "clusterCount": 16,
       "incidentCount": 0,
       "firstSeen": "2025-02-07",
       "lastSeen": "2026-05-09",
       "last30": 2,
       "last90": 11,
-      "previous180": 35,
-      "delta": -24,
-      "sampleTitle": "Ahorramas에 대한 사이버 공격: Qilin 랜섬웨어 그룹이 체인의 보안을 점검합니다"
+      "previous180": 36,
+      "delta": -25,
+      "sampleTitle": "Ciberataque a Ahorramas: el grupo de ransomware Qilin pone en jaque la seguridad de la cadena"
     },
     {
       "group": "Akira",
@@ -25,7 +25,7 @@
       "last90": 6,
       "previous180": 21,
       "delta": -15,
-      "sampleTitle": "검찰청: South Westphalia IT에 대한 사이버 공격에 대한 조사가 실패했습니다."
+      "sampleTitle": "Staatsanwaltschaft: Ermittlungen zu Cyberangriff auf Südwestfalen-IT erfolglos"
     },
     {
       "group": "Medusa",
@@ -38,7 +38,7 @@
       "last90": 8,
       "previous180": 3,
       "delta": 5,
-      "sampleTitle": "Storm-1175는 기업에서 패치하지 않은 최소 16개의 취약점을 악용하고 피해자 조직에 랜섬웨어 Medusa를 심어 하루 만에 암호화를 완료합니다."
+      "sampleTitle": "Storm-1175利用至少16個企業尚未修補的漏洞，於受害組織植入勒索軟體Medusa，最短在一天內就完成加密"
     },
     {
       "group": "LockBit",
@@ -64,7 +64,7 @@
       "last90": 4,
       "previous180": 2,
       "delta": 2,
-      "sampleTitle": "랜섬웨어 인터록 제로데이 공격 노출: Cisco FMC 고위험 취약점은 오랫동안 무기화되어 왔습니다 - Junmeng Technology"
+      "sampleTitle": "勒索軟體Interlock 零時差攻擊曝光：Cisco FMC 高風險漏洞早已遭武器化"
     },
     {
       "group": "DragonForce",
@@ -77,7 +77,7 @@
       "last90": 2,
       "previous180": 4,
       "delta": -2,
-      "sampleTitle": "DragonForce 랜섬웨어 캠페인에 사용된 Python 백도어 ViperTunnel"
+      "sampleTitle": "Python後門ViperTunnel被用於勒索軟體DragonForce活動"
     },
     {
       "group": "BlackCat/ALPHV",
@@ -103,7 +103,7 @@
       "last90": 0,
       "previous180": 4,
       "delta": -4,
-      "sampleTitle": "Luxshare Precision은 RansomHub 랜섬웨어 공격을 받은 것으로 의심되며 Apple, Nvidia 및 기타 고객의 비밀이 유출될 수 있습니다 - 온라인 정보 매거진"
+      "sampleTitle": "立訊精密疑遭 RansomHub 勒索軟體攻擊，蘋果、 Nvidia 等客戶機密恐外洩"
     },
     {
       "group": "SafePay",
@@ -116,7 +116,7 @@
       "last90": 0,
       "previous180": 1,
       "delta": -1,
-      "sampleTitle": "SafePay 랜섬웨어: MSP를 표적으로 삼아 빠르게 성장하는 위협"
+      "sampleTitle": "Ransomware SafePay: a ameaça em rápido crescimento que tem como alvo os MSPs"
     },
     {
       "group": "Anubis",
@@ -129,7 +129,7 @@
       "last90": 0,
       "previous180": 1,
       "delta": -1,
-      "sampleTitle": "랜섬웨어 그룹인 Anubis가 책임을 주장함에 따라 Aussie Fluid Power가 사이버 공격을 당했습니다"
+      "sampleTitle": "Aussie Fluid Power hit by cyberattack as ransomware group Anubis claims responsibility"
     },
     {
       "group": "Play",
@@ -142,7 +142,7 @@
       "last90": 1,
       "previous180": 0,
       "delta": 1,
-      "sampleTitle": "Play 랜섬웨어, 디스크 관리자를 통해 EDR/EPP 파괴 - 네트워크 방화벽 탈취"
+      "sampleTitle": "Play Ransomware Destroys EDR/EPP via Disk Manager - Seizes Network Firewalls"
     },
     {
       "group": "The Gentlemen",
@@ -155,7 +155,7 @@
       "last90": 7,
       "previous180": 2,
       "delta": 5,
-      "sampleTitle": "'젠틀맨', 랜섬웨어로 급부상"
+      "sampleTitle": "'The Gentlemen' Rapidly Rises to Ransomware Prominence"
     },
     {
       "group": "Lynx",
@@ -181,7 +181,7 @@
       "last90": 0,
       "previous180": 3,
       "delta": -3,
-      "sampleTitle": "Cl0p 랜섬웨어 해커들이 Oracle 제로데이 취약점 공격을 통해 Broadcom 내부 데이터를 획득했다고 주장"
+      "sampleTitle": "勒索軟體Cl0p駭客聲稱透過Oracle零時差漏洞攻擊，得手博通內部資料"
     },
     {
       "group": "Everest",
@@ -194,7 +194,7 @@
       "last90": 0,
       "previous180": 6,
       "delta": -6,
-      "sampleTitle": "Everest Group, 랜섬웨어 공격 후 Under Armour 기록 7,200만 개 유출"
+      "sampleTitle": "Grupo Everest filtra 72 millones de registros de Under Armour tras ataque de ransomware"
     },
     {
       "group": "8Base",
@@ -207,7 +207,20 @@
       "last90": 0,
       "previous180": 1,
       "delta": -1,
-      "sampleTitle": "폭스바겐, 8Base 랜섬웨어 공격 받아 회사 업무 및 개인정보 유출 의심"
+      "sampleTitle": "福斯汽車疑遭8Base勒索軟體攻擊 外洩公司業務及個資"
+    },
+    {
+      "group": "Fog",
+      "allArticles": 6,
+      "clusterCount": 3,
+      "incidentCount": 0,
+      "firstSeen": "2025-03-18",
+      "lastSeen": "2025-06-12",
+      "last30": 0,
+      "last90": 0,
+      "previous180": 0,
+      "delta": 0,
+      "sampleTitle": "Fog Ransomware: Unusual Toolset Used in Recent Attack"
     },
     {
       "group": "Phobos",
@@ -220,20 +233,7 @@
       "last90": 1,
       "previous180": 0,
       "delta": 1,
-      "sampleTitle": "포보스 랜섬웨어 관리자, 유죄 인정 후 최대 20년 형 선고 - 보안 문제"
-    },
-    {
-      "group": "Fog",
-      "allArticles": 5,
-      "clusterCount": 3,
-      "incidentCount": 0,
-      "firstSeen": "2025-03-18",
-      "lastSeen": "2025-06-12",
-      "last30": 0,
-      "last90": 0,
-      "previous180": 0,
-      "delta": 0,
-      "sampleTitle": "Fog Ransomware: Unusual Toolset Used in Recent Attack"
+      "sampleTitle": "Phobos Ransomware admin faces up to 20 years after guilty plea"
     },
     {
       "group": "FunkSec",
@@ -274,7 +274,7 @@
       "last90": 7,
       "previous180": 2,
       "delta": 5,
-      "sampleTitle": "'젠틀맨', 랜섬웨어로 급부상"
+      "sampleTitle": "'The Gentlemen' Rapidly Rises to Ransomware Prominence"
     },
     {
       "group": "KillSec",
@@ -287,7 +287,7 @@
       "last90": 0,
       "previous180": 3,
       "delta": -3,
-      "sampleTitle": "랜섬웨어 그룹 Killsec이 브라질 의료 소프트웨어 공급업체를 손상시켜 여러 의료 기관에 영향을 미쳤다고 주장"
+      "sampleTitle": "勒索軟體組織Killsec宣稱入侵巴西醫療軟體供應商，波及多家醫療機構"
     },
     {
       "group": "BlackCat/ALPHV",
@@ -313,7 +313,7 @@
       "last90": 0,
       "previous180": 6,
       "delta": -6,
-      "sampleTitle": "Everest Group, 랜섬웨어 공격 후 Under Armour 기록 7,200만 개 유출"
+      "sampleTitle": "Grupo Everest filtra 72 millones de registros de Under Armour tras ataque de ransomware"
     },
     {
       "group": "Hunters International",
@@ -341,7 +341,7 @@
       "last90": 8,
       "previous180": 3,
       "delta": 5,
-      "sampleTitle": "Storm-1175는 기업에서 패치하지 않은 최소 16개의 취약점을 악용하고 피해자 조직에 랜섬웨어 Medusa를 심어 하루 만에 암호화를 완료합니다."
+      "sampleTitle": "Storm-1175利用至少16個企業尚未修補的漏洞，於受害組織植入勒索軟體Medusa，最短在一天內就完成加密"
     },
     {
       "group": "The Gentlemen",
@@ -354,7 +354,7 @@
       "last90": 7,
       "previous180": 2,
       "delta": 5,
-      "sampleTitle": "'젠틀맨', 랜섬웨어로 급부상"
+      "sampleTitle": "'The Gentlemen' Rapidly Rises to Ransomware Prominence"
     },
     {
       "group": "BlackCat/ALPHV",
@@ -380,7 +380,7 @@
       "last90": 4,
       "previous180": 2,
       "delta": 2,
-      "sampleTitle": "랜섬웨어 인터록 제로데이 공격 노출: Cisco FMC 고위험 취약점은 오랫동안 무기화되어 왔습니다 - Junmeng Technology"
+      "sampleTitle": "勒索軟體Interlock 零時差攻擊曝光：Cisco FMC 高風險漏洞早已遭武器化"
     },
     {
       "group": "Play",
@@ -393,7 +393,7 @@
       "last90": 1,
       "previous180": 0,
       "delta": 1,
-      "sampleTitle": "Play 랜섬웨어, 디스크 관리자를 통해 EDR/EPP 파괴 - 네트워크 방화벽 탈취"
+      "sampleTitle": "Play Ransomware Destroys EDR/EPP via Disk Manager - Seizes Network Firewalls"
     },
     {
       "group": "Phobos",
@@ -406,7 +406,7 @@
       "last90": 1,
       "previous180": 0,
       "delta": 1,
-      "sampleTitle": "포보스 랜섬웨어 관리자, 유죄 인정 후 최대 20년 형 선고 - 보안 문제"
+      "sampleTitle": "Phobos Ransomware admin faces up to 20 years after guilty plea"
     },
     {
       "group": "Lynx",
@@ -432,7 +432,7 @@
       "last90": 2,
       "previous180": 4,
       "delta": -2,
-      "sampleTitle": "DragonForce 랜섬웨어 캠페인에 사용된 Python 백도어 ViperTunnel"
+      "sampleTitle": "Python後門ViperTunnel被用於勒索軟體DragonForce活動"
     },
     {
       "group": "INC Ransom",
@@ -471,20 +471,20 @@
       "last90": 6,
       "previous180": 21,
       "delta": -15,
-      "sampleTitle": "검찰청: South Westphalia IT에 대한 사이버 공격에 대한 조사가 실패했습니다."
+      "sampleTitle": "Staatsanwaltschaft: Ermittlungen zu Cyberangriff auf Südwestfalen-IT erfolglos"
     },
     {
       "group": "Qilin",
-      "allArticles": 65,
+      "allArticles": 67,
       "clusterCount": 16,
       "incidentCount": 0,
       "firstSeen": "2025-02-07",
       "lastSeen": "2026-05-09",
       "last30": 2,
       "last90": 11,
-      "previous180": 35,
-      "delta": -24,
-      "sampleTitle": "Ahorramas에 대한 사이버 공격: Qilin 랜섬웨어 그룹이 체인의 보안을 점검합니다"
+      "previous180": 36,
+      "delta": -25,
+      "sampleTitle": "Ciberataque a Ahorramas: el grupo de ransomware Qilin pone en jaque la seguridad de la cadena"
     }
   ],
   "recentSignalsByClass": {
@@ -531,20 +531,20 @@
       {
         "id": "de-6-U3RhYXRzYW53YWx0",
         "date": "2026-05-11",
-        "title": "검찰청: South Westphalia IT에 대한 사이버 공격에 대한 조사가 실패했습니다.",
+        "title": "Staatsanwaltschaft: Ermittlungen zu Cyberangriff auf Südwestfalen-IT erfolglos",
         "publisher": "Golem.de",
         "primaryClass": "trend_signal",
         "primaryLabel": "추세/동향",
         "ransomwareGroup": "Akira",
         "country": "독일",
-        "industry": "법집행/사법",
+        "industry": "미상",
         "victimOrg": "미상",
         "url": "https://www.golem.de/news/staatsanwaltschaft-ermittlungen-zu-cyberangriff-auf-suedwestfalen-it-erfolglos-2605-208550.html"
       },
       {
         "id": "g-es-2026-05-01-1-Q2liZXJhdGFx",
         "date": "2026-05-09",
-        "title": "Ahorramas에 대한 사이버 공격: Qilin 랜섬웨어 그룹이 체인의 보안을 점검합니다",
+        "title": "Ciberataque a Ahorramas: el grupo de ransomware Qilin pone en jaque la seguridad de la cadena",
         "publisher": "FRS Food Retail & Service",
         "primaryClass": "trend_signal",
         "primaryLabel": "추세/동향",
@@ -557,7 +557,7 @@
       {
         "id": "g-ja-2026-05-01-8-44OH44Oz44K9",
         "date": "2026-05-06",
-        "title": "덴소 (6902), 해외 그룹 회사에 대한 무단 액세스 - 랜섬웨어 그룹 Qilin 범행 성명",
+        "title": "デンソー（6902）、海外 グループ会社への不正アクセス-ランサムウェア グループ Qilinが犯行声明",
         "publisher": "合同会社ロケットボーイズ",
         "primaryClass": "trend_signal",
         "primaryLabel": "추세/동향",
@@ -583,7 +583,7 @@
       {
         "id": "g-en-2026-05-01-19-Q3liZXJzZWN1",
         "date": "2026-05-02",
-        "title": "ALPHV BlackCat과 연결된 랜섬웨어 공격으로 사이버 보안 전문가 투옥",
+        "title": "Cybersecurity pros jailed for ransomware attacks linked to ALPHV BlackCat",
         "publisher": "Cybernews",
         "primaryClass": "trend_signal",
         "primaryLabel": "추세/동향",
@@ -596,7 +596,7 @@
       {
         "id": "g-es-2026-05-01-9-Q29uZGVuYSBh",
         "date": "2026-05-01",
-        "title": "랜섬웨어 공격으로 BlackCat 회원 2명 유죄 판결",
+        "title": "Condena a dos miembros de BlackCat por ataques de ransomware",
         "publisher": "Foro3D",
         "primaryClass": "trend_signal",
         "primaryLabel": "추세/동향",
@@ -609,7 +609,7 @@
       {
         "id": "g-en-2026-04-01-18-VHdvIEN5YmVy",
         "date": "2026-05-01",
-        "title": "BlackCat 랜섬웨어 공격으로 사이버 보안 전문가 2명 징역 4년 선고 - 해커 뉴스",
+        "title": "Two Cybersecurity Professionals Get 4-Year Sentences in BlackCat Ransomware Attacks",
         "publisher": "The Hacker News",
         "primaryClass": "trend_signal",
         "primaryLabel": "추세/동향",
@@ -625,7 +625,7 @@
       {
         "id": "g-en-2026-05-01-3-RE9KIHNheXMg",
         "date": "2026-05-06",
-        "title": "DOJ는 랜섬웨어 갱단이 러시아 정부 데이터베이스를 도청했다고 밝혔습니다",
+        "title": "DOJ says ransomware gang tapped into Russian government databases",
         "publisher": "TechCrunch",
         "primaryClass": "law_enforcement",
         "primaryLabel": "법집행",
@@ -638,7 +638,7 @@
       {
         "id": "g-en-2026-05-01-18-RE9KIHNheXMg",
         "date": "2026-05-06",
-        "title": "DOJ는 랜섬웨어 갱단이 러시아 정부 데이터베이스를 도청했다고 밝혔습니다.",
+        "title": "DOJ says ransomware gang tapped into Russian government databases",
         "publisher": "Yahoo",
         "primaryClass": "law_enforcement",
         "primaryLabel": "법집행",
@@ -677,7 +677,7 @@
       {
         "id": "g-en-2026-05-01-10-VHdvIGN5YmVy",
         "date": "2026-05-04",
-        "title": "두 명의 사이버 보안 전문가가 랜섬웨어 갱단을 도운 혐의로 감옥에 갇혔습니다",
+        "title": "Two cybersecurity pros get prison time for helping ransomware gang",
         "publisher": "Help Net Security",
         "primaryClass": "law_enforcement",
         "primaryLabel": "법집행",
@@ -690,7 +690,7 @@
       {
         "id": "g-en-2026-04-01-6-Rm9ybWVyIGlu",
         "date": "2026-04-30",
-        "title": "랜섬웨어 공격으로 전직 사고 대응자에게 징역 4년 선고",
+        "title": "Former incident responders sentenced to 4 years in prison for committing ransomware attacks",
         "publisher": "CyberScoop",
         "primaryClass": "law_enforcement",
         "primaryLabel": "법집행",
@@ -703,7 +703,7 @@
       {
         "id": "g-pt-2026-04-01-2-QWtpcmEgcmFu",
         "date": "2026-04-28",
-        "title": "Akira 랜섬웨어: 2026년에 성장하여 FBI의 주목을 받은 그룹을 만나보세요",
+        "title": "Akira ransomware: conheça o grupo que cresceu em 2026 e entrou na mira do FBI",
         "publisher": "WeLiveSecurity",
         "primaryClass": "law_enforcement",
         "primaryLabel": "법집행",
@@ -716,12 +716,12 @@
       {
         "id": "g-it-2026-04-01-17-RXVyb3BvbDog",
         "date": "2026-04-28",
-        "title": "Europol: “AI 덕분에 랜섬웨어, 사기, 온라인 위협이 점점 더 위험해지고 있습니다.” IOCTA 보고서 2026 - CyberSecurity 이탈리아",
+        "title": "Europol: “Ransomware, frodi e minacce online sempre più pericolose grazie l’AI”. Report IOCTA 2026",
         "publisher": "CyberSecurity Italia",
         "primaryClass": "law_enforcement",
         "primaryLabel": "법집행",
         "ransomwareGroup": "미상",
-        "country": "이탈리아",
+        "country": "유럽",
         "industry": "물류/운송",
         "victimOrg": "미상",
         "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOV0lLaFNQbk5xSW5MTmM1S2dnNkdITEMxQ1lFcS1JSEVVLThKMmtLWUFScDFjc1hIRFowVGlfMVI1M1NhOGpYbG5GUnhfX0Fqb0FSdEZrd1RSSGJoZjRIcHhia19USmFLblJUVF8yUVR4LXNMckUyc3pqeFVjM0d3T1FBcDVwWWpwMWVTNFdHSE1QQXVtLTdzSWxBZVhWSHRoemRzY0JicC1DRnpHc1JLSHFJOGhuSDRrNVpyTnRWWC1CQnh5WXRaWmYwa2stRVdZdy13?oc=5"
@@ -729,7 +729,7 @@
       {
         "id": "g-en-2026-04-01-12-UmFuc29td2Fy",
         "date": "2026-04-26",
-        "title": "랜섬웨어 협상가, 랜섬웨어를 직접 배포한 것에 대해 유죄를 인정 - 미래주의",
+        "title": "Ransomware Negotiator Pleads Guilty to Deploying Ransomware Himself",
         "publisher": "Futurism",
         "primaryClass": "law_enforcement",
         "primaryLabel": "법집행",
@@ -740,9 +740,9 @@
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rV0tzV2kzTFlYNWxUdXZCRkVHLXY1d0w2SjI3NHlqMTFDcVpGa3o4enk2cHpGUC1rOVQwc0VJZzIyanNjd3UzcmJMNUg2X09lU0gzTEVKZEZMcmwwTDlZcHdncXN1Q1dJYlE?oc=5"
       },
       {
-        "id": "g-en-2026-04-01-6-QSBSYW5zb213",
+        "id": "g-en-2026-04-01-5-QSBSYW5zb213",
         "date": "2026-04-22",
-        "title": "랜섬웨어 협상가, 이중 간첩 혐의 인정",
+        "title": "A Ransomware Negotiator Pleads Guilty to Being a Double Agent",
         "publisher": "Gizmodo",
         "primaryClass": "law_enforcement",
         "primaryLabel": "법집행",
